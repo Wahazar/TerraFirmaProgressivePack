@@ -1,0 +1,81 @@
+{
+  "_name": "Skeleton",
+  "drops": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "default", 
+                   "value": "false" 
+                  },
+		{ 
+                   "function": "add", 
+                   "id": "minecraft:bone",
+                   "count": 1.5
+	            },
+		{ 
+                   "function": "add", 
+                   "id": "terrafirmacraft:item.arrow",
+                   "count": 1.2
+	            },
+		{ 
+                   "function": "add", 
+                   "id": "terrafirmacraft:item.bow",
+                   "damage": 190~290,
+                   "count": 0.1
+	            },
+		{ 
+                   "function": "add", 
+                   "id": "minecraft:skull",
+                   "count": 0.2
+	            }
+		]
+		},
+           {
+		"function": "if_killed_with_fire",
+                    "functions":
+                        [
+                        {
+			"function": "choose", "count": 0.5,
+				"functions":
+				[
+				{ 
+                                "weight": 3,
+                        	"function": "set_block", 
+                        	"id": "terrafirmacraft:StoneIgInCobble"
+                                },
+				{ 
+                                "weight": 1,
+                        	"function": "set_block", 
+                        	"id": "minecraft:fire"
+                                }
+				] 
+                        },
+                        {
+			"function": "remove",
+                        "id": "minecraft:rotten_flesh"
+                        }
+                        ]
+		}
+],
+  "pre_stats": [],
+  "stats": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "modifier", 
+                   "attribute": "generic.maxHealth", 
+                   "override": true, 
+                   "value": 1900 
+                  },
+			{ "function": "modifier", 
+                   "attribute": "generic.attackDamage", 
+                   "value": 100~250 
+                  }
+                ]
+	       }
+]
+}

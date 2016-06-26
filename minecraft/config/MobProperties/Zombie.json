@@ -1,0 +1,279 @@
+{
+  "_name": "Zombie",
+  "drops": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "default", 
+                   "value": "false" 
+                  },
+		{ 
+                   "function": "add", 
+                   "id": "minecraft:rotten_flesh",
+                   "count": 0.8
+	            },
+                {
+			"function": "spawn",
+                       	"id": "silverfishTFC",
+                        "count": "0~1"
+		    }
+		]
+		},
+           {
+		"function": "if_killed_with_fire",
+                    "functions":
+                        [
+                        {
+			"function": "choose", "count": 0.5,
+				"functions":
+				[
+				{ 
+                                "weight": 1,
+                        	"function": "set_block", 
+                        	"id": "terrafirmacraft:Clay"
+                                },
+				{ 
+                                "weight": 2,
+                        	"function": "set_block", 
+                        	"id": "minecraft:fire"
+                                }
+				] 
+                        },
+                        {
+			"function": "remove",
+                        "id": "minecraft:rotten_flesh"
+                        }
+                        ]
+		},
+           {
+		"function": "if_damage_type_fall:",
+				 "functions": [
+		                       {
+					"function": "remove",
+        		                "id": "minecraft:rotten_flesh"
+        		               },
+     			             { 
+                        	        "function": "set_block", 
+                        	        "id": "terrafirmacraft:StoneMMCobble"
+	                              }
+                                   ]
+		}
+ ],
+  "pre_stats": [],
+  "stats": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "modifier", 
+                   "attribute": "generic.maxHealth", 
+                   "override": true, 
+                   "value": 550 
+                  },
+			{ "function": "modifier", 
+                   "attribute": "generic.attackDamage", 
+                   "value": 10~50 
+                  },
+	            {
+                  "function": "modifier",
+                  "attribute": "generic.movementSpeed",
+                  "value": "0.3~0.4",
+                  "operator": 1
+                 },
+                 { 
+			"function": "choose",
+			"functions":
+			[
+                        { "function": "all", 
+                           "weight": 10,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie messenger" },
+                            { "function": "equip", "id": "minecraft:bone", "slot": 0, "drop_chance": 0.2 },
+                            { "function": "equip", "id": "terrafirmacraft:item.bootsCloth", "override": "true", "slot": 1, "drop_chance": 0.1 },
+                 	    { 
+                   	       "function": "if_moon_phase_new",
+                    		"function": "potion", 
+                    		"id": "potion.jump", 
+                    		"amplifier": 2, 
+                    		"override": false, 
+                    		"ambient": true 
+                 	    }
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 5,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie digger" },
+                            {"function": "equip", "id": "terrafirmacraft:item.IgIn Stone Shovel", "slot": 0, "damage": 10~30, "drop_chance": 0.2 },
+                            {"function": "equip", "id": "terrafirmacraft:item.helmetCloth", "override": "true", "slot": 4, "drop_chance": 1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Ore",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.coal",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:ladder",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:WoodSupportV2",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "DecorationsTFC:Lantern.Copper",
+                                                "count": 0.05
+	                                        }
+                                               ]
+                            }
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 10,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie farmer" },
+                            {"function": "equip", "id": "terrafirmacraft:item.Sed Stone Hoe", "slot": 0, "damage": 10~30, "drop_chance": 0.2 },
+                            {"function": "equip", "id": "terrafirmacraft:item.leggingsCloth", "override": "true", "slot": 2, "damage": 10, "drop_chance": 0.1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                                "id": "terrafirmacraft:item.Seeds Potato",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Seeds Carrot",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Seeds Jute",
+                                                "count": 0.03
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:seed",
+                                                "count": 0.02
+	                                        }     
+                                               ]
+                            }
+
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 10,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie lumberjack" },
+                            {"function": "equip", "id": "terrafirmacraft:item.IgEx Stone Axe", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "Railcraft:armor.overalls", "slot": 2, "override": "true", "damage": 10, "drop_chance": 1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.stick",
+                                                "count": 0.5
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Log",
+                                                "count": 0.3
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.SinglePlank",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:WoodSupportV",
+                                                "count": 0.1
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:log",
+                                                "count": 0.2
+	                                        }     
+                                               ]
+                            }
+
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 3,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie blacksmith" },
+                            {"function": "equip", "id": "terrafirmacraft:item.Stone Hammer", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "tfcm:item.Copper_Chain_Chestplate", "override": "true", "slot": 3, "damage": 10~100, "drop_chance": 0.1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Wrought Iron Ingot",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Bronze Ingot",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.coal",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "DecorationsTFC:Lantern.Bronze",
+                                                "count": 0.02
+	                                        }
+                                               ]
+                            },
+                            { "function": "name", "value": "Zombie soldier" },
+                            {"function": "equip", "id": "terrafirmacraft:item.MM Stone Javelin", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "tfcm:item.BismuthBronze_Chain_Chestplate", "override": "true", "slot": 3, "damage": 100~250, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "tfcm:item.BlackBronze_Chain_Greaves", "override": "true", "slot": 2, "damage": 90~450, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "terrafirmacraft:item.helmetCloth", "override": "true", "slot": 4, "drop_chance": 1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.helmetCloth",
+                                               "damage": 90~200,
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Stone Knife",
+                                                "damage": 10~30, "count": 0.05
+	                                        }
+                                               ]
+                            }
+
+                            ]
+                        }
+
+
+			] 
+                 } 	
+		]
+		}	 
+ ]
+}

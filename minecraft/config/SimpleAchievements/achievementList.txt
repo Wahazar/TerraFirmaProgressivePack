@@ -1,0 +1,282 @@
+=== Dark age milestones ===::1
+Stone Age ::2
+Pottery::2
+First metal casting::2
+Leather preparation::2
+Bronze Age::2
+Hammer time::2
+Stones, minerals::2
+Clean up with Bronze::2
+Winter is coming::2
+Charcoal pyrolisys::2
+Iron Age::2
+Shiny metal plates::2
+Clean up with Lead::2
+=== Modern technology ===::1
+Advanced farming::2
+Choke with coke::2
+Hard like steel::2
+Energy needed::2
+Crucial crucible::2
+Red crucible::2
+Glassworks::2
+Automatic forge::2
+Clean up with Steel::2
+Industry Giant::2
+More Energy!::2
+Clean up with Charge::2
+::1
+=== Stone Age ===::1
+You need to make some primitive tools, collect wood and straw, find good place for shelter, try to start fire with sticks and survive first night.::1
+Grab some stones and sticks, make basic stone tools (knife, axe, shovel)::0
+Cut some trees with axe::0
+Cut some grass with knife::0
+Find pond with drinkable (fresh) water::0
+Find flat terrain near pond, dig trench around and build temporary shelter. Thatch can be used for doors::0
+Make firestarter and try to light fire pit. Put some stick into to get torches::0
+Wait for dawn, make more stone tools::0
+::1
+=== Pottery ===::1
+You need clay to make containers and molds.::1
+Explore your shelter neighbouring::0
+Collect any food you spotted (crops, sea weeds)::0
+Find some clay deposits (look for Goldenrod flowers)::0
+Memorise any spot, where metal ore are spotted (copper is most valuable now)::0
+Bring clay to shelter, knap it to produce some bowls, vessels and jugs::0
+Dig hole, place your earthenwares (shift+right click), place 8 straw shafts and 8 logs to create pit kiln, start fire.::0
+Kill any large animal (not a female cow), fry meat, use raw hide to make temporary bed to set your spawn point::0
+=== First metal casting ===::1
+Saw or pickaxe?::1
+Explore your neighbouring, collect more clay::0
+Found fruit trees? cut branches and replant near your shelter::0
+Did you seen any copper ore in ravines/mountain walls? Make pickaxe mold. If not, make saw mold::0
+Can you collect 10..20 pieces of copper (or at least 9 copper and 1 cassiterite)? If not, change bowl into gold pan and siewe sand or gravel above flowing water.::0
+10 ore pieces gives you one tool - put it into vessel and use pit kiln again::0
+Pour molten metal into your fired mold::0
+Ready to mine? Bring more copper! No copper visible? Get saw and make timber for sluice::0
+=== Leather preparation ===::1
+You need leather not only for leather armor, but also for bellows::1
+Find some lime/calcium rocks::0
+Make stone hammer, crush lime rocks into flux::0
+Throw flux into large vessel (or barrel) full of fresh water to obtain Limewater::0
+Kill some animals to collect some hide::0
+Put hide into limewater, seal::0
+Throw hide onto horizontal placed log (bark up), use knife to clean each hide piece::0
+Wash hide in water container::0
+Treat hide in tannin container - leathers are ready. Tannin need leafy tree log to create::0
+=== Bronze Age ===::1
+Make prospector pickaxe, to find more ores and minerals::1
+Explore your neighbouring using prospector pick and memorise map of resources. In case of copper, try to dig first mine::0
+If any chipped jewels found, make alloy calculator::0
+Collected enough copper and other metals? Make other molds and cast copper or bronze to get chisel, axe, mace, scythe::0
+Make some ingot molds::0
+Flux source nearby? If not, make boat and explore another lands::0
+Found some seeds? Prepare farmland near water with hoe, plant these seeds::0
+::1
+=== Hammer time ===::1
+Make your first anvil::1
+Prerequisites: chisel and flux::0
+Make stone anvil, put flux and hammer into::0
+Prepare two firepits, two bellows and heaps of logs::0
+Cast 14 copper ingots, try to weld until hot or heat up in firepit::0
+Make first real anvil from 7 double copper ingots::0
+Try to make some copper sheets::0
+Make copper armor or evaporation pan::0
+Weld bronze ingots, make better anvil::0
+Make bronze armor::0
+::1
+=== Stones, minerals ===::1
+Found better place for your habitat? Want to upgrade your slumsy shelter?::1
+Explore other lands, seek for kalolinite, graphite, claystone::0
+Collect different types of rocks::0
+Use chisel to make bricks from your favorite type of rocks::0
+Make mortar from limewater and sand::0
+Use bricks and mortar for masonry::0
+Make block of glass from sand heated in firepit (you need more advanced technology to make glass panels)::0
+Start to build forge building near your projected house::0
+Build pottery kiln::0
+== Clean up with Bronze ==::1
+It is time to stop hiding under your hide::1
+Kill some white skeletons with mace::0
+Kill some spiders with metal javelin::0
+Draw some feathers from chicken or pheasant::0
+Make fishing rod, bow, arrows, quiver::0
+Kill all zombies::0
+Collect all mushrooms::0
+Replant any berry bushes you found - make berry fields::0
+Make glass bottles using anvil and heated glass and copper tuyere::0
+Start to prepare some harming, weakness and slowness potions::0
+=== Winter is coming ===::1
+Bright side: food would not decay fast. Dark side: there will be no more food from crops until next summer.::1
+Mature crops? Collect them and try to replant before autumn::0
+Collect all crops before snowfall::0
+Prepare any alcoholic beverages::0
+Prepare vinegar::0
+Prepare brine::0
+Brine and preserve vegetables in vinegar::0
+In case of hot climate, dry some fruits on drying mat (use glass blocks to protect it from rain)::0
+Use collected grains to tame cow, keep it safe from wolfs (pit surrounded by fences is enough)::0
+=== Charcoal pyrolisys ===::1
+You need wood. Lot of wood. Make scythe and remove leaves to get some saplings, before you cut a small tree. Try to be not environmental unfriendly::1
+Grab metal axe and cut many trees::0
+Dig a large pit or build small bunker::0
+Fill your pit/bunker with logs heaps (shift+right click)::0
+Cover your almost all logs, drop torch and cover all::0
+Get charcoal, when smoke is no more percolating outside covered heap::0
+Build forge::0
+Use forge to heat up ingots and make some bronze tools in anvil::0
+Start to mining iron ore::0
+::1
+=== Iron Age ===::1
+You need charcoal. Lot of charcoal. And smithing experience.::1
+Make bloomery from brass::0
+Build bloomery from stone/bricks, install ladder::0
+Put 8 charcoal pieces into bloomery::0
+Climb above bloomery and drop charcoal and ore into::0
+Lit bloomery, if finished, get iron bloom and work on it while hot::0
+Make iron anvil::0
+Make iron grill - can be used for improved firepit or furnace for producing glass and clay bricks::0
+Make iron armor and sword::0
+Try to kill bear (use any splash potion first)::0
+=== Shiny metal plates ===::1
+Found any sphalerite? Cast some brass ingots. You need them to make some simple automation mechanisms and steam exosuit.::1
+Found any claystone rocks? Make automated bellows::0
+Read 'Esteemed Innovation' book::0
+Make boiler, archiedes screw pump and some pipes::0
+Place pump in fresh water facing into boiler side. Connect pipes from boiler to pump, put water and fuel into boiler::0
+Make steam filling pad and connect to boiler::0
+Make exosuit frames::0
+Build Engineering Table::0
+Make hydrophobic boots, install, load steam and enjoy walking on water :) ::0
+== Clean up with Lead ==::1
+It is time to use some advanced weaponry against unwanted creatures. Dont throw your bow away, it is still usable for hunting, lead bullets give none edible meat.::1
+Collect or make some gunpowder::0
+Melt some lead ingots into nuggets ::0
+Prepare some cartridges ::0
+Make flintlock musket or pistol::0
+Kill all skeletons from distance::0
+Dig deep mineshaft, found any slime and convert into grease::0
+Use thumper or steam drill for improvement of mining works::0
+Make raft with paddle or small sailship and launch it::0
+== Advanced farming ==::1
+You will need large quanitity of wool, plant/olive oil, leather, alcohol.::1
+Explore new lands, seek for sheeps::0
+Make ropes or tucker bag to capture sheeps, bring them home::0
+Collect all domestic animals and breed them::0
+Cultivate large field of jute plants or olive trees::0
+Collect enough number of berry bushes to gather full stack of berries to make positive effect potions::0
+Increase area of potato or grain cultivation::0
+::1
+::1
+::1
+== Choke with coke ==::1
+With coke oven you can produce not only charcoal or coke, but also byproduct of pyrolisys - creozote oil::1
+Make 'Engineer Manual' book::0
+Make enginner hammer::0
+Make 9 coke oven brick blocks::0
+Build coke oven (3x3x3 multiblock structure) ::0
+Put wood logs and produce fuel for bloomery and blast furnace::0
+Cut wood logs into support beams and soak them into creozote oil::0
+Make wooden rails and build first railway line::0
+Make minecart, forge iron hopper and construct cargo cart::0
+Make crowbar to attach/detach some carts::0
+== Hard like steel ==::1
+With use of caolinite and graphite, you can make gray crucible, heart of blast furnace::1
+Make two crucibles::0
+Build blast furnace with chimney::0
+Put charcoal, iron ore, flux and lit it, use bellows to increase temperature::0
+Catch liquid pig iron to crucible::0
+Cast pig iron into ingot mold, use anvil to hammer pig irong ingot into steel ingot::0
+Make two steel anvils::0
+Make rolling machine::0
+::1
+::1
+== Energy needed ==::1
+Industrialisation neeed energy. First of all, you need to powerup your rolling machine::1
+Make hobbyist steam machine::0
+Place steam machine against rolling machine, put into water and fuel::0
+Make plates, rods or rails::0
+Make tin plate for flat glass::0
+Build kinetic dynamo::0
+Close to your industrial facilities, build water wheel, or wind mill wheel, attach kinetic dynamo::0
+Use furnace to make hardened clay for cable insulators::0
+Connect kinetic dynamo to rolling machine with LV wire, to keep rolling machine ready for some light work, without need to fire up steam engine::0
+== Crucial crucible ==::1
+You need crucible to melt metals and mix them into alloys::1
+Prepare steel, copper, nickel, gold and silver ingots or its alloys.::0
+Melt ingredients in crucible, cast weak black steel and forge black steel sheets.::0
+Make black steel anvil::0
+Make improved chests, steel hoppers, minecarts or ship with chest::0
+Proceed with red and blue steel and appropriate anvils::0
+Make your final favorite coloured armour::0
+Make red and blue bucket::0
+::1
+::1
+== Red crucible ==::1
+Unlike normal crucible, red crucible is fail-safe, but has different use::1
+Dig hole, pour lava into::0
+Make red crucible, mount it above lava::0
+Make mold case, engrave ceramic molds::0
+Drop copper ingot into red crucible::0
+Get refined copper from mold::0
+Use red crucible to obtain refined gold::0
+Melt iron in red crucible, dunk nickel ingot to get permalloy ingot::0
+Remove rest of iron, using nugget mold::0
+Melt nickel in red crucible, dunk steel ingot into to get galvanised steel::0
+== Glassworks ==::1
+Red crucible can melt not only metals, but also glass, quartzite sand and red, green, blue dyes into coloured glass::1
+Melt quartzite sand to obtain block of glass, flat glass panel or bottles::0
+Melt any of red, green or blue dye, add 4 blocks of transparent glass or quartzite sand to achieve coloured glass block or panel::0
+Add more transparent glass for light coloured glass::0
+Make some experiments with mixing coloured glasses::0
+::1
+::1
+::1
+::1
+== Automatic forge ==::1
+Powered metal press can help with forging high carbonised steel ingots into finished ones, or making double ingots, sheets, rods, tuyeres::1
+Assembly Metal Press in your forge facility::0
+Make commercial or industrial steam engine::0
+attach engine to Metal Press power inlet::0
+Make steam boiler (from brass or iron plates, brass need pressure converter)::0
+Bring steam from boiler to steam engine and fire boiler up::0
+Throw plate mold into Metal Press and make some steel plates::0
+::1
+::1
+== Clean up with Steel ==::1
+Old fashioned flintlock weapons needs to be replaced by modern one::1
+Make Revolver::0
+Make Engineer's Workbench::0
+Test different types of projectiles and send all skeletons back into graveyard::0
+Attach Precision Scope to Revolver::0
+Wear Fall Assist boots and fill your exosuit with steam::0
+Look trough Precision Scope at Enderman::0
+::1
+::1
+::1
+== Industry Giant ==::1
+It is time to abandon all this medieval stuff and shuffle into modern technology::1
+Prepare place for your industrial plant::0
+Assembly Advanced Blast Furnace::0
+Assembly Metal Press and connect it with conveyor to output of Blast Furnace::0
+Assembly next Metal Press and connect to output of previous one::0
+Assembly Industrial Crusher, Industrial Squizer and connect it to the input of Blast Furnace::0
+Put some iron ores into Industrial Crusher::0
+Connect power to devices, put charcoal or coke into Blast Furnace and enjoy advanced production of steel ingots::0
+== More Energy! ==::1
+You need high amounts of RF energy to power your Industry Park, steam engines are too weak::1
+Assembly Fermenter, put potato or grain and water into::0
+Assembly Refinery and connect it to Fermenter using pipes::0
+Assembly next Refinery and connect to Ethanol Refinery::0
+Provide plant oil, olive oil or creozote oil to second Refinery::0
+Assembly Generator and feed it with Biofuel::0
+Assembly Arc Furnace and connect to Generator::0
+Make Core Sample Drill and seek valuable veins::0
+Assembly Excavator where vein was found, build HV line or railway line for power supply::0 
+== Clean up with Charge ==::1
+Finally, you are able to kill this poor bear with one clear shoot::1
+Make Railgun::0
+Make HV capacitors and Charging Station::0
+Upgrade your Railgun::0
+Install airborne extensions in your steam exosuit::0 
+Send all Endermans to The End::0

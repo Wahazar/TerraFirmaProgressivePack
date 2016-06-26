@@ -1,0 +1,18 @@
+{
+  "_name": "creeperTFC",
+  "drops": [
+           {
+		"function": "if_killed_with_fire",
+                  "functions":
+                          [
+                           {
+			    "function": "spawn",
+                            "id": "PrimedTnt",
+                            "count": 1
+		           }
+                          ]
+          }
+],
+  "pre_stats": [],
+  "stats": []
+}

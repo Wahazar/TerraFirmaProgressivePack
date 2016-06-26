@@ -1,0 +1,86 @@
+{
+  "_name": "pigZombieTFC",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+                 { "function": "choose", 
+                    "functions":
+                       [
+ 	                { "function": "all", "weight": 10,
+                            "functions":
+                              [
+                                { "function": "name", "value": "Zombie warrior" },
+                                {"function": "equip", 
+                                 "id": "terrafirmacraft:item.Copper Mace", "override": "true", 
+                                  "slot": 0, "damage": 100~500, "drop_chance": 0.05 
+                                },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.Bronze_Chain_Chestplate", "override": "true", 
+                                 "slot": 3, "damage": 100~450, "drop_chance": 0.03 
+                                },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.Bronze_Chain_Greaves", "override": "true", 
+                                 "slot": 2, "damage": 90~450, "drop_chance": 0.02 
+                                },
+                                {"function": "equip", 
+                                 "id": "terrafirmacraft:item.helmetCloth", "override": "true", 
+                                 "slot": 4, "damage": 190~350, "drop_chance": 0.1 
+                                },
+                                {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "tfcm:item.Chain_Square_Bronze",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "tfcm:item.Chain_Sheet_Bronze",
+                                                "count": 0.05
+	                                        }
+                                               ]
+                               }
+                          ]
+                        },
+ 	                { "function": "all", "weight": 1,
+                            "functions":
+                              [
+                                { "function": "name", "value": "Zombie green warrior" },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.Poniard_BismuthBronze", "override": "true", 
+                                  "slot": 0, "damage": 500~1100, "drop_chance": 0.05 
+                                },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.Bronze_Chain_Chestplate", "override": "true", 
+                                 "slot": 3, "damage": 1000~1590, "drop_chance": 0.03 
+                                },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.Bronze_Chain_Greaves", "override": "true", 
+                                 "slot": 2, "damage": 900~1450, "drop_chance": 0.02 
+                                },
+                                {"function": "equip", 
+                                 "id": "terrafirmacraft:item.helmetCloth", "override": "true", 
+                                 "slot": 4, "damage": 900~2450, "drop_chance": 0.1 
+                                },
+                                {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Bismuth Bronze Sheet",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "tfcm:item.Link_BismuthBronze",
+                                                "count": 0.05
+	                                        }
+                                               ]
+                               }
+                          ]
+                      }
+
+                   ]
+           }
+
+]
+}

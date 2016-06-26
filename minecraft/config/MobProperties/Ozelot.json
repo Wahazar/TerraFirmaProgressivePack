@@ -1,0 +1,23 @@
+{
+  "_name": "Ozelot",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "modifier", 
+                   "attribute": "generic.maxHealth", 
+                   "override": true, 
+                   "value": 550 
+                  },
+		{ "function": "modifier", 
+                   "attribute": "generic.attackDamage", 
+                   "value": 5~15 
+                  }
+		]
+		}	 
+]
+}

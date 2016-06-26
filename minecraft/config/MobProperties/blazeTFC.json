@@ -1,0 +1,17 @@
+{
+  "_name": "blazeTFC",
+  "drops": [
+             {
+               "function": "if_wet",
+               "functions":
+                [
+		{ 
+                   "function": "default", 
+                   "value": "false" 
+                  }
+                ]
+            }
+],
+  "pre_stats": [],
+  "stats": []
+}

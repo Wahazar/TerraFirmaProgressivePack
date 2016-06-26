@@ -1,0 +1,17 @@
+{
+  "_name": "skeletonTFC",
+  "drops": [
+           {
+		"function": "if_killed_with_fire",
+		"functions": 
+		[			
+			{ 
+                        "function": "set_block", 
+                        "id": "terrafirmacraft:Gravel"
+                        }
+		]
+	   }
+],
+  "pre_stats": [],
+  "stats": []
+}

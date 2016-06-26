@@ -1,0 +1,33 @@
+{
+  "_name": "zombieTFC",
+  "drops": [
+           {
+		"function": "if_killed_with_fire",
+                    "functions":
+                        [
+                        {
+			"function": "choose",
+				"functions":
+				[
+				{ 
+                                "weight": 2,
+                        	"function": "set_block", 
+                        	"id": "terrafirmacraft:Dirt"
+                                },
+				{ 
+                                "weight": 1,
+                        	"function": "set_block", 
+                        	"id": "minecraft:fire"
+                                }
+				] 
+                        },
+                        {
+			"function": "remove",
+                        "id": "minecraft:rotten_flesh"
+                        }
+                        ]
+	   }
+   ],
+  "pre_stats": [],
+  "stats": []
+}

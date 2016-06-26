@@ -1,0 +1,61 @@
+{
+  "_name": "PigZombie",
+  "drops": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "default", 
+                   "value": "false" 
+                  },
+		{ 
+                   "function": "add", 
+                   "id": "minecraft:rotten_flesh",
+                   "count": 0.8
+	            },
+		{ 
+                   "function": "add", 
+                   "id": "tfcm:item.Suet",
+                   "count": 0.4
+	            },
+		{ 
+                   "function": "add", 
+                   "id": "terrafirmacraft:item.Small Ore",
+                   "count": 0.1
+	            }
+		]
+		},
+           {
+		"function": "if_killed_with_fire",
+                        	"function": "set_block", 
+                        	"id": "minecraft:fire"
+		}
+ ],
+  "pre_stats": [],
+  "stats": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "modifier", 
+                   "attribute": "generic.maxHealth", 
+                   "override": true, 
+                   "value": 1500 
+                  },
+			{ "function": "modifier", 
+                   "attribute": "generic.attackDamage", 
+                   "value": 100~500 
+                  },
+	            {
+                  "function": "modifier",
+                  "attribute": "generic.movementSpeed",
+                  "value": "0.4~0.7",
+                  "operator": 1
+                 },
+                 {"function": "equip", "id": "tfcm:item.Halberd_BismuthBronze", "override": "true", "slot": 0, "damage": 10~30, "drop_chance": 0.05 }
+               ]
+             }
+]
+}
