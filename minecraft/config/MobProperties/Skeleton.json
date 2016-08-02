@@ -12,23 +12,23 @@
 		{ 
                    "function": "add", 
                    "id": "minecraft:bone",
-                   "count": 1.5
+                   "count": 1~2
 	            },
 		{ 
                    "function": "add", 
                    "id": "terrafirmacraft:item.arrow",
-                   "count": 1.2
+                   "count": 0~2
 	            },
 		{ 
                    "function": "add", 
                    "id": "terrafirmacraft:item.bow",
                    "damage": 190~290,
-                   "count": 0.1
+                   "count": 0~0.1
 	            },
 		{ 
                    "function": "add", 
                    "id": "minecraft:skull",
-                   "count": 0.2
+                   "count": 0~0.2
 	            }
 		]
 		},
@@ -54,7 +54,7 @@
                         },
                         {
 			"function": "remove",
-                        "id": "minecraft:rotten_flesh"
+                        "id": "terrafirmacraft:item.arrow"
                         }
                         ]
 		}

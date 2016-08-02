@@ -1,6 +1,12 @@
 {
   "_name": "ghastTFC",
-  "drops": [],
+  "drops": [
+ { 
+    "function": "add", 
+    "id": "customitems:prismarine_crystals",
+    "count": 0.4
+ }
+],
   "pre_stats": [],
   "stats": []
 }

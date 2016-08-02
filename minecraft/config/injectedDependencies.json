@@ -36,6 +36,10 @@
       },
       {
         "type": "before",
+        "target": "customitems"
+      },
+      {
+        "type": "before",
         "target": "DamageIndicatorsMod"
       },
       {
@@ -76,11 +80,15 @@
       },
       {
         "type": "before",
-        "target": "Steamcraft"
+        "target": "Railcraft"
       },
       {
         "type": "before",
-        "target": "Railcraft"
+        "target": "foundry"
+      },
+      {
+        "type": "before",
+        "target": "Steamcraft"
       },
       {
         "type": "before",
@@ -97,6 +105,10 @@
       {
         "type": "before",
         "target": "MobProperties"
+      },
+      {
+        "type": "before",
+        "target": "modtweaker2"
       },
       {
         "type": "before",

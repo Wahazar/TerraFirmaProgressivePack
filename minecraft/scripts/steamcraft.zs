@@ -52,7 +52,8 @@ recipes.remove(<Steamcraft:swordBrass>);
 recipes.remove(<Steamcraft:swordGildedGold>);
 #not working with TFC weapons
 recipes.remove(<Steamcraft:hammer>);
-
+#not working with TFC creatures
+recipes.remove(<Steamcraft:frequencyShifter>);
 
 recipes.remove(<Steamcraft:book>);
 recipes.addShapeless(<Steamcraft:book>, [<minecraft:book>, <terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Zinc Ingot>]);
@@ -64,8 +65,8 @@ recipes.addShaped(<Steamcraft:crucible>, [[<minecraft:brick>, null, <minecraft:b
  [<terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
 
 recipes.remove(<Steamcraft:mold>);
-recipes.addShaped(<Steamcraft:mold>, [[<terrafirmacraft:item.Red Steel Sheet>, <minecraft:brick>, <minecraft:brick>],
- [<terrafirmacraft:item.Red Steel Sheet>, <minecraft:brick>, <minecraft:brick>]]);
+recipes.addShaped(<Steamcraft:mold>, [[<terrafirmacraft:item.Steel Sheet>, <minecraft:brick>, <minecraft:brick>],
+ [<terrafirmacraft:item.Steel Sheet>, <minecraft:brick>, <minecraft:brick>]]);
 
 recipes.remove(<Steamcraft:carving>);
 recipes.addShaped(<Steamcraft:carving>, [[<terrafirmacraft:item.Black Steel Sheet>, <Steamcraft:blankMold>, <terrafirmacraft:item.Black Steel Sheet>],
@@ -95,6 +96,12 @@ recipes.addShaped(<Steamcraft:boiler>, [[<Steamcraft:steamcraftPlate:4>, <Steamc
  [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>]]);
 
 recipes.remove(<Steamcraft:flashBoiler>);
+
+#archimedes screw
+recipes.remove(<Steamcraft:pump>);
+recipes.addShaped(<Steamcraft:pump>, [[<ore:blockGlassColorless>, <ore:nuggetBrass>, <ore:blockGlassColorless>],
+ [<ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>, <terrafirmacraft:item.Bronze Tuyere>],
+ [<ore:nuggetBrass>, <ore:blockGlassColorless>, <ore:nuggetBrass>]]);
 
 #turbine
 recipes.remove(<Steamcraft:steamcraftCrafting:5>);
@@ -127,9 +134,16 @@ recipes.addShaped(<Steamcraft:preciseCuttingHead>, [
 
 recipes.remove(fsp_flintlock);
 recipes.addShaped(fsp_flintlock, [
- [<terrafirmacraft:item.Steel Tuyere>, <terrafirmacraft:item.flintAndSteel>, null],
- [null, <minecraft:redstone>, <terrafirmacraft:item.Wrought Iron Ingot>],
+ [<terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.flintAndSteel>, null],
+ [<ore:nuggetIron>, <minecraft:redstone>, <terrafirmacraft:item.Wrought Iron Ingot>],
  [null, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+
+
+recipes.remove(fsp_woodenstock);
+recipes.addShaped(fsp_woodenstock, [
+ [<ore:woodLumber>, null, null],
+ [null, <ImmersiveEngineering:treatedWood>, null],
+ [null, <ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>]]);
 
 recipes.remove(<Steamcraft:rocketLauncher>);
 recipes.addShaped(<Steamcraft:rocketLauncher>, [
@@ -149,6 +163,10 @@ recipes.addShaped(<Steamcraft:astrolabe>, [
  [<ore:ingotBrass>, <ore:dustRedstone>, <ore:ingotBrass>],
  [null, <tfcm:item.CasingRoseGold>, null]]);
 
+recipes.remove(<Steamcraft:enhancementRevolver>);
+recipes.addShapeless(<Steamcraft:enhancementRevolver>, [<ore:nuggetIron>, <foundry:foundryComponent:6>, <ore:nuggetIron>]);
+
+
 #barrels 
 recipes.remove(fsp_ironbarrel);
 //welding, see TFC.zs
@@ -163,12 +181,13 @@ recipes.remove(<Steamcraft:itemMortar>);
 recipes.addShaped(<Steamcraft:itemMortar>, [
  [<ore:ingotBrass>, fsp_barrel, <ore:ingotBrass>],
  [<ore:plateBrass>, fsp_piston, <ore:plateBrass>],
- [<ore:plateCopper>, <Railcraft:slab:40>, <ore:plateCopper>]]);
+ [<ore:plateCopper>, <foundry:slab1:2>, <ore:plateCopper>]]);
 
 
 recipes.remove(<Steamcraft:enhancementAblaze>);
-recipes.addShaped(<Steamcraft:enhancementAblaze>, [[<terrafirmacraft:item.Red Steel Tuyere>, <minecraft:blaze_powder>, null],
- [<minecraft:blaze_powder>, <terrafirmacraft:item.Red Steel Tuyere>, <minecraft:blaze_powder>],
+recipes.addShaped(<Steamcraft:enhancementAblaze>, [
+ [<terrafirmacraft:item.Red Steel Tuyere>, <minecraft:blaze_rod>, null],
+ [<minecraft:blaze_rod>, <terrafirmacraft:item.Red Steel Tuyere>, <minecraft:blaze_powder>],
  [null, <minecraft:blaze_powder>, fsp_ironbarrel]]);
 
 recipes.addShaped(<Steamcraft:enhancementSilencer>, [[<minecraft:wool>, <terrafirmacraft:item.TFC Leather>, <minecraft:string>],
@@ -178,8 +197,8 @@ recipes.addShaped(<Steamcraft:enhancementSilencer>, [[<minecraft:wool>, <terrafi
 #exosuit:
 
 recipes.remove(<Steamcraft:jetpack>);
-recipes.addShaped(<Steamcraft:jetpack>, [[<Steamcraft:pipe>, <Steamcraft:steamcraftIngot:3>, <Steamcraft:pipe>],
- [<Steamcraft:meter>, <Steamcraft:steamcraftIngot:3>, <Steamcraft:pipe>],
+recipes.addShaped(<Steamcraft:jetpack>, [[<Steamcraft:pipe>, <ImmersiveEngineering:material:16>, <Steamcraft:pipe>],
+ [<Steamcraft:meter>, <ImmersiveEngineering:material:16>, <Steamcraft:pipe>],
  [<Steamcraft:pipe>, null, <Steamcraft:pipe>]]);
 
 recipes.remove(<Steamcraft:wings>);
@@ -266,25 +285,6 @@ recipes.addShaped(<Steamcraft:chargePlacer>, [[<terrafirmacraft:item.Red Steel T
  [<Steamcraft:valvePipe>, <minecraft:stone_button>, <Steamcraft:valvePipe>],
  [<Steamcraft:pipe>, <Steamcraft:steamcraftCrafting>, <Steamcraft:pipe>]]);
 
-#metal blocks/ingots 1:(4*2)
-
-recipes.remove(<Steamcraft:blockCopper>);
-recipes.removeShaped(fsp_ingot_copper);
-recipes.addShaped(<Steamcraft:blockCopper>, [[<terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>], 
- [<terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>]]);
-recipes.addShapeless(<terrafirmacraft:item.Copper Ingot> * 8, [<Steamcraft:blockCopper>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.remove(<Steamcraft:blockZinc>);
-recipes.removeShaped(fsp_ingot_zinc);
-recipes.addShaped(<Steamcraft:blockZinc>, [[<terrafirmacraft:item.Zinc Double Ingot>, <terrafirmacraft:item.Zinc Double Ingot>], 
- [<terrafirmacraft:item.Zinc Double Ingot>, <terrafirmacraft:item.Zinc Double Ingot>]]);
-recipes.addShapeless(<terrafirmacraft:item.Zinc Ingot> * 8, [<Steamcraft:blockZinc>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.remove(<Steamcraft:blockBrass>);
-recipes.removeShaped(fsp_ingot_brass);
-recipes.addShaped(<Steamcraft:blockBrass>, [[<terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>], 
- [<terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>]]);
-recipes.addShapeless(<terrafirmacraft:item.Brass Ingot> * 8, [<Steamcraft:blockBrass>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
 
 recipes.remove(<Steamcraft:smasher>);
 recipes.addShaped(<Steamcraft:smasher>, [
@@ -317,6 +317,9 @@ furnace.remove(<Steamcraft:steamcraftNugget:0>);
 furnace.remove(<Steamcraft:steamcraftNugget:1>);
 furnace.remove(<Steamcraft:steamcraftNugget:2>);
 
+furnace.remove(<Steamcraft:smashedOre:*>);  //only with cryolite electrolize in Arc Furnace
+
+
 #for ver. 0.9.2
 //steam heater
 # mods.fsp.SteamHeater.removeSteamingRecipe(<minecraft:fish>);
@@ -329,109 +332,10 @@ furnace.remove(<Steamcraft:steamcraftNugget:2>);
 
 #mods.fsp.SteamHeater.addSteamingRecipe(<terrafirmacraft:item.egg>.onlyWithTag({foodWeight: 2.0 as float}), <terrafirmacraft:item.Egg Cooked>.withTag({foodWeight: 2.0 as float, foodDecay: -48.0 as float, decayTimer: 699}));
 
-//additional crucible recipes
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:8>, "iron", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:10>, "copper", 9);
-
-mods.fsp.Crucible.addBasicLiquid("steel", <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1500 as float}), <ImmersiveEngineering:metal:38>, <ImmersiveEngineering:metal:29>, 100, 100, 105);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Steel Ingot>, "steel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:38>, "steel", 4);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:29>, "steel", 1);
-
-mods.fsp.Crucible.addBasicLiquid("tin", <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 200 as float}), <Railcraft:part.gear:3>, <Railcraft:nugget:3>, 220, 225, 230);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Tin Ingot>, "tin", 9);
-mods.fsp.Crucible.addMeltRecipe(<Railcraft:nugget:3>, "tin", 1);
-
-mods.fsp.Crucible.addBasicLiquid("nickel", <ImmersiveEngineering:metal:4>.withTag({temperature: 1400 as float}), <ImmersiveEngineering:metal:26> * 4, <ImmersiveEngineering:metal:26>, 200, 250, 210);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Nickel Ingot>, "nickel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:4>, "nickel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:14>, "nickel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:26>, "nickel", 1);
-
-mods.fsp.Crucible.addAlloyLiquid("cupronickel", <ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:36>, <ImmersiveEngineering:metal:27>, "copper", 1, "nickel", 1, 2, 240, 190, 210); 
-
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:5>, "cupronickel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:15>, "cupronickel", 9);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:36>, "cupronickel", 4);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:metal:27>, "cupronickel", 1);
-
-mods.fsp.Crucible.addDunkRecipe(<terrafirmacraft:item.Nickel Ingot>, "iron", 2, <ImmersiveEngineering:metal:4>); //NiFe
-
-mods.fsp.Crucible.addDunkRecipe(<terrafirmacraft:item.Steel Ingot>, "nickel", 1, <ImmersiveEngineering:metal:7>); //steel, Ni covered
-
-#glass
-mods.fsp.Crucible.addBasicLiquid("glass", <minecraft:glass>.withTag({temperature: 650 as float}), <minecraft:glass_pane>, <minecraft:glass_bottle>, 250, 250, 255);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:glass>, "glass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:glass_pane>, "glass", 4);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:glass_bottle>, "glass", 1);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:sand>, "glass", 9);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:Sand:15>, "glass", 9);
-
-mods.fsp.Crucible.addBasicLiquid("reddye", <terrafirmacraft:item.dyePowder:1> *9, <terrafirmacraft:item.Powder:5> *4, <terrafirmacraft:item.dyePowder:1>, 200, 50, 50);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.dyePowder:1>, "reddye", 1);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Powder:5>, "reddye", 1);
-
-mods.fsp.Crucible.addBasicLiquid("greendye", <ImmersiveEngineering:stoneDevice:4>.withTag({temperature: 650 as float}), <terrafirmacraft:item.Powder:8> *4, <terrafirmacraft:item.dyePowder:2>, 50, 200, 50);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.dyePowder:2>, "greendye", 1);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Powder:8>, "greendye", 1);
-mods.fsp.Crucible.addMeltRecipe(<ImmersiveEngineering:stoneDevice:4>, "greendye", 2);
-
-mods.fsp.Crucible.addBasicLiquid("bluedye", <minecraft:lapis_block>, <terrafirmacraft:item.Powder:6> *4, <terrafirmacraft:item.dyePowder:4>, 50, 50, 200);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.dyePowder:4>, "bluedye", 1);
-mods.fsp.Crucible.addMeltRecipe(<terrafirmacraft:item.Powder:6>, "bluedye", 1);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:lapis_block>, "bluedye", 9);
-
-mods.fsp.Crucible.addAlloyLiquid("redglass", <minecraft:stained_glass:14>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:14>, <minecraft:glass_bottle>, "glass", 36, "reddye", 1, 36, 250, 120, 100);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:14>, "redglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:14>, "redglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("greenglass", <minecraft:stained_glass:13>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:13>, <minecraft:glass_bottle>, "glass", 36, "greendye", 1, 36, 120, 250, 120);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:13>, "greenglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:13>, "greenglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("blueglass", <minecraft:stained_glass:11>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:11>, <minecraft:glass_bottle>, "glass", 36, "bluedye", 1, 36, 100, 120, 250);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:11>, "blueglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:11>, "blueglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("lightredlass", <minecraft:stained_glass:6>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:6>, <minecraft:glass_bottle>, "redglass", 1, "glass", 1, 2, 255, 180, 140); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:6>, "lightredglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:6>, "lightredglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("lightgreenglass", <minecraft:stained_glass:5>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:5>, <minecraft:glass_bottle>, "greenglass", 1, "glass", 1, 2, 155, 255, 150); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:5>, "lightgreenglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:5>, "lightgreenglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("lightblueglass", <minecraft:stained_glass:3>, <minecraft:stained_glass_pane:3>, <minecraft:glass_bottle>, "blueglass", 1, "glass", 1, 2, 150, 150, 255); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:3>, "lightblueglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:3>, "lightblueglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("purpleglass", <minecraft:stained_glass:10>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:10>, <minecraft:glass_bottle>, "blueglass", 1, "redglass", 1, 2, 200, 100, 200); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:10>, "purpleglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:10>, "purpleglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("magentaglass", <minecraft:stained_glass:2>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:2>, <minecraft:glass_bottle>, "purpleglass", 1, "glass", 1, 2, 250, 120, 250); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:2>, "magentaglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:2>, "magentaglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("cyanglass", <minecraft:stained_glass:9>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:9>, <minecraft:glass_bottle>, "blueglass", 1, "greenglass", 1, 2, 100, 200, 200); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:9>, "cyanglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:9>, "cyanglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("yellowglass", <minecraft:stained_glass:4>, <minecraft:stained_glass_pane:4>, <minecraft:glass_bottle>, "lightgreenglass", 1, "lightredglass", 1, 2, 255, 255, 140); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:4>, "yellowglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:4>, "yellowglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("blackglass", <minecraft:stained_glass:15>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:15>, <minecraft:glass_bottle>, "greenglass", 1, "purpleglass", 1, 2, 140, 140, 140); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:15>, "blackglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:15>, "blackglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("greyglass", <minecraft:stained_glass:7>, <minecraft:stained_glass_pane:7>, <minecraft:glass_bottle>, "blackglass", 1, "glass", 1, 2, 190, 190, 190); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:7>, "greyglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:7>, "greyglass", 6);
-
-mods.fsp.Crucible.addAlloyLiquid("lightgreyglass", <minecraft:stained_glass:8>.withTag({temperature: 650 as float}), <minecraft:stained_glass_pane:8>, <minecraft:glass_bottle>, "greyglass", 1, "glass", 1, 2, 240, 240, 240); 
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass:8>, "lightgreyglass", 9);
-mods.fsp.Crucible.addMeltRecipe(<minecraft:stained_glass_pane:8>, "lightgreyglass", 6);
+//bauxite
+mods.fsp.RockSmasher.removeSmashingOreRecipe("oreAluminum", <Steamcraft:smashedOre:8>);
+mods.fsp.RockSmasher.removeSmashingRecipe(<ImmersiveEngineering:ore:1>, <Steamcraft:smashedOre:8>);
+mods.fsp.RockSmasher.addSmashingRecipe(<ImmersiveEngineering:ore:1>, <customitems:bauxite_conglomerate>);
 
 //coal from coal ore
 mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:coal_ore>, <terrafirmacraft:item.coal>);

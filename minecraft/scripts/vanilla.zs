@@ -21,12 +21,17 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:14>, <minecraft:wo
 mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:15>, <minecraft:wool:0>, <liquid:liquid_dye.black> * 25, 0, false, 1, true);
 mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:0>, <minecraft:wool:*>, <liquid:liquid_dye.white> * 25, 0, true, 8, true);
 
-#harded bed
+#harder soft bed
 recipes.remove(<minecraft:bed>);
 recipes.addShaped(<minecraft:bed>, [
  [<minecraft:carpet:14>, <minecraft:carpet:14>, null],
  [<terrafirmacraft:item.SilkCloth>, <terrafirmacraft:item.SilkCloth>, <minecraft:wool>],
  [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+
+#JoLantern need candle, not torch
+recipes.remove(<terrafirmacraft:LitPumpkin>);
+recipes.addShapeless(<terrafirmacraft:LitPumpkin>, 
+ [<terrafirmacraft:Pumpkin>, <tfcm:blockTallowCandle>, <ore:itemKnife>.transformDamage(10)]);
 
 
 #diamond block
@@ -49,18 +54,27 @@ recipes.addShaped(<minecraft:furnace>, [[<minecraft:cobblestone>, <minecraft:cob
 
 recipes.remove(<minecraft:clay>);
 
-#vanilla white clay block from 9 RC bleached clays
+#vanilla white clay block from 8 RC bleached clays
 recipes.remove(<minecraft:stained_hardened_clay>);
 recipes.addShaped(<minecraft:stained_hardened_clay>, [
  [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>],
- [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>],
+ [<Railcraft:part.bleached.clay>, <ore:lumpClay>, <Railcraft:part.bleached.clay>],
  [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>]]);
 
 furnace.remove(<minecraft:hardened_clay>);
 furnace.addRecipe(<minecraft:hardened_clay>, <minecraft:stained_hardened_clay>);
 
 furnace.remove(<minecraft:brick>);
-furnace.addRecipe(<minecraft:brick>, <ore:lumpClay>);
+mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
+recipes.addShaped(<customitems:brick_mold>, [
+ [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>],
+ [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>],
+ [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>]]);
+recipes.addShaped(<customitems:clay_brick> * 8, [
+ [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>],
+ [<ore:lumpClay>, <customitems:brick_mold>, <ore:lumpClay>],
+ [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
+furnace.addRecipe(<minecraft:brick>, <customitems:clay_brick>);
 
 #red brick wall need mortar
 recipes.remove(<minecraft:brick_block>);
@@ -77,12 +91,13 @@ furnace.remove(<minecraft:stone>);  //see Arc furnace
 
 furnace.remove(<minecraft:coal>); //see crusher
 
+recipes.remove(<minecraft:redstone_block>);  //use metal caster
 
 # nether stuff from overworld items:
 
 recipes.addShapeless(<minecraft:blaze_powder>, [<minecraft:redstone>, <tfcudarymod:item.Cooked Limonite Powder>, <minecraft:glowstone_dust>]);
 
-#recipes.addShapeless(<minecraft:glowstone_dust>, [<terrafirmacraft:item.Ore:26>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
+#recipes.addShapeless(<minecraft:glowstone_dust>, [<terrafirmacraft:item.Ore:26>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(20)]);
 //crusher
 
 #other stuff
@@ -129,9 +144,9 @@ recipes.addShaped(<minecraft:chest>, [[<terrafirmacraft:item.Black Steel Sheet>,
 
 recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:minecart>, <minecraft:chest>]);
 
-recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 3, [<terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
+recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 3, [<terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(10)]);
 recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 2, [<minecraft:diamond>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
-recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 1, [<terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
+recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 1, [<terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(10)]);
 
 recipes.addShapeless(<minecraft:diamond>, [<terrafirmacraft:item.Diamond:2>, <Steamcraft:preciseCuttingHead>]);
 recipes.addShapeless(<minecraft:diamond> * 2, [<terrafirmacraft:item.Diamond:3>, <Steamcraft:preciseCuttingHead>]);
@@ -161,17 +176,20 @@ recipes.addShapeless(<minecraft:stone_button>, [<ore:stoneSmooth>, <minecraft:re
 recipes.remove(<terrafirmacraft:ButtonWood>);
 recipes.addShapeless(<terrafirmacraft:ButtonWood>, [<ore:plankWood>, <minecraft:redstone>]);
 
+recipes.remove(<minecraft:light_weighted_pressure_plate>);
+recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [
+[<Steamcraft:steamcraftPlate:3>, <Steamcraft:steamcraftPlate:3>],
+[<minecraft:redstone>, <tfcm:item.Coil_Bronze>]]);
+
+recipes.remove(<minecraft:heavy_weighted_pressure_plate>);
+recipes.addShaped(<minecraft:heavy_weighted_pressure_plate>, [
+[<Steamcraft:steamcraftPlate:2>, <Steamcraft:steamcraftPlate:2>],
+[<minecraft:redstone>, <tfcm:item.Coil_WroughtIron>]]);
+
+
 
 #ingots and metal blocks
-recipes.addShaped(<minecraft:iron_block>, [[<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>], 
- [<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>]]);
-recipes.removeShaped(<minecraft:iron_ingot>);
-recipes.addShapeless(<terrafirmacraft:item.Wrought Iron Ingot> * 8, [<minecraft:iron_block>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShaped(<minecraft:gold_block>, [[<terrafirmacraft:item.Gold Double Ingot>, <terrafirmacraft:item.Gold Double Ingot>], 
- [<terrafirmacraft:item.Gold Double Ingot>, <terrafirmacraft:item.Gold Double Ingot>]]);
-recipes.removeShaped(<minecraft:gold_ingot>);
-recipes.addShapeless(<terrafirmacraft:item.Gold Ingot> * 8, [<minecraft:gold_block>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
+//def in blocks_slabs.zs
 
 furnace.remove(<minecraft:gold_ingot>);
 # recipes.addShapeless(<terrafirmacraft:item.Gold Ingot>, [<minecraft:gold_ingot>, <terrafirmacraft:item.Wooden Bucket Water>]);
@@ -208,6 +226,8 @@ furnace.setFuel(<terrafirmacraft:item.Ore:22>, 60);
 furnace.setFuel(<terrafirmacraft:item.Ore:14>, 680); //bituminous coal
 furnace.setFuel(<terrafirmacraft:item.Ore:15>, 1000); //lignite coal
 furnace.setFuel(<terrafirmacraft:item.coal>, 1800); //antracite coal
+furnace.setFuel(<ImmersiveEngineering:metal:17>, 3600); //coke dust
+furnace.setFuel(<Railcraft:dust:3>, 1800); //charcoal dust
 
 furnace.remove(<minecraft:coal:1>);  //only TFC charcoal in pitkiln, coke oven
 

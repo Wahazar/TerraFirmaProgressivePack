@@ -9,7 +9,11 @@
 			    "function": "spawn",
                             "id": "PrimedTnt",
                             "count": 1
-		           }
+		           },
+                           {
+			    "function": "remove",
+                            "id": "minecraft:gunpowder"
+                           }
                           ]
           }
 ],

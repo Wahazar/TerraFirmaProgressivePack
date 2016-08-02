@@ -16,6 +16,10 @@ val rc_ingot_copper = <Railcraft:ingot:1>;
 val rc_ingot_tin = <Railcraft:ingot:2>;
 val rc_ingot_lead = <Railcraft:ingot:3>;
 
+val fsp_smashed_iron = <Steamcraft:smashedOre:0>;
+
+val f_brick = <foundry:foundryComponent:3>;
+
 #simply hand lever
 recipes.remove(<Railcraft:signal:4>);
 recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeWhite>, <terrafirmacraft:item.Ink>, <ore:dyeRed>],
@@ -43,15 +47,18 @@ furnace.addRecipe(rc_nugget_lead * 7, <terrafirmacraft:item.Lead Ingot>);
 
 #circuits from nuggets/plates and str. glass
 recipes.remove(<Railcraft:part.circuit:0>);
-recipes.addShaped(<Railcraft:part.circuit:0>, [[<ImmersiveEngineering:metalDevice2:10>, <minecraft:repeater>, <Railcraft:glass:1>],
+recipes.addShaped(<Railcraft:part.circuit:0>, [
+ [<ImmersiveEngineering:toolupgrade:6>, <minecraft:repeater>, <Railcraft:glass:1>],
  [<ore:nuggetLead>, rc_plate_copper, <minecraft:redstone>],
  [<Railcraft:glass:1>, <minecraft:redstone>, rc_nugget_tin]]);
 recipes.remove(<Railcraft:part.circuit:1>);
-recipes.addShaped(<Railcraft:part.circuit:1>, [[null, <minecraft:repeater>, <Railcraft:glass:5>],
+recipes.addShaped(<Railcraft:part.circuit:1>, [
+ [null, <minecraft:repeater>, <Railcraft:glass:5>],
  [<ore:nuggetLead>, rc_plate_copper, <minecraft:redstone>],
  [<Railcraft:glass:5>, <minecraft:redstone>, rc_nugget_tin]]);
 recipes.remove(<Railcraft:part.circuit:2>);
-recipes.addShaped(<Railcraft:part.circuit:2>, [[null, <minecraft:repeater>, <Railcraft:glass:4>],
+recipes.addShaped(<Railcraft:part.circuit:2>, [
+ [null, <minecraft:repeater>, <Railcraft:glass:4>],
  [<ore:nuggetLead>, rc_plate_copper, <minecraft:redstone>],
  [<Railcraft:glass:4>, <minecraft:redstone>, rc_nugget_tin]]);
 
@@ -90,6 +97,13 @@ recipes.addShaped(<Railcraft:cube:1>, [[<terrafirmacraft:Gravel:*>, <Railcraft:p
 
 recipes.removeShapeless(<Railcraft:part.bleached.clay>);
 recipes.addShapeless(<Railcraft:part.bleached.clay>, [<ore:lumpClay>, <ore:dyeWhite>, <ore:dyeWhite>]);
+
+recipes.remove(<Railcraft:brick.bleachedbone:2>);
+recipes.addShaped(<Railcraft:brick.bleachedbone:2>, [
+ [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>],
+ [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>],
+ [<Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>, <Railcraft:part.bleached.clay>]]);
+
 
 #rails:
 #remove TFC rails
@@ -131,9 +145,53 @@ recipes.addShaped(<Railcraft:armor.goggles>, [[null, <Railcraft:part.circuit:1>,
 
 #machines:
 
-#removed blast furnace and coke oven
+#coke oven brick
 recipes.remove(<Railcraft:machine.alpha:7>);
+recipes.addShaped(<Railcraft:machine.alpha:7>, [
+ [f_brick, <minecraft:brick>, f_brick],
+ [<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>],
+ [f_brick, <minecraft:brick>, f_brick]]);
+
+#blast furnace brick
 recipes.remove(<Railcraft:machine.alpha:12>);
+recipes.addShaped(<Railcraft:machine.alpha:12>, [
+ [f_brick, <minecraft:brick>, f_brick],
+ [<minecraft:brick>, <minecraft:blaze_powder>, <terrafirmacraft:item.Steel Tuyere>],
+ [f_brick, <minecraft:brick>, f_brick]]);
+
+
+//Blast Furnace recipes
+mods.railcraft.BlastFurnace.removeFuel(<Railcraft:fuel.coke>);
+mods.railcraft.BlastFurnace.removeFuel(<Railcraft:cube:0>);
+mods.railcraft.BlastFurnace.removeFuel(<Railcraft:firestone.cracked:*>);
+mods.railcraft.BlastFurnace.removeFuel(<Railcraft:firestone.refined:*>);
+mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);          //IE coke
+mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);   //IE coke block
+//mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:metal:17>);            //IE coke dust
+mods.railcraft.BlastFurnace.addFuel(<terrafirmacraft:item.coal:1>);              //TFC charcoal
+//mods.railcraft.BlastFurnace.addFuel(<Railcraft:dust:3>);
+
+//InputStack, matchDamage, matchNBT, Time in Ticks, OutputStack
+mods.railcraft.BlastFurnace.addRecipe(fsp_smashed_iron, false, false, 1000, <terrafirmacraft:item.Pig Iron Ingot>);
+
+mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot:0>);
+
+//coke oven recipes
+mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
+mods.railcraft.CokeOven.removeRecipe(<Railcraft:fuel.coke>);
+mods.railcraft.CokeOven.removeRecipe(<Railcraft:cube>);
+mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal:1>, <liquid:creosote> * 500, <terrafirmacraft:item.Log:*>, 1800); //charcoal
+mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 250, <terrafirmacraft:item.coal>, 900); //coke
+mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 600, <terrafirmacraft:item.Ore:15>, 1400); //coke
+mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 900, <terrafirmacraft:item.Ore:14>, 1900); //coke 
+
+//bushing gear alternative
+mods.railcraft.Rolling.addShaped(<Railcraft:part.gear:3> *2, [[null, <ore:ingotTin>, null], 
+                                                              [<ore:ingotTin>, null, <ore:ingotTin>],
+                                                              [null, <ore:ingotTin>, null]]);
+//iron and steel gear only from metal press or foundry
+recipes.remove(<Railcraft:part.gear:1>);
+recipes.remove(<Railcraft:part.gear:2>);
 
 #new rolling machine recipe
 recipes.remove(<Railcraft:machine.alpha:8>);
@@ -274,26 +332,27 @@ recipes.addShaped(<Railcraft:machine.gamma:3>, [[<terrafirmacraft:item.Wrought I
 #lanterns
 recipes.remove(<Railcraft:lantern.stone:*>);
 recipes.remove(<Railcraft:lantern.metal:*>);
-recipes.addShaped(<Railcraft:lantern.metal:0>, [[null, <Railcraft:slab:6>, null],
+recipes.addShaped(<Railcraft:lantern.metal:0>, [[null, <ore:slabIron>, null],
  [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>, <Railcraft:glass:0>],
- [null, <Railcraft:slab:6>, null]]);
-recipes.addShaped(<Railcraft:lantern.metal:1>, [[null, <Railcraft:slab:7>, null],
+ [null, <ore:slabIron>, null]]);
+recipes.addShaped(<Railcraft:lantern.metal:1>, [[null, <ore:slabGold>, null],
  [<Railcraft:glass:4>, <terrafirmacraft:OilLamp:0>, <Railcraft:glass:4>],
- [null, <Railcraft:slab:7>, null]]);
-recipes.addShaped(<Railcraft:lantern.metal:2>, [[null, <Railcraft:slab:40>, null],
+ [null, <ore:slabGold>, null]]);
+recipes.addShaped(<Railcraft:lantern.metal:2>, [[null, <ore:slabCopper>, null],
  [<Railcraft:glass:14>, <terrafirmacraft:OilLamp:2>, <Railcraft:glass:14>],
- [null, <Railcraft:slab:40>, null]]);
-recipes.addShaped(<Railcraft:lantern.metal:3>, [[null, <Railcraft:slab:41>, null],
+ [null, <ore:slabCopper>, null]]);
+recipes.addShaped(<Railcraft:lantern.metal:3>, [[null, <ore:slabTin>, null],
  [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>, <Railcraft:glass:0>],
- [null, <Railcraft:slab:41>, null]]);
-recipes.addShaped(<Railcraft:lantern.metal:4>, [[null, <Railcraft:slab:42>, null],
+ [null, <ore:slabTin>, null]]);
+recipes.addShaped(<Railcraft:lantern.metal:4>, [[null, <ore:slabLead>, null],
  [<Railcraft:glass:3>, <terrafirmacraft:OilLamp:5>, <Railcraft:glass:3>],
- [null, <Railcraft:slab:42>, null]]);
-recipes.addShaped(<Railcraft:lantern.metal:5>, [[null, <Railcraft:slab:43>, null],
+ [null, <ore:slabLead>, null]]);
+recipes.addShaped(<Railcraft:lantern.metal:5>, [[null, <ore:slabSteel>, null],
  [<Railcraft:glass:8>, <terrafirmacraft:OilLamp:3>, <Railcraft:glass:8>],
- [null, <Railcraft:slab:43>, null]]);
+ [null, <ore:slabSteel>, null]]);
 
 
 furnace.setFuel(<Railcraft:dust:3>, 80);
 recipes.addShapeless(<Railcraft:dust:3>, [<ore:gemCharcoal>, <ore:itemHammer>.transformDamage(2)]);
 
+//mods.railcraft.RockCrusher.removeRecipe(*);

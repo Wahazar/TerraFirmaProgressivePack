@@ -16,16 +16,16 @@ Clean up with Lead::2
 Advanced farming::2
 Choke with coke::2
 Hard like steel::2
-Energy needed::2
 Crucial crucible::2
-Red crucible::2
+Power On::2
+Metal Foundry::2
 Glassworks::2
 Automatic forge::2
 Clean up with Steel::2
 Industry Giant::2
 More Energy!::2
+Modern Metallurgy::2
 Clean up with Charge::2
-::1
 === Stone Age ===::1
 You need to make some primitive tools, collect wood and straw, find good place for shelter, try to start fire with sticks and survive first night.::1
 Grab some stones and sticks, make basic stone tools (knife, axe, shovel)::0
@@ -128,7 +128,7 @@ Use forge to heat up ingots and make some bronze tools in anvil::0
 Start to mining iron ore::0
 ::1
 === Iron Age ===::1
-You need charcoal. Lot of charcoal. And smithing experience.::1
+You need charcoal. Lot of charcoal. And a smithing experience.::1
 Make bloomery from brass::0
 Build bloomery from stone/bricks, install ladder::0
 Put 8 charcoal pieces into bloomery::0
@@ -171,89 +171,85 @@ Increase area of potato or grain cultivation::0
 ::1
 == Choke with coke ==::1
 With coke oven you can produce not only charcoal or coke, but also byproduct of pyrolisys - creozote oil::1
-Make 'Engineer Manual' book::0
-Make enginner hammer::0
-Make 9 coke oven brick blocks::0
-Build coke oven (3x3x3 multiblock structure) ::0
+Make 8 yellow or 9 gray coke oven blocks::0
+Build coke oven (3x3x3 multiblock structure, hollow if yellow) ::0
 Put wood logs and produce fuel for bloomery and blast furnace::0
 Cut wood logs into support beams and soak them into creozote oil::0
 Make wooden rails and build first railway line::0
 Make minecart, forge iron hopper and construct cargo cart::0
 Make crowbar to attach/detach some carts::0
+::1
 == Hard like steel ==::1
 With use of caolinite and graphite, you can make gray crucible, heart of blast furnace::1
-Make two crucibles::0
-Build blast furnace with chimney::0
+Make three crucibles::0
+Use two crucibles to build blast furnace with chimney::0
 Put charcoal, iron ore, flux and lit it, use bellows to increase temperature::0
 Catch liquid pig iron to crucible::0
 Cast pig iron into ingot mold, use anvil to hammer pig irong ingot into steel ingot::0
-Make two steel anvils::0
-Make rolling machine::0
+Make steel anvil::0
+Prepare some steel tools::0
+Prepare steel, nickel and black bronze ingots.::0
 ::1
-::1
-== Energy needed ==::1
-Industrialisation neeed energy. First of all, you need to powerup your rolling machine::1
-Make hobbyist steam machine::0
-Place steam machine against rolling machine, put into water and fuel::0
-Make plates, rods or rails::0
-Make tin plate for flat glass::0
-Build kinetic dynamo::0
-Close to your industrial facilities, build water wheel, or wind mill wheel, attach kinetic dynamo::0
-Use furnace to make hardened clay for cable insulators::0
-Connect kinetic dynamo to rolling machine with LV wire, to keep rolling machine ready for some light work, without need to fire up steam engine::0
 == Crucial crucible ==::1
-You need crucible to melt metals and mix them into alloys::1
-Prepare steel, copper, nickel, gold and silver ingots or its alloys.::0
+You need separate crucible to melt metals and mix them into alloys::1
 Melt ingredients in crucible, cast weak black steel and forge black steel sheets.::0
 Make black steel anvil::0
 Make improved chests, steel hoppers, minecarts or ship with chest::0
 Proceed with red and blue steel and appropriate anvils::0
 Make your final favorite coloured armour::0
 Make red and blue bucket::0
+Make some refractory containers::0
+Cast 900 steel units from ingot moulds into refractory containers::0
 ::1
-::1
-== Red crucible ==::1
-Unlike normal crucible, red crucible is fail-safe, but has different use::1
-Dig hole, pour lava into::0
-Make red crucible, mount it above lava::0
-Make mold case, engrave ceramic molds::0
-Drop copper ingot into red crucible::0
-Get refined copper from mold::0
-Use red crucible to obtain refined gold::0
-Melt iron in red crucible, dunk nickel ingot to get permalloy ingot::0
-Remove rest of iron, using nugget mold::0
-Melt nickel in red crucible, dunk steel ingot into to get galvanised steel::0
+== Power On ==::1
+Time for industrialization - you neeed energy. You can use external power to cast iron or steel into molds::1
+Prepare invar and cupronickel ingots with use of Alloy Furnace::0
+Melt tin ingots and fill 4 refractory containers::0
+Build Metal Caster::0
+Make 'Engineer Manual' book and enginner hammer::0
+Build kinetic dynamo::0
+Make water wheel or wind mill wheel, attach to kinetic dynamo, use engineer hammer to change dynamo windings orientation if needed::0
+Use furnace to make gears molds and hardened clay for cable insulators::0
+Connect power source to Metal Caster::0
+== Metal Foundry ==::1
+With powered Metal Caster, you can produce advanced metal components::1
+Use Alloy Furnace to pour tin into refractory containers::0
+Cast tin into gear bushing mold.::0
+Put tin bushing into second field and cast steel into gear mold.::0
+Now you can make Rolling Machine and hobbyist Steam Machine::0
+Power up Rolling Machine and prepare some iron and steel plates::0
+Place steam boiler at firebox and connect at least two industrial Steam Machines to it.::0
+Now you are ready to provide enough power to heat up Induction Crucible Furnace beyond 2000K::0
 == Glassworks ==::1
-Red crucible can melt not only metals, but also glass, quartzite sand and red, green, blue dyes into coloured glass::1
-Melt quartzite sand to obtain block of glass, flat glass panel or bottles::0
-Melt any of red, green or blue dye, add 4 blocks of transparent glass or quartzite sand to achieve coloured glass block or panel::0
-Add more transparent glass for light coloured glass::0
-Make some experiments with mixing coloured glasses::0
-::1
-::1
+Induction Crucible Furnace can melt not only metals and alloys, but also sand, glass and dyes::1
+Mix quartzite sand and flux, melt it to obtain block of glass or bottles::0
+Melt any dye, use Metal Infuser to mix dye and glass::0
+Make coloured glass::0
+Melt pure quartzite sand to obtain very clear quartz glass::0
+Make tin plate for flat glass::0
+Use anvil and hot tin plate to prepare flat glass pane::0
+Use existing flat glass to cast more flat glass::0
 ::1
 ::1
 == Automatic forge ==::1
 Powered metal press can help with forging high carbonised steel ingots into finished ones, or making double ingots, sheets, rods, tuyeres::1
-Assembly Metal Press in your forge facility::0
-Make commercial or industrial steam engine::0
-attach engine to Metal Press power inlet::0
-Make steam boiler (from brass or iron plates, brass need pressure converter)::0
-Bring steam from boiler to steam engine and fire boiler up::0
+Assembly Metal Press in your forge area::0
+Connect power from your steam engines::0
 Throw plate mold into Metal Press and make some steel plates::0
-::1
+Make more steel and iron gears::0
+Assembly Industrial Squezeer facility, use it to make steel and iron coils::0
+Prepare iron and steel mechanical components::0
 ::1
 == Clean up with Steel ==::1
 Old fashioned flintlock weapons needs to be replaced by modern one::1
+Kill some pirate Skeletons with guns. You can spot them at any dark ship docked on the deep sea, or by killing Enderman::0
+Use achieved revolver drum to create drum mold, cast steel to duplicate it::0
 Make Revolver::0
 Make Engineer's Workbench::0
 Test different types of projectiles and send all skeletons back into graveyard::0
 Attach Precision Scope to Revolver::0
 Wear Fall Assist boots and fill your exosuit with steam::0
 Look trough Precision Scope at Enderman::0
-::1
-::1
-::1
 == Industry Giant ==::1
 It is time to abandon all this medieval stuff and shuffle into modern technology::1
 Prepare place for your industrial plant::0
@@ -273,6 +269,15 @@ Assembly Generator and feed it with Biofuel::0
 Assembly Arc Furnace and connect to Generator::0
 Make Core Sample Drill and seek valuable veins::0
 Assembly Excavator where vein was found, build HV line or railway line for power supply::0 
+== Modern Metallurgy ==::1
+Advanced metals, such like aluminium or chrome, need advanced processing and machinery::1
+Find deposts of bauxite by Propick (in granite, gneiss, basalt and shale rocks) or bauxite veins by Sample Drill::0
+Produce Sodium carbonate using Leblanc process::0
+Make NaOH from Sodium carbonate and limewater::0
+Use Bayer process to obtain pure aluminium oxide::0
+Use Arc Furnace to proceed with Hall-Heroult Al elektrolysis::0
+Melt Al nuggets and produce ingots and other elements needed for HV infrastructure::0
+Search for magnetite or garnierite weins, collect serpentine as a byproduct, extract chromite, produce chrome galvanised steel ingots::0
 == Clean up with Charge ==::1
 Finally, you are able to kill this poor bear with one clear shoot::1
 Make Railgun::0

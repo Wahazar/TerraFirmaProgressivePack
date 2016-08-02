@@ -12,12 +12,12 @@
 		{ 
                    "function": "add", 
                    "id": "minecraft:rotten_flesh",
-                   "count": 0.8
+                   "count": 0~1
 	            },
                 {
 			"function": "spawn",
                        	"id": "silverfishTFC",
-                        "count": "0~1"
+                        "count": "0~0.5"
 		    }
 		]
 		},

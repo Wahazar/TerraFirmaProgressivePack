@@ -10,12 +10,12 @@ recipes.addShaped(<tfcautomatedbellows:SteamBoiler>, [
  [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick:1>]]);
 
 recipes.addShaped(<tfcautomatedbellows:PotteryKiln>, [
- [<terrafirmacraft:item.ItemStoneBrick:4>, <terrafirmacraft:item.ItemStoneBrick:4>, <terrafirmacraft:item.ItemStoneBrick:4>],
- [<Railcraft:part.bleached.clay>, null, <Railcraft:part.bleached.clay>],
- [<terrafirmacraft:item.ItemStoneBrick:4>, <terrafirmacraft:item.ItemStoneBrick:4>, <terrafirmacraft:item.ItemStoneBrick:4>]]);
+ [<foundry:foundryComponent:3>, <foundry:foundryComponent:3>, <foundry:foundryComponent:3>],
+ [<foundry:foundryComponent:2>, null, <foundry:foundryComponent:2>],
+ [<foundry:foundryComponent:3>, <foundry:foundryComponent:3>, <foundry:foundryComponent:3>]]);
 
 recipes.addShaped(<tfcautomatedbellows:PotteryKilnChamber>, [
- [<terrafirmacraft:item.ItemStoneBrick:4>, null, <terrafirmacraft:item.ItemStoneBrick:4>],
- [<Railcraft:part.bleached.clay>, null, <Railcraft:part.bleached.clay>],
- [<terrafirmacraft:item.ItemStoneBrick:4>, null, <terrafirmacraft:item.ItemStoneBrick:4>]]);
+ [<foundry:foundryComponent:3>, null, <foundry:foundryComponent:3>],
+ [<foundry:foundryComponent:2>, null, <foundry:foundryComponent:2>],
+ [<foundry:foundryComponent:3>, null, <foundry:foundryComponent:3>]]);
 

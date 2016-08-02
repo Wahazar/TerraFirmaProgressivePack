@@ -1,6 +1,12 @@
 {
   "_name": "endermanTFC",
-  "drops": [],
+  "drops": [
+               {
+		"function": "spawn",
+                "id": "foundry.gunSkeleton",
+                "count": "0~1"
+		}
+],
   "pre_stats": [],
   "stats": []
 }

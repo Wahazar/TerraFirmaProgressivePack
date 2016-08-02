@@ -47,6 +47,10 @@ val ie_grit_nickel = <ImmersiveEngineering:metal:14>;
 val ie_grit_cupronickel = <ImmersiveEngineering:metal:15>;
 val ie_grit_electrum = <ImmersiveEngineering:metal:16>;
 val misc_grit_steel = <tfcm:item.IronDust>;
+val foundry_grit_zinc = <foundry:foundryComponent:18>;
+val foundry_grit_brass = <foundry:foundryComponent:19>;
+
+
 
 val fsp_smashed_iron = <Steamcraft:smashedOre:0>;
 val fsp_smashed_gold = <Steamcraft:smashedOre:1>;
@@ -71,12 +75,13 @@ val ie_copper_coil = <ImmersiveEngineering:storage:8>;
 val ie_dynamo = <ImmersiveEngineering:metalDevice:9>;
 val ie_hemp = <ImmersiveEngineering:material:3>;
 val ie_tube = <ImmersiveEngineering:toolupgrade:6>;
+val ie_grip = <ImmersiveEngineering:material:9>;
 
 val rc_tin_bushing = <Railcraft:part.gear:3>;
 val rc_steel_gear = <Railcraft:part.gear:2>;
+val rc_iron_gear = <Railcraft:part.gear:1>;
 val rc_plate_copper = <Railcraft:part.plate:3>;
 
-val claystone_brick = <terrafirmacraft:item.ItemStoneBrick:4>;
 #powders
 val tfc_powder_flux = <terrafirmacraft:item.Powder:0>; 
 val tfc_powder_kaolinite = <terrafirmacraft:item.Powder:1>;
@@ -108,9 +113,6 @@ recipes.removeShaped(ie_rod_iron);
 recipes.removeShaped(ie_rod_steel); 
 recipes.removeShaped(ie_rod_alum); 
 
-//storages from double ingots
-recipes.removeShaped(<ImmersiveEngineering:storage:*>, [[<ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>], [<ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>], [<ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>, <ImmersiveEngineering:metal:*>]]);
-
 recipes.remove(<ImmersiveEngineering:metal:*>);
 furnace.remove(<ImmersiveEngineering:metal:*>);
 
@@ -139,6 +141,8 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:7>
 mods.immersiveengineering.ArcFurnace.removeRecipe(<Steamcraft:steamcraftIngot:1>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<Steamcraft:steamcraftIngot:2>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<Railcraft:ingot:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<foundry:foundryIngot:6>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<foundry:foundryIngot:7>);
 
 
 #nuggets:
@@ -167,7 +171,10 @@ mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_cupronickel *2, <ore:dus
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_electrum *2, <ore:dustGold>, null, 100, 500, [<ore:dustSilver>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_electrum *2, <ore:dustSilver>, null, 100, 500, [<ore:dustGold>], "Alloying");
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, null, 120, 550, [<ore:dustCoke>], "Alloying");
+//invar
+
+
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustIron>, ie_slag, 120, 550, [<ore:dustCoke>], "Alloying");
 
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>, <ore:dustCopper>, null, 120, 550, [<ore:nuggetSilver>, <ore:nuggetGold>], "Alloying");
 
@@ -201,13 +208,14 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot>
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:dustIron>, ie_slag, 150, 350, [<ore:dustCharcoal>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:dustCopper>, null, 110, 250);
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_alum, ie_grit_alum, null, 200, 340);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>, ie_slag, 100, 200, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>, ie_slag, 100, 200);
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:dustSilver>, null, 180, 300);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>, ie_slag, 220, 350, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>, ie_slag, 220, 350);
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_cupronickel, <ore:dustCupronickel>, null, 320, 300);
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_electrum, <ore:dustElectrum>, null, 300, 280);
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:dustSteel>, ie_slag, 300, 280);
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>, ie_slag, 300, 280, [<ore:dustCoke>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <ore:dustBrass>, null, 320, 290);
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>, ie_slag, 300, 280);
 
 # mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, ie_nugget_steel * 9, ie_slag, 400, 380, [<ore:dustCoke>]);
 
@@ -284,20 +292,27 @@ mods.immersiveengineering.ArcFurnace.addRecipe(ie_nugget_nickel *2, <terrafirmac
 mods.immersiveengineering.ArcFurnace.addRecipe(ie_nugget_nickel *3, <terrafirmacraft:item.Ore:43>, ie_slag, 360, 500, [<ore:dustCoke>], "Ores");
 
 #aluminium from smashed bauxite and cryolite
-mods.immersiveengineering.ArcFurnace.addRecipe(ie_nugget_alum * 4, fsp_smashed_alum, ie_slag, 400, 800, [<terrafirmacraft:item.Ore:28>], "Ores");
+mods.immersiveengineering.ArcFurnace.addRecipe(ie_nugget_alum * 4, <customitems:alumina_al2o3_powder>, ie_slag, 400, 800, [<terrafirmacraft:item.Ore:28>], "Ores");
+
+#chrome from chromite
+mods.immersiveengineering.ArcFurnace.addRecipe(<customitems:chromium_nugget>, <customitems:chromite_powder>, <Steamcraft:smashedOre:13>, 400, 800, [<ImmersiveEngineering:metal:11>], "Recycling");
 
 #refining any copper to IE copper
-mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_copper, <ore:ingotCopper>, ie_slag, 200, 600, [<tfcudarymod:item.Bottled Sulfuric Acid>], "Recycling");
+mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_copper, <ore:ingotCopper>, ie_slag, 200, 600, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>], "Recycling");
 
 # gold to minecraft gold
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot>, <ore:ingotGold>, ie_slag, 200, 800, [<tfcudarymod:item.Bottled Sulfuric Acid>, <tfcudarymod:item.Bottled Nitric Acid>], "Recycling");
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot>, <ore:ingotGold>, ie_slag, 200, 800, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>, <tfcudarymod:item.Red Steel Bucket Nitric Acid>], "Recycling");
 
-# Ni galvanised steel
-mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_galvanised_steel, <ore:ingotSteel>, ie_slag, 200, 800, [<tfcudarymod:item.Bottled Sulfuric Acid>, <ore:nuggetNickel>], "Recycling");
+# Cr galvanised steel
+mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_galvanised_steel, <ore:ingotSteel>, ie_slag, 200, 800, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>, <customitems:chromium_nugget>], "Recycling");
+
+# Sodium carbonate - Leblanc process
+mods.immersiveengineering.ArcFurnace.addRecipe(<customitems:sodium_carbonate_na2co3_powder> * 2, <customitems:sodium_sulfate_na2so4_aq_bucket>, <customitems:calcium_sulfide_cas_powder>, 200, 400, [<customitems:calcium_carbonate_caco3_powder>, <ore:dustCharcoal>], "Recycling");
 
 #refining glass to IE insulating glass
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:stoneDevice:4>, <ore:blockGlass>, ie_slag, 200, 600, [<terrafirmacraft:item.Powder:8>, <terrafirmacraft:item.Powder:8>, ie_grit_iron], "Alloying");
 
+/* depreceated - Foundry mod instead
 #melting sand to glass
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>.withTag({temperature: 800 as float}), <minecraft:sand>, ie_slag, 200, 250, [<ore:dustSaltpeter>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stained_glass:0>.withTag({temperature: 650 as float}), <minecraft:sand>, ie_slag, 200, 250, [<ore:dyeWhite>], "Alloying");
@@ -316,12 +331,19 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stained_glass:12>.with
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stained_glass:13>.withTag({temperature: 650 as float}), <minecraft:sand>, ie_slag, 200, 250, [<ore:dyeGreen>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stained_glass:14>.withTag({temperature: 650 as float}), <minecraft:sand>, ie_slag, 200, 250, [<ore:dyeRed>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stained_glass:15>.withTag({temperature: 650 as float}), <minecraft:sand>, ie_slag, 200, 250, [<ore:dyeBlack>], "Alloying");
+*/
+
 //glass panels in metal press, see TFC.zs
 
 //end of Arc furnace
 
 //crusher
 //OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
+
+mods.immersiveengineering.Crusher.addRecipe(<customitems:calcium_carbonate_caco3_powder> *2, <terrafirmacraft:item.LooseRock:6>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<customitems:calcium_carbonate_caco3_powder> *2, <terrafirmacraft:item.LooseRock:10>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<customitems:calcium_carbonate_caco3_powder> *2, <terrafirmacraft:item.LooseRock:20>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<customitems:calcium_carbonate_caco3_powder> *2, <terrafirmacraft:item.LooseRock:8>, 2000);
 
 mods.immersiveengineering.Crusher.addRecipe(tfc_powder_sulphur *2, <terrafirmacraft:item.Ore:23>, 2000);
 
@@ -371,6 +393,7 @@ mods.immersiveengineering.Crusher.addRecipe(ie_slag, <terrafirmacraft:item.Small
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Ore:59>, 6000, ie_grit_iron, 0.05);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Ore:10>, 7000, ie_grit_iron, 0.15);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Ore:45>, 8000, ie_grit_iron, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(ie_slag, <Steamcraft:smashedOre:13>, 8000, ie_grit_iron, 0.2);
 
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <terrafirmacraft:item.Small Ore:0>, 3000, ie_grit_copper, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:0>, <terrafirmacraft:item.Ore:49>, 3500, ie_grit_copper, 0.05);
@@ -388,10 +411,14 @@ mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1>, 
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Ore:36>, 5500, ie_grit_gold, 0.25);
 
 #bauxite
-mods.immersiveengineering.Crusher.addRecipe(fsp_smashed_alum, <ImmersiveEngineering:ore:1>, 6000, tfc_powder_kaolinite, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(<customitems:bauxite_conglomerate>, <ImmersiveEngineering:ore:1>, 6000, tfc_powder_kaolinite, 0.2);
+
+#chromite from serpentinite
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:Sand2:2>, <terrafirmacraft:item.Ore:30>, 4000, <customitems:chromite_powder>, 0.3);
+
 
 #refining nuggets to grit
-
+/* depreceated: use foundry instead
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetGold>, 3000, ie_grit_gold, 0.11);
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetIron>, 3000, ie_grit_iron, 0.11);
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetCopper>, 3000, ie_grit_copper, 0.11);
@@ -402,8 +429,11 @@ mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetNickel>, 3000, i
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, ie_nugget_cupronickel, 3000, ie_grit_cupronickel, 0.11);
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, ie_nugget_electrum, 3000, ie_grit_electrum, 0.11);
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetTin>, 3000, fsp_smashed_tin, 0.11);
-mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetZinc>, 3000, fsp_smashed_zinc, 0.11);
+mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetZinc>, 3000, foundry_grit_zinc, 0.11);
+mods.immersiveengineering.Crusher.addRecipe(ie_slag, fsp_nugget_brass, 3000, foundry_grit_brass, 0.11);
+
 mods.immersiveengineering.Crusher.addRecipe(ie_slag, <ore:nuggetSteel>, 3000, misc_grit_steel, 0.11);
+*/
 
 #coal
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal>, <minecraft:coal_ore>, 1500, <terrafirmacraft:item.Ore:20>, 0.02);
@@ -526,39 +556,16 @@ mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraft:item.coal:1>, 400,
 
 //blast furnace
 mods.immersiveengineering.BlastFurnace.removeRecipe(ie_ingot_galvanised_steel);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<minecraft:iron_block>);
 
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, fsp_smashed_iron, 1000);
 
+mods.immersiveengineering.BlastFurnace.removeFuel(<Railcraft:fuel.coke>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<Railcraft:cube:0>);
+
 mods.immersiveengineering.BlastFurnace.addFuel(<terrafirmacraft:item.coal:1>, 500);
-
-#tools recycling
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 8, <ore:ingotSteel>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 2, <Railcraft:part.plate:1>, 400);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 4, <ore:plateSteel>, 500);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 3, <Railcraft:part.rail:*>, 500);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 4, <Railcraft:machine.beta:13>, 500);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 3, <Railcraft:machine.beta:14>, 500);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 4, <Railcraft:machine.beta:15>, 500);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Chisel Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Pick Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Shovel Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Hoe Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Axe Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel Hammer Head>, 600);
-
-mods.immersiveengineering.BlastFurnace.addRecipe(ie_nugget_steel * 5, <terrafirmacraft:item.Steel ProPick Head>, 600);
+mods.immersiveengineering.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>, 1000);
+mods.immersiveengineering.BlastFurnace.addFuel(<Railcraft:dust:3>, 550);
 
 //metal press
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <terrafirmacraft:item.Pig Iron Ingot>, <ImmersiveEngineering:storageSlab:7>, 2000, 1);
@@ -571,10 +578,10 @@ mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel I
 
 mods.immersiveengineering.MetalPress.addRecipe(<tfcudarymod:item.Copper Wire> * 16, ie_ingot_copper, <terrafirmacraft:item.Steel Tuyere>, 3000, 1);
 
-mods.immersiveengineering.MetalPress.addRecipe(tfc_rod_copper, <ore:ingotCopper>, ie_mold_rod, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(tfc_rod_copper, <ore:ingotCopper>, ie_mold_rod, 2000, 2);
 
 //fsp brass plate
-mods.immersiveengineering.MetalPress.addRecipe(<Steamcraft:steamcraftPlate:4>, <ore:ingotBrass>, ie_mold_plate, 2000, 1);
+//mods.immersiveengineering.MetalPress.addRecipe(<Steamcraft:steamcraftPlate:4>, <ore:ingotBrass>, ie_mold_plate, 2000, 1);
 
 for i, d_i in tfc_double_ingots {
  var ingot = tfc_ingots[i];
@@ -592,11 +599,15 @@ for i, tuyere in tfc_tuyeres {
  mods.immersiveengineering.MetalPress.addRecipe(tuyere, d_s, ie_rod_steel, 3000, 1);
 }
 
-mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:0>, <Steamcraft:steamcraftIngot:3>, ie_mold_gear, 4000, 1);
+//gears
+mods.immersiveengineering.MetalPress.removeRecipeByMold(ie_mold_gear);
 
-mods.immersiveengineering.MetalPress.addRecipe(rc_steel_gear, <ore:ingotSteel>, ie_mold_gear, 4000, 1);
+// mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:0>, <Steamcraft:steamcraftIngot:3>, ie_mold_gear, 4000, 1);
 
-mods.immersiveengineering.MetalPress.addRecipe(rc_tin_bushing, <ore:ingotTin>, <terrafirmacraft:item.Steel Tuyere>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(rc_iron_gear, <ore:ingotIron>, ie_mold_gear, 3200, 5);
+mods.immersiveengineering.MetalPress.addRecipe(rc_steel_gear, <ore:ingotSteel>, ie_mold_gear, 4000, 5);
+
+// foundry, mods.immersiveengineering.MetalPress.addRecipe(rc_tin_bushing, <ore:ingotTin>, <terrafirmacraft:item.Steel Tuyere>, 2000, 1);
 
 mods.immersiveengineering.MetalPress.addRecipe(<tfcm:item.Gear>, <ore:ingotIron>, <terrafirmacraft:item.Steel Tuyere>, 3000, 1);
 
@@ -613,11 +624,10 @@ mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Saw B
 
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Knife Blade>, ie_plate_steel, <terrafirmacraft:item.Knife Mold:1>, 2000, 1);
 
-mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Pick Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.Pick Mold:1>, 2000, 1);
-
-mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel ProPick Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.ProPick Mold:1>, 2000, 1);
-
-mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Axe Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.Axe Mold:1>, 2000, 1);
+//bulk tools from iron/steel casting foundry
+# mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Pick Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.Pick Mold:1>, 2000, 1);
+# mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel ProPick Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.ProPick Mold:1>, 2000, 1);
+# mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Axe Head>, ie_ingot_galvanised_steel, <terrafirmacraft:item.Axe Mold:1>, 2000, 1);
 
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <minecraft:iron_bars>, 3000, 1);
 
@@ -686,7 +696,8 @@ mods.immersiveengineering.Excavator.getMineral("Magnetite").removeOre("oreIron")
 mods.immersiveengineering.Excavator.getMineral("Magnetite").removeOre("oreGold");
 mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreMagnetite", 0.80);
 mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreSmallIron", 0.15);
-mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreSmallGold", 0.05);
+mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreSmallGold", 0.03);
+mods.immersiveengineering.Excavator.getMineral("Magnetite").addOre("oreSerpentine", 0.02);
 
 # mods.immersiveengineering.Excavator.addMineral("Magnetite", 5, 0.1, ["oreMagnetite", "oreSmallIron"], [0.90, 0.10]);
 
@@ -734,32 +745,6 @@ mods.immersiveengineering.Excavator.addMineral("Kaolinite", 5, 0.5, ["oreKaolini
 //end of excavator
 
 
-#metal blocks/ingots 1:(4*2)
-
-recipes.addShapeless(<ImmersiveEngineering:storageSlab:0>, [<terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>]);
-recipes.addShapeless(<terrafirmacraft:item.Copper Ingot> * 4, [<ImmersiveEngineering:storageSlab:0>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShaped(<ImmersiveEngineering:storageSlab:1>, [[ie_ingot_alum, ie_ingot_alum], [ie_ingot_alum, ie_ingot_alum]]);
-recipes.addShapeless(ie_ingot_alum * 4, [<ImmersiveEngineering:storageSlab:1>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShapeless(<ImmersiveEngineering:storageSlab:2>, [<terrafirmacraft:item.Lead Double Ingot>, <terrafirmacraft:item.Lead Double Ingot>]);
-recipes.addShapeless(<terrafirmacraft:item.Lead Ingot> * 4, [<ImmersiveEngineering:storageSlab:2>, <ore:Hammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraft:item.Lead Ingot> * 4, [<ImmersiveEngineering:storageSlab:2>, <terrafirmacraft:item.Bronze Hammer>.transformDamage(2)]);
-
-recipes.addShapeless(<ImmersiveEngineering:storageSlab:3>, [<terrafirmacraft:item.Silver Double Ingot>, <terrafirmacraft:item.Silver Double Ingot>]);
-recipes.addShapeless(<terrafirmacraft:item.Silver Ingot> * 4, [<ImmersiveEngineering:storageSlab:3>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShapeless(<ImmersiveEngineering:storageSlab:4>, [<terrafirmacraft:item.Nickel Double Ingot>, <terrafirmacraft:item.Nickel Double Ingot>]);
-recipes.addShapeless(<terrafirmacraft:item.Nickel Ingot> * 4, [<ImmersiveEngineering:storageSlab:4>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShaped(<ImmersiveEngineering:storageSlab:5>, [[ie_ingot_cupronickel, ie_ingot_cupronickel], [ie_ingot_cupronickel, ie_ingot_cupronickel]]);
-recipes.addShapeless(ie_ingot_cupronickel * 4, [<ImmersiveEngineering:storageSlab:5>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShaped(<ImmersiveEngineering:storageSlab:6>, [[ie_ingot_electrum, ie_ingot_electrum], [ie_ingot_electrum, ie_ingot_electrum]]);
-recipes.addShapeless(ie_ingot_electrum * 4, [<ImmersiveEngineering:storageSlab:6>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
-
-recipes.addShapeless(<ImmersiveEngineering:storageSlab:7>, [<terrafirmacraft:item.Steel Double Ingot>, <terrafirmacraft:item.Steel Double Ingot>]);
-recipes.addShapeless(<terrafirmacraft:item.Steel Ingot> * 4, [<ImmersiveEngineering:storageSlab:7>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
 
 #IE items
 
@@ -777,15 +762,15 @@ recipes.addShaped(<ImmersiveEngineering:coil>, [
 
 recipes.remove(<ImmersiveEngineering:coil:1>);
 recipes.addShaped(<ImmersiveEngineering:coil:1>, [
- [null, ie_ingot_electrum, null],
- [ie_ingot_electrum, <ImmersiveEngineering:coil>, ie_ingot_electrum],
- [null, ie_ingot_electrum, null]]);
+ [null, <ore:ingotElectrum>, null],
+ [<ore:ingotElectrum>, <ImmersiveEngineering:coil>, <ore:ingotElectrum>],
+ [null, <ore:ingotElectrum>, null]]);
 
 recipes.remove(<ImmersiveEngineering:coil:2>);
 recipes.addShaped(<ImmersiveEngineering:coil:2>, [
- [ie_ingot_galvanised_steel, ie_ingot_alum, ie_ingot_galvanised_steel],
- [ie_ingot_alum, <ImmersiveEngineering:coil:1>, ie_ingot_alum],
- [ie_ingot_galvanised_steel, ie_ingot_alum, ie_ingot_galvanised_steel]]);
+ [ie_ingot_galvanised_steel, <ore:ingotAluminum>, ie_ingot_galvanised_steel],
+ [<ore:ingotAluminum>, <ImmersiveEngineering:coil:1>, <ore:ingotAluminum>],
+ [ie_ingot_galvanised_steel, <ore:ingotAluminum>, ie_ingot_galvanised_steel]]);
 
 //wire insulating supports
 recipes.remove(<ImmersiveEngineering:metalDevice:2> * 2);
@@ -809,7 +794,7 @@ recipes.addShaped(<ImmersiveEngineering:mold:2>, [
 recipes.remove(<ImmersiveEngineering:metalDevice:7>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [
  [ie_ingot_galvanised_steel, ie_ingot_galvanised_steel, ie_ingot_galvanised_steel],
- [ie_ingot_alum, <ImmersiveEngineering:metalDecoration2:1>, ie_ingot_alum],
+ [<ore:ingotAluminum>, <ImmersiveEngineering:metalDecoration2:1>, <ore:ingotAluminum>],
  [<minecraft:stained_hardened_clay:7>, <minecraft:redstone_block>, <minecraft:stained_hardened_clay:7>]]);
 
 //conveyor belt
@@ -836,7 +821,7 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice:14>, [
 recipes.remove(ie_iron_component);
 recipes.addShaped(ie_iron_component, [
  [<ore:plateIron>, <tfcm:item.Coil_WroughtIron>, <ore:plateIron>],
- [<tfcm:item.Gear>, tfc_rod_copper, <tfcm:item.Gear>],
+ [rc_tin_bushing, tfc_rod_copper, rc_tin_bushing],
  [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>]]);
 
 recipes.remove(ie_steel_component);
@@ -892,7 +877,12 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:6>, [
 recipes.remove(<ImmersiveEngineering:metalDecoration:2>);
 recipes.addShaped(<ImmersiveEngineering:metalDecoration:2> * 2, [
  [null, <terrafirmacraft:item.Black Steel Double Sheet>, null],
- [<ore:paneGlass>, <minecraft:glowstone>, <ore:paneGlass>],
+ [<minecraft:glass_pane>, <minecraft:glowstone>, <minecraft:glass_pane>],
+ [null, <terrafirmacraft:item.Black Steel Double Sheet>, null]]);
+
+recipes.addShaped(<ImmersiveEngineering:metalDecoration:2> * 2, [
+ [null, <terrafirmacraft:item.Black Steel Double Sheet>, null],
+ [<customitems:quartz_glass_pane>, <customitems:sea_lantern>, <customitems:quartz_glass_pane>],
  [null, <terrafirmacraft:item.Black Steel Double Sheet>, null]]);
 
 recipes.remove(<ImmersiveEngineering:metalDevice2:3>);
@@ -903,23 +893,43 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:3> * 2, [
 
 recipes.remove(<ImmersiveEngineering:metalDevice2:4>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice2:4>, [
- [<ore:ingotSteel>, <ore:ingotSteel>, null],
- [<ore:paneGlass>, ie_tube, <ImmersiveEngineering:storage:9>],
+ [<ore:plateSteel>, <ore:plateSteel>, null],
+ [<customitems:quartz_glass>, ie_tube, <ImmersiveEngineering:storage:9>],
  [<ore:ingotSteel>, ie_iron_component, <ore:ingotSteel>]]);
 
 //dynamo
 recipes.remove(ie_dynamo);
 recipes.addShaped(ie_dynamo, [
  [<minecraft:redstone>, ie_copper_coil, <minecraft:redstone>],
- [rc_tin_bushing, <ore:ingotSteel>, rc_tin_bushing],
+ [<tfcm:item.Gear>, <ore:ingotSteel>, <tfcm:item.Gear>],
  [<minecraft:redstone>, ie_copper_coil, <minecraft:redstone>]]);
 
 //generator
 recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
 recipes.addShaped(<ImmersiveEngineering:metalDecoration:6>, [
  [ie_ingot_galvanised_steel, <ImmersiveEngineering:toolupgrade:1>, ie_ingot_galvanised_steel],
- [ie_ingot_electrum, ie_dynamo, ie_ingot_electrum],
+ [<ore:ingotElectrum>, ie_dynamo, <ore:ingotElectrum>],
  [ie_ingot_galvanised_steel, ie_ingot_permalloy, ie_ingot_galvanised_steel]]);
+
+//windmill, watermill
+recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:1>, [
+ [<ImmersiveEngineering:material:1>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material:1>],
+ [<ImmersiveEngineering:material>, <foundry:foundryComponent>, <ImmersiveEngineering:material>],
+ [<ImmersiveEngineering:material:1>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material:1>]]);
+
+recipes.remove(<ImmersiveEngineering:woodenDevice:2>);
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:2>, [
+ [<ImmersiveEngineering:material:2>, null, <ImmersiveEngineering:material:2>],
+ [null, <foundry:foundryComponent>, null],
+ [<ImmersiveEngineering:material:2>, null, <ImmersiveEngineering:material:2>]]);
+
+recipes.remove(<ImmersiveEngineering:woodenDevice:3>);
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:3>, [
+ [<ImmersiveEngineering:material:5>, <ImmersiveEngineering:material:5>, <ImmersiveEngineering:material:5>],
+ [<ImmersiveEngineering:material:5>, rc_iron_gear, <ImmersiveEngineering:material:5>],
+ [<ImmersiveEngineering:material:5>, <ImmersiveEngineering:material:5>, <ImmersiveEngineering:material:5>]]);
+
 
 //fermenter
 recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
@@ -948,29 +958,20 @@ recipes.addShaped(<ImmersiveEngineering:stoneDecoration>, [
  [ie_hemp, ie_hemp, ie_hemp],
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 
-//coke brick
+//coke oven brick
 recipes.remove(<ImmersiveEngineering:stoneDecoration:1>);
 recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 2, [
- [<terrafirmacraft:item.Fire Brick:1>, <minecraft:brick>, <terrafirmacraft:item.Fire Brick:1>],
- [<minecraft:brick>, <ore:stoneSmooth>, <minecraft:brick>],
- [<terrafirmacraft:item.Fire Brick:1>, <minecraft:brick>, <terrafirmacraft:item.Fire Brick:1>]]);
+ [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:StoneIgInBrick:*>, <terrafirmacraft:item.Fire Brick:1>],
+ [<terrafirmacraft:StoneIgInBrick:*>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:StoneIgInBrick:*>],
+ [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:StoneIgInBrick:*>, <terrafirmacraft:item.Fire Brick:1>]]);
 
-recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1>, [
- [claystone_brick, <minecraft:brick>, claystone_brick],
- [<minecraft:brick>, <ore:stoneSmooth>, <minecraft:brick>],
- [claystone_brick, <minecraft:brick>, claystone_brick]]);
 
-//blast brick
+//blast furnace brick
 recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
 recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> *2, [
  [<terrafirmacraft:item.Fire Brick:1>, <minecraft:brick>, <terrafirmacraft:item.Fire Brick:1>],
  [<minecraft:brick>, <minecraft:blaze_powder>, <terrafirmacraft:item.Red Steel Tuyere>],
  [<terrafirmacraft:item.Fire Brick:1>, <minecraft:brick>, <terrafirmacraft:item.Fire Brick:1>]]);
-
-recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2>, [
- [claystone_brick, <minecraft:brick>, claystone_brick],
- [<minecraft:brick>, <minecraft:blaze_powder>, <terrafirmacraft:item.Steel Tuyere>],
- [claystone_brick, <minecraft:brick>, claystone_brick]]);
 
 
 recipes.remove(<ImmersiveEngineering:stoneDecoration:6>);
@@ -1005,12 +1006,34 @@ recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:4>,
  [<ImmersiveEngineering:stoneDecoration:5>]);
 
 //revolver/railgun parts
-recipes.removeShaped(<ImmersiveEngineering:material:7>);
-//welding, see TFC.zs
-#recipes.addShaped(<ImmersiveEngineering:material:7>, [
-# [null, ie_rod_steel, ie_plate_steel],
-# [ie_rod_steel, ie_plate_steel, ie_rod_steel],
-# [ie_plate_steel, ie_rod_steel, null]]);
+recipes.remove(<ImmersiveEngineering:revolver>);
+
+recipes.addShaped(<ImmersiveEngineering:revolver>, [
+ [<foundry:foundryComponent:5>, <tfcm:item.Link_Bronze>, null],
+ [<terrafirmacraft:item.Black Steel Tuyere>, <ImmersiveEngineering:material:8>, <ImmersiveEngineering:material:10>],
+ [null, <foundry:foundryComponent:7>, ie_grip]]);
+
+
+recipes.remove(<ImmersiveEngineering:material:7>);
+//IE barrel making+welding
+mods.Terrafirmacraft.Anvil.addPlanRecipe("steelbarrel", 9, 18, 31);
+game.setLocalization("gui.plans.steelbarrel", "Steel Barrel");
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:material:7>, <terrafirmacraft:item.Steel Tuyere>, <terrafirmacraft:item.Steel Tuyere>, "steelbarrel", 4, 40);
+mods.nei.NEI.overrideName(<ImmersiveEngineering:material:7>, "Steel Muff");
+//for revolver use foundry gun barrel
+
+//drum
+recipes.remove(<ImmersiveEngineering:material:8>);
+recipes.addShapeless(<ImmersiveEngineering:material:8>, 
+ [ie_iron_component, <foundry:foundryComponent:6>]);
+
+
+recipes.remove(<ImmersiveEngineering:material:10>);
+//IE revolver hammer from double steel ingot
+mods.Terrafirmacraft.Anvil.addPlanRecipe("revolverhammer", 3, 12, 25);
+game.setLocalization("gui.plans.revolverhammer", "Revolver Hammer");
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:material:10>, <terrafirmacraft:item.Steel Double Ingot>, "revolverhammer", 4, 20);
+
 
 recipes.remove(<ImmersiveEngineering:revolver:1>);
 recipes.addShaped(<ImmersiveEngineering:revolver:1>, [
@@ -1018,23 +1041,30 @@ recipes.addShaped(<ImmersiveEngineering:revolver:1>, [
  [<terrafirmacraft:item.Black Steel Tuyere>, <terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.Black Steel Ingot>],
  [null, null, <terrafirmacraft:item.Black Steel Ingot>]]);
 
+recipes.remove(<ImmersiveEngineering:chemthrower>);
+recipes.addShaped(<ImmersiveEngineering:chemthrower>, [
+ [<ImmersiveEngineering:toolupgrade>, <Railcraft:machine.beta:13>.withTag({color: 1 as byte}), ie_grip],
+ [<ImmersiveEngineering:material:7>, ie_heavy_engineering, <Steamcraft:meter>],
+ [<ImmersiveEngineering:metalDevice2:5>, <foundry:foundryContainer>, <foundry:foundryComponent:16>]]);
+
+
 recipes.remove(<ImmersiveEngineering:toolupgrade>);
 recipes.addShaped(<ImmersiveEngineering:toolupgrade>, [
  [<Railcraft:machine.beta:13>.withTag({color: 12 as byte}), null, null],
- [null, <Railcraft:machine.beta:14>.withTag({color: 12 as byte}), null],
+ [ie_ingot_galvanised_steel, <Railcraft:machine.beta:14>.withTag({color: 12 as byte}), null],
  [null, <tfcm:item.CasingIron>, ie_iron_component]]);
 
 recipes.remove(<ImmersiveEngineering:railgun>);
 recipes.addShaped(<ImmersiveEngineering:railgun>, [
  [<Steamcraft:enhancementAblaze>, <ImmersiveEngineering:storage:9>, <Railcraft:part.circuit:0>],
  [<ImmersiveEngineering:storage:9>, <Steamcraft:steamcraftCrafting:2>, <ImmersiveEngineering:metalDevice:7>],
- [<Railcraft:part.rail:1>, <ImmersiveEngineering:metalDevice:7>, <ImmersiveEngineering:material:9>]]);
+ [<foundry:foundryComponent:17>, <ImmersiveEngineering:metalDevice:7>, ie_grip]]);
 
 recipes.remove(<ImmersiveEngineering:toolupgrade:8>);
 recipes.addShaped(<ImmersiveEngineering:toolupgrade:8>, [
  [<Railcraft:glass>, ie_plate_steel, null],
  [<ore:nuggetCopper>, <Steamcraft:spyglass>, ie_plate_steel],
- [null, <ore:nuggetCopper>, <ore:blockGlassColorless>]]);
+ [null, <ore:nuggetCopper>, <customitems:quartz_glass_slab>]]);
 
 //tools
 recipes.remove(<ImmersiveEngineering:tool:0>);
@@ -1061,15 +1091,15 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:7>, [
  [<ImmersiveEngineering:metalDecoration:10>, null, <ImmersiveEngineering:metalDecoration:10>],
  [<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>]]);
 
-//bullet casing
-recipes.addShaped(<ImmersiveEngineering:bullet> * 3, [
- [<Steamcraft:steamcraftPlate:4>, null, <Steamcraft:steamcraftPlate:4>],
- [<Steamcraft:steamcraftPlate:4>, null, <Steamcraft:steamcraftPlate:4>],
- [null, <Steamcraft:steamcraftPlate:4>, null]]);
+//bullet casing: see foundry.zs
+#recipes.addShaped(<ImmersiveEngineering:bullet> * 3, [
+# [<Steamcraft:steamcraftPlate:4>, null, <Steamcraft:steamcraftPlate:4>],
+# [<Steamcraft:steamcraftPlate:4>, null, <Steamcraft:steamcraftPlate:4>],
+# [null, <Steamcraft:steamcraftPlate:4>, null]]);
 
 //grip
-recipes.remove(<ImmersiveEngineering:material:9>);
-recipes.addShaped(<ImmersiveEngineering:material:9>, [
+recipes.remove(ie_grip);
+recipes.addShaped(ie_grip, [
  [null, ie_treated_stick, null],
  [ie_treated_stick, ie_treated_stick, null],
  [fsp_nugget_brass, ie_treated_stick, null]]);

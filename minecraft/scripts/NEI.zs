@@ -1,5 +1,6 @@
 import mods.nei.NEI;
 # minecraft:
+/*
 NEI.hide(<minecraft:sapling:*>);
 NEI.hide(<minecraft:gold_ore>);
 NEI.hide(<minecraft:iron_ore>);
@@ -106,7 +107,7 @@ NEI.hide(<minecraft:painting>);
 NEI.hide(<minecraft:golden_apple:*>);
 NEI.hide(<minecraft:wooden_door>);
 NEI.hide(<minecraft:leather>);
-NEI.hide(<minecraft:clay_ball>); 
+#NEI.hide(<minecraft:clay_ball>); 
 NEI.hide(<minecraft:furnace_minecart>);
 NEI.hide(<minecraft:egg>);
 NEI.hide(<minecraft:fishing_rod>);
@@ -149,6 +150,8 @@ NEI.hide(<minecraft:record_strad>);
 NEI.hide(<minecraft:record_ward>);
 NEI.hide(<minecraft:record_11>);
 NEI.hide(<minecraft:record_wait>);
+*/
+
 NEI.overrideName(<minecraft:iron_ingot>, "Refined Iron Ingot");
 NEI.overrideName(<minecraft:gold_ingot>, "Refined Gold Ingot");
 
@@ -193,15 +196,16 @@ NEI.hide(<Steamcraft:steamedSalmon>);
 NEI.hide(<Steamcraft:steamedChicken>);
 NEI.hide(<Steamcraft:steamedBeef>);
 NEI.hide(<Steamcraft:steamedPorkchop>);
+NEI.hide(<Steamcraft:frequencyShifter>);
 
 #railcraft:
 NEI.hide(<Railcraft:cube:6>);
 NEI.hide(<Railcraft:cube:7>);
 NEI.hide(<Railcraft:anvil:*>);
-NEI.hide(<Railcraft:machine.alpha:6>);
-NEI.hide(<Railcraft:machine.alpha:7>);
-NEI.hide(<Railcraft:machine.alpha:11>);
-NEI.hide(<Railcraft:machine.alpha:12>);
+# NEI.hide(<Railcraft:machine.alpha:6>);
+# NEI.hide(<Railcraft:machine.alpha:7>);
+# NEI.hide(<Railcraft:machine.alpha:11>);
+# NEI.hide(<Railcraft:machine.alpha:12>);
 NEI.hide(<Railcraft:lantern.stone:*>);
 NEI.hide(<Railcraft:firestone.cracked>);
 NEI.hide(<Railcraft:firestone.cut>);
@@ -214,6 +218,9 @@ NEI.hide(<Railcraft:ingot:2>);
 NEI.hide(<Railcraft:ingot:3>);
 # NEI.hide(<Railcraft:dust:1>);
 # NEI.hide(<Railcraft:dust:2>);
+# NEI.hide(<Railcraft:fuel.coke>);
+
+NEI.hide(<Railcraft:stair:*>);
 
 #immersive engineering
 NEI.overrideName(<ImmersiveEngineering:metal:0>, "Refined Copper Ingot"); //for wires
@@ -229,6 +236,81 @@ NEI.overrideName(<tfcm:item.IronDust>, "Steel Grit");
 # NEI.hide(<ImmersiveEngineering:metal:24>);
 # NEI.hide(<ImmersiveEngineering:metal:29>);
 
+#foundry
+# NEI.hide(<foundry:foundryIngot:*>);
+
+//hide useless weapons
+NEI.hide(<foundry:foundryRevolver>);
+NEI.hide(<foundry:foundryShotgun>);
+NEI.hide(<foundry:foundryRound>);
+NEI.hide(<foundry:foundryRoundJacketed>);
+NEI.hide(<foundry:foundryRoundHollow>);
+NEI.hide(<foundry:foundryRoundFire>);
+NEI.hide(<foundry:foundryRoundPoison>);
+NEI.hide(<foundry:foundryRoundAP>);
+NEI.hide(<foundry:foundryShell>);
+NEI.hide(<foundry:foundryShellAP>);
+
+/*
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidironwood", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidrubracium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidenergeticalloy", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidoureclase", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidastralsilver", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidkalendrite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidprometheum", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidlemurite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidphasediron", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvibrantalloy", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidperditio", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquiddeepiron", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidinolashite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidignatius", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidorichalcum", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidknightmetal", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidpotentia", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidshadowsteel", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidsignalum", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidignis", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidatlarus", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidprimal", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvictus", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquiddesichalkos", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidcelenegil", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvacous", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidaer", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidadamantine", Amount: 1000})	);
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidsanguinite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidsteeleaf", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidenderium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidamordrine", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidaqua", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidlumium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidmanasteel", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidredalloy", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidmeutoite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvyroxeres", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvulcanite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidtartarite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidmidasium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidvoid", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidangmallen", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidsoularium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidtritanium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidinfuscolium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidshadowiron", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquideximite", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidordo", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidhaderoth", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidterrasteel", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidterra", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidhepatizon", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidelementium", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidcarmot", Amount: 1000}));
+NEI.hide(<foundry:foundryContainer>.onlyWithTag({FluidName: "liquidalduorite", Amount: 1000}));
+*/
+
+#vanilla wood
 val oak_log = <minecraft:log:0>;
 val spruce_log = <minecraft:log:1>;
 val birch_log = <minecraft:log:2>;
@@ -256,4 +338,13 @@ mods.Terrafirmacraft.Barrel.addItemConversion(darkoak_log, <terrafirmacraft:item
 
 //vanilla cooked fish for ocelot
 NEI.overrideName(<minecraft:cooked_fished:0>, "Cat Food");
+
+//hide alloys buckets
+NEI.hide(<customitems:liquid_black_weak_steel_bucket>);
+NEI.hide(<customitems:liquid_rose_gold_bucket>);
+NEI.hide(<customitems:liquid_sterling_silver_bucket>);
+NEI.hide(<customitems:liquid_bismuth_bucket>);
+NEI.hide(<customitems:liquid_bismuth_bronze_bucket>);
+NEI.hide(<customitems:liquid_black_bronze_bucket>);
+
 
