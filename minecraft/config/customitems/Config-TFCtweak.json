@@ -1,0 +1,18 @@
+{
+    "blocksDrop": [
+        {
+            "id": "terrafirmacraft:Firepit",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "terrafirmacraft:item.Bismuth Ingot",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 100
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,15 @@
+{
+	"oreGen":[
+		{
+			"blockToSpawn": "customitems:prismarine",
+			"blockToReplace": "terrafirmacraft:StoneSed:3",
+			"biomeId": [36],
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 15,
+			"chancesToSpawn": 10, 
+			"minY": 90, 
+			"maxY": 126
+		}
+	]	
+}

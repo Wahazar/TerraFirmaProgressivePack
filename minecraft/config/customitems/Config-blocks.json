@@ -1,0 +1,549 @@
+{
+     "fluids":[
+        {
+            "name":"Sodium Hydroxide NaOH aq",
+            "textureName": "liquidAqSodiumHydroxide",
+            "temperature": 300,
+	    "material": "water",
+            "density": 1000,
+            "viscosity": 2000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 5,
+            "bucket": {
+                "textureName": "bucket_AqSodiumHydroxide"
+            }
+        },
+        {
+            "name":"Sodium Sulfate Na2SO4 aq",
+            "textureName": "liquidAqSodiumSulfate",
+            "temperature": 300,
+	    "material": "water",
+            "density": 1000,
+            "viscosity": 2000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 5,
+            "bucket": {
+                "textureName": "bucket_AqSodiumSulfate"
+            }
+        },
+        {
+            "name":"Aluminium Hydroxide Al(OH)3 aq",
+            "textureName": "liquidAqAluminiumHydroxide",
+            "temperature": 300,
+	    "material": "water",
+            "density": 1100,
+            "viscosity": 3000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 5,
+            "bucket": {
+                "textureName": "bucket_AqAluminiumHydroxide"
+            }
+        },
+        {
+            "name":"Liquid Bismuth",
+            "textureName": "liquidBismuth",
+            "temperature": 570,
+	    "material": "lava",
+            "density": 2000,
+            "viscosity": 9000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 2,
+            "bucket": {
+                "textureName": "bucket_bismuth"
+            }
+        },
+        {
+            "name":"Liquid Bismuth Bronze",
+            "textureName": "liquidBismuthBronze",
+            "temperature": 1285,
+            "luminosity": 8,
+	    "material": "lava",
+            "density": 3000,
+            "viscosity": 8000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 2,
+            "bucket": {
+                "textureName": "bucket_bismuth_bronze"
+            }
+        },
+        {
+            "name":"Liquid Black Bronze",
+            "textureName": "liquidBlackBronze",
+            "temperature": 1370,
+            "luminosity": 9,
+	    "material": "lava",
+            "density": 3000,
+            "viscosity": 7000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 2,
+            "bucket": {
+                "textureName": "bucket_black_bronze"
+            }
+        },
+        {
+            "name":"Liquid Sterling Silver",
+            "textureName": "liquidSterlingSilver",
+            "temperature": 1200,
+            "luminosity": 8,
+	    "material": "lava",
+            "density": 3500,
+            "viscosity": 8000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 2,
+            "bucket": {
+                "textureName": "bucket_sterling_silver"
+            }
+        },
+        {
+            "name":"Liquid Rose Gold",
+            "textureName": "liquidRoseGold",
+            "temperature": 1260,
+            "luminosity": 8,
+	    "material": "lava",
+            "density": 4000,
+            "viscosity": 8000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 2,
+            "bucket": {
+                "textureName": "bucket_rose_gold"
+            }
+        },
+        {
+            "name":"Liquid Black Weak Steel",
+            "textureName": "liquidBlackWeakSteel",
+            "temperature": 1785,
+            "luminosity": 11,
+	    "material": "lava",
+            "density": 5000,
+            "viscosity": 6000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 3,
+            "bucket": {
+                "textureName": "bucket_black_weak_steel"
+            }
+        },
+        {
+            "name":"Liquid Quartz Glass",
+            "textureName": "liquidQuartzGlass",
+            "temperature": 1990,
+            "luminosity": 12,
+	    "material": "lava",
+            "density": 2300,
+            "viscosity": 9000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 3,
+            "bucket": {
+                "textureName": "bucket_quartz_glass"
+            }
+        },
+        {
+            "name":"Liquid Black Quartz Glass",
+            "textureName": "liquidBlackQuartzGlass",
+            "temperature": 1980,
+            "luminosity": 11,
+	    "material": "lava",
+            "density": 2300,
+            "viscosity": 9000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 3,
+            "bucket": {
+                "textureName": "bucket_quartz_glass"
+            }
+        }
+    ],
+    "blocks": [         
+        {
+            "name": "Dark quartz pillar",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_lines",               
+                "ypos": "dark_quartz_block_lines_top"              
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8,
+            "type": "pillars"
+        },
+        {
+            "name": "Dark quartz",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_side",
+                "xneg": "dark_quartz_block_side",
+                "zpos": "dark_quartz_block_side",
+                "zneg": "dark_quartz_block_side",
+                "ypos": "dark_quartz_block_top",
+                "yneg": "dark_quartz_block_bottom"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Chiseled Dark quartz",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_chiseled",
+                "xneg": "dark_quartz_block_chiseled",
+                "zpos": "dark_quartz_block_chiseled",
+                "zneg": "dark_quartz_block_chiseled",
+                "ypos": "dark_quartz_block_chiseled_top",
+                "yneg": "dark_quartz_block_chiseled_top"
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Quartz Glass",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1
+        },
+        {
+            "name": "Quartz Glass Pane",           
+            "multipleTextures": {
+                "xpos": "customGlass",               
+                "ypos": "customGlass"              
+            },   
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "pane"
+        },
+        {
+            "name": "Quartz Glass Stairs",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "stairs"
+        },
+        {
+            "name": "Quartz Glass Slab",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Glass Slab",           
+            "textureName": "glass",
+            
+            "registerOrder": 2,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Black Stained Glass Slab",           
+            "textureName": "glass_black",
+            
+            "registerOrder": 18,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Blue Stained Glass Slab",           
+            "textureName": "glass_blue",
+            
+            "registerOrder": 14,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Brown Stained Glass Slab",           
+            "textureName": "glass_brown",
+            
+            "registerOrder": 15,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Cyan Stained Glass Slab",           
+            "textureName": "glass_cyan",
+            
+            "registerOrder": 12,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Gray Stained Glass Slab",           
+            "textureName": "glass_gray",
+            
+            "registerOrder": 10,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Green Stained Glass Slab",           
+            "textureName": "glass_green",
+            
+            "registerOrder": 16,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Light Blue Stained Glass Slab",           
+            "textureName": "glass_light_blue",
+            
+            "registerOrder": 6,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Lime Stained Glass Slab",           
+            "textureName": "glass_lime",
+            
+            "registerOrder": 8,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Magenta Stained Glass Slab",           
+            "textureName": "glass_magenta",
+            
+            "registerOrder": 5,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Orange Stained Glass Slab",           
+            "textureName": "glass_orange",
+            
+            "registerOrder": 4,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Pink Stained Glass Slab",           
+            "textureName": "glass_pink",
+            
+            "registerOrder": 9,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Purple Stained Glass Slab",           
+            "textureName": "glass_purple",
+            
+            "registerOrder": 13,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Red Stained Glass Slab",           
+            "textureName": "glass_red",
+            
+            "registerOrder": 17,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Light Gray Stained Glass Slab",           
+            "textureName": "glass_silver",
+            
+            "registerOrder": 11,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "White Stained Glass Slab",           
+            "textureName": "glass_white",
+            
+            "registerOrder": 3,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Yellow Stained Glass Slab",           
+            "textureName": "glass_yellow",
+            
+            "registerOrder": 7,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        }
+    ]
+}
