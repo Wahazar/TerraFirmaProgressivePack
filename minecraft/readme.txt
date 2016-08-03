@@ -16,11 +16,11 @@ TerraFirmaCraft [1.7.10]TerraFirmaCraft-0.79.28.908.jar
 		credits: http://terrafirmacraft.com/credits.html 
 			Licence: GPL3
 
-TFC automated Bellows, pottery kiln, water filters [1.7.10]TFCAutomatedBellowsAddon-1.03.jar 
+TFC automated Bellows, pottery kiln, water filters [1.7.10]TFCAutomatedBellowsAddon-1.1b.jar 
 	http://terrafirmacraft.com/f/topic/7990-tfc-07924-automated-bellows-addon/ 
 		credits: Sladki, Licence: forum granted
 
-TFC cellar addon [1.7.10]TFCCellarsAddon-1.010.jar 
+TFC cellar addon [1.7.10]TFCCellarsAddon-1.1.jar 
 	http://terrafirmacraft.com/f/topic/8083-tfc-07924-cellars-addon/ 
 		credits: Sladki, Licence: forum granted
 
@@ -44,7 +44,7 @@ TFC tweaks TFC-Tweaks-1.7.10-0.4.0.17.jar
 	http://terrafirmacraft.com/f/topic/8578-tfc-07926-tfc-tweaks-unifies-water-auto-food-merge-on-pickup/
 		credits:  Dries007, .jar included
 
-TFC Minetweaker compatibility TFCTweaker-1.7.10-0.01.01.jar
+TFC Minetweaker compatibility TFCTweaker-1.7.10-0.01.02.jar
 	http://terrafirmacraft.com/f/topic/9297-tfc-07928-tfc-tweaker-minetweaker-compatibility-for-tfc/
 		credits: JAWolfe, licence: GPL3, forum granted
 
@@ -55,6 +55,10 @@ Simple Achievements SimpleAchievements-MC1.7.10-1.1.0-21.jar
 Immersive Engineering ImmersiveEngineering-0.7.5.jar
 	http://minecraft.curseforge.com/projects/immersive-engineering
 		credits: BluSunrize, Mr_Hazard, licence: webpage granted
+
+Foundry Foundry-1.7.10-1.2.2.0.jar
+	http://ftb.gamepedia.com/Foundry_2
+		credits: EXTER7, licence: GNU
 
 Flaxbeard SteamPower FSP-1.7.10-0.29.2.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2246930-flaxbeards-steam-power-beta-0-29-2-updated-may-3
@@ -80,9 +84,17 @@ NEI Railcraft integration NEIIntegration-MC1.7.10-1.1.2.jar
 	http://minecraft.curseforge.com/projects/nei-integration
 		credits: Tonius, Licence: MIT
 
-MineTweaker3 MineTweaker3-1.7.10-3.0.10B
+MineTweaker3 MineTweaker3-1.7.10-3.0.10B.jar
 	http://minetweaker3.powerofbytes.com/
 		credits: Stan Hebben, licence: http://minetweaker3.powerofbytes.com/about.html
+
+ModTweaker ModTweaker2-0.9.5
+	http://minetweaker3.powerofbytes.com/wiki/ModTweaker
+		credits: Stan Hebben, licence: http://minetweaker3.powerofbytes.com/about.html
+
+Custom items MetaMod customitems-1.0.9_beta_1.7.10.jar
+	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2215993-customitems-custom-blocks-foods-items-tools-fluids
+		credits: Otho, licence: GNU
 
 client side:
 Dynamic Lights DynamicLights-1.7.10.jar
