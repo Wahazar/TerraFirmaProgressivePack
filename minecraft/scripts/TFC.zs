@@ -45,6 +45,11 @@ for i, cg in cube_glass {
 
 recipes.remove(tfc_powder_flux);
 recipes.addShapeless(tfc_powder_flux * 6, [<terrafirmacraft:item.Ore:32>, <ore:itemHammer>.transformDamage(6)]);
+recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:6>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:10>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:20>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:8>, <ore:itemHammer>.transformDamage(2)]);
+
 furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:6>);
 furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:10>);
 furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:20>);
@@ -194,6 +199,12 @@ recipes.addShaped(<terrafirmacraft:item.Fire Brick> * 8, [
  [<terrafirmacraft:item.Clay:1>, <customitems:brick_mold>, <terrafirmacraft:item.Clay:1>],
  [<terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>]]);
 //furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
+
+recipes.remove(<terrafirmacraft:SpawnMeter>);
+recipes.addShaped(<terrafirmacraft:SpawnMeter>, [
+ [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],
+ [<ore:blockGlass>, <ore:gemChipped>, <ore:blockGlass>],
+ [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14

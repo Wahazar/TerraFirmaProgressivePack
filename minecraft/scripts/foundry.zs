@@ -480,6 +480,16 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("revolverframe", 7, 36, 15);
 game.setLocalization("gui.plans.revolverframe", "Revolver Frame");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<foundry:foundryComponent:7>, <terrafirmacraft:item.Steel Ingot>, <tfcm:item.Link_Steel>, "revolverframe", 4, 20);
 
+//shotgun frame from steel plate and steel link
+mods.Terrafirmacraft.Anvil.addPlanRecipe("shotgunframe", 7, 36, 15);
+game.setLocalization("gui.plans.shotgunframe", "Gun Frame");
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<foundry:foundryComponent:17>, <terrafirmacraft:item.Steel Sheet>, <tfcm:item.Link_Steel>, "shotgunframe", 4, 20);
+
+//todo: more precise recipes
+mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<foundry:foundryMold:53>, " ### ", "#####", "## ##", "#####", " ### ");
+mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<foundry:foundryMold:63>, "     ", " # # ", " ### ", "     ", "     ");
+
+
 //refractory clay and components
 recipes.remove(f_clay);
 recipes.addShaped(f_clay *8, [
@@ -621,7 +631,7 @@ recipes.remove(<foundry:foundryRevolver>);
 recipes.remove(<foundry:foundryShotgun>);
 
 //remove grits from vanilla furnace
-furnace.remove(<foundry:foundryComponent:18>);
-furnace.remove(<foundry:foundryComponent:19>);
-furnace.remove(<foundry:foundryComponent:20>);
+//furnace.remove(<foundry:foundryComponent:18>);
+//furnace.remove(<foundry:foundryComponent:19>);
+//furnace.remove(<foundry:foundryComponent:20>);
 

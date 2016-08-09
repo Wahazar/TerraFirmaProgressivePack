@@ -313,11 +313,11 @@ recipes.remove(<Steamcraft:steamcraftNugget:0>);
 recipes.remove(<Steamcraft:steamcraftNugget:1>);
 recipes.remove(<Steamcraft:steamcraftNugget:2>);
 recipes.remove(<Steamcraft:steamcraftNugget:3>);
-furnace.remove(<Steamcraft:steamcraftNugget:0>);
+//furnace.remove(<Steamcraft:steamcraftNugget:0>);
 furnace.remove(<Steamcraft:steamcraftNugget:1>);
-furnace.remove(<Steamcraft:steamcraftNugget:2>);
+// furnace.remove(<Steamcraft:steamcraftNugget:2>);
 
-furnace.remove(<Steamcraft:smashedOre:*>);  //only with cryolite electrolize in Arc Furnace
+// furnace.remove(<Steamcraft:smashedOre:*>);  //only with cryolite electrolize in Arc Furnace
 
 
 #for ver. 0.9.2

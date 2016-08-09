@@ -57,7 +57,7 @@ Immersive Engineering ImmersiveEngineering-0.7.5.jar
 		credits: BluSunrize, Mr_Hazard, licence: webpage granted
 
 Foundry Foundry-1.7.10-1.2.2.0.jar
-	http://ftb.gamepedia.com/Foundry_2
+	http://ftb.gamepedia.com/Foundry
 		credits: EXTER7, licence: GNU
 
 Flaxbeard SteamPower FSP-1.7.10-0.29.2.jar

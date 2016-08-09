@@ -67,9 +67,9 @@ furnace.addRecipe(<minecraft:hardened_clay>, <minecraft:stained_hardened_clay>);
 furnace.remove(<minecraft:brick>);
 mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
 recipes.addShaped(<customitems:brick_mold>, [
- [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>],
- [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>],
- [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>]]);
+ [<ore:plankWood>, <ore:woodLumber>, <ore:plankWood>],
+ [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+ [<ore:plankWood>, <ore:woodLumber>, <ore:plankWood>]]);
 recipes.addShaped(<customitems:clay_brick> * 8, [
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>],
  [<ore:lumpClay>, <customitems:brick_mold>, <ore:lumpClay>],
