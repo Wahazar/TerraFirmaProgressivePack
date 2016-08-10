@@ -156,6 +156,15 @@ recipes.addShapeless(<minecraft:emerald>, [<terrafirmacraft:item.Emerald:2>, <St
 recipes.addShapeless(<minecraft:emerald> * 2, [<terrafirmacraft:item.Emerald:3>, <Steamcraft:preciseCuttingHead>]);
 recipes.addShapeless(<minecraft:emerald> * 3, [<terrafirmacraft:item.Emerald:4>, <Steamcraft:preciseCuttingHead>]);
 
+#redstone from small tourmaline and topaz, cryolite only in crusher
+mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone>, <terrafirmacraft:item.Ore:28>);
+mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone> * 6, <terrafirmacraft:item.Ore:28>);
+mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone> * 8, <terrafirmacraft:item.Ore:28>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Topaz>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Topaz:1>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Tourmaline>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Tourmaline:1>);
+
 #redstone devices needs redstone
 
 recipes.remove(<minecraft:lever>);
