@@ -58,10 +58,10 @@ furnace.addRecipe(tfc_powder_flux *2, <customitems:calcium_carbonate_caco3_powde
 
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.dyePowder:7>, <minecraft:skull>);
 
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>, <terrafirmacraft:item.LooseRock:6>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>, <terrafirmacraft:item.LooseRock:10>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>, <terrafirmacraft:item.LooseRock:20>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>, <terrafirmacraft:item.LooseRock:8>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:6>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:10>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:20>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:8>);
 
 //heating
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>,<terrafirmacraft:item.Copper Tuyere>, 1080, 1);
@@ -196,7 +196,7 @@ recipes.addShapeless(<terrafirmacraft:item.arrow>, [<terrafirmacraft:item.stick>
 recipes.remove(<terrafirmacraft:item.Fire Brick>);
 recipes.addShaped(<terrafirmacraft:item.Fire Brick> * 8, [
  [<terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>],
- [<terrafirmacraft:item.Clay:1>, <customitems:brick_mold>, <terrafirmacraft:item.Clay:1>],
+ [<terrafirmacraft:item.Clay:1>, <customitems:brick_mold>.reuse(), <terrafirmacraft:item.Clay:1>],
  [<terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>]]);
 //furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
 

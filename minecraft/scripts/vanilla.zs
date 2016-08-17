@@ -72,7 +72,7 @@ recipes.addShaped(<customitems:brick_mold>, [
  [<ore:plankWood>, <ore:woodLumber>, <ore:plankWood>]]);
 recipes.addShaped(<customitems:clay_brick> * 8, [
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>],
- [<ore:lumpClay>, <customitems:brick_mold>, <ore:lumpClay>],
+ [<ore:lumpClay>, <customitems:brick_mold>.reuse(), <ore:lumpClay>],
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
 furnace.addRecipe(<minecraft:brick>, <customitems:clay_brick>);
 

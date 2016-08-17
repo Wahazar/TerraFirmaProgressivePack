@@ -506,7 +506,7 @@ recipes.addShaped(f_blank, [
 furnace.remove(f_brick);
 recipes.addShaped(<customitems:refractory_soft_brick> * 8, [
  [f_clay, f_clay, f_clay],
- [f_clay, <customitems:brick_mold>, f_clay],
+ [f_clay, <customitems:brick_mold>.reuse(), f_clay],
  [f_clay, f_clay, f_clay]]);
 furnace.addRecipe(f_brick, <customitems:refractory_soft_brick>);
 
