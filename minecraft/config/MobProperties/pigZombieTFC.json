@@ -6,7 +6,7 @@
                  { "function": "choose", 
                     "functions":
                        [
- 	                { "function": "all", "weight": 10,
+ 	                { "function": "all", "weight": 8,
                             "functions":
                               [
                                 { "function": "name", "value": "Zombie warrior" },
@@ -42,7 +42,7 @@
                                }
                           ]
                         },
- 	                { "function": "all", "weight": 1,
+ 	                { "function": "all", "weight": 2,
                             "functions":
                               [
                                 { "function": "name", "value": "Zombie green warrior" },
@@ -51,15 +51,19 @@
                                   "slot": 0, "damage": 500~1100, "drop_chance": 0.05 
                                 },
                                 {"function": "equip", 
-                                 "id": "tfcm:item.Bronze_Chain_Chestplate", "override": "true", 
+                                 "id": "terrafirmacraft:item.Bismuth Bronze Boots", "override": "true", 
+                                 "slot": 1, "damage": 1000~1590, "drop_chance": 0.01 
+                                },
+                                {"function": "equip", 
+                                 "id": "tfcm:item.BismuthBronze_Chain_Chestplate", "override": "true", 
                                  "slot": 3, "damage": 1000~1590, "drop_chance": 0.03 
                                 },
                                 {"function": "equip", 
-                                 "id": "tfcm:item.Bronze_Chain_Greaves", "override": "true", 
+                                 "id": "terrafirmacraft:item.Bismuth Bronze Greaves", "override": "true", 
                                  "slot": 2, "damage": 900~1450, "drop_chance": 0.02 
                                 },
                                 {"function": "equip", 
-                                 "id": "terrafirmacraft:item.helmetCloth", "override": "true", 
+                                 "id": "terrafirmacraft:item.Bismuth Bronze Helmet", "override": "true", 
                                  "slot": 4, "damage": 900~2450, "drop_chance": 0.1 
                                 },
                                 {"function": "drops",
