@@ -50,18 +50,23 @@ recipes.remove(<Steamcraft:pickGildedGold>);
 recipes.remove(<Steamcraft:shovelGildedGold>);
 recipes.remove(<Steamcraft:swordBrass>);
 recipes.remove(<Steamcraft:swordGildedGold>);
-#not working with TFC weapons
-recipes.remove(<Steamcraft:hammer>);
 #not working with TFC creatures
 recipes.remove(<Steamcraft:frequencyShifter>);
 
 recipes.remove(<Steamcraft:book>);
 recipes.addShapeless(<Steamcraft:book>, [<minecraft:book>, <terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Zinc Ingot>]);
 
+recipes.remove(<Steamcraft:hammer>); 
+//good for renaming
+recipes.addShaped(<Steamcraft:hammer>, [
+ [null, null, <customitems:8_iron_rivets_pack>],
+ [<terrafirmacraft:item.Steel Hammer Head>, <customitems:flat_iron_beam_drilled>, <customitems:brass_t-beam>],
+ [null, <customitems:iron_l-beam_drilled>, <customitems:brass_t-beam>]]);
+
 #crucible, mold and carving table need advanced TFC steel:
 recipes.remove(<Steamcraft:crucible>);
 recipes.addShaped(<Steamcraft:crucible>, [[<minecraft:brick>, null, <minecraft:brick>],
- [<minecraft:brick>, null, <minecraft:brick>],
+ [<minecraft:brick>, <ihl:item.ihlSimpleItem:30>, <minecraft:brick>],
  [<terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
 
 recipes.remove(<Steamcraft:mold>);
@@ -75,59 +80,107 @@ recipes.addShaped(<Steamcraft:carving>, [[<terrafirmacraft:item.Black Steel Shee
 
 #some pipes and stuff:
 recipes.remove(<Steamcraft:fluidSteamConverter>);
-recipes.addShaped(<Steamcraft:fluidSteamConverter>, [[<Steamcraft:steamcraftPlate:4>, <terrafirmacraft:Bellows>, <Steamcraft:steamcraftPlate:4>],
+recipes.addShaped(<Steamcraft:fluidSteamConverter>, [
+ [<Steamcraft:steamcraftPlate:4>, <terrafirmacraft:Bellows>, <Steamcraft:steamcraftPlate:4>],
  [<minecraft:glass_pane>, <Steamcraft:pipe>, <Steamcraft:pipe>],
  [<Steamcraft:steamcraftPlate:4>, <terrafirmacraft:Bellows>, <Steamcraft:steamcraftPlate:4>]]);
 
+recipes.remove(<Steamcraft:valvePipe>);
+recipes.addShaped(<Steamcraft:valvePipe>, [
+ [<customitems:brass_flange>, <customitems:brass_l-beam>, null],
+ [<customitems:valve_handle>, <customitems:brass_ring>, <customitems:brass_pellet>],
+ [<ore:dyeRed>, <customitems:brass_l-beam>, <customitems:brass_flange>]]);
 
 recipes.remove(<Steamcraft:pipe>);
-recipes.addShaped(<Steamcraft:pipe>, [[<ore:ingotBrass>, <Steamcraft:steamcraftPlate:4>, <ore:ingotBrass>],
+recipes.addShaped(<Steamcraft:pipe>, [
+ [<customitems:brass_flange>, <customitems:brass_l-beam>, null],
  [null, null, null],
- [<ore:ingotBrass>, <Steamcraft:steamcraftPlate:4>, <ore:ingotBrass>]]);
+ [null, <customitems:brass_l-beam>, <customitems:brass_flange>]]);
+
 
 # [<terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>]
 
 recipes.remove(<Steamcraft:boiler>);
-recipes.addShaped(<Steamcraft:boiler>, [[<terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>],
- [<terrafirmacraft:item.Brass Sheet>, <minecraft:furnace>, <terrafirmacraft:item.Brass Sheet>],
+recipes.addShaped(<Steamcraft:boiler>, [
+ [<terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>],
+ [<terrafirmacraft:item.Brass Sheet>, <minecraft:furnace>, <terrafirmacraft:MetalTrapDoor:69>],
  [<terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Brass Sheet>]]);
-recipes.addShaped(<Steamcraft:boiler>, [[<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>],
- [<Steamcraft:steamcraftPlate:4>, <minecraft:furnace>, <Steamcraft:steamcraftPlate:4>],
+recipes.addShaped(<Steamcraft:boiler>, [
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>],
+ [<Steamcraft:steamcraftPlate:4>, <minecraft:furnace>, <terrafirmacraft:MetalTrapDoor:69>],
  [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>]]);
 
 recipes.remove(<Steamcraft:flashBoiler>);
 
 #archimedes screw
 recipes.remove(<Steamcraft:pump>);
-recipes.addShaped(<Steamcraft:pump>, [[<ore:blockGlassColorless>, <ore:nuggetBrass>, <ore:blockGlassColorless>],
+recipes.addShaped(<Steamcraft:pump>, [[<ore:blockGlassColorless>, <customitems:brass_rivet>, <ore:blockGlassColorless>],
  [<ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>, <terrafirmacraft:item.Bronze Tuyere>],
- [<ore:nuggetBrass>, <ore:blockGlassColorless>, <ore:nuggetBrass>]]);
+ [<customitems:brass_rivet>, <ore:blockGlassColorless>, <customitems:brass_u-beam>]]);
 
 #turbine
 recipes.remove(<Steamcraft:steamcraftCrafting:5>);
-recipes.addShaped(<Steamcraft:steamcraftCrafting:5>, [[null, <Steamcraft:steamcraftPlate:4>, null],
- [<Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.Black Bronze Tuyere>, <Steamcraft:steamcraftPlate:4>],
- [null, <Steamcraft:steamcraftPlate:4>, null]]);
+recipes.addShaped(<Steamcraft:steamcraftCrafting:5>, [
+ [null, <customitems:brass_l-beam_drilled>, null],
+ [<customitems:brass_l-beam_drilled>, <customitems:brass_rivet>, <customitems:brass_l-beam_drilled>],
+ [<ore:itemHammer>.transformDamage(4), <customitems:brass_l-beam_drilled>, <terrafirmacraft:item.Bronze Tuyere>]]);
+
+#fan
+recipes.remove(<Steamcraft:fan>);
+recipes.addShaped(<Steamcraft:fan>, [
+ [<customitems:flat_brass_beam_drilled>, <customitems:flat_brass_beam_drilled>, <customitems:flat_brass_beam_drilled>],
+ [<minecraft:iron_bars>, <Steamcraft:steamcraftCrafting:5>, <minecraft:iron_bars>],
+ [<customitems:flat_brass_beam_drilled>, <customitems:flat_brass_beam_drilled>, <customitems:flat_brass_beam_drilled>]]);
+
+recipes.remove(<Steamcraft:vacuum>);
+recipes.addShaped(<Steamcraft:vacuum>, [
+ [null, <ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>],
+ [<Steamcraft:pipe>, <Steamcraft:fan>, <customitems:brass_flange>],
+ [null, <ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>]]);
+
 
 #piston
 recipes.remove(<Steamcraft:steamcraftCrafting:0>);
 recipes.addShaped(<Steamcraft:steamcraftCrafting:0>, [[null, <Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.Bronze Tuyere>],
- [<Steamcraft:steamcraftPlate:4>, <minecraft:piston>, <Steamcraft:steamcraftPlate:4>],
- [null, <Steamcraft:pipe>, null]]);
+ [<Steamcraft:steamcraftPlate:4>, <tfcm:item.PistonBase>, <Steamcraft:steamcraftPlate:4>],
+ [<customitems:brass_ring>, <Steamcraft:pipe>, null]]);
 
 #pressure meter
+recipes.remove(<Steamcraft:ruptureDisc>);
+recipes.addShapeless(<Steamcraft:ruptureDisc>, [<ore:plateSteamcraftZinc>, <customitems:brass_flange>]);
+
 recipes.remove(<Steamcraft:meter>);
 recipes.addShaped(<Steamcraft:meter>, [
- [<ore:dyeRed>, <ore:nuggetBrass>, null],
- [<ore:stickWood>, <tfcm:item.Coil_Bronze>, <ore:nuggetBrass>],
+ [<ore:dyeRed>, <customitems:brass_rivet>, <customitems:brass_flange>],
+ [<ore:stickWood>, <customitems:brass_spring>, <customitems:brass_rivet>],
  [null, <tfcm:item.CasingBrass>, null]]);
+
+recipes.remove(<Steamcraft:horn>);
+recipes.addShaped(<Steamcraft:horn>, [
+ [<ore:plateSteamcraftBrass>, <customitems:brass_u-beam>, <customitems:brass_rivet>],
+ [null, <Steamcraft:pipe>, null],
+ [<Steamcraft:pipe>, <customitems:brass_flange>, null]]);
 
 #precise cutting
 recipes.remove(<Steamcraft:preciseCuttingHead>);
 recipes.addShaped(<Steamcraft:preciseCuttingHead>, [
- [<terrafirmacraft:item.Diamond:0>, <ore:nuggetBrass>, <terrafirmacraft:item.Diamond:0>],
+ [<terrafirmacraft:item.Diamond:0>, <customitems:brass_rivet>, <terrafirmacraft:item.Diamond:0>],
  [<ImmersiveEngineering:material:14>, <ore:plateBrass>, <ImmersiveEngineering:material:14>],
  [<ore:ingotPlatinum>, null, null]]);
+
+#pipe wrench
+recipes.remove(<Steamcraft:wrench>);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("pipe_wrench", 15, 20, 26);      
+game.setLocalization("gui.plans.pipe_wrench", "Pipe Wrench");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Steamcraft:wrench>, <customitems:brass_rod>, <terrafirmacraft:item.Wrought Iron Ingot>, "pipe_wrench", 3); 
+
+#heater
+recipes.remove(<Steamcraft:heater>);
+recipes.addShaped(<Steamcraft:heater>, [
+ [<customitems:8_copper_rivets_pack>, rc_plate_copper, <customitems:8_copper_rivets_pack>],
+ [<customitems:brass_l-beam_drilled>, <minecraft:furnace>, <customitems:brass_l-beam_drilled>],
+ [null, <Steamcraft:pipe>, null]]);
+
 
 #firearms need tuyeres:
 #flintlock
@@ -135,13 +188,13 @@ recipes.addShaped(<Steamcraft:preciseCuttingHead>, [
 recipes.remove(fsp_flintlock);
 recipes.addShaped(fsp_flintlock, [
  [<terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.flintAndSteel>, null],
- [<ore:nuggetIron>, <minecraft:redstone>, <terrafirmacraft:item.Wrought Iron Ingot>],
- [null, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+ [<customitems:iron_rivet>, <minecraft:redstone>, <customitems:iron_t-beam>],
+ [<tfcm:item.Link_WroughtIron>, <customitems:iron_rivet>, <customitems:iron_l-beam>]]);
 
 
 recipes.remove(fsp_woodenstock);
 recipes.addShaped(fsp_woodenstock, [
- [<ore:woodLumber>, null, null],
+ [<customitems:impregnated_plank>, null, null],
  [null, <ImmersiveEngineering:treatedWood>, null],
  [null, <ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>]]);
 
@@ -164,7 +217,7 @@ recipes.addShaped(<Steamcraft:astrolabe>, [
  [null, <tfcm:item.CasingRoseGold>, null]]);
 
 recipes.remove(<Steamcraft:enhancementRevolver>);
-recipes.addShapeless(<Steamcraft:enhancementRevolver>, [<ore:nuggetIron>, <foundry:foundryComponent:6>, <ore:nuggetIron>]);
+recipes.addShapeless(<Steamcraft:enhancementRevolver>, [<customitems:iron_rivet>, <foundry:foundryComponent:6>, <customitems:iron_rivet>]);
 
 
 #barrels 
@@ -183,6 +236,11 @@ recipes.addShaped(<Steamcraft:itemMortar>, [
  [<ore:plateBrass>, fsp_piston, <ore:plateBrass>],
  [<ore:plateCopper>, <foundry:slab1:2>, <ore:plateCopper>]]);
 
+recipes.remove(<Steamcraft:enhancementAmmo>);
+recipes.addShaped(<Steamcraft:enhancementAmmo>, [
+ [<customitems:iron_rivet>, <customitems:copper_u-beam>, <Steamcraft:steamcraftPlate>],
+ [<customitems:iron_rivet>, <customitems:copper_u-beam>, <Steamcraft:steamcraftPlate>],
+ [<customitems:iron_l-beam_drilled>, <Steamcraft:steamcraftPlate>, <customitems:iron_rivet>]]);
 
 recipes.remove(<Steamcraft:enhancementAblaze>);
 recipes.addShaped(<Steamcraft:enhancementAblaze>, [
@@ -194,18 +252,62 @@ recipes.addShaped(<Steamcraft:enhancementSilencer>, [[<minecraft:wool>, <terrafi
  [<terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.Bronze Tuyere>, <terrafirmacraft:item.TFC Leather>],
  [<minecraft:string>, <terrafirmacraft:item.TFC Leather>, <minecraft:wool>]]);
 
+
+recipes.remove(<Steamcraft:spyglass>);
+recipes.addShaped(<Steamcraft:spyglass>, [
+ [<customitems:lense>, <ore:plateSteamcraftBrass>, <customitems:brass_rivet>],
+ [<ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>, <customitems:brass_l-beam_drilled>],
+ [<customitems:brass_rivet>, <customitems:brass_l-beam_drilled>, <customitems:lense>]]);
+
+
 #exosuit:
 
+recipes.remove(<Steamcraft:exoArmorHead>);
+recipes.addShaped(<Steamcraft:exoArmorHead>, [
+ [<customitems:brass_rivet>, <customitems:flat_brass_beam_drilled>, <customitems:brass_rivet>],
+ [fsp_piston, <customitems:flat_brass_beam>, fsp_piston],
+ [<customitems:brass_u-beam>, <customitems:flat_black_steel_beam>, <customitems:brass_u-beam>]]);
+
+recipes.remove(<Steamcraft:exoArmorBody>);
+recipes.addShaped(<Steamcraft:exoArmorBody>, [
+ [<Steamcraft:meter>, <terrafirmacraft:item.Black Steel Chestplate>, <Steamcraft:valvePipe>],
+ [fsp_piston, <ore:plateSteamcraftBrass>, fsp_piston],
+ [<customitems:brass_flange>, <ore:plateSteamcraftBrass>, <customitems:brass_flange>]]);
+
+recipes.remove(<Steamcraft:exoArmorLegs>);
+recipes.addShaped(<Steamcraft:exoArmorLegs>, [
+ [<customitems:brass_rivet>, <customitems:flat_brass_beam_drilled>, <customitems:brass_rivet>],
+ [fsp_piston, <tfcm:item.BlackSteel_Chain_Greaves>, fsp_piston],
+ [<customitems:brass_flange>, null, <customitems:brass_flange>]]);
+
+recipes.remove(<Steamcraft:exoArmorFeet>);
+recipes.addShaped(<Steamcraft:exoArmorFeet>, [
+ [<customitems:flat_brass_beam_drilled>, <customitems:brass_rivet>, <customitems:flat_brass_beam_drilled>],
+ [<customitems:brass_u-beam>, null, <customitems:brass_u-beam>],
+ [<customitems:flat_brass_beam_drilled>, <customitems:brass_rivet>, <customitems:flat_brass_beam_drilled>]]);
+
 recipes.remove(<Steamcraft:jetpack>);
-recipes.addShaped(<Steamcraft:jetpack>, [[<Steamcraft:pipe>, <ImmersiveEngineering:material:16>, <Steamcraft:pipe>],
- [<Steamcraft:meter>, <ImmersiveEngineering:material:16>, <Steamcraft:pipe>],
- [<Steamcraft:pipe>, null, <Steamcraft:pipe>]]);
+recipes.addShaped(<Steamcraft:jetpack>, [
+ [<Steamcraft:pipe>, <customitems:aluminum_l-beam_drilled>, <Steamcraft:pipe>],
+ [<Steamcraft:meter>, <customitems:aluminum_l-beam_drilled>, <Steamcraft:pipe>],
+ [<customitems:brass_nozzle>, <customitems:8_aluminum_rivets_pack>, <customitems:brass_nozzle>]]);
 
 recipes.remove(<Steamcraft:wings>);
-recipes.addShaped(<Steamcraft:wings>, [[<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftIngot:3>, <Steamcraft:steamcraftPlate:4>],
- [rc_plate_copper, <Steamcraft:steamcraftIngot:3>, rc_plate_copper],
- [fsp_plate_copper, null, fsp_plate_copper]]);
+recipes.addShaped(<Steamcraft:wings>, [[<Steamcraft:steamcraftPlate:4>, <ore:itemRivetsPack>, <Steamcraft:steamcraftPlate:4>],
+ [rc_plate_copper, <customitems:brass_t-beam>, rc_plate_copper],
+ [<minecraft:carpet:14>, null, <minecraft:carpet:14>]]);
 
+recipes.remove(<Steamcraft:powerFist>);
+recipes.addShaped(<Steamcraft:powerFist>, [
+ [<customitems:brass_rivet>, null, <ore:plateSteamcraftIron>],
+ [<customitems:brass_t-beam>, fsp_piston, <ore:plateSteamcraftIron>],
+ [<customitems:brass_rivet>, null, <ore:plateSteamcraftIron>]]);
+
+recipes.remove(<Steamcraft:extendoFist>);
+recipes.addShaped(<Steamcraft:extendoFist>, [
+ [null, <ore:plateSteamcraftIron>, <ore:plateSteamcraftIron>],
+ [<customitems:brass_rivet>, <customitems:brass_spring>, <ore:plateSteamcraftIron>],
+ [<customitems:brass_t-beam>, <customitems:brass_rivet>, null]]);
 
 recipes.remove(<Steamcraft:fallAssist>);
 recipes.addShaped(<Steamcraft:fallAssist>, [[<Steamcraft:steamcraftCrafting>, <terrafirmacraft:item.bootsCloth>, <Steamcraft:steamcraftCrafting>],
@@ -217,38 +319,114 @@ recipes.addShaped(<Steamcraft:jumpAssist>, [[<Steamcraft:steamcraftPlate:4>, nul
  [<Steamcraft:steamcraftCrafting>, <terrafirmacraft:item.bootsCloth>, <Steamcraft:steamcraftCrafting>],
  [<Steamcraft:steamcraftPlate:4>, null, <Steamcraft:steamcraftPlate:4>]]);
 
-recipes.remove(<Steamcraft:reinforcedTank>);
-recipes.addShaped(<Steamcraft:reinforcedTank>, [[<terrafirmacraft:item.Gold Double Sheet>, <Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.Gold Double Sheet>],
- [<Steamcraft:steamTank>, <ore:ingotBrass>, <Steamcraft:steamTank>],
- [<terrafirmacraft:item.Gold Double Sheet>, <Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.Gold Double Sheet>]]);
+recipes.remove(<Steamcraft:thrusters>);
+recipes.addShaped(<Steamcraft:thrusters>, [
+ [<customitems:brass_rivet>, <customitems:brass_l-beam_drilled>, <customitems:brass_rivet>],
+ [<ore:plateSteamcraftBrass>, null, <ore:plateSteamcraftBrass>],
+ [<customitems:brass_spring>, <Steamcraft:pipe>, <customitems:brass_spring>]]);
+
+recipes.remove(<Steamcraft:runAssist>);
+recipes.addShaped(<Steamcraft:runAssist>, [
+ [fsp_piston, null, fsp_piston],
+ [<customitems:brass_i-beam>, null, <customitems:brass_i-beam>],
+ [fsp_piston, <Steamcraft:pipe>, fsp_piston]]);
+
+recipes.remove(<Steamcraft:doubleJump>);
+recipes.addShaped(<Steamcraft:doubleJump>, [
+ [<customitems:brass_rivet>, null, <customitems:brass_rivet>],
+ [fsp_piston, null, fsp_piston],
+ [<Steamcraft:valvePipe>, null, <Steamcraft:valvePipe>]]);
 
 recipes.remove(<Steamcraft:pitonDeployer>);
-recipes.addShaped(<Steamcraft:pitonDeployer>, [[null, <Steamcraft:steamcraftNugget:2>, null],
- [null, <terrafirmacraft:Bellows>, <Steamcraft:steamcraftNugget:2>],
- [<terrafirmacraft:Bellows>, null, null]]);
+recipes.addShaped(<Steamcraft:pitonDeployer>, [
+ [<terrafirmacraft:item.TFC Leather>, <ImmersiveEngineering:material:14>, <terrafirmacraft:item.Wrought Iron ProPick Head>],
+ [<terrafirmacraft:item.TFC Leather>, <customitems:brass_spring>, <terrafirmacraft:item.Wrought Iron ProPick Head>],
+ [<terrafirmacraft:item.TFC Leather>, <ImmersiveEngineering:material:14>, null]]);
 
-recipes.remove(<Steamcraft:steamDrill>);
-recipes.addShaped(<Steamcraft:steamDrill>, [[<ore:ingotBrass>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:item.Diamond>],
- [<Steamcraft:pipe>, <Steamcraft:steamcraftCrafting:5>, <terrafirmacraft:item.HC Blue Steel Ingot>],
- [<Steamcraft:steamcraftPlate:4>, <Steamcraft:pipe>, <ore:ingotBrass>]]);
+recipes.remove(<Steamcraft:pistonPush>);
+recipes.addShaped(<Steamcraft:pistonPush>, [
+ [<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
+ [null, fsp_piston, null],
+ [<customitems:copper_rivet>, <customitems:brass_l-beam_drilled>, <customitems:copper_rivet>]]);
+
+
+recipes.remove(<Steamcraft:steamTank>);
+recipes.addShaped(<Steamcraft:steamTank>, [
+ [<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>],
+ [<ore:plateBrass>, null, <ore:plateBrass>],
+ [<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>]]);
+
+recipes.addShaped(<Steamcraft:steamTank>, [
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>],
+ [<Steamcraft:steamcraftPlate:4>, <customitems:8_brass_rivets_pack>, <Steamcraft:steamcraftPlate:4>],
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>]]);
+
+recipes.remove(<Steamcraft:reinforcedTank>);
+recipes.addShaped(<Steamcraft:reinforcedTank>, [
+ [<customitems:flat_iron_beam_drilled>, <Steamcraft:steamcraftPlate:4>, <customitems:flat_iron_beam_drilled>],
+ [<Steamcraft:steamTank>, <customitems:8_iron_rivets_pack>, <Steamcraft:steamTank>],
+ [<customitems:flat_iron_beam_drilled>, <Steamcraft:steamcraftPlate:4>, <customitems:flat_iron_beam_drilled>]]);
+
+recipes.remove(<Steamcraft:uberReinforcedTank>);
+recipes.addShaped(<Steamcraft:uberReinforcedTank>, [
+ [<customitems:flat_black_steel_beam>, <foundry:slab2:1>, <customitems:flat_black_steel_beam>],
+ [<Steamcraft:reinforcedTank>, <customitems:thermite_welding_powder>, <Steamcraft:reinforcedTank>],
+ [<customitems:flat_black_steel_beam>, <foundry:slab2:1>, <customitems:flat_black_steel_beam>]]);
+
+
+recipes.remove(<Steamcraft:stealthUpgrade>);
+recipes.addShaped(<Steamcraft:stealthUpgrade>, [
+ [<ore:materialString>, null, <ore:materialString>],
+ [<terrafirmacraft:Bellows>, null, <terrafirmacraft:Bellows>],
+ [<minecraft:wool:4>, null, <minecraft:wool:4>]]);
+
+
+recipes.addShaped(<Steamcraft:steamTank>, [
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>],
+ [<Steamcraft:steamcraftPlate:4>, <customitems:8_brass_rivets_pack>, <Steamcraft:steamcraftPlate:4>],
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>, <Steamcraft:steamcraftPlate:4>]]);
+
+
+recipes.remove(<Steamcraft:bigDrill>);
+recipes.addShaped(<Steamcraft:bigDrill>, [
+ [null, null, <terrafirmacraft:item.Diamond>],
+ [null, <Steamcraft:drillHead>, null],
+ [<ore:blockSteel>, null, null]]);
+
+recipes.remove(<Steamcraft:drillHead>);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("medium_drill", 21, 36, 31);      
+game.setLocalization("gui.plans.medium_drill", "Medium Drill");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Steamcraft:drillHead>, <customitems:iron_bar>, <terrafirmacraft:item.Wrought Iron Ingot>, "medium_drill", 3); 
+
+recipes.remove(<Steamcraft:steamDrill:319>);
+recipes.addShaped(<Steamcraft:steamDrill:319>, [
+ [<customitems:brass_rivet>, <customitems:flat_brass_beam_drilled>, <Steamcraft:bigDrill>],
+ [<Steamcraft:pipe>, <Steamcraft:steamcraftCrafting:5>, <customitems:brass_t-beam>],
+ [<Steamcraft:steamcraftPlate:4>, <Steamcraft:pipe>, <customitems:brass_rivet>]]);
 
 recipes.remove(<Steamcraft:charger>);
-recipes.addShaped(<Steamcraft:charger>, [[<Steamcraft:steamcraftNugget:3>, <Steamcraft:pipe>, <Steamcraft:steamcraftNugget:3>],
- [<ore:cobblestone>, <Steamcraft:pipe>, <ore:cobblestone>],
- [<ore:cobblestone>, <Steamcraft:pipe>, <ore:cobblestone>]]);
+recipes.addShaped(<Steamcraft:charger>, [
+ [<customitems:brass_rivet>, <Steamcraft:pipe>, <customitems:brass_rivet>],
+ [<customitems:brass_t-beam>, <Steamcraft:pipe>, <customitems:brass_t-beam>],
+ [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+recipes.remove(<Steamcraft:chargingPad>);
+recipes.addShaped(<Steamcraft:chargingPad>, [
+ [<Steamcraft:pipe>, <Steamcraft:charger>, <Steamcraft:pipe>],
+ [<ore:plateSteamcraftBrass>, <customitems:8_brass_rivets_pack>, <ore:plateSteamcraftBrass>],
+ [<ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>, <ore:plateSteamcraftBrass>]]);
 
 recipes.remove(<Steamcraft:engineering>);
-recipes.addShaped(<Steamcraft:engineering>, [[<ore:cobblestone>, <ore:plateIron>, <ore:cobblestone>],
- [<ore:cobblestone>, <minecraft:crafting_table>, <ore:cobblestone>],
- [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<Steamcraft:engineering>, [[<ore:cobblestone>, rc_plate_iron, <ore:cobblestone>],
+recipes.addShaped(<Steamcraft:engineering>, [
+ [<customitems:iron_l-beam>, <ore:plateIron>, <customitems:iron_l-beam>],
  [<ore:cobblestone>, <minecraft:crafting_table>, <ore:cobblestone>],
  [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 recipes.remove(<Steamcraft:steamcellEmpty>);
-recipes.addShaped(<Steamcraft:steamcellEmpty>, [[<Steamcraft:steamcraftNugget:3>, rc_plate_steel, <Steamcraft:steamcraftNugget:3>],
+recipes.addShaped(<Steamcraft:steamcellEmpty>, [
+ [<customitems:brass_rivet>, rc_plate_steel, <customitems:brass_rivet>],
  [<Steamcraft:steamcraftPlate:4>, <Railcraft:glass:4>, <Steamcraft:steamcraftPlate:4>],
- [<Steamcraft:steamcraftNugget:3>, rc_plate_steel, <Steamcraft:steamcraftNugget:3>]]);
+ [<customitems:brass_rivet>, rc_plate_steel, <customitems:brass_rivet>]]);
 
 recipes.remove(<Steamcraft:rebreather>);
 recipes.addShaped(<Steamcraft:rebreather>, [[null, <Railcraft:glass:4>, null],
@@ -260,7 +438,7 @@ recipes.addShaped(<Steamcraft:coatingsHydrophobic>, [[fsp_plate_zinc, <terrafirm
  [<Steamcraft:heater>, fsp_plate_zinc, <Steamcraft:heater>],
  [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]]);
 
-recipes.remove(<Steamcraft:coatingsPyrophobic>);  #cheaty
+// recipes.remove(<Steamcraft:coatingsPyrophobic>);  #cheaty
 
 
 recipes.remove(<Steamcraft:reloadingHolsters>);
@@ -268,14 +446,14 @@ recipes.addShaped(<Steamcraft:reloadingHolsters>, [[<terrafirmacraft:item.TFC Le
  [<Steamcraft:enhancementRevolver>, null, <Steamcraft:enhancementRevolver>],
  [<Steamcraft:steamcraftCrafting:0>, null, <Steamcraft:steamcraftCrafting:0>]]);
 
-recipes.remove(<Steamcraft:autosmelting>); #won't work with TFC
+//recipes.remove(<Steamcraft:autosmelting>); #won't work with TFC
 recipes.remove(<Steamcraft:battleDrill>);
 recipes.remove(<Steamcraft:drillFortune>);
 recipes.remove(<Steamcraft:thermalDrill>);
 recipes.remove(<Steamcraft:internalProcessor>);
-recipes.remove(<Steamcraft:chainsaw>);
-recipes.remove(<Steamcraft:steamAxe>);
-recipes.remove(<Steamcraft:forestFire>);
+//recipes.remove(<Steamcraft:chainsaw>);
+//recipes.remove(<Steamcraft:steamAxe>);
+//recipes.remove(<Steamcraft:forestFire>);
 recipes.remove(<Steamcraft:cultivator>);
 recipes.remove(<Steamcraft:backhoe>);
 recipes.remove(<Steamcraft:sifter>);
@@ -289,7 +467,7 @@ recipes.addShaped(<Steamcraft:chargePlacer>, [[<terrafirmacraft:item.Red Steel T
 recipes.remove(<Steamcraft:smasher>);
 recipes.addShaped(<Steamcraft:smasher>, [
  [fsp_plate_brass, fsp_piston, <Railcraft:slab:6>],
- [<Steamcraft:blockBrass>, fsp_piston, <Railcraft:slab:6>], 
+ [<ore:blockBrass>, fsp_piston, <Railcraft:slab:6>], 
  [fsp_plate_brass, fsp_piston, <Railcraft:slab:6>]]);
 
 furnace.remove(fsp_ingot_copper);
@@ -335,12 +513,14 @@ furnace.remove(<Steamcraft:steamcraftNugget:1>);
 //bauxite
 mods.fsp.RockSmasher.removeSmashingOreRecipe("oreAluminum", <Steamcraft:smashedOre:8>);
 mods.fsp.RockSmasher.removeSmashingRecipe(<ImmersiveEngineering:ore:1>, <Steamcraft:smashedOre:8>);
-mods.fsp.RockSmasher.addSmashingRecipe(<ImmersiveEngineering:ore:1>, <customitems:bauxite_conglomerate>);
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreBauxite>, <ihl:item.ihlSimpleItem:125>);
 
 //coal from coal ore
 mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:coal_ore>, <terrafirmacraft:item.coal>);
-//glowstone from pitchblende
-mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Ore:26>, <minecraft:glowstone_dust>);
+//uranite from pitchblende
+mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Ore:26>, <customitems:crushed_pitchblende> * 2);
+//gold grit
+mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Gold Ingot>, <ImmersiveEngineering:metal:9>);
 //crushed obsidian
 mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:obsidian>, <Railcraft:cube:4>);
 //vanilla gravel from any cobblestone

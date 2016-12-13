@@ -1,15 +1,199 @@
 {
 	"oreGen":[
 		{
+			"blockToSpawn": "ihl:oreStibnite",
+			"blockToReplace": "terrafirmacraft:HotWaterStationary",
+			"dimensionId": 0,			
+			"minVeinSize": 4, 
+			"maxVeinSize": 20,
+			"chancesToSpawn": 30, 
+			"minY": 5, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:oreStibnite",
+			"blockToReplace": "terrafirmacraft:HotWater",
+			"dimensionId": 0,			
+			"minVeinSize": 4, 
+			"maxVeinSize": 20,
+			"chancesToSpawn": 60, 
+			"minY": 5, 
+			"maxY": 126
+		},
+		{
+			"blockToSpawn": "customitems:salmiac_crystals",
+			"blockToReplace": "terrafirmacraft:Lava",
+			"dimensionId": 0,			
+			"minVeinSize": 4, 
+			"maxVeinSize": 10,
+			"chancesToSpawn": 40, 
+			"minY": 5, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "customitems:salmiac_crystals",
+			"blockToReplace": "terrafirmacraft:LavaStationary",
+			"dimensionId": 0,			
+			"minVeinSize": 4, 
+			"maxVeinSize": 10,
+			"chancesToSpawn": 30, 
+			"minY": 5, 
+			"maxY": 126
+		},
+		{
+			"blockToSpawn": "ihl:oreChromite",
+			"blockToReplace": "customitems:peridotite",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 25, 
+			"minY": 5, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:oreMica",
+			"blockToReplace": "customitems:pegmatite",
+			"dimensionId": 0,			
+			"minVeinSize": 3, 
+			"maxVeinSize": 15,
+			"chancesToSpawn": 15, 
+			"minY": 5, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:orePotassiumFeldspar",
+			"blockToReplace": "customitems:pegmatite",
+			"dimensionId": 0,			
+			"minVeinSize": 5, 
+			"maxVeinSize": 18,
+			"chancesToSpawn": 20, 
+			"minY": 21, 
+			"maxY": 143
+		},
+		{
+			"blockToSpawn": "ihl:oreApatite",
+			"blockToReplace": "customitems:pegmatite",
+			"dimensionId": 0,			
+			"minVeinSize": 8, 
+			"maxVeinSize": 28,
+			"chancesToSpawn": 20, 
+			"minY": 11, 
+			"maxY": 133
+		},
+		{
+			"blockToSpawn": "customitems:spodumene",
+			"blockToReplace": "customitems:pegmatite",
+			"dimensionId": 0,			
+			"minVeinSize": 12, 
+			"maxVeinSize": 32,
+			"chancesToSpawn": 50, 
+			"minY": 11, 
+			"maxY": 123
+		},
+		{
+			"blockToSpawn": "customitems:fluorite",
+			"blockToReplace": "terrafirmacraft:HotWaterStationary",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 35,
+			"chancesToSpawn": 60, 
+			"minY": 6, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "customitems:fluorite",
+			"blockToReplace": "terrafirmacraft:HotWater",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 35,
+			"chancesToSpawn": 30, 
+			"minY": 6, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:oreCinnabar",
+			"blockToReplace": "terrafirmacraft:HotWaterStationary",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 35,
+			"chancesToSpawn": 100, 
+			"minY": 6, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:oreCinnabar",
+			"blockToReplace": "terrafirmacraft:HotWater",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 35,
+			"chancesToSpawn": 50, 
+			"minY": 6, 
+			"maxY": 136
+		},
+		{
+			"blockToSpawn": "ihl:oreTrona",
+			"blockToReplace": "terrafirmacraft:Dirt",
+			"biomeId": [2],
+			"dimensionId": 0,			
+			"minVeinSize": 5, 
+			"maxVeinSize": 14,
+			"chancesToSpawn": 10, 
+			"minY": 141, 
+			"maxY": 143
+		},
+		{
+			"blockToSpawn": "ihl:oreLimestone",
+			"blockToReplace": "terrafirmacraft:Gravel",
+			"biomeId": [7],
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 30,
+			"chancesToSpawn": 5, 
+			"minY": 136, 
+			"maxY": 140
+		},
+		{
 			"blockToSpawn": "customitems:prismarine",
-			"blockToReplace": "terrafirmacraft:StoneSed:3",
+			"blockToReplace": "terrafirmacraft:HotWaterStationary",
 			"biomeId": [36],
 			"dimensionId": 0,			
 			"minVeinSize": 10, 
 			"maxVeinSize": 15,
 			"chancesToSpawn": 10, 
-			"minY": 90, 
+			"minY": 9, 
 			"maxY": 126
+		},
+		{
+			"blockToSpawn": "customitems:prismarine",
+			"blockToReplace": "terrafirmacraft:HotWater",
+			"biomeId": [36],
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 25,
+			"chancesToSpawn": 50, 
+			"minY": 9, 
+			"maxY": 126
+		},
+		{
+			"blockToSpawn": "customitems:xenotime",
+			"blockToReplace": "customitems:pegmatite",
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 32,
+			"chancesToSpawn": 40, 
+			"minY": 11, 
+			"maxY": 113
+		},
+		{
+			"blockToSpawn": "customitems:monazite_sand",
+			"blockToReplace": "terrafirmacraft:Sand",
+			"biomeId": [16],
+			"dimensionId": 0,			
+			"minVeinSize": 10, 
+			"maxVeinSize": 42,
+			"chancesToSpawn": 20, 
+			"minY": 125, 
+			"maxY": 139
 		}
 	]	
 }

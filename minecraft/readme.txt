@@ -40,6 +40,14 @@ TFC variable daylength TooMuchTime-1.7.10-2.4.0.tnfc-4-universal.jar
 	http://terrafirmacraft.com/f/topic/8944-07926-toomuchtime-tfc/
 		credits: Bunsan, Licence: MIT
 
+TFC Animal Crate animalcrate-0.1.jar 
+	http://terrafirmacraft.com/f/topic/8687-tfc-07924-animal-crate/
+		credits:  TaeoG, licence MIT
+
+TFCPewter [1.7.10]TFC Pewter-1.2.jar 
+	http://terrafirmacraft.com/f/topic/9584-tfc-07929-pefferns-addons-terrafirmapumpkins-now-with-mushrooms-and-tfcpewter/
+		credits:  Peffern, licence: forum granted
+
 TFC tweaks TFC-Tweaks-1.7.10-0.4.0.17.jar 
 	http://terrafirmacraft.com/f/topic/8578-tfc-07926-tfc-tweaks-unifies-water-auto-food-merge-on-pickup/
 		credits:  Dries007, .jar included
@@ -59,6 +67,14 @@ Immersive Engineering ImmersiveEngineering-0.7.5.jar
 Foundry Foundry-1.7.10-1.2.2.0.jar
 	http://ftb.gamepedia.com/Foundry
 		credits: EXTER7, licence: GNU
+
+IC2 industrialcraft-2-2.2.827-experimental.jar
+	http://wiki.industrial-craft.net
+ 		credits: MCP team, licence: webpage granted
+
+IC2 IHL AddOn ihl-tools_n_machines-0.605-1.7.10.jar
+	http://forum.industrial-craft.net/index.php?page=Thread&threadID=10458
+ 		credits: Foghrye4, licence: GNU
 
 Flaxbeard SteamPower FSP-1.7.10-0.29.2.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2246930-flaxbeards-steam-power-beta-0-29-2-updated-may-3
@@ -127,6 +143,15 @@ Ore generation is removed except TFC ore/minerals and IE bauxite.
 ################################################################################################################################
 /scripts directory:
 Scripts with recipes for above mods. Use NEI to check recipes.
+
+Resources:
+1. native TFC resources are unchanged except of:
+ - cinnabar and cryolite is no more source of redstone (cinnbar is red dye and mercury ore, cryolite os for aluminum ore melting)
+ - redstone can be gained from crushed red gems
+ - pitchblende is uranium and glowstone source
+2. New ores added to TFC oregen bischofite, datolite, bauxite, wolframite, feldspar, apatite, crude oil.
+3. additional ores are rare subsitution of regular resources: stibnite (associated with hydrotermal fissures and galena deposits), chromite (in magnetite deposits), mica (in gold deposits), limestone (river bed), trona (lake bed).
+4. All ores can be scanned by means of IC2 OD/OV scanner or TFC propick.
 
 Important note: Flaxbeard crucible is not supported by NEI.
 Please refer to Esteemed Innovation handbook and Simple Achievements diary for crucible usage.

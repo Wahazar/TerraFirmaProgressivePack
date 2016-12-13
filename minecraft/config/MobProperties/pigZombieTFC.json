@@ -70,14 +70,24 @@
 				  "functions": [
      			                       { 
                                                "function": "add", 
-                                               "id": "terrafirmacraft:item.Bismuth Bronze Sheet",
-                                                "count": 0.2
-	                                        },
-     			                       { 
-                                               "function": "add", 
                                                "id": "tfcm:item.Link_BismuthBronze",
                                                 "count": 0.05
-	                                        }
+	                                        },
+    						{
+      						"function": "if_recently_hit",
+      						"functions": [
+     			                       		{ 
+                                               		"function": "add", 
+                                               		"id": "terrafirmacraft:item.Bismuth Bronze Sheet",
+                                                	"count": 0.15
+	                                        	},
+        						{
+          						"function": "add",
+          						"count": 0.03,
+          						"id": "ImmersiveEngineering:shaderBag"        
+        						}
+      							]
+						}
                                                ]
                                }
                           ]
@@ -85,6 +95,5 @@
 
                    ]
            }
-
 ]
 }

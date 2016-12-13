@@ -1,6 +1,17 @@
 {
   "_name": "bearTFC",
-  "drops": [],
+  "drops": [
+     		{ 
+      		"function": "if_recently_hit",
+      		"functions": [
+        			{
+          			"function": "add",
+          			"count": 0.1,
+          			"id": "ImmersiveEngineering:shaderBag"
+        			}
+			]	        
+		}
+],
   "pre_stats": [],
   "stats": []
 }

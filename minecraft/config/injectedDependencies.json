@@ -16,6 +16,10 @@
       },
       {
         "type": "before",
+        "target": "tfcpewter"
+      },
+      {
+        "type": "before",
         "target": "tfcautomatedbellows"
       },
       {
@@ -29,6 +33,14 @@
       {
         "type": "before",
         "target": "tfcudarymod"
+      },
+      {
+        "type": "before",
+        "target": "animalcrate"
+      },
+      {
+        "type": "before",
+        "target": "BlockProperties"
       },
       {
         "type": "before",
@@ -80,6 +92,10 @@
       },
       {
         "type": "before",
+        "target": "IC2"
+      },
+      {
+        "type": "before",
         "target": "Railcraft"
       },
       {
@@ -89,6 +105,10 @@
       {
         "type": "before",
         "target": "Steamcraft"
+      },
+      {
+        "type": "before",
+        "target": "ihl"
       },
       {
         "type": "before",

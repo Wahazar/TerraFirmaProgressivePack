@@ -1,6 +1,28 @@
 {
   "_name": "endermanTFC",
-  "drops": [],
+  "drops": [
+            {
+	    "function": "all",
+		"functions": 
+		[			
+                {
+		   "function": "spawn",
+                    "id": "LostHead",
+                    "count": "0~0.1"
+		    },
+     		{ 
+      		"function": "if_recently_hit",
+      		"functions": [
+        			{
+          			"function": "add",
+          			"count": 0.1,
+          			"id": "ImmersiveEngineering:shaderBag"
+        			}
+			]	        
+		}	   
+		]
+	}
+],
   "pre_stats": [],
   "stats": []
 }

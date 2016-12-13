@@ -17,7 +17,7 @@
                 {
 			"function": "spawn",
                        	"id": "silverfishTFC",
-                        "count": "0~0.5"
+                        "count": "0~0.3"
 		    }
 		]
 		},
@@ -80,7 +80,7 @@
 	            {
                   "function": "modifier",
                   "attribute": "generic.movementSpeed",
-                  "value": "0.3~0.4",
+                  "value": "0.3~0.5",
                   "operator": 1
                  },
                  { 
@@ -92,13 +92,50 @@
                            "functions":
                             [
                             { "function": "name", "value": "Zombie messenger" },
-                            { "function": "equip", "id": "minecraft:bone", "slot": 0, "drop_chance": 0.2 },
+                            { "function": "equip", "id": "minecraft:paper", "slot": 0, "drop_chance": 0.2 },
                             { "function": "equip", "id": "terrafirmacraft:item.bootsCloth", "override": "true", "slot": 1, "drop_chance": 0.1 },
+	            	    {
+                  	       "function": "modifier",
+                  	         "attribute": "generic.movementSpeed",
+                  	         "value": "0.5~0.9",
+                  	         "operator": 1
+                  	    },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:paper",
+                                                "count": 0.4
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:book",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+					       "damage": 1,	
+                                                "count": 0.02
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+					       "damage": 2,	
+                                                "count": 0.01
+	                                        }
+                                               ]
+                            },
                  	    { 
                    	       "function": "if_moon_phase_new",
                     		"function": "potion", 
                     		"id": "potion.jump", 
-                    		"amplifier": 2, 
+                    		"amplifier": 3, 
                     		"override": false, 
                     		"ambient": true 
                  	    }

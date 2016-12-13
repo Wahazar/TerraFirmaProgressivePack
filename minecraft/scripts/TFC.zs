@@ -19,6 +19,8 @@ val rc_plate_tin = <Railcraft:part.plate:2>;
 val fsp_nugget_zinc = <Steamcraft:steamcraftNugget:1>;
 val fsp_nugget_brass = <Steamcraft:steamcraftNugget:3>;
 
+val ie_slag = <ImmersiveEngineering:material:13>;
+
 val fsp_plate_copper = <Steamcraft:steamcraftPlate:0>;
 val fsp_plate_zinc = <Steamcraft:steamcraftPlate:1>;
 val fsp_plate_iron = <Steamcraft:steamcraftPlate:2>;
@@ -32,7 +34,27 @@ var cube_glass = [
 var pane_glass = [
 <minecraft:stained_glass_pane:0>,  <minecraft:stained_glass_pane:1>,  <minecraft:stained_glass_pane:2>,  <minecraft:stained_glass_pane:3>, <minecraft:stained_glass_pane:4>,  <minecraft:stained_glass_pane:5>,  <minecraft:stained_glass_pane:6>,  <minecraft:stained_glass_pane:7>, <minecraft:stained_glass_pane:8>,  <minecraft:stained_glass_pane:9>,  <minecraft:stained_glass_pane:10>, <minecraft:stained_glass_pane:11>, <minecraft:stained_glass_pane:12>, <minecraft:stained_glass_pane:13>, <minecraft:stained_glass_pane:14>, <minecraft:stained_glass_pane:15>] as IItemStack[];
 
+var timber = [
+<terrafirmacraft:item.SinglePlank:0>,  <terrafirmacraft:item.SinglePlank:1>,  <terrafirmacraft:item.SinglePlank:2>,  <terrafirmacraft:item.SinglePlank:3>, <terrafirmacraft:item.SinglePlank:4>,  <terrafirmacraft:item.SinglePlank:5>,  <terrafirmacraft:item.SinglePlank:6>,  <terrafirmacraft:item.SinglePlank:7>, <terrafirmacraft:item.SinglePlank:8>,  <terrafirmacraft:item.SinglePlank:9>,  <terrafirmacraft:item.SinglePlank:10>, <terrafirmacraft:item.SinglePlank:11>, <terrafirmacraft:item.SinglePlank:12>, <terrafirmacraft:item.SinglePlank:13>, <terrafirmacraft:item.SinglePlank:14>, <terrafirmacraft:item.SinglePlank:15>, <terrafirmacraft:item.SinglePlank:16>] as IItemStack[];
+var logs = [
+<terrafirmacraft:item.Log:0>,  <terrafirmacraft:item.Log:1>,  <terrafirmacraft:item.Log:2>,  <terrafirmacraft:item.Log:3>, <terrafirmacraft:item.Log:4>,  <terrafirmacraft:item.Log:5>,  <terrafirmacraft:item.Log:6>,  <terrafirmacraft:item.Log:7>, <terrafirmacraft:item.Log:8>,  <terrafirmacraft:item.Log:9>,  <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:11>, <terrafirmacraft:item.Log:12>, <terrafirmacraft:item.Log:13>, <terrafirmacraft:item.Log:14>, <terrafirmacraft:item.Log:15>, <terrafirmacraft:item.Log:16>] as IItemStack[];
+var planks = [
+<terrafirmacraft:planks:0>,  <terrafirmacraft:planks:1>,  <terrafirmacraft:planks:2>,  <terrafirmacraft:planks:3>, <terrafirmacraft:planks:4>,  <terrafirmacraft:planks:5>,  <terrafirmacraft:planks:6>,  <terrafirmacraft:planks:7>, <terrafirmacraft:planks:8>,  <terrafirmacraft:planks:9>,  <terrafirmacraft:planks:10>, <terrafirmacraft:planks:11>, <terrafirmacraft:planks:12>, <terrafirmacraft:planks:13>, <terrafirmacraft:planks:14>, <terrafirmacraft:planks:15>, <terrafirmacraft:planks:16>] as IItemStack[];
+var supports = [
+<terrafirmacraft:WoodSupportV:0>,  <terrafirmacraft:WoodSupportV:1>,  <terrafirmacraft:WoodSupportV:2>,  <terrafirmacraft:WoodSupportV:3>, <terrafirmacraft:WoodSupportV:4>,  <terrafirmacraft:WoodSupportV:5>,  <terrafirmacraft:WoodSupportV:6>,  <terrafirmacraft:WoodSupportV:7>, <terrafirmacraft:WoodSupportV:8>,  <terrafirmacraft:WoodSupportV:9>,  <terrafirmacraft:WoodSupportV:10>, <terrafirmacraft:WoodSupportV:11>, <terrafirmacraft:WoodSupportV:12>, <terrafirmacraft:WoodSupportV:13>, <terrafirmacraft:WoodSupportV:14>, <terrafirmacraft:WoodSupportV:15>, <terrafirmacraft:WoodSupportV2>] as IItemStack[];
+var barrels = [
+<terrafirmacraft:Barrel:0>,  <terrafirmacraft:Barrel:1>,  <terrafirmacraft:Barrel:2>,  <terrafirmacraft:Barrel:3>, <terrafirmacraft:Barrel:4>,  <terrafirmacraft:Barrel:5>,  <terrafirmacraft:Barrel:6>,  <terrafirmacraft:Barrel:7>, <terrafirmacraft:Barrel:8>,  <terrafirmacraft:Barrel:9>,  <terrafirmacraft:Barrel:10>, <terrafirmacraft:Barrel:11>, <terrafirmacraft:Barrel:12>, <terrafirmacraft:Barrel:13>, <terrafirmacraft:Barrel:14>, <terrafirmacraft:Barrel:15>, <terrafirmacraft:Barrel:16>] as IItemStack[];
+var chests = [
+<terrafirmacraft:Chest TFC:0>,  <terrafirmacraft:Chest TFC:1>,  <terrafirmacraft:Chest TFC:2>,  <terrafirmacraft:Chest TFC:3>, <terrafirmacraft:Chest TFC:4>,  <terrafirmacraft:Chest TFC:5>,  <terrafirmacraft:Chest TFC:6>,  <terrafirmacraft:Chest TFC:7>, <terrafirmacraft:Chest TFC:8>,  <terrafirmacraft:Chest TFC:9>,  <terrafirmacraft:Chest TFC:10>, <terrafirmacraft:Chest TFC:11>, <terrafirmacraft:Chest TFC:12>, <terrafirmacraft:Chest TFC:13>, <terrafirmacraft:Chest TFC:14>, <terrafirmacraft:Chest TFC:15>, <terrafirmacraft:Chest TFC:16>] as IItemStack[];
+
 val tfc_powder_flux = <terrafirmacraft:item.Powder:0>; 
+val calcium_oxide_powder = <ihl:item.ihlSimpleItem:14>;
+val calcium_carbonate_powder = <ihl:item.ihlSimpleItem:13>;
+
+//ore_redstone.add(<terrafirmacraft:item.Ruby:2>);
+//ore_redstone.remove(<terrafirmacraft:item.Ore:27>);
+//ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
+//<ore:oreCinnabar>.add(<terrafirmacraft:item.Ore:27>);
 
 //recipe removal
 #furnace.remove(<minecraft:glass>);
@@ -43,60 +65,81 @@ for i, cg in cube_glass {
   recipes.removeShaped(pg);
 }
 
+//flux
 recipes.remove(tfc_powder_flux);
-recipes.addShapeless(tfc_powder_flux * 6, [<terrafirmacraft:item.Ore:32>, <ore:itemHammer>.transformDamage(6)]);
-recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:6>, <ore:itemHammer>.transformDamage(2)]);
-recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:10>, <ore:itemHammer>.transformDamage(2)]);
-recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:20>, <ore:itemHammer>.transformDamage(2)]);
-recipes.addShapeless(<customitems:calcium_carbonate_caco3_powder>, [<terrafirmacraft:item.LooseRock:8>, <ore:itemHammer>.transformDamage(2)]);
 
-furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:6>);
-furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:10>);
-furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:20>);
-furnace.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:8>);
-furnace.addRecipe(tfc_powder_flux *2, <customitems:calcium_carbonate_caco3_powder>);
+recipes.addShapeless(tfc_powder_flux, [calcium_oxide_powder]);
+recipes.addShapeless(tfc_powder_flux, [<customitems:borax_powder>]);
+recipes.addShapeless(tfc_powder_flux, [<customitems:ammonium_chloride_powder>]);
+
+recipes.addShapeless(<customitems:borax_powder> * 2, [<terrafirmacraft:item.Ore:32>, <ore:itemHammer>.transformDamage(6)]);
+recipes.addShapeless(calcium_carbonate_powder, [<terrafirmacraft:item.LooseRock:6>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(calcium_carbonate_powder, [<terrafirmacraft:item.LooseRock:10>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(calcium_carbonate_powder, [<terrafirmacraft:item.LooseRock:20>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(calcium_carbonate_powder, [<terrafirmacraft:item.LooseRock:8>, <ore:itemHammer>.transformDamage(2)]);
+
+furnace.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.LooseRock:6>);
+furnace.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.LooseRock:10>);
+furnace.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.LooseRock:20>);
+furnace.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.LooseRock:8>);
+//furnace.addRecipe(calcium_oxide_powder *2, calcium_carbonate_powder);
 
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.dyePowder:7>, <minecraft:skull>);
 
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:6>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:10>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:20>);
-mods.Terrafirmacraft.Quern.addRecipe(<customitems:calcium_carbonate_caco3_powder>*2, <terrafirmacraft:item.LooseRock:8>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:borax_powder>*3, <terrafirmacraft:item.Ore:32>);
+mods.Terrafirmacraft.Quern.addRecipe(calcium_carbonate_powder*2, <terrafirmacraft:item.LooseRock:6>);
+mods.Terrafirmacraft.Quern.addRecipe(calcium_carbonate_powder*2, <terrafirmacraft:item.LooseRock:10>);
+mods.Terrafirmacraft.Quern.addRecipe(calcium_carbonate_powder*2, <terrafirmacraft:item.LooseRock:20>);
+mods.Terrafirmacraft.Quern.addRecipe(calcium_carbonate_powder*2, <terrafirmacraft:item.LooseRock:8>);
+
+//salt
+mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Powder:9> * 4, <terrafirmacraft:item.LooseRock:5>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:crushed_rock_salt>, <terrafirmacraft:item.LooseRock:5>);
+recipes.addShaped(<terrafirmacraft:item.Powder:9>, [
+ [null, <customitems:crushed_rock_salt>, null],
+ [null, <customitems:crushed_rock_salt>, null],
+ [null, <customitems:sifter>.anyDamage().transformDamage(1), null]]);
+//retrieve by evaporator pan/electric evaporator
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemDust:9>, <liquid:saltwater> * 1000, <customitems:crushed_rock_salt> * 2, <liquid:freshwater> * 1000, 0,  false, 0, true, true);
+
+//KCl
+mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Ore:31>);
+mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:88>*3, <terrafirmacraft:item.Ore:31>);
 
 //heating
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>,<terrafirmacraft:item.Copper Tuyere>, 1080, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>,<terrafirmacraft:item.Wrought Iron Tuyere>, 1535, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>,<terrafirmacraft:item.Steel Tuyere>, 1540, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(rc_nugget_tin, rc_plate_tin, 230, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <terrafirmacraft:item.Copper Tuyere>, 1080, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <terrafirmacraft:item.Wrought Iron Tuyere>, 1535, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <terrafirmacraft:item.Steel Tuyere>, 1540, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(rc_nugget_tin * 2, rc_plate_tin, 230, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <minecraft:iron_ingot>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped:90>, ie_nugget_iron, 1535, 1.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <minecraft:gold_ingot>, 1060, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped:90>, <minecraft:gold_nugget>, 1060, 1.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped>, <ImmersiveEngineering:metal:4>, 1453, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped:90>, ie_nugget_nickel, 1453, 1.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <Steamcraft:steamcraftIngot:2>, 930, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped:90>, fsp_nugget_brass, 930, 1.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:10>, ie_nugget_iron, 1535, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <minecraft:gold_ingot>, 1060, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:1>, <minecraft:gold_nugget>, 1060, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped>, <ImmersiveEngineering:metal:4>, 1453, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:8>, ie_nugget_nickel, 1453, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <Steamcraft:steamcraftIngot:2>, 930, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, fsp_nugget_brass, 930, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped>, <Steamcraft:steamcraftIngot:1>, 420, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped:90>, fsp_nugget_zinc, 420, 1.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <Steamcraft:steamcraftIngot:0>, 1080, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped:90>, ie_nugget_copper, 1080, 1.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped:90>, ie_nugget_steel, 1850, 1.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nugget_zinc, 420, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <Steamcraft:steamcraftIngot:0>, 1080, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1080, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1850, 0.5);
 
 #flux from CaCO3->CaO pyrolisis
-mods.Terrafirmacraft.ItemHeat.addRecipe(tfc_powder_flux, <customitems:calcium_carbonate_caco3_powder>, 680, 1.0);
-mods.Terrafirmacraft.ItemHeat.addRecipe(tfc_powder_flux, <terrafirmacraft:item.dyePowder:7>, 700, 0.2);
+mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, calcium_carbonate_powder, 680, 1.0);
+mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.dyePowder:7>, 700, 0.2);
 
 #only brown or gray glass from sand in firepit, normal glass from furnace and quartzite sand with flux
 
 mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand:*>);
 mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand2:*>);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:4>,<minecraft:sand>.withTag({temperature: 650 as float}), 650, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:14>,<minecraft:sand:1>.withTag({temperature: 650 as float}), 650, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:4>.withTag({temperature: 650 as float}),<minecraft:sand>, 650, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:14>.withTag({temperature: 650 as float}),<minecraft:sand:1>, 650, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:7>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:*>, 650, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:12>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand2:*>, 650, 0.5);
 #mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand:15>);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>,<terrafirmacraft:Sand:15>, 1800, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>,<terrafirmacraft:Sand:15>, 1800, 0.8);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:9>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:3>, 650, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:1>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:4>, 650, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:0>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:5>, 650, 0.5);
@@ -106,10 +149,10 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:8>.withTag({tem
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:13>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:11>, 650, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:15>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:12>, 650, 0.5);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>.withTag({temperature: 800 as float}),<minecraft:glass>, 800, 1);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>.withTag({temperature: 800 as float}),<minecraft:glass>, 800, 0.2);
 
 for i, cg in cube_glass {
-  mods.Terrafirmacraft.ItemHeat.addRecipe(cg.withTag({temperature: 650 as float}),cg, 650, 1);
+  mods.Terrafirmacraft.ItemHeat.addRecipe(cg.withTag({temperature: 650 as float}),cg, 650, 0.2);
 }
 
 //glass
@@ -120,15 +163,15 @@ game.setLocalization("gui.plans.glassplate", "Two Glass Plates");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("glassbottle", 33, 26, 2);
 game.setLocalization("gui.plans.glassbottle", "Glass Bottle");      
 
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, rc_plate_tin, "glassplate", 1, 15);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>, "glassbottle", 0, 20);  
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, rc_plate_tin.reuse(), "glassplate", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>.transformDamage(1), "glassbottle", 0);  
 
-//advanced glas forming with foundry
+//advanced glass forming with foundry
 
 for i, cg in cube_glass {
   var pg = pane_glass[i];
-  mods.Terrafirmacraft.Anvil.addAnvilRecipe(pg, cg, rc_plate_tin, "glassplate", 1, 15);    
-  mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, cg, <terrafirmacraft:item.Copper Tuyere>, "glassbottle", 0, 20);  
+  mods.Terrafirmacraft.Anvil.addAnvilRecipe(pg, cg, "glassplate", 3, 15);    
+  mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, cg, "glassbottle", 0, 20);  
 }
 
 
@@ -137,56 +180,41 @@ mods.Terrafirmacraft.Anvil.addWeldRecipe(fsp_ironbarrel, <terrafirmacraft:item.W
 
 //nuggets
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("metalplate", 33, 8, 14);      
-game.setLocalization("gui.plans.metalplate", "Metal plate");      
-#mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_iron, <terrafirmacraft:item.Wrought Iron Double Ingot>, "metalplate", 3, 45);    
-#mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_brass, <terrafirmacraft:item.Brass Double Ingot>, "metalplate", 2, 35);    
-#mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_copper, <terrafirmacraft:item.Copper Double Ingot>, "metalplate", 1, 30);    
-#mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_gold, <terrafirmacraft:item.Gold Double Ingot>, "metalplate", 1, 25);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_lead, <terrafirmacraft:item.Lead Double Ingot>, "metalplate", 1, 20);    
+//mods.Terrafirmacraft.Anvil.addPlanRecipe("metalplate", 33, 8, 14);      
+//game.setLocalization("gui.plans.metalplate", "Metal plate");      
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_iron, <terrafirmacraft:item.Wrought Iron Double Ingot>, "metalplate", 3, 45);    
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_brass, <terrafirmacraft:item.Brass Double Ingot>, "metalplate", 2, 35);    
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_copper, <terrafirmacraft:item.Copper Double Ingot>, "metalplate", 1, 30);    
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_gold, <terrafirmacraft:item.Gold Double Ingot>, "metalplate", 1, 25);    
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_lead, <terrafirmacraft:item.Lead Double Ingot>, "metalplate", 1, 20);    
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("nugget", 20, 20, 20);      
-game.setLocalization("gui.plans.nugget", "Three nuggets");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_iron *3, <terrafirmacraft:item.Wrought Iron Ingot>, "nugget", 3, 45);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_nugget_brass *3, <terrafirmacraft:item.Brass Ingot>, "nugget", 2, 45);      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_copper *3, <terrafirmacraft:item.Copper Ingot>, "nugget", 1, 45);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:gold_nugget> *3, <terrafirmacraft:item.Gold Ingot>, "nugget", 1, 45);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_lead *3, <terrafirmacraft:item.Lead Ingot>, "nugget", 1, 45);
+//mods.Terrafirmacraft.Anvil.addPlanRecipe("nugget", 20, 20, 20);      
+//game.setLocalization("gui.plans.nugget", "Three nuggets");  
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_steel *3, <terrafirmacraft:item.Steel Ingot>, "nugget", 4);    
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_iron *3, <terrafirmacraft:item.Wrought Iron Ingot>, "nugget", 3);
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_nugget_brass *3, <terrafirmacraft:item.Brass Ingot>, "nugget", 2);      
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_copper *3, <terrafirmacraft:item.Copper Ingot>, "nugget", 1);
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:gold_nugget> *3, <terrafirmacraft:item.Gold Ingot>, "nugget", 1);
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_lead *3, <terrafirmacraft:item.Lead Ingot>, "nugget", 1);
 
 
-//RC tie soaked in creozote
-mods.Terrafirmacraft.Barrel.addItemConversion(<Railcraft:part.tie:0>, <terrafirmacraft:WoodSupportV:*>, <liquid:creosote> * 100, 1, true, 8, true);
+//leather 
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide>, <terrafirmacraft:item.Hide>, <liquid:base_potash_liquor> * 500, 1, true, 16, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:1>, <terrafirmacraft:item.Hide:1>, <liquid:base_potash_liquor> * 700, 1, true, 16, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:2>, <terrafirmacraft:item.Hide:2>, <liquid:base_potash_liquor> * 900, 1, true, 16, true);
 
-//IE treated wood
-recipes.removeShaped(<ImmersiveEngineering:treatedWood>);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraft:planks:*>, <liquid:creosote> * 100, 1, 
-true, 8, true);
-recipes.addShapeless(<ImmersiveEngineering:treatedWood>, [<ImmersiveEngineering:woodenDecoration:2>, <ImmersiveEngineering:woodenDecoration:2>]);
+mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:item.Scraped Hide>, <liquid:freshwater> * 300);
+mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:item.Scraped Hide:1>, <liquid:freshwater> * 400);
+mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:item.Scraped Hide:2>, <liquid:freshwater> * 500);
 
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:material>, <terrafirmacraft:item.stick>, <liquid:creosote> * 25, 0, true, 2, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:item.Prep Hide>, <liquid:waste> * 300, <terrafirmacraft:item.Scraped Hide>, <liquid:freshwater> * 300, 0,  true, 8, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:item.Prep Hide:1>, <liquid:waste> * 400, <terrafirmacraft:item.Scraped Hide:1>, <liquid:freshwater> * 400, 0,  true, 8, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:item.Prep Hide:2>, <liquid:waste> * 500, <terrafirmacraft:item.Scraped Hide:2>, <liquid:freshwater> * 500, 0,  true, 8, true, true);
 
-//mossy cobblestone
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:mossy_cobblestone>, <minecraft:cobblestone>, <liquid:freshwater> * 100, 1, true, 48, true);
-
-//chemistry
-//sulphuric acid
-recipes.remove(<tfcudarymod:item.Bottled Sulfuric Acid>);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:sulfuricacid> * 100, <terrafirmacraft:item.Powder:3>, <liquid:freshwater> * 100, 0,  true, 1, true, true);
-//caustic soda from NaCO3
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:sodium_hydroxide_naoh_aq> * 100, <customitems:sodium_carbonate_na2co3_powder>, <liquid:limewater> * 100, 0,  false, 0, true, true);
-//sodium sulfate from NaCl
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:sodium_sulfate_na2so4_aq> * 250, <terrafirmacraft:item.Powder:9>, <liquid:sulfuricacid> * 250, 0,  false, 0, true, true);
-//bauxite to alumina oxide
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:red_mud_waste>, <liquid:aluminium_hydroxide_al(oh)3_aq> * 200, <customitems:bauxite_conglomerate>, <liquid:sodium_hydroxide_naoh_aq> * 250, 0,  true, 1, true, true);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:aluminium_hydroxide_al(oh)3_powder> * 10, <liquid:aluminium_hydroxide_al(oh)3_aq> * 100, <customitems:aluminium_hydroxide_al(oh)3_powder>, <liquid:aluminium_hydroxide_al(oh)3_aq> * 1000, 0,  true, 1, true, true);
-
-furnace.addRecipe(<customitems:aluminium_hydroxide_al(oh)3_powder>, <customitems:aluminium_hydroxide_al(oh)3_aq_bucket>);
-furnace.addRecipe(<customitems:alumina_al2o3_powder>, <customitems:aluminium_hydroxide_al(oh)3_powder>);
-
-//paper production
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:cellulose_fibers>, <liquid:hotwater> * 200, <terrafirmacraft:item.Reeds>, <liquid:hotwater> * 250, 0,  true, 24, true, true);
-recipes.remove(<minecraft:paper>);
-recipes.addShapeless(<minecraft:paper>, [<customitems:cellulose_fibers>, <customitems:cellulose_fibers>, <ore:logWood>.reuse()]);
+# scrapping in macerator
+mods.ic2.Macerator.addRecipe(<terrafirmacraft:item.Scraped Hide>, <terrafirmacraft:item.Soaked Hide>);
+mods.ic2.Macerator.addRecipe(<terrafirmacraft:item.Scraped Hide:1>, <terrafirmacraft:item.Soaked Hide:1>);
+mods.ic2.Macerator.addRecipe(<terrafirmacraft:item.Scraped Hide:2>, <terrafirmacraft:item.Soaked Hide:2>);
 
 //flint arrows
 recipes.remove(<terrafirmacraft:item.arrow>);
@@ -198,13 +226,54 @@ recipes.addShaped(<terrafirmacraft:item.Fire Brick> * 8, [
  [<terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>],
  [<terrafirmacraft:item.Clay:1>, <customitems:brick_mold>.reuse(), <terrafirmacraft:item.Clay:1>],
  [<terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>, <terrafirmacraft:item.Clay:1>]]);
+mods.Terrafirmacraft.Knapping.addFireClayWorkingRecipe(<terrafirmacraft:item.Fire Brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
 //furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
 
+
+//spawnmeter with all glass types
 recipes.remove(<terrafirmacraft:SpawnMeter>);
 recipes.addShaped(<terrafirmacraft:SpawnMeter>, [
  [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],
  [<ore:blockGlass>, <ore:gemChipped>, <ore:blockGlass>],
  [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
+
+//more saw damage, barrels with hoop
+recipes.remove(<terrafirmacraft:item.SinglePlank:*>);
+recipes.remove(<terrafirmacraft:WoodSupportV:*>);
+recipes.remove(<terrafirmacraft:WoodSupportV2>);
+recipes.remove(<terrafirmacraft:Barrel:*>);
+recipes.remove(<terrafirmacraft:item.Wooden Bucket Empty>);
+//recipes.remove(<terrafirmacraft:Chest TFC:*>);
+for i, t in timber {
+  var l = logs[i];
+  var p = planks[i];
+  var s = supports[i];
+  var b = barrels[i];
+//  var c = chests[i];
+  recipes.addShapeless(t * 8, [l, <ore:itemSaw>.transformDamage(8)]);
+  recipes.addShapeless(t * 4, [p, <ore:itemSaw>.transformDamage(4)]);
+  recipes.addShapeless(s * 8, [l, <ore:itemSaw>.transformDamage(8), l]);
+  recipes.addShaped(b, [
+   [t, <ore:itemHoop>, t],
+   [t, null, t],
+   [t, <ore:itemHoop>, t]]);
+/*
+  recipes.addShaped(c, [
+   [<ore:itemRivet>, t, <ore:itemRivet>],
+   [t, null, t],
+   [t, t, t]]);
+*/
+}
+
+
+recipes.addShaped(<terrafirmacraft:item.Wooden Bucket Empty>, [
+   [<ore:woodLumber>, null, <ore:woodLumber>],
+   [<ore:woodLumber>, null, <ore:woodLumber>],
+   [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+
+recipes.remove(<terrafirmacraft:item.stick>);
+recipes.addShapeless(<terrafirmacraft:item.stick> * 4, [<ore:woodLumber>, <ore:itemAxe>.transformDamage(4)]);
+
 
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14

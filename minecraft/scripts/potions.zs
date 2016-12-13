@@ -1,5 +1,7 @@
+//todo: potion liquids
 
 val awkward_potion 	= <minecraft:potion:16>;
+val mundane_potion 	= <minecraft:potion:8192>;
 val potion_slowness 	= <minecraft:potion:8202>;
 val splash_potion_slowness 	= <minecraft:potion:16394>;
 val potion_posion 	= <minecraft:potion:8196>;
@@ -49,37 +51,51 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(splash_potion_invisible, potion_invisibl
 //fermented spider eye
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<minecraft:fermented_spider_eye>, <liquid:freshwater> * 1000, <minecraft:spider_eye>, <liquid:freshwater> * 2000, 0, true, 48, true);
 
-//base potion (neutral)
-mods.Terrafirmacraft.Barrel.addItemConversion(awkward_potion, <terrafirmacraft:Fungi:0> * 32, <liquid:vinegar> * 1000, 0, true, 48, false);
+//awkward base potion (neutral for healthly potions)
+//mods.Terrafirmacraft.Barrel.addItemConversion(awkward_potion, <terrafirmacraft:Fungi:0> * 32, <liquid:vinegar> * 1000, 0, true, 48, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:awkward_potion> * 5000, <terrafirmacraft:Fungi:0> * 32, <liquid:vinegar> * 5000, 0,  true, 24, true, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 1000, <minecraft:glass_bottle>, <liquid:awkward_potion> * 2000, 0, false, 0, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:awkward_potion> * 500, 0, false, 0, true, true);
+
+//mundane base potion (neutral for harming potions)
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:mundane_potion> * 5000, <terrafirmacraft:Fungi:1> * 32, <liquid:vinegar> * 5000, 0,  true, 24, true, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 1000, <minecraft:glass_bottle>, <liquid:mundane_potion> * 2000, 0, false, 0, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:mundane_potion> * 500, 0, false, 0, true, true);
+
 
 //negative effects
-mods.Terrafirmacraft.Barrel.addItemConversion(potion_slowness, <minecraft:rotten_flesh> * 64, <liquid:vinegar> * 1000, 0, true, 24, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(potion_weakness, <terrafirmacraft:Fungi:1> * 32, <liquid:vinegar> * 1000, 0, true, 24, false);
-recipes.addShapeless(potion_posion, [awkward_potion, poppy, <terrafirmacraft:Fungi:1>, <minecraft:glowstone_dust>]);
-recipes.addShapeless(potion_harming * 2, [awkward_potion, <minecraft:fermented_spider_eye>, potion_weakness, <minecraft:redstone>]);
+//mods.Terrafirmacraft.Barrel.addItemConversion(potion_slowness, <minecraft:rotten_flesh> * 64, <liquid:vinegar> * 1000, 0, true, 24, true);
+recipes.addShapeless(potion_slowness, [mundane_potion, <ore:saltDust>, <minecraft:fermented_spider_eye>]);
+
+//mods.Terrafirmacraft.Barrel.addItemConversion(potion_weakness, <terrafirmacraft:Fungi:1> * 32, <liquid:vinegar> * 1000, 0, true, 24, false);
+recipes.addShapeless(potion_weakness, [mundane_potion, poppy, <minecraft:fermented_spider_eye>]);
+
+
+//todo: lead oxide
+recipes.addShapeless(potion_posion, [potion_weakness, <customitems:glowstone_lump>, <terrafirmacraft:Fungi:1>, <minecraft:dye:1>]);
+recipes.addShapeless(potion_harming * 2, [mundane_potion, <customitems:glowstone_lump>, potion_weakness, <minecraft:redstone>]);
 
 //healing potions
-recipes.addShapeless(potion_regenering * 3, [<terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Wintergreen Berry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Rye Whiskey>]);
-recipes.addShapeless(potion_healing * 3, [<terrafirmacraft:item.Rum>, <terrafirmacraft:item.Rum>, <terrafirmacraft:item.Bunchberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Rum>]);
+recipes.addShapeless(potion_regenering, [<terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Wintergreen Berry>.withTag({foodWeight: 1.0 as float}), awkward_potion]);
+recipes.addShapeless(potion_healing, [<terrafirmacraft:item.Rum>, <terrafirmacraft:item.Rum>, <terrafirmacraft:item.Bunchberry>.withTag({foodWeight: 1.0 as float}), awkward_potion]);
 
-recipes.addShapeless(potion_regenering_2, [potion_regenering, allium,  <minecraft:glowstone_dust>]);
-recipes.addShapeless(potion_regenering_extended, [potion_regenering, <terrafirmacraft:item.Garlic>.onlyWithTag({foodWeight: 160.0 as float}),  <minecraft:redstone>]);
-recipes.addShapeless(potion_healing_2, [potion_healing, calendula, <minecraft:glowstone_dust>]);
+recipes.addShapeless(potion_regenering_2, [potion_regenering, allium, <ore:dustTinyGold>]);
+recipes.addShapeless(potion_regenering_extended, [potion_regenering, <terrafirmacraft:item.Garlic>.withTag({foodWeight: 1.0 as float}),  <minecraft:redstone>]);
+recipes.addShapeless(potion_healing_2, [potion_healing, calendula, <ore:dustTinyGold>]);
 
 //protection potions
-mods.Terrafirmacraft.Barrel.addItemConversion(potion_fireprotect, <terrafirmacraft:item.Snowberry>.withTag({foodWeight: 160.0 as float}), <liquid:oliveoil> * 250, 0, true, 24, false);
+//mods.Terrafirmacraft.Barrel.addItemConversion(potion_fireprotect, <terrafirmacraft:item.Snowberry>.withTag({foodWeight: 160.0 as float}), <liquid:oliveoil> * 250, 0, true, 24, false);
+recipes.addShapeless(potion_fireprotect * 2, [<tfcudarymod:item.Bottled Olive Oil>, <terrafirmacraft:item.Snowberry>.withTag({foodWeight: 1.0 as float}), awkward_potion]);
 
 //powerup potions
-recipes.addShapeless(potion_swiftness, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Cloudberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:redstone>]);
+recipes.addShapeless(potion_swiftness, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Cloudberry>.withTag({foodWeight: 1.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:redstone>, awkward_potion]);
 
-recipes.addShapeless(potion_nightvision, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blueberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:spider_eye>]);
+recipes.addShapeless(potion_nightvision, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blueberry>.withTag({foodWeight: 1.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:spider_eye>, awkward_potion]);
 
-recipes.addShapeless(potion_strength, [<terrafirmacraft:item.Vodka>, <terrafirmacraft:item.Cranberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:redstone>, <terrafirmacraft:item.Sugar>.withTag({foodWeight: 160.0 as float})]);
+recipes.addShapeless(potion_strength, [<terrafirmacraft:item.Vodka>, <terrafirmacraft:item.Cranberry>.withTag({foodWeight: 1.0 as float}), <minecraft:redstone>, <terrafirmacraft:item.Sugar>.withTag({foodWeight: 160.0 as float}), awkward_potion]);
 
-recipes.addShapeless(potion_waterbreath, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Elderberry>.withTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:ghast_tear>]);
+recipes.addShapeless(potion_waterbreath, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Elderberry>.withTag({foodWeight: 1.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:ghast_tear>, awkward_potion]);
 
-recipes.addShapeless(potion_invisible, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blackberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:ender_eye>, <minecraft:glowstone_dust>]);
+recipes.addShapeless(potion_invisible, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blackberry>.withTag({foodWeight: 0.0 as float}), <minecraft:ender_eye>, <minecraft:glowstone_dust>, awkward_potion]);
 
-
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:glowstone_dust>, <terrafirmacraft:item.Ore:26>); //from pitchblende
 

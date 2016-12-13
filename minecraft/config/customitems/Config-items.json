@@ -1,81 +1,62 @@
 {
     "items": [
         {
-            "name": "Chromite powder",
-            "textureName": "ore_chromite",
-            "maxStackSize": 16,
-            "creativeTab": "Custom Items",
-            "glows": "false"
-        },
-        {
-            "name": "Bauxite conglomerate",
-            "textureName": "ore_bauxite_conglomerate",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Red mud waste",
-            "textureName": "red_mud_waste",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 64
-        },
-        {
-            "name": "Aluminium hydroxide Al(OH)3 powder",
-            "textureName": "AluminiumHydroxide_Al_OH_3_powder",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Alumina Al2O3 powder",
-            "textureName": "alumina_powder",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Calcium carbonate CaCO3 powder",
-            "textureName": "CalciumCarbonate_powder",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Sodium carbonate Na2CO3 powder",
-            "textureName": "SodiumCarbonate_powder",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Calcium sulfide CaS powder",
-            "textureName": "CalciumSulfide_powder",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 16
-        },
-        {
-            "name": "Chromium nugget",
-            "textureName": "nugget_Chromium",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 32
-        },
-        {
-            "name": "Cellulose fibers",
-            "textureName": "cellulose_fibers",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 32
-        },
-        {
-            "name": "Brick mold",
-            "textureName": "brick_mold",
+            "name": "Recipe removed",
+            "textureName": "unused",
             "creativeTab": "Custom Items",
             "maxStackSize": 1
         },
         {
-            "name": "Clay Brick",
-            "textureName": "clay_brick",
+            "name": "Fluorite Crystals",
+            "textureName": "item_Fluorite",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
-            "name": "Refractory Soft Brick",
-            "textureName": "foundry_clay_brick",
+            "name": "Xenotime Crystal",
+            "textureName": "item_Xenotime",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Iron Ore Batch",
+            "textureName": "batch_IronOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Container with Iron Ore Batch",
+            "textureName": "container_batch_IronOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Grease Lump",
+            "textureName": "Lump_Grease",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Lithium Soap Lump",
+            "textureName": "Lump_LithiumSoap",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Plumber Putty Lump",
+            "textureName": "Lump_PlumberPutty",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Glowstone Lump",
+            "textureName": "lump_GlowStone",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Chromium nugget",
+            "textureName": "nugget_Chromium",
             "creativeTab": "Custom Items",
             "maxStackSize": 32
         }

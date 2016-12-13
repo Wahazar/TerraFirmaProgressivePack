@@ -98,3 +98,55 @@ recipes.addShaped(<cuchaz.ships:blockProjector>, [
  [<ore:ingotIron>, <ImmersiveEngineering:metalDevice2:4>, <ore:ingotIron>],
  [null, <ore:ingotIron>, null]]);
 
+//vanilla wood as olive treated TFC wood
+val oak_log = <minecraft:log:0>;
+val spruce_log = <minecraft:log:1>;
+val birch_log = <minecraft:log:2>;
+val jungle_log = <minecraft:log:3>;
+val acacia_log = <minecraft:log2>;
+val darkoak_log = <minecraft:log2:1>;
+
+# mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks>, <terrafirmacraft:planks>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(oak_log, <terrafirmacraft:item.Log>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(spruce_log, <terrafirmacraft:item.Log:10>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(birch_log, <terrafirmacraft:item.Log:2>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(jungle_log, <terrafirmacraft:item.Log:9>, <liquid:oliveoil> * 25, 1, true, 8, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(acacia_log, <terrafirmacraft:item.Log:16>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(darkoak_log, <terrafirmacraft:item.Log:5>, <liquid:oliveoil> * 25, 1, true, 8, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks:1>, <terrafirmacraft:planks:10>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks:2>, <terrafirmacraft:planks:2>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks:3>, <terrafirmacraft:planks:9>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks:4>, <terrafirmacraft:planks2>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:planks:5>, <terrafirmacraft:planks:5>, <liquid:oliveoil> * 25, 1, true, 8, true); 
+
+recipes.addShaped(<minecraft:wooden_slab:1> * 6, [
+ [null, null, null],
+ [null, null, null],
+ [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]);
+
+recipes.addShaped(<minecraft:wooden_slab:2> * 6, [
+ [null, null, null],
+ [null, null, null],
+ [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]);
+
+recipes.addShaped(<minecraft:wooden_slab:3> * 6, [
+ [null, null, null],
+ [null, null, null],
+ [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]);
+
+recipes.addShaped(<minecraft:wooden_slab:4> * 6, [
+ [null, null, null],
+ [null, null, null],
+ [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]);
+
+recipes.addShaped(<minecraft:wooden_slab:5> * 6, [
+ [null, null, null],
+ [null, null, null],
+ [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]);
+
+recipes.addShaped(<minecraft:oak_stairs> * 4, [
+ [<minecraft:planks:*>, null, null],
+ [<minecraft:planks:*>, <minecraft:planks:*>, null],
+ [<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]]);
+

@@ -7,7 +7,37 @@ recipes.addShaped(<SimpleAchievements:sa.decorationBlock>, [
  [<ore:plankWood>, <terrafirmacraft:item.TFC Leather>, <ore:plankWood>],
  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
+#udary mod
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcudarymod:item.Copper Wire>*10, <terrafirmacraft:item.Copper Ingot>, "_wire", 1);
+recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <ore:itemKnife>.transformDamage(4)]);
+//recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Stone Knife>]);
+//recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Copper Knife>]);
+
 #TFC misc
+
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_BismuthBronze>, <terrafirmacraft:item.Bismuth Bronze Ingot>, "coil", 2);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_BlackBronze>, <terrafirmacraft:item.Black Bronze Ingot>, "coil", 2);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_BlackSteel>, <terrafirmacraft:item.Black Steel Ingot>, "coil", 5);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_BlueSteel>, <terrafirmacraft:item.Blue Steel Ingot>, "coil", 6);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_Bronze>, <terrafirmacraft:item.Bronze Ingot>, "coil", 2);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_Copper>, <terrafirmacraft:item.Copper Ingot>, "coil", 1);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_WroughtIron>, <terrafirmacraft:item.Wrought Iron Ingot>, "coil", 3);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_RedSteel>, <terrafirmacraft:item.Red Steel Ingot>, "coil", 6);       
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_Steel>, <terrafirmacraft:item.Steel Ingot>, "coil", 4);   
+
+mods.Terrafirmacraft.Anvil.addPlanRecipe("spiral", 15, 5, 5);      
+game.setLocalization("gui.plans.spiral", "Spiral");         
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_BismuthBronze>, <customitems:bismuth_bronze_wire>, "spiral", 2);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_BlackBronze>, <customitems:black_bronze_wire>, "spiral", 2);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_BlackSteel>, <customitems:black_steel_wire>, "spiral", 5);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_BlueSteel>, <customitems:blue_steel_wire>, "spiral", 6);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_Bronze>, <customitems:bronze_wire>, "spiral", 2);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_spring>, <customitems:brass_wire>, "spiral", 2);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_Copper>, <customitems:copper_wire>, "spiral", 1);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_WroughtIron>, <customitems:iron_wire>, "spiral", 3);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_RedSteel>, <customitems:red_steel_wire>, "spiral", 6);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.Coil_Steel>, <customitems:steel_wire>, "spiral", 4);   
+
 recipes.addShaped(<tfcm:item.Copper_Chain_Helmet>, [
  [<tfcm:item.Chain_Sheet_Copper>, <terrafirmacraft:item.BurlapCloth>, <tfcm:item.Chain_Sheet_Copper>],
  [<tfcm:item.Chain_Sheet_Copper>, null, <tfcm:item.Chain_Sheet_Copper>],
@@ -63,7 +93,7 @@ recipes.addShaped(<tfcm:item.BowLimb>, [
 
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.CasingIron>, <terrafirmacraft:item.Wrought Iron Ingot>, "casing", 3); 
 
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, <terrafirmacraft:item.Tin Ingot>, "casing", 0, 20);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, <tfcpewter:item.pewterIngot>, "casing", 0, 20);    
 
 # NEI.overrideName(<tfcm:item.CasingIron>, "Tin Casing");
 
@@ -76,8 +106,7 @@ recipes.addShaped(<terrafirmacraft:item.Rope>, [
  [<tfcm:item.SinewString>, <tfcm:item.SinewFiber>, null],
  [null, null, <tfcm:item.SinewString>]]);
 
-val ore_Browndye = <ore:dyeBrown>;
-ore_Browndye.add(<tfcm:item.BrownDye>);
+//ore_Browndye.add(<tfcm:item.BrownDye>);
 
 val ie_grit_iron = <ImmersiveEngineering:metal:8>;
 
@@ -85,10 +114,10 @@ recipes.remove(<tfcm:item.BrownDye>);
 mods.Terrafirmacraft.Barrel.addItemConversion(<tfcm:item.BrownDye>, ie_grit_iron, <liquid:freshwater> * 100, 0, true, 12, true);
 mods.Terrafirmacraft.Barrel.addItemConversion(<tfcm:item.BrownDye>, ie_grit_iron, <liquid:saltwater> * 100, 0, true, 8, true);
 
-mods.Terrafirmacraft.Quern.addRecipe(ie_grit_iron, <terrafirmacraft:item.Wrought Iron Ingot>);
+// mods.Terrafirmacraft.Quern.addRecipe(ie_grit_iron, <terrafirmacraft:item.Wrought Iron Ingot>);
 
-val ore_steelgrit = <ore:dustSteel>;
-ore_steelgrit.add(<tfcm:item.IronDust>);
+//ore_steelgrit.add(<tfcm:item.IronDust>);
+
 mods.Terrafirmacraft.Quern.removeRecipe(<tfcm:item.IronDust>*8, <terrafirmacraft:item.Wrought Iron Ingot>);
 mods.Terrafirmacraft.Quern.removeRecipe(<tfcm:item.IronDust>, <terrafirmacraft:item.Small Ore:10>);
 mods.Terrafirmacraft.Quern.removeRecipe(<tfcm:item.IronDust>, <terrafirmacraft:item.Ore:59>);
@@ -97,82 +126,68 @@ mods.Terrafirmacraft.Quern.removeRecipe(<tfcm:item.IronDust>*3, <terrafirmacraft
 
 recipes.remove(<tfcm:item.PistonBase>);
 recipes.addShaped(<tfcm:item.PistonBase>, [
- [null, <tfcm:item.Coil_WroughtIron>, null],
+ [<customitems:grease_lump>, <tfcm:item.Coil_WroughtIron>, <customitems:iron_flange>],
  [<terrafirmacraft:item.SinglePlank:*>, <ore:dustRedstone>, <terrafirmacraft:item.SinglePlank:*>],
  [<terrafirmacraft:item.SinglePlank:*>, <terrafirmacraft:item.SinglePlank:*>, <terrafirmacraft:item.SinglePlank:*>]]);
 
-recipes.remove(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>, [
- [<ore:nuggetIron>, <ore:plankWood>, <ore:nuggetIron>],
- [<minecraft:cobblestone>, <terrafirmacraft:WoodSupportV:*>, <minecraft:cobblestone>],
- [<minecraft:cobblestone>, <tfcm:item.PistonBase>, <minecraft:cobblestone>]]);
 
-#additional items
+#TFCmisc items instead of vanilla TFC 
+recipes.remove(<tfcm:item.Quiver>);
+mods.Terrafirmacraft.Knapping.removeLeatherWorkingRecipe(<terrafirmacraft:item.Quiver>, " ####", "# ###", "# ###", "# ###", " ####");
+mods.Terrafirmacraft.Knapping.addLeatherWorkingRecipe(<tfcm:item.Quiver>, " ####", "# ###", "# ###", "# ###", " ####");
 
-recipes.addShaped(<customitems:birch_planks_fence> * 3, [
- [<terrafirmacraft:planks:2>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:2>],
- [<terrafirmacraft:planks:2>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:2>],
-]);
+recipes.remove(<tfcm:blockFruitPress>);
+recipes.remove(<terrafirmacraft:Hopper>);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<terrafirmacraft:Hopper>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <terrafirmacraft:item.Wrought Iron Double Sheet>, "hopper",3);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("fruitpress", 33, 18, 7);      
+game.setLocalization("gui.plans.fruitpress", "Fruit press hopper");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:blockFruitPress>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <terrafirmacraft:item.Wrought Iron Double Sheet>, "fruitpress", 3, 15);    
 
-recipes.addShaped(<customitems:pine_planks_fence> * 3, [
- [<terrafirmacraft:planks:8>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:8>],
- [<terrafirmacraft:planks:8>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:8>],
-]);
+//gypsum
+val ihl_gypsum = <ihl:item.ihlSimpleItem:12>;
+val ihl_dehydrated_gypsum = <ihl:item.ihlSimpleItem:23>;
+recipes.addShaped(ihl_gypsum, [
+ [null, <DecorationsTFC:item.Powders.Gypsum>, null],
+ [null, <DecorationsTFC:item.Powders.Gypsum>, null],
+ [null, <customitems:sifter>.anyDamage().transformDamage(1), null]]);
 
-recipes.addShaped(<customitems:douglas_fir_planks_fence> * 3, [
- [<terrafirmacraft:planks:4>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:4>],
- [<terrafirmacraft:planks:4>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:4>],
-]);
+mods.Terrafirmacraft.Barrel.removeItemFluidConversion(<DecorationsTFC:item.Powders.Gypsum>, <liquid:freshwater> * 500);
+mods.Terrafirmacraft.Barrel.removeItemFluidConversion(<DecorationsTFC:item.Powders.Gypsum>, <liquid:plaster> * 50);
 
-recipes.addShaped(<customitems:hickory_planks_fence> * 3, [
- [<terrafirmacraft:planks:5>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:5>],
- [<terrafirmacraft:planks:5>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks:5>],
-]);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:plaster> * 500, ihl_dehydrated_gypsum, <liquid:freshwater> * 500, 0,  false, 0, true, true);
 
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<DecorationsTFC:Alabaster>, <liquid:plaster> * 50, ihl_dehydrated_gypsum, <liquid:plaster> * 100, 0,  true, 1, true, true);
 
-recipes.addShaped(<customitems:acacia_planks_fence> * 3, [
- [<terrafirmacraft:planks2>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks2>],
- [<terrafirmacraft:planks2>, <terrafirmacraft:item.stick>, <terrafirmacraft:planks2>],
-]);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ihl_dehydrated_gypsum, ihl_gypsum, 300, 0.2);
 
-recipes.addShapeless(<customitems:chiseled_dark_quartz>, 
- [<customitems:dark_quartz>, <ore:itemChisel>.transformDamage()]
-);
+//animal crate
+recipes.remove(<animalcrate:blockcrate>);
+recipes.addShaped(<animalcrate:blockcrate>, [
+ [<ihl:item.ihlSimpleItem:57>, <terrafirmacraft:item.SinglePlank:*>, <ihl:item.ihlSimpleItem:57>],
+ [<ore:logWood>, <terrafirmacraft:item.Straw>, <ore:logWood>],
+ [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
-recipes.addShapeless(<customitems:dark_quartz_pillar> * 2, 
- [<customitems:dark_quartz>, <customitems:dark_quartz>, <ore:itemChisel>.transformDamage(2)]
-);
+//pewter ware
+//mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "pewter_jug", 2);
 
+/*
+mods.Terrafirmacraft.Anvil.addPlanRecipe("thickwire", 8, 8, 26);      
+game.setLocalization("gui.plans.thickwire", "Wire");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bismuth_bronze_wire>, <customitems:bismuth_bronze_rod>, "thickwire", 2); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_wire>, <customitems:black_steel_rod>, "thickwire", 5);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_bronze_wire>, <customitems:black_bronze_rod>, "thickwire", 2);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:blue_steel_wire>, <customitems:blue_steel_rod>, "thickwire", 6); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_wire>, <customitems:brass_rod>, "thickwire", 2);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_wire>, <customitems:bronze_rod>, "thickwire", 2);   
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_wire>, tfc_rod_copper, "thickwire", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_wire>, ie_rod_iron, "thickwire", 3);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_wire>, <customitems:red_steel_rod>, "thickwire", 6); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_wire>, ie_rod_steel, "thickwire", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:pewter_tin_wire>, <customitems:pewter_tin_rod>, "thickwire", 2);
+*/
 
-#1.8 items
-recipes.addShaped(<customitems:red_sandstone>, [
- [<minecraft:sand:1>, <minecraft:sand:1>],
- [<minecraft:sand:1>, <minecraft:sand:1>]]);
+mods.Terrafirmacraft.Barrel.removeItemConversion(<tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 200);
 
-recipes.addShaped(<customitems:chiseled_red_sandstone>, [
- [<customitems:red_sandstone_slab>, null],
- [<customitems:red_sandstone_slab>, null]]);
-
-recipes.addShaped(<customitems:smooth_red_sandstone> * 4, [
- [<customitems:red_sandstone>, <customitems:red_sandstone>],
- [<customitems:red_sandstone>, <customitems:red_sandstone>]]);
-
-recipes.addShaped(<customitems:red_sandstone_slab> * 6, [
- [<customitems:red_sandstone>, <customitems:red_sandstone>, <customitems:red_sandstone>]]);
-
-recipes.addShaped(<customitems:red_sandstone_stairs> * 4, [
- [<customitems:red_sandstone>, null, null],
- [<customitems:red_sandstone>, <customitems:red_sandstone>, null],
- [<customitems:red_sandstone>, <customitems:red_sandstone>, <customitems:red_sandstone>]]);
-
-recipes.addShaped(<customitems:prismarine_bricks>, [
- [<customitems:prismarine_shard>, <customitems:prismarine_shard>, <customitems:prismarine_shard>],
- [<customitems:prismarine_shard>, <tfcm:item.CaseinGlue>, <customitems:prismarine_shard>],
- [<customitems:prismarine_shard>, <customitems:prismarine_shard>, <customitems:prismarine_shard>]]);
-
-recipes.addShaped(<customitems:sea_lantern>, [
- [<customitems:prismarine_shard>, <customitems:prismarine_crystals>, <customitems:prismarine_shard>],
- [<customitems:prismarine_crystals>, <customitems:quartz_glass>, <customitems:prismarine_crystals>],
- [<customitems:prismarine_shard>, <customitems:prismarine_crystals>, <customitems:prismarine_shard>]]);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:waterhot> * 1000, 0,  false, 0, true, true);
 
 

@@ -19,11 +19,33 @@
                    "id": "tfcm:item.Suet",
                    "count": 0.4
 	            },
-		{ 
-                   "function": "add", 
-                   "id": "terrafirmacraft:item.Small Ore",
-                   "count": 0.1
-	            }
+    		{
+      		"function": "if_recently_hit",
+      		"functions": [
+			{ 
+                   	"function": "add", 
+                   	"id": "terrafirmacraft:item.Small Ore",
+                   	"count": 0.1
+	            	},
+        		{
+          		"function": "add",
+          		"count": 0.1,
+          		"id": "ImmersiveEngineering:shaderBag",
+          		"item_stats": [
+            		{
+              		"function": "nbt",
+              		"tags": [
+                		{
+                  		"name": "rarity",
+                  		"function": "string",
+                  		"value": "uncommon"
+                		}
+              			]
+            		}
+          		]
+        		}
+      			]
+		}
 		]
 		},
            {
