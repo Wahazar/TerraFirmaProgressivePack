@@ -1,0 +1,21 @@
+{
+  "_name": "customitems:transfer_ladle-batch",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.9,
+    "resistance": 18.0,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

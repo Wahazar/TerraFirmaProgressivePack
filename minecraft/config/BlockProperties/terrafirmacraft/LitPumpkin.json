@@ -1,0 +1,32 @@
+{
+  "_name": "terrafirmacraft:LitPumpkin",
+  "stats": {
+    "opacity": 255,
+    "brightness": 15,
+    "hardness": 1.0,
+    "resistance": 5.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "default", 
+                   "value": "false" 
+                  },
+		{ 
+                   "function": "add", 
+                   "id": "IC2:itemFuelPlantBall",
+                   "count": 1.0
+	            }
+		]
+	}
+],
+  "harvest": [],
+  "xp": []
+}

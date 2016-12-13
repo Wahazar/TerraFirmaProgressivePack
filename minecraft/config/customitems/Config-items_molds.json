@@ -1,0 +1,166 @@
+{
+    "items": [
+        {
+            "name": "Brick mold",
+            "textureName": "brick_mold",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Rivets Soft Mold",
+            "textureName": "claymold_4rivets",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Rivets Mold",
+            "textureName": "mold_4rivets",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Flange Soft Mold",
+            "textureName": "claymold_flange",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Flange Mold",
+            "textureName": "mold_flange",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Turning Blank Soft Mold",
+            "textureName": "claymold_turningblank",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Turning Blank Mold",
+            "textureName": "mold_turningblank",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Bar Soft Mold",
+            "textureName": "claymold_bar",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Bar Mold",
+            "textureName": "mold_bar",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Ring Soft Mold",
+            "textureName": "claymold_ring",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Ring Mold",
+            "textureName": "mold_ring",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Valve Handle Soft Mold",
+            "textureName": "claymold_valvehandle",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Valve Handle Mold",
+            "textureName": "mold_valvehandle",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Cutting Blade Soft Mold",
+            "textureName": "claymold_cuttingblade",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Cutting Blade Mold",
+            "textureName": "mold_cuttingblade",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Lathing Tool Soft Mold",
+            "textureName": "claymold_LathingTool",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Lathing Tool Mold",
+            "textureName": "mold_LathingTool",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Mining Drill Soft Mold",
+            "textureName": "claymold_MiningDrill",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Mining Drill Mold",
+            "textureName": "mold_MiningDrill",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Round Casing Soft Mold",
+            "textureName": "claymold_roundcase",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Round Casing Mold",
+            "textureName": "mold_roundcase",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Small Wheel Soft Mold",
+            "textureName": "claymold_smallwheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Small Wheel Mold",
+            "textureName": "mold_smallwheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Knife Press Mold",
+            "textureName": "mold_knife",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Saw Press Mold",
+            "textureName": "mold_saw",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Shovel Press Mold",
+            "textureName": "mold_shovel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Printed Circuit Mask",
+            "textureName": "mold_circuit",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        }
+    ]
+}

@@ -1,0 +1,395 @@
+{
+    "items": [
+        {
+            "name": "Crushed chromite",
+            "textureName": "itemCrushedChromite",
+            "maxStackSize": 16,
+            "creativeTab": "Custom Items",
+            "glows": "false"
+        },
+        {
+            "name": "Bauxite conglomerate",
+            "textureName": "ore_bauxite_conglomerate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Red mud waste",
+            "textureName": "red_mud_waste",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Black mud waste",
+            "textureName": "black_mud_waste",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Aluminium hydroxide powder",
+            "textureName": "powder_AluminiumHydroxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Alumina powder",
+            "textureName": "powder_alumina",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Ammonium Chloride powder",
+            "textureName": "powder_AmmoniumChloride",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Borax powder",
+            "textureName": "powder_Borax",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Sodium hydrogen carbonate powder",
+            "textureName": "powder_SodiumHydrogenCarbonate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Sodium carbonate powder",
+            "textureName": "powder_SodiumCarbonate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Calcium sulfide powder",
+            "textureName": "powder_CalciumSulfide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Black Ash powder",
+            "textureName": "powder_blackAsh",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Cryolite powder",
+            "textureName": "powder_Cryolite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Lithium Carbonate powder",
+            "textureName": "powder_LithiumCarbonate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Phosforic Acid powder",
+            "textureName": "powder_PhosforicAcid",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Ammonium Nitrate powder",
+            "textureName": "powder_AmmoniumNitrate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "SuperPhosphate powder",
+            "textureName": "powder_SuperPhosphate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Zinc White powder",
+            "textureName": "powder_ZincOxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "FerroChloride dust",
+            "textureName": "dustIronChloride",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Iridium Chloride dust",
+            "textureName": "dustIridiumChloride",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Iridium sludge lump",
+            "textureName": "Lump_IridiumSludge",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Ammonium HexaChloroIridate lump",
+            "textureName": "Lump_AmmoniumHexaChloroIridate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Chromite dust",
+            "textureName": "dustChromite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Ferrochrome dust",
+            "textureName": "dustFerrochrome",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Illmenite dust",
+            "textureName": "dustIllmenite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Small pile of Illmenite dust",
+            "textureName": "smallpile_dustIllmenite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Sodium dichromate dust",
+            "textureName": "powder_SodiumDiChromate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Chromium oxide dust",
+            "textureName": "powder_ChromiumOxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Tungsten Sulfide nanotubes",
+            "textureName": "nanotubes_TungstenSulfide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Cellulose fibers",
+            "textureName": "cellulose_fibers",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Cadmium sponge",
+            "textureName": "spongeCadmium",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Thermite Welding Powder",
+            "textureName": "powder_Thermite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Crushed Quartz Glass",
+            "textureName": "Crushed_Quartz_Glass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Wood Pulp",
+            "textureName": "Wood_Pulp",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Small pile of iron dust",
+            "textureName": "smallpile_dustIron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Small pile of Litharge",
+            "textureName": "smallpile_dustLitharge",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Pile of bismuth dust",
+            "textureName": "itemDustBismuth",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Pile of bismuth bronze dust",
+            "textureName": "itemDustBismuthBronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Pile of black bronze dust",
+            "textureName": "itemDustBlackBronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Pile of platinum dust",
+            "textureName": "itemDustPlatinum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Apatite",
+            "textureName": "crushedApatite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Bismuth Ore",
+            "textureName": "itemCrushedBismuthOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Purified Crushed Bismuth Ore",
+            "textureName": "itemPurifiedCrushedBismuthOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Nickel Ore",
+            "textureName": "itemCrushedNickelOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Purified Crushed Nickel Ore",
+            "textureName": "itemPurifiedCrushedNickelOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Zinc Ore",
+            "textureName": "itemCrushedZincOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Purified Crushed Zinc Ore",
+            "textureName": "itemPurifiedCrushedZincOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Rock Salt",
+            "textureName": "itemCrushedRockSalt",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Pyrolusite",
+            "textureName": "itemCrushedPyrolusite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Spodumene",
+            "textureName": "itemCrushedSpodumeneOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Purified Crushed Spodumene",
+            "textureName": "itemPurifiedCrushedSpodumeneOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Crushed Pitchblende",
+            "textureName": "itemCrushedPitchblende",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Purified Crushed Pitchblende",
+            "textureName": "itemPurifiedCrushedPitchblende",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Pile of Yellow Cake",
+            "textureName": "pile_yellow_cake",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Lump of Sodium Uranate Zeolite",
+            "textureName": "LumpSodiumUranateZeolite",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Calcinated Pitchblende",
+            "textureName": "itemRoastedPitchblende",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Small Pile of Rare Earth dust",
+            "textureName": "smallpile_dustRareEarth",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Small Pile of Neodymium Hydroxide dust",
+            "textureName": "smallpile_dustNeodymiumHydroxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Monazite Sulfate mud",
+            "textureName": "mud_MonaziteSulfate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Crushed Xenotime",
+            "textureName": "itemCrushedXenotime",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Small Pile of Yttrium Sulfate dust",
+            "textureName": "smallpile_dustYttriumSulfate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Yttrium Oxalate dust",
+            "textureName": "itemDustYttriumOxalate",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Yttrium Oxide dust",
+            "textureName": "itemDustYttriumOxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Oxalic Acid powder",
+            "textureName": "powder_OxalicAcid",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "pile of YAG Premix",
+            "textureName": "dustYAGPremix",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        }
+    ]
+}

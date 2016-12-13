@@ -1,0 +1,46 @@
+{
+  "_name": "LostHead",
+  "drops": [
+    {
+      "function": "if_recently_hit",
+      "functions": [
+        {
+          "function": "add",
+          "count": 0.05,
+          "id": "ImmersiveEngineering:shaderBag",
+          "item_stats": [
+            {
+              "function": "nbt",
+              "tags": [
+                {
+                  "name": "rarity",
+                  "function": "string",
+                  "value": "rare"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+],
+  "pre_stats": [],
+  "stats": [
+		{
+		"function": "all",
+		"functions": 
+		[			
+		{ 
+                   "function": "modifier", 
+                   "attribute": "generic.maxHealth", 
+                   "override": true, 
+                   "value": 2550 
+                  },
+			{ "function": "modifier", 
+                   "attribute": "generic.attackDamage", 
+                   "value": 600~950 
+                  }
+		]
+	}
+]
+}

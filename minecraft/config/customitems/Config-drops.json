@@ -1,0 +1,221 @@
+{
+    "blocksDrop": [
+        {
+            "id": "minecraft:glass",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "ihl:item.ihlSimpleItem:115",
+                    "min": 0,
+                    "max": 2,
+                    "chance": 50
+                }
+            ]
+        },
+        {
+            "id": "minecraft:glass_pane",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "ihl:item.ihlSimpleItem:115",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "id": "customitems:peridotite",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "terrafirmacraft:item.LooseRock:12",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 50
+                },
+                {
+                    "id": "terrafirmacraft:item.Ore:33",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 10
+                },
+                {
+                    "id": "customitems:crushed_chromite",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "terrafirmacraft:item.Garnet:1",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 2
+                }
+            ]
+        },
+        {
+            "id": "customitems:pegmatite",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "terrafirmacraft:item.LooseRock",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 50
+                },
+                {
+                    "id": "ihl:item.ihlSimpleItem:11",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 15
+                },
+                {
+                    "id": "terrafirmacraft:item.Ore:30",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 10
+                },
+                {
+                    "id": "terrafirmacraft:item.Ore:25",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 5
+                },
+                {
+                    "id": "terrafirmacraft:item.Tourmaline:1",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 2
+                },
+                {
+                    "id": "minecraft:quartz",
+                    "min": 1,
+                    "max": 2,
+                    "chance": 1
+                }
+            ]
+        },
+        {
+            "id": "customitems:radioactive_waste_happy_box",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "IC2:itemPlates:6",
+                    "min": 1,
+                    "max": 3,
+                    "chance": 60
+                },
+                {
+                    "id": "IC2:itemPlates:3",
+                    "min": 0,
+                    "max": 2,
+                    "chance": 5
+                },
+                {
+                    "id": "IC2:itemCofeeBeans",
+                    "min": 0,
+                    "max": 2,
+                    "chance": 10
+                },
+                {
+                    "id": "ImmersiveEngineering:seed",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "minecraft:deadbush",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 15
+                },
+                {
+                    "id": "terrafirmacraft:sapling:9",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 4
+                },
+                {
+                    "id": "IC2:blockRubSapling",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 2
+                },
+                {
+                    "id": "terrafirmacraft:sapling2",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 1
+                },
+                {
+                    "id": "IC2:itemDustSmall:5",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 25
+                },
+                {
+                    "id": "IC2:itemDust:10",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "customitems:small_pile_of_iron_dust",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 10
+                },
+                {
+                    "id": "minecraft:spawn_egg:3",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "minecraft:spawn_egg:39",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "minecraft:spawn_egg:37",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 2
+                },
+                {
+                    "id": "minecraft:spawn_egg:30",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 10
+                },
+                {
+                    "id": "minecraft:spawn_egg:29",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 2
+                },
+                {
+                    "id": "minecraft:spawn_egg:28",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 5
+                },
+                {
+                    "id": "minecraft:spawn_egg:27",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 6
+                },
+                {
+                    "id": "minecraft:spawn_egg:23",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 10
+                }
+            ]
+        }
+    ]
+}
+

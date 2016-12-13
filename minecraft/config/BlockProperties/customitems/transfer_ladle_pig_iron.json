@@ -1,0 +1,63 @@
+{
+  "_name": "customitems:transfer_ladle-pig_iron",
+  "stats": {
+    "opacity": 255,
+    "brightness": 11,
+    "hardness": 2.9,
+    "resistance": 27.0,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [
+  	{
+	"function": "all",
+	"functions": 
+		[			
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:transfer_ladle-empty"
+	            },
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:liquid_pig_iron",
+		   "z": -1,
+		   "override": true
+	            },
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:liquid_pig_iron",
+		   "z": -1,
+		   "y": -1
+	            },
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:liquid_pig_iron",
+		   "z": -1,
+		   "y": -2,
+		   "override": true
+	            },
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:liquid_pig_iron",
+		   "z": -1,
+		   "y": -3
+	            },
+		{ 
+                   "function": "set_block", 
+                   "id": "customitems:liquid_pig_iron",
+		   "z": -1,
+		   "y": -4
+	            }
+		]
+	}
+],
+  "harvest": [],
+  "xp": []
+}

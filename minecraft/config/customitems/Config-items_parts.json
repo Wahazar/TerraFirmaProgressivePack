@@ -1,0 +1,755 @@
+{
+    "items": [
+        {
+            "name": "Clay Brick",
+            "textureName": "clay_brick",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Refractory Soft Brick",
+            "textureName": "foundry_clay_brick",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Aluminum Beam",
+            "textureName": "FlatBeam_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Black Steel Beam",
+            "textureName": "FlatBeam_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Brass Beam",
+            "textureName": "FlatBeam_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Bronze Beam",
+            "textureName": "FlatBeam_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Copper Beam",
+            "textureName": "FlatBeam_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Iron Beam",
+            "textureName": "FlatBeam_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Steel Beam",
+            "textureName": "FlatBeam_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Aluminum Beam drilled",
+            "textureName": "FlatBeam_Aluminum_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Brass Beam drilled",
+            "textureName": "FlatBeam_Brass_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Copper Beam drilled",
+            "textureName": "FlatBeam_Copper_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Iron Beam drilled",
+            "textureName": "FlatBeam_Iron_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Flat Steel Beam drilled",
+            "textureName": "FlatBeam_Steel_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Half Wooden Hoop",
+            "textureName": "HalfHoop_Wood",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Wooden Hoop",
+            "textureName": "Hoop_Wood",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Half Aluminum Hoop",
+            "textureName": "HalfHoop_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Aluminum Hoop",
+            "textureName": "Hoop_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Black Steel Hoop",
+            "textureName": "Hoop_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Brass Hoop",
+            "textureName": "Hoop_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Bronze Hoop",
+            "textureName": "Hoop_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Copper Hoop",
+            "textureName": "Hoop_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Iron Hoop",
+            "textureName": "Hoop_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Steel Hoop",
+            "textureName": "Hoop_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Aluminum L-Beam",
+            "textureName": "L-Beam_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Black Steel L-Beam",
+            "textureName": "L-Beam_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass L-Beam",
+            "textureName": "L-Beam_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Copper L-Beam",
+            "textureName": "L-Beam_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron L-Beam",
+            "textureName": "L-Beam_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel L-Beam",
+            "textureName": "L-Beam_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Aluminum L-Beam drilled",
+            "textureName": "L-Beam_Aluminum_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass L-Beam drilled",
+            "textureName": "L-Beam_Brass_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Copper L-Beam drilled",
+            "textureName": "L-Beam_Copper_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron L-Beam drilled",
+            "textureName": "L-Beam_Iron_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel L-Beam drilled",
+            "textureName": "L-Beam_Steel_drilled",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Aluminum I-Beam",
+            "textureName": "I-Beam_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Black Steel I-Beam",
+            "textureName": "I-Beam_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Brass I-Beam",
+            "textureName": "I-Beam_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Copper I-Beam",
+            "textureName": "I-Beam_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Iron I-Beam",
+            "textureName": "I-Beam_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Steel I-Beam",
+            "textureName": "I-Beam_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Aluminum T-Beam",
+            "textureName": "T-Beam_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Black Steel T-Beam",
+            "textureName": "T-Beam_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Brass T-Beam",
+            "textureName": "T-Beam_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Copper T-Beam",
+            "textureName": "T-Beam_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Iron T-Beam",
+            "textureName": "T-Beam_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Steel T-Beam",
+            "textureName": "T-Beam_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Aluminum U-Beam",
+            "textureName": "U-Beam_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Black Steel U-Beam",
+            "textureName": "U-Beam_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass U-Beam",
+            "textureName": "U-Beam_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Copper U-Beam",
+            "textureName": "U-Beam_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron U-Beam",
+            "textureName": "U-Beam_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel U-Beam",
+            "textureName": "U-Beam_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+
+        {
+            "name": "Bismuth Bronze Rod",
+            "textureName": "Rod_Bismuth_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Black Bronze Rod",
+            "textureName": "Rod_Black_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Black Steel Rod",
+            "textureName": "Rod_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Blue Steel Rod",
+            "textureName": "Rod_Blue_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Brass Rod",
+            "textureName": "Rod_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Bronze Rod",
+            "textureName": "Rod_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Red Steel Rod",
+            "textureName": "Rod_Red_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Electrum Rod",
+            "textureName": "Rod_Electrum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Cupronickel Rod",
+            "textureName": "Rod_Cupronickel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Redstone Rod",
+            "textureName": "Rod_Redstone",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Pewter Tin Rod",
+            "textureName": "Rod_Pewter",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Cadmium Rod",
+            "textureName": "Rod_Cadmium",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Cadmium Ingot",
+            "textureName": "ingotCadmium",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Cadmium cable",
+            "textureName": "itemCableCadmium",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Aluminum Wire",
+            "textureName": "wire_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Bismuth Bronze Wire",
+            "textureName": "wire_Bismuth_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Black Bronze Wire",
+            "textureName": "wire_Black_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Black Steel Wire",
+            "textureName": "wire_Black_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Blue Steel Wire",
+            "textureName": "wire_Blue_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass Wire",
+            "textureName": "wire_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Bronze Wire",
+            "textureName": "wire_Bronze",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Copper Wire",
+            "textureName": "wire_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron Wire",
+            "textureName": "wire_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Red Steel Wire",
+            "textureName": "wire_Red_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel Wire",
+            "textureName": "wire_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Electrum Wire",
+            "textureName": "wire_Electrum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Pewter Tin Wire",
+            "textureName": "wire_Pewter",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass Spring",
+            "textureName": "Spring_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Aluminum Coil",
+            "textureName": "Coil_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Electrum Coil",
+            "textureName": "Coil_Electrum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "8 Aluminum Rivets Pack",
+            "textureName": "Pack_Rivets_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "8 Brass Rivets Pack",
+            "textureName": "Pack_Rivets_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "8 Copper Rivets Pack",
+            "textureName": "Pack_Rivets_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "8 Iron Rivets Pack",
+            "textureName": "Pack_Rivets_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "8 Steel Rivets Pack",
+            "textureName": "Pack_Rivets_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Aluminum Rivet",
+            "textureName": "Rivet_Aluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Brass Rivet",
+            "textureName": "Rivet_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Copper Rivet",
+            "textureName": "Rivet_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Iron Rivet",
+            "textureName": "Rivet_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Steel Rivet",
+            "textureName": "Rivet_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Wooden Peg",
+            "textureName": "Wooden_Peg",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Impregnated Plank",
+            "textureName": "Creozote_Treated_Plank",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Creozote Treated Tie",
+            "textureName": "Creozote_Treated_Tie",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Impregnated paper",
+            "textureName": "impregnated_paper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Zinc Casing",
+            "textureName": "itemCasingZinc",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Nickel Plated Casing",
+            "textureName": "itemCasingNickelPlated",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Iron Bar",
+            "textureName": "Bar_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel Bar",
+            "textureName": "Bar_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Stainless Steel Bar",
+            "textureName": "Bar_Stainless_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron Flange",
+            "textureName": "Flange_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass Flange",
+            "textureName": "Flange_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Brass Ring",
+            "textureName": "Ring_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Steel Ring",
+            "textureName": "Ring_Steel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Valve Handle",
+            "textureName": "Valve_Handle",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Small Wheel",
+            "textureName": "item_smallwheel_Iron",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Minecart Wheels",
+            "textureName": "cartwheels",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Solar Cell",
+            "textureName": "itemSolarCell",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Silicon Crystal",
+            "textureName": "itemSiliconCrystal",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Silicon Wafer",
+            "textureName": "itemSiliconWafer",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Brass Pellet",
+            "textureName": "pellet_brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Small Permalloy plate",
+            "textureName": "small_platePermalloy",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Permalloy sheet stack",
+            "textureName": "stack_platePermalloy",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
+            "name": "Lense",
+            "textureName": "itemLense",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Redstone Emitter",
+            "textureName": "redstoneEmitter",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Redstone Sensor",
+            "textureName": "redstoneSensor",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "high Pressure Vessel-Nickel Plated",
+            "textureName": "highPressureVesselNickelPlated",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "tree twig",
+            "textureName": "twig",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Hot aluminum plate",
+            "textureName": "plateHotAluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Aluminum foil",
+            "textureName": "foilAluminum",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Electrolytic Capacitor",
+            "textureName": "Electrolytic_Capacitor",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Brass Nozzle",
+            "textureName": "itemRocketNozzle_Brass",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Titanium Nozzle",
+            "textureName": "itemRocketNozzle_Titan",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        }
+    ]
+}

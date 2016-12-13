@@ -1,0 +1,22 @@
+{
+  "_name": "terrafirmacraft:leaves",
+  "stats": {
+    "opacity": 1,
+    "brightness": 0,
+    "hardness": 0.2,
+    "resistance": 1.0,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [
+		{ 
+                   "function": "add", 
+                   "id": "customitems:tree_twig",
+		   "count": 0.2
+	            }
+],
+  "harvest": [],
+  "xp": []
+}
