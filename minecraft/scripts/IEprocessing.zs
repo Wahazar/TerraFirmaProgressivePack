@@ -376,7 +376,7 @@ mods.immersiveengineering.Crusher.addRecipe(<ihl:item.ihlSimpleItem:88> *5, <ter
 
 mods.immersiveengineering.Crusher.addRecipe(feldspar_dust *2, <terrafirmacraft:item.Ore:25>, 2000, stone_dust, 0.3);
 
-mods.immersiveengineering.Crusher.addRecipe(<DecorationsTFC:item.Powders.Gypsum> *7, <terrafirmacraft:item.Ore:17>, 1500);
+//mods.immersiveengineering.Crusher.addRecipe(<DecorationsTFC:item.Powders.Gypsum> *7, <terrafirmacraft:item.Ore:17>, 1500);
 
 mods.immersiveengineering.Crusher.addRecipe(<customitems:borax_powder> *3, <terrafirmacraft:item.Ore:32>, 3000);
 // mods.immersiveengineering.Crusher.addRecipe(tfc_powder_flux *2, <terrafirmacraft:item.LooseRock:6>, 2000);

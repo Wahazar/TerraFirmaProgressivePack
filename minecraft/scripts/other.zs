@@ -146,6 +146,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:blockFruitPress>, <terrafirmacra
 //gypsum
 val ihl_gypsum = <ihl:item.ihlSimpleItem:12>;
 val ihl_dehydrated_gypsum = <ihl:item.ihlSimpleItem:23>;
+mods.Terrafirmacraft.Quern.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 7, <terrafirmacraft:item.Ore:17>);
 recipes.addShaped(ihl_gypsum, [
  [null, <DecorationsTFC:item.Powders.Gypsum>, null],
  [null, <DecorationsTFC:item.Powders.Gypsum>, null],

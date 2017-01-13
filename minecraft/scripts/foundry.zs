@@ -258,6 +258,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*16, <terrafirmacraft:item.O
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*10, <terrafirmacraft:item.Small Ore:0>, 1400, 600);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*864, <Steamcraft:blockZinc>, 700, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*60, <Steamcraft:steamcraftPlate:1>, 700, 100);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1400, 100);
 

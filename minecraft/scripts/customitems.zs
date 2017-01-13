@@ -35,20 +35,20 @@ val fsp_nugget_brass = <Steamcraft:steamcraftNugget:3>;
 
 //nuggets from ingots
 //recipes.addShapeless(<ImmersiveEngineering:metal:23> * 9, [<ore:itemChisel>.transformDamage(8), <ore:ingotAluminum>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:22> * 9, [<ore:itemChisel>.transformDamage(8), <ore:ingotCopper>]);
-recipes.addShapeless(<Steamcraft:steamcraftNugget:3> * 9, [<ore:itemChisel>.transformDamage(8), <ore:ingotBrass>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:itemChisel>.transformDamage(8), <ore:ingotElectrum>]);
-recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotTin>]);
-recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotGold>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:24> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotLead>]);
-recipes.addShapeless(<Steamcraft:steamcraftNugget:1> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotZinc>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotNickel>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotConstantan>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:itemChisel>.transformDamage(9), <ore:ingotSilver>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:22> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotCopper>]);
+recipes.addShapeless(<Steamcraft:steamcraftNugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotBrass>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotElectrum>]);
+recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotTin>]);
+recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotGold>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:24> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotLead>]);
+recipes.addShapeless(<Steamcraft:steamcraftNugget:1> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotZinc>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotNickel>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotConstantan>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotSilver>]);
 
-recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselHard>.transformDamage(9), <ore:ingotIron>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselSteel>.transformDamage(9), <ore:ingotIron>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:29> * 9, [<ore:itemChiselHard>.transformDamage(9), <ore:ingotSteel>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselHard>.transformDamage(), <ore:ingotIron>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselSteel>.transformDamage(), <ore:ingotIron>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:29> * 9, [<ore:itemChiselHard>.transformDamage(), <ore:ingotSteel>]);
 
 #construction beams
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
@@ -195,7 +195,7 @@ recipes.addShaped(<customitems:half_wooden_hoop>, [
  [null, <ore:woodLumber>, null],
  [<tfcm:item.BucketHotWater>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>), <customitems:wooden_press>.anyDamage().transformDamage(1), null]]);
 
-recipes.addShapeless(<customitems:wooden_hoop>, [<customitems:half_wooden_hoop>, <ore:itemHammer>.transformDamage(2), <customitems:half_wooden_hoop>,<ore:itemNail>]);
+recipes.addShapeless(<customitems:wooden_hoop>, [<customitems:half_wooden_hoop>, <ore:itemHammer>.transformDamage(1), <customitems:half_wooden_hoop>,<ore:itemNail>]);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("metalhoop", 15, 2, 2);      
 game.setLocalization("gui.plans.metalhoop", "Metal Hoop");      
@@ -219,7 +219,7 @@ mods.railcraft.Rolling.addShaped(<customitems:half_aluminum_hoop> *3, [
 
 recipes.addShaped(<customitems:aluminum_hoop>*2, [
  [null, <customitems:aluminum_rivet>, null], 
- [<customitems:half_aluminum_hoop>, <ore:itemHammer>.transformDamage(2), <customitems:half_aluminum_hoop>],
+ [<customitems:half_aluminum_hoop>, <ore:itemHammer>.transformDamage(1), <customitems:half_aluminum_hoop>],
  [null, <customitems:aluminum_rivet>, null]]);
 
 
@@ -292,35 +292,35 @@ recipes.addShaped(<customitems:8_steel_rivets_pack>, [
  [<customitems:steel_rivet>, <customitems:steel_rivet>, <customitems:steel_rivet>]]);
 recipes.addShapeless(<customitems:steel_rivet> * 8, [<customitems:8_steel_rivets_pack>]);
 
-recipes.addShapeless(<customitems:flat_brass_beam_drilled>, [<customitems:flat_brass_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(2)]);
-recipes.addShapeless(<customitems:flat_aluminum_beam_drilled>, [<customitems:flat_aluminum_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(3)]);
+recipes.addShapeless(<customitems:flat_brass_beam_drilled>, [<customitems:flat_brass_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<customitems:flat_aluminum_beam_drilled>, [<customitems:flat_aluminum_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
 recipes.addShapeless(<customitems:flat_copper_beam_drilled>, [<customitems:flat_copper_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
-recipes.addShapeless(<customitems:flat_iron_beam_drilled>, [<customitems:flat_iron_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(4)]);
+recipes.addShapeless(<customitems:flat_iron_beam_drilled>, [<customitems:flat_iron_beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
 
-recipes.addShapeless(<customitems:brass_l-beam_drilled>, [<customitems:brass_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(4)]);
-recipes.addShapeless(<customitems:aluminum_l-beam_drilled>, [<customitems:aluminum_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(6)]);
-recipes.addShapeless(<customitems:copper_l-beam_drilled>, [<customitems:copper_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(2)]);
-recipes.addShapeless(<customitems:iron_l-beam_drilled>, [<customitems:iron_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(8)]);
+recipes.addShapeless(<customitems:brass_l-beam_drilled>, [<customitems:brass_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<customitems:aluminum_l-beam_drilled>, [<customitems:aluminum_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<customitems:copper_l-beam_drilled>, [<customitems:copper_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<customitems:iron_l-beam_drilled>, [<customitems:iron_l-beam>, <customitems:simple_hand_bore>.anyDamage().transformDamage(1)]);
 
 recipes.addShapeless(<customitems:thermite_welding_powder> * 4, [<tfcm:item.BrownDye>, <ImmersiveEngineering:metal:11>]);
 
 recipes.addShaped(<customitems:brass_t-beam>, [
- [<customitems:brass_rivet>, <ore:itemHammer>.transformDamage(4), <customitems:brass_rivet>], 
+ [<customitems:brass_rivet>, <ore:itemHammer>.transformDamage(1), <customitems:brass_rivet>], 
  [<customitems:brass_rivet>, null, <customitems:brass_rivet>],
  [<customitems:brass_l-beam_drilled>, null, <customitems:brass_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:aluminum_t-beam>, [
- [<customitems:aluminum_rivet>, <ore:itemHammer>.transformDamage(4), <customitems:aluminum_rivet>], 
+ [<customitems:aluminum_rivet>, <ore:itemHammer>.transformDamage(1), <customitems:aluminum_rivet>], 
  [<customitems:aluminum_rivet>, null, <customitems:aluminum_rivet>],
  [<customitems:aluminum_l-beam_drilled>, null, <customitems:aluminum_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:copper_t-beam>, [
- [<customitems:copper_rivet>, <ore:itemHammer>.transformDamage(4), <customitems:copper_rivet>], 
+ [<customitems:copper_rivet>, <ore:itemHammer>.transformDamage(1), <customitems:copper_rivet>], 
  [<customitems:copper_rivet>, null, <customitems:copper_rivet>],
  [<customitems:copper_l-beam_drilled>, null, <customitems:copper_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:iron_t-beam>, [
- [<customitems:iron_rivet>, <ore:itemHammer>.transformDamage(4), <customitems:iron_rivet>], 
+ [<customitems:iron_rivet>, <ore:itemHammer>.transformDamage(1), <customitems:iron_rivet>], 
  [<customitems:iron_rivet>, null, <customitems:iron_rivet>],
  [<customitems:iron_l-beam_drilled>, null, <customitems:iron_l-beam_drilled>]]);
 
@@ -330,7 +330,7 @@ recipes.addShaped(<customitems:iron_t-beam>, [
  [<customitems:iron_l-beam>, null, <customitems:iron_l-beam>]]);
 
 recipes.addShaped(<customitems:steel_t-beam>, [
- [<customitems:steel_rivet>, <ore:itemHammer>.transformDamage(4), <customitems:steel_rivet>], 
+ [<customitems:steel_rivet>, <ore:itemHammer>.transformDamage(1), <customitems:steel_rivet>], 
  [<customitems:steel_rivet>, null, <customitems:steel_rivet>],
  [<customitems:steel_l-beam_drilled>, null, <customitems:steel_l-beam_drilled>]]);
 
@@ -346,27 +346,27 @@ recipes.addShaped(<customitems:black_steel_t-beam>, [
 
 
 recipes.addShaped(<customitems:brass_i-beam>, [
- [<customitems:brass_l-beam_drilled>, <ore:itemHammer>.transformDamage(8), <customitems:brass_l-beam_drilled>],
+ [<customitems:brass_l-beam_drilled>, <ore:itemHammer>.transformDamage(1), <customitems:brass_l-beam_drilled>],
  [null, <customitems:flat_brass_beam_drilled>, null], 
  [<customitems:brass_l-beam_drilled>, <customitems:8_brass_rivets_pack>, <customitems:brass_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:aluminum_i-beam>, [
- [<customitems:aluminum_l-beam_drilled>, <ore:itemHammer>.transformDamage(8), <customitems:aluminum_l-beam_drilled>],
+ [<customitems:aluminum_l-beam_drilled>, <ore:itemHammer>.transformDamage(1), <customitems:aluminum_l-beam_drilled>],
  [null, <customitems:flat_aluminum_beam_drilled>, null], 
  [<customitems:aluminum_l-beam_drilled>, <customitems:8_aluminum_rivets_pack>, <customitems:aluminum_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:copper_i-beam>, [
- [<customitems:copper_l-beam_drilled>, <ore:itemHammer>.transformDamage(8), <customitems:copper_l-beam_drilled>],
+ [<customitems:copper_l-beam_drilled>, <ore:itemHammer>.transformDamage(1), <customitems:copper_l-beam_drilled>],
  [null, <customitems:flat_copper_beam_drilled>, null], 
  [<customitems:copper_l-beam_drilled>, <customitems:8_copper_rivets_pack>, <customitems:copper_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:iron_i-beam>, [
- [<customitems:iron_l-beam_drilled>, <ore:itemHammer>.transformDamage(8), <customitems:iron_l-beam_drilled>],
+ [<customitems:iron_l-beam_drilled>, <ore:itemHammer>.transformDamage(1), <customitems:iron_l-beam_drilled>],
  [null, <customitems:flat_iron_beam_drilled>, null], 
  [<customitems:iron_l-beam_drilled>, <customitems:8_iron_rivets_pack>, <customitems:iron_l-beam_drilled>]]);
 
 recipes.addShaped(<customitems:steel_i-beam>, [
- [<customitems:steel_l-beam_drilled>, <ore:itemHammer>.transformDamage(8), <customitems:steel_l-beam_drilled>],
+ [<customitems:steel_l-beam_drilled>, <ore:itemHammer>.transformDamage(1), <customitems:steel_l-beam_drilled>],
  [null, <customitems:flat_steel_beam_drilled>, null], 
  [<customitems:steel_l-beam_drilled>, <customitems:8_steel_rivets_pack>, <customitems:steel_l-beam_drilled>]]);
 
@@ -467,7 +467,7 @@ game.setLocalization("gui.plans.metal_bar", "Metal Bar");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_bar>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, "metal_bar", 3);       
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_bar>, <terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Steel Ingot>, "metal_bar", 4);       
 
-recipes.addShapeless(<customitems:wooden_peg> * 2, [<ore:woodLumber>, <ore:itemSaw>.transformDamage(2)]);
+recipes.addShapeless(<customitems:wooden_peg> * 2, [<ore:woodLumber>, <ore:itemSaw>.transformDamage()]);
 
 
 #creozote barrel
@@ -529,12 +529,12 @@ recipes.addShapeless(<customitems:sifter>, [<ore:stickWood>, <ihl:item.ihlSimple
 recipes.addShapeless(<customitems:sifter>, [<ore:stickWood>, <terrafirmacraft:item.BurlapCloth>, <ore:itemHoop>]);
 
 //tree twig
-recipes.addShapeless(<customitems:tree_twig> * 3, [<ore:logWood>, <ore:itemHammer>.transformDamage(2)]);
-recipes.addShapeless(<terrafirmacraft:item.stick>, [<customitems:tree_twig>, <ore:itemKnife>.transformDamage(2)]);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<IC2:itemDust2:3>, <customitems:tree_twig>, 680, 0.3);
+recipes.addShapeless(<customitems:tree_twig> * 3, [<ore:logWood>, <ore:itemHammer>.transformDamage(1)]);
+recipes.addShapeless(<terrafirmacraft:item.stick>, [<customitems:tree_twig>, <ore:itemKnife>.transformDamage(1)]);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<IC2:itemDust2:3>, <customitems:tree_twig>, 500, 0.3);
 
 //fluorite, cryolite
-recipes.addShapeless(<customitems:cryolite_powder>, [<terrafirmacraft:item.Ore:28>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(<customitems:cryolite_powder>, [<terrafirmacraft:item.Ore:28>, <ore:itemHammer>.transformDamage(1)]);
 
 //plumber putty
 recipes.addShapeless(<customitems:plumber_putty_lump> * 8, [<ihl:item.ihlSimpleItem:151>, <tfcudarymod:item.Bottled Olive Oil>.transformReplace(<terrafirmacraft:item.Glass Bottle>)]);
