@@ -104,6 +104,13 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemDust:9>, <liquid:sal
 
 //mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:saltwater> * 100, <terrafirmacraft:item.Powder:9>, <liquid:freshwater> * 100, 0,  false, 0, false, true); //tub or chem.r.
 
+//quartzite
+recipes.addShapeless(<terrafirmacraft:Sand:15>, 
+ [<terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand2:3>]);
+
+recipes.addShapeless(<terrafirmacraft:Sand:15>, 
+ [<terrafirmacraft:Sand>, <terrafirmacraft:Sand>, <terrafirmacraft:Sand>, <terrafirmacraft:Sand>.giveBack(<ihl:item.ihlSimpleItem:11>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand>]);
+
 //KCl
 mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Ore:31>);
 mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:88>*3, <terrafirmacraft:item.Ore:31>);

@@ -401,7 +401,7 @@ mods.immersiveengineering.Crusher.addRecipe(ie_slag * 4, <IC2:itemSlag>, 1000, <
 mods.immersiveengineering.Crusher.addRecipe(<customitems:crushed_pitchblende> * 2, <terrafirmacraft:item.Ore:26>, 2000, stone_dust, 0.2);
 
 #quartzite sand
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:Sand:15>, <terrafirmacraft:item.LooseRock:15>, 4000);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:Sand:15>, <terrafirmacraft:StoneMMCobble>, 4000);
 
 #diamonds from kimberlite
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Diamond>, <terrafirmacraft:item.Ore:21>, 4000, <terrafirmacraft:item.Diamond:2>, 0.01);
