@@ -27,46 +27,44 @@ recipes.addShaped(<cuchaz.ships:berth>, [
  [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:0>);
-recipes.addShaped(<cuchaz.ships:blockShip:0>, [
- [<ore:logWood>, <terrafirmacraft:Thatch>, <ore:logWood>],
- [<terrafirmacraft:Thatch>, <ore:blockGlass>, <terrafirmacraft:Thatch>],
- [<ore:logWood>, <terrafirmacraft:Thatch>, <ore:logWood>]]);
+recipes.addShapeless(<cuchaz.ships:blockShip:0>, 
+ [<terrafirmacraft:Thatch>, <ore:itemKnife>.transformDamage(), <terrafirmacraft:item.Ink>, <terrafirmacraft:item.Firestarter>]);
 
 recipes.remove(<cuchaz.ships:blockShip:1>);
 recipes.addShaped(<cuchaz.ships:blockShip:1>, [
- [<terrafirmacraft:item.Gold Sheet>, <ore:ingotBronze>, <terrafirmacraft:item.Gold Sheet>],
- [<ore:ingotBronze>, <ore:dustRedstone>, <ore:ingotBronze>],
- [<terrafirmacraft:item.Gold Sheet>, <ore:ingotBronze>, <terrafirmacraft:item.Gold Sheet>]]);
+ [<terrafirmacraft:item.Gold Sheet>, <ore:dustRedstone>, <terrafirmacraft:item.Gold Sheet>],
+ [<ore:ingotBronze>, <cuchaz.ships:blockShip:0>, <ore:ingotBronze>],
+ [<terrafirmacraft:item.Gold Sheet>, <ore:itemAxe>.transformDamage(), <terrafirmacraft:item.Gold Sheet>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:2>);
 recipes.addShaped(<cuchaz.ships:blockShip:2>, [
- [<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Gold Sheet>, <terrafirmacraft:item.Wrought Iron Double Ingot>],
+ [<terrafirmacraft:item.Wrought Iron Double Ingot>, <DecorationsTFC:item.LanternCore.Gold>, <terrafirmacraft:item.Wrought Iron Double Ingot>],
  [<terrafirmacraft:item.Gold Sheet>, <cuchaz.ships:blockShip:1>, <terrafirmacraft:item.Gold Sheet>],
- [<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Gold Sheet>, <terrafirmacraft:item.Wrought Iron Double Ingot>]]);
+ [<terrafirmacraft:item.Wrought Iron Double Ingot>, <ore:itemSaw>.transformDamage(), <terrafirmacraft:item.Wrought Iron Double Ingot>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:3>);
 recipes.addShaped(<cuchaz.ships:blockShip:3>, [
- [<terrafirmacraft:item.Steel Double Sheet>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Steel Double Sheet>],
- [<terrafirmacraft:item.Wrought Iron Double Ingot>, <cuchaz.ships:blockShip:2>, <terrafirmacraft:item.Wrought Iron Double Ingot>],
- [<terrafirmacraft:item.Steel Double Sheet>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Steel Double Sheet>]]);
+ [<terrafirmacraft:item.Steel Double Ingot>, <Railcraft:lantern.metal>, <terrafirmacraft:item.Steel Double Ingot>],
+ [<terrafirmacraft:item.Wrought Iron Double Sheet>, <cuchaz.ships:blockShip:2>, <terrafirmacraft:item.Wrought Iron Double Sheet>],
+ [<terrafirmacraft:item.Steel Double Ingot>, <customitems:simple_hand_bore>.transformDamage(), <terrafirmacraft:item.Steel Double Ingot>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:4>);
 recipes.addShaped(<cuchaz.ships:blockShip:4>, [
- [<terrafirmacraft:item.Steel Double Sheet>, <terrafirmacraft:item.Blue Steel Double Sheet>, <terrafirmacraft:item.Steel Double Sheet>],
- [<terrafirmacraft:item.Blue Steel Double Sheet>, <cuchaz.ships:blockShip:3>, <terrafirmacraft:item.Blue Steel Double Sheet>],
- [<terrafirmacraft:item.Steel Double Sheet>, <terrafirmacraft:item.Blue Steel Double Sheet>, <terrafirmacraft:item.Steel Double Sheet>]]);
+ [<terrafirmacraft:item.Steel Double Sheet>, <customitems:glowstone_lump>, <terrafirmacraft:item.Steel Double Sheet>],
+ [<terrafirmacraft:item.Blue Steel Double Ingot>, <cuchaz.ships:blockShip:3>, <terrafirmacraft:item.Blue Steel Double Ingot>],
+ [<terrafirmacraft:item.Steel Double Sheet>, <IC2:itemToolWrench>.transformDamage(), <terrafirmacraft:item.Steel Double Sheet>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:5>);
 recipes.addShaped(<cuchaz.ships:blockShip:5>, [
- [<minecraft:diamond_block>, <terrafirmacraft:item.Blue Steel Double Sheet>, <minecraft:diamond_block>],
+ [<minecraft:diamond_block>, <ImmersiveEngineering:metalDevice2:3>, <minecraft:diamond_block>],
  [<terrafirmacraft:item.Blue Steel Double Sheet>, <cuchaz.ships:blockShip:4>, <terrafirmacraft:item.Blue Steel Double Sheet>],
- [<minecraft:diamond_block>, <terrafirmacraft:item.Blue Steel Double Sheet>, <minecraft:diamond_block>]]);
+ [<minecraft:diamond_block>, <IC2:itemToolCutter>.transformDamage(), <minecraft:diamond_block>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:6>);
 recipes.addShaped(<cuchaz.ships:blockShip:6>, [
- [<minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:diamond_block>],
+ [<minecraft:diamond_block>, <ImmersiveEngineering:metalDevice2:4>, <minecraft:diamond_block>],
  [<minecraft:emerald_block>, <cuchaz.ships:blockShip:5>, <minecraft:emerald_block>],
- [<minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:diamond_block>]]);
+ [<minecraft:diamond_block>, <IC2:itemToolForgeHammer>.transformDamage(), <minecraft:diamond_block>]]);
 
 recipes.remove(<cuchaz.cuchazinteractive:token>);
 recipes.addShaped(<cuchaz.cuchazinteractive:token>, [
