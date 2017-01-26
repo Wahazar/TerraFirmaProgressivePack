@@ -314,6 +314,7 @@ furnace.setFuel(<terrafirmacraft:item.Ore:22>, 60);
 furnace.setFuel(<terrafirmacraft:item.Ore:14>, 880); //bituminous coal
 furnace.setFuel(<terrafirmacraft:item.Ore:15>, 1200); //lignite coal
 furnace.setFuel(<terrafirmacraft:item.coal>, 1800); //antracite coal
+furnace.setFuel(<terrafirmacraft:item.Ore:24>, 700); //jet
 furnace.setFuel(<ImmersiveEngineering:metal:17>, 3600); //coke dust
 furnace.setFuel(<Railcraft:dust:3>, 1800); //charcoal dust
 furnace.setFuel(<minecraft:deadbush>, 90); 
