@@ -169,7 +169,7 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 //pewter ware
-mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "bowl", 2);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal bowl", 2);
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <tfcpewter:item.pewterDoubleSheet>, "jug", 2);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_bowl", 15, 2, 1);      
@@ -180,11 +180,13 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_jug", 3, 24, 31);
 game.setLocalization("gui.plans.metal_jug", "Metal jug");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <customitems:pewter_tin_wire>, "metal_jug", 3);    
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_wire>, 340, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_wire>, 340, 0.2);
 
 mods.Terrafirmacraft.Barrel.removeItemConversion(<tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 200);
 recipes.removeShapeless(<tfcpewter:item.Metal Bowl>);
+recipes.addShapeless(<tfcpewter:item.Metal Bowl>, [<tfcm:item.BucketHotWater>.transformReplace(<tfcpewter:item.Metal Bowl Dirty>), <terrafirmacraft:item.Wooden Bucket Empty>]);
 
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:waterhot> * 1000, 0,  false, 0, true, true);
+
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 1000, 0,  false, 0, true, true);
 
 
