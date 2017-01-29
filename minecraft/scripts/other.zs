@@ -57,7 +57,7 @@ recipes.remove(<tfcm:item.CrossBow>);
 recipes.addShaped(<tfcm:item.CrossBow>, [
  [<tfcm:item.BowLimb>, <tfcm:item.SinewString>, null],
  [<tfcm:item.SinewString>, <terrafirmacraft:WoodSupportV:*>, <tfcm:item.Gear>],
- [null,<ore:nuggetIron>, <ore:woodLumber>]]);
+ [null,<customitems:iron_rivet>, <ore:woodLumber>]]);
 
 recipes.remove(<tfcm:item.BowLimb>);
 recipes.addShaped(<tfcm:item.BowLimb>, [
@@ -169,25 +169,21 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 //pewter ware
-//mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "pewter_jug", 2);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "bowl", 2);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <tfcpewter:item.pewterDoubleSheet>, "jug", 2);
 
-/*
-mods.Terrafirmacraft.Anvil.addPlanRecipe("thickwire", 8, 8, 26);      
-game.setLocalization("gui.plans.thickwire", "Wire");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bismuth_bronze_wire>, <customitems:bismuth_bronze_rod>, "thickwire", 2); 
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_wire>, <customitems:black_steel_rod>, "thickwire", 5);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_bronze_wire>, <customitems:black_bronze_rod>, "thickwire", 2);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:blue_steel_wire>, <customitems:blue_steel_rod>, "thickwire", 6); 
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_wire>, <customitems:brass_rod>, "thickwire", 2);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_wire>, <customitems:bronze_rod>, "thickwire", 2);   
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_wire>, tfc_rod_copper, "thickwire", 1);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_wire>, ie_rod_iron, "thickwire", 3);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_wire>, <customitems:red_steel_rod>, "thickwire", 6); 
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_wire>, ie_rod_steel, "thickwire", 4);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:pewter_tin_wire>, <customitems:pewter_tin_rod>, "thickwire", 2);
-*/
+mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_bowl", 15, 2, 1);      
+game.setLocalization("gui.plans.metal_bowl", "Metal bowl");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal_bowl", 2);    
+
+mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_jug", 3, 24, 31);      
+game.setLocalization("gui.plans.metal_jug", "Metal jug");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <customitems:pewter_tin_wire>, "metal_jug", 3);    
+
+mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_wire>, 340, 0.3);
 
 mods.Terrafirmacraft.Barrel.removeItemConversion(<tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 200);
+recipes.removeShapeless(<tfcpewter:item.Metal Bowl>);
 
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:waterhot> * 1000, 0,  false, 0, true, true);
 

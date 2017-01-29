@@ -33,23 +33,6 @@ val fsp_nugget_zinc = <Steamcraft:steamcraftNugget:1>;
 val fsp_nugget_brass = <Steamcraft:steamcraftNugget:3>;
 
 
-//nuggets from ingots
-//recipes.addShapeless(<ImmersiveEngineering:metal:23> * 9, [<ore:itemChisel>.transformDamage(8), <ore:ingotAluminum>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:22> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotCopper>]);
-recipes.addShapeless(<Steamcraft:steamcraftNugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotBrass>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotElectrum>]);
-recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotTin>]);
-recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotGold>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:24> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotLead>]);
-recipes.addShapeless(<Steamcraft:steamcraftNugget:1> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotZinc>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotNickel>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotConstantan>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotSilver>]);
-
-recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselHard>.transformDamage(), <ore:ingotIron>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselSteel>.transformDamage(), <ore:ingotIron>]);
-recipes.addShapeless(<ImmersiveEngineering:metal:29> * 9, [<ore:itemChiselHard>.transformDamage(), <ore:ingotSteel>]);
-
 #construction beams
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14
@@ -118,7 +101,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, ie_rod_iron, 1535, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Red Steel Unshaped>, <customitems:red_steel_rod>, 1540, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, ie_rod_steel, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_rod>, 340, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_rod>, 340, 0.3);
 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_wire>, 985, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_wire>, 950, 0.4);

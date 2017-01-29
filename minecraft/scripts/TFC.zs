@@ -121,18 +121,18 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unsha
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <terrafirmacraft:item.Steel Tuyere>, 1540, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(rc_nugget_tin * 2, rc_plate_tin, 230, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <minecraft:iron_ingot>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:10>, ie_nugget_iron, 1535, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:10>, ie_nugget_iron, 1600, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <minecraft:gold_ingot>, 1060, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:1>, <minecraft:gold_nugget>, 1060, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:1>, <minecraft:gold_nugget>, 1200, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped>, <ImmersiveEngineering:metal:4>, 1453, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:8>, ie_nugget_nickel, 1453, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:8>, ie_nugget_nickel, 1600, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <Steamcraft:steamcraftIngot:2>, 930, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, fsp_nugget_brass, 930, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, fsp_nugget_brass, 1100, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped>, <Steamcraft:steamcraftIngot:1>, 420, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nugget_zinc, 420, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nugget_zinc, 500, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <Steamcraft:steamcraftIngot:0>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1080, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1850, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1200, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1950, 0.5);
 
 #flux from CaCO3->CaO pyrolisis
 mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, calcium_carbonate_powder, 680, 1.0);
@@ -189,25 +189,6 @@ for i, cg in cube_glass {
 
 //fsp gun barrel welding:
 mods.Terrafirmacraft.Anvil.addWeldRecipe(fsp_ironbarrel, <terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.Wrought Iron Tuyere>, 3);
-
-//nuggets
-
-//mods.Terrafirmacraft.Anvil.addPlanRecipe("metalplate", 33, 8, 14);      
-//game.setLocalization("gui.plans.metalplate", "Metal plate");      
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_iron, <terrafirmacraft:item.Wrought Iron Double Ingot>, "metalplate", 3, 45);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_brass, <terrafirmacraft:item.Brass Double Ingot>, "metalplate", 2, 35);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_copper, <terrafirmacraft:item.Copper Double Ingot>, "metalplate", 1, 30);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_gold, <terrafirmacraft:item.Gold Double Ingot>, "metalplate", 1, 25);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_plate_lead, <terrafirmacraft:item.Lead Double Ingot>, "metalplate", 1, 20);    
-
-//mods.Terrafirmacraft.Anvil.addPlanRecipe("nugget", 20, 20, 20);      
-//game.setLocalization("gui.plans.nugget", "Three nuggets");  
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_steel *3, <terrafirmacraft:item.Steel Ingot>, "nugget", 4);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_iron *3, <terrafirmacraft:item.Wrought Iron Ingot>, "nugget", 3);
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(fsp_nugget_brass *3, <terrafirmacraft:item.Brass Ingot>, "nugget", 2);      
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_copper *3, <terrafirmacraft:item.Copper Ingot>, "nugget", 1);
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:gold_nugget> *3, <terrafirmacraft:item.Gold Ingot>, "nugget", 1);
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_nugget_lead *3, <terrafirmacraft:item.Lead Ingot>, "nugget", 1);
 
 
 //leather 

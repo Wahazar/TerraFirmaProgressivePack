@@ -136,9 +136,6 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("nails2inch", 1, 24, 33);
 game.setLocalization("gui.plans.nails2inch", "2 inch Nails");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:57> * 8, <ihl:item.ihlSimpleItem:51>, "nails2inch", 4); 
 
-//tiny gold dust from nugget
-mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:41>, <minecraft:gold_nugget>);
-
 //lead processing
 recipes.addShapeless(<minecraft:dye:1> * 3, [lead_oxide, lead_oxide, <ore:dyeBrown>]);
 recipes.addShapeless(<minecraft:dye:11> * 3, [<customitems:small_pile_of_litharge>, <customitems:small_pile_of_litharge>, <ore:dyeWhite>]);
