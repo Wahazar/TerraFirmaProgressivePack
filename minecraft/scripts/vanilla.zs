@@ -127,7 +127,7 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:mossy_cobblestone>, <mi
 #stone brick
 recipes.addShaped(<minecraft:stonebrick>, [
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>],
- [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:item.Clay>],
+ [<terrafirmacraft:StoneIgExBrick:*>, <ImmersiveEngineering:tool>, <terrafirmacraft:StoneIgExBrick:*>],
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>]]);
 
 furnace.remove(<minecraft:stone>);  //see Arc furnace

@@ -674,3 +674,5 @@ recipes.addShaped(<IC2:itemScanner:26>, [
    [<IC2:itemCasing:3>, ic2_gold_cable_ins, <IC2:itemCasing:3>]]);
 //todo: OV
 
+//tiny gold dust
+mods.Terrafirmacraft.Quern.addRecipe(<IC2:itemDustSmall:2>, <minecraft:gold_nugget>);
