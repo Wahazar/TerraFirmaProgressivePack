@@ -163,3 +163,11 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:crucible>, <ihl:crucible:1>, 
 recipes.addShapeless(<ihl:item.ihlSimpleItem:7> * 8, 
  [<ihl:item.ihlSimpleItem:8>, <ore:itemKnife>.transformDamage()]);
 
+//heating
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:59>, <ihl:item.ihlSimpleItem:39>, 1100, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:58>, <ihl:item.ihlSimpleItem:38>, 1100, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:54>, <ihl:item.ihlSimpleItem:55>, 1100, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:52>, <ihl:item.ihlSimpleItem:53>, 1100, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:49>, 1100, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:70>, <terrafirmacraft:item.Steel Ingot>, 1100, 0.35);
+

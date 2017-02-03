@@ -156,6 +156,12 @@ recipes.addShaped(<minecraft:dispenser>, [
  [<minecraft:cobblestone>, <Steamcraft:steamcraftCrafting:0>, <minecraft:cobblestone>],
  [<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>]]);
 
+recipes.remove(<minecraft:dropper>);
+recipes.addShaped(<minecraft:dropper>, [
+ [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+ [<minecraft:cobblestone>, <customitems:brass_spring>, <minecraft:cobblestone>],
+ [<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>]]);
+
 recipes.remove(<minecraft:tnt>);
 recipes.addShaped(<minecraft:tnt> *2, [
  [<terrafirmacraft:Sand:10>, <minecraft:gunpowder>, <terrafirmacraft:Sand:10>],
