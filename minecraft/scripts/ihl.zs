@@ -163,6 +163,12 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:crucible>, <ihl:crucible:1>, 
 recipes.addShapeless(<ihl:item.ihlSimpleItem:7> * 8, 
  [<ihl:item.ihlSimpleItem:8>, <ore:itemKnife>.transformDamage()]);
 
+//bronze tub alternative
+mods.Terrafirmacraft.Anvil.addPlanRecipe("tub", 2, 14, 14);      
+game.setLocalization("gui.plans.item_tub", "Bronze tub");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:tubBronze>, <terrafirmacraft:item.Bronze Double Sheet>, <terrafirmacraft:item.Bronze Double Sheet>, "tub", 2);
+
+
 //heating
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:59>, <ihl:item.ihlSimpleItem:39>, 1100, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:58>, <ihl:item.ihlSimpleItem:38>, 1100, 0.4);

@@ -353,7 +353,7 @@ recipes.addShaped(<IC2:itemTreetap> * 2, [
 //wrench
 mods.Terrafirmacraft.Anvil.addPlanRecipe("wrench", 15, 23, 14);      
 game.setLocalization("gui.plans.item_wrench", "Wrench");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemToolWrench> * 2, <customitems:bronze_rod>, "wrench", 1);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemToolWrench> * 2, <customitems:bronze_rod>, "wrench", 2);
 
 //coils
 recipes.remove(<IC2:itemRecipePart>);
@@ -676,3 +676,10 @@ recipes.addShaped(<IC2:itemScanner:26>, [
 
 //tiny gold dust
 mods.Terrafirmacraft.Quern.addRecipe(<IC2:itemDustSmall:2>, <minecraft:gold_nugget>);
+
+//empty cell alternative
+mods.Terrafirmacraft.Anvil.addPlanRecipe("cell", 2, 2, 14);      
+game.setLocalization("gui.plans.item_cell", "Empty fluid cell");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemCellEmpty>, <terrafirmacraft:item.Steel Sheet>, "cell", 4);
+
+

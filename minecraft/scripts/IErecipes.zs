@@ -565,6 +565,12 @@ recipes.addShaped(<ImmersiveEngineering:tool:1>, [
  [ie_treated_stick, <terrafirmacraft:item.shears>],
  [null, ie_treated_stick]]);
 
+recipes.remove(<ImmersiveEngineering:woodenDevice:5>);
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:5>, [
+ [<ihl:item.ihlSimpleItem:34>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],
+ [<ore:craftingTableWood>, null, <ImmersiveEngineering:woodenDecoration:1>]]);
+
+
 //<ore:craftingToolWireCutter>.add(<ImmersiveEngineering:tool:1>);
 
 //barrels, crates
