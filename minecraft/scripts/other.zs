@@ -184,7 +184,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <custom
 
 mods.Terrafirmacraft.Barrel.removeItemConversion(<tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 200);
 recipes.removeShapeless(<tfcpewter:item.Metal Bowl>);
-recipes.addShapeless(<tfcpewter:item.Metal Bowl>, [<tfcm:item.BucketHotWater>.transformReplace(<tfcpewter:item.Metal Bowl Dirty>), <terrafirmacraft:item.Wooden Bucket Empty>]);
+recipes.addShapeless(<tfcpewter:item.Metal Bowl>, [<tfcm:item.BucketHotWater>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>), <tfcpewter:item.Metal Bowl Dirty>]);
 
 
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 1000, 0,  false, 0, true, true);
