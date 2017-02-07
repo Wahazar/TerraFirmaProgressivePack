@@ -128,8 +128,6 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("tinymetalbar", 8, 24, 14);
 game.setLocalization("gui.plans.tinymetalbar", "Tiny Metal Bar");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:51> * 2, <customitems:steel_wire>, "tinymetalbar", 4); 
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:50>, <ihl:item.ihlSimpleItem:51>, 1000, 0.2);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:50>, 1750, 0.3);
 mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:51>, <ihl:item.ihlSimpleItem:50>, <liquid:freshwater> * 10, 1, false, 0, true);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("nails2inch", 1, 24, 33);      
@@ -170,10 +168,12 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:tubBronze>, <terrafirmacraft:item
 
 
 //heating
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:59>, <ihl:item.ihlSimpleItem:39>, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:58>, <ihl:item.ihlSimpleItem:38>, 1100, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:54>, <ihl:item.ihlSimpleItem:55>, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:52>, <ihl:item.ihlSimpleItem:53>, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:49>, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:70>, <terrafirmacraft:item.Steel Ingot>, 1100, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:59>, <ihl:item.ihlSimpleItem:39>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:58>, <ihl:item.ihlSimpleItem:38>, 1300, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:54>, <ihl:item.ihlSimpleItem:55>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:52>, <ihl:item.ihlSimpleItem:53>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:49>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:70>, <terrafirmacraft:item.Steel Ingot>, 1300, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:50>, <ihl:item.ihlSimpleItem:51>, 1300, 0.2);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:50>, 1750, 0.3);
 
