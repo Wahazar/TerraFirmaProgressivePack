@@ -1,11 +1,15 @@
 #achievements book
-recipes.addShaped(<SimpleAchievements:sa.achievementBook>, [[<terrafirmacraft:item.Ink>, <terrafirmacraft:item.Hide>]]);
+recipes.addShaped(<SimpleAchievements:sa.achievementBook>, [[<terrafirmacraft:item.Ink>, <terrafirmacraft:item.Hide:*>]]);
 
 recipes.remove(<SimpleAchievements:sa.decorationBlock>);
 recipes.addShaped(<SimpleAchievements:sa.decorationBlock>, [
  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
  [<ore:plankWood>, <terrafirmacraft:item.TFC Leather>, <ore:plankWood>],
  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
+#antique atlas alternative
+recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas>, [<ore:dyeBlack>, <terrafirmacraft:item.Hide:*>, <terrafirmacraft:item.Firestarter>]);
+
 
 #udary mod
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcudarymod:item.Copper Wire>*10, <terrafirmacraft:item.Copper Ingot>, "_wire", 1);

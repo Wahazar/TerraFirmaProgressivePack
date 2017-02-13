@@ -502,6 +502,7 @@ recipes.addShapeless(<customitems:grease_lump>, [<Railcraft:fluid.creosote.bottl
 
 recipes.addShapeless(<customitems:grease_lump> * 3, [<ore:cellMineralOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <customitems:lithium_soap_lump>]);
 
+recipes.addShapeless(<customitems:grease_lump>, [<minecraft:slime_ball>, <terrafirmacraft:item.Powder:2>]);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("valvehandle", 15, 20, 20);      
 game.setLocalization("gui.plans.valvehandle", "Valve Handle");      
