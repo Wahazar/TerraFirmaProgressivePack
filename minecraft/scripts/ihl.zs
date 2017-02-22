@@ -29,6 +29,13 @@ recipes.addShaped(<ihl:ironWorkbench>, [
 //apatite
 mods.Terrafirmacraft.Quern.addRecipe(<customitems:crushed_apatite>*2, <ihl:item.ihlSimpleItem:10>);
 
+//potassium feldspar
+mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:11>, <ihl:orePotassiumFeldspar>);
+
+//mica
+mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:118>, <ihl:oreMica>);
+
+
 //mutton lard
 recipes.remove(<ihl:food>);
 recipes.addShapeless(<tfcm:item.Suet> * 3, [<ihl:item.ihlSimpleItem:25>.giveBack(<terrafirmacraft:item.Mutton>.withTag({foodWeight: 10.0 as float, foodDecay: -4.0 as float, decayTimer: 3437})), <ore:itemKnife>.transformDamage(1)]);

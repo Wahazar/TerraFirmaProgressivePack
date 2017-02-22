@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.0.71
+TerraFirmaProgressive custom recipies modpack, v.0.72
 ################################################################################################################################
 
 Installation: 
@@ -124,6 +124,10 @@ Damage Indicators Damage-Indicators-Mod-1.7.10.jar
 Map Writer MapWriter-1.7.10-2.1.10.jar
 	http://mods.curse.com/mc-mods/minecraft/mapwriter
 		credits: Mapwriter, VectronDiablon, Licence: public domain
+
+Antique Atlas antiqueatlas-4.2.7-1.7.10.jar
+	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292324-antique-atlas 
+	credits: Hunternif, Licence: forum granted
 
 server side:
 Mob properties by docrobb, MobProperties-1.7.10-1.0.2.jar
