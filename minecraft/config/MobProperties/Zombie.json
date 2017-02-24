@@ -88,6 +88,84 @@
 			"functions":
 			[
                         { "function": "all", 
+                           "weight": 5,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie engineer" },
+                            { "function": "equip", "id": "Steamcraft:wrench", "slot": 0, "drop_chance": 0.2 },
+                            { "function": "equip", "id": "Steamcraft:exoArmorFeet", "override": "true", "slot": 1, "drop_chance": 0.1 },
+                            { "function": "equip", "id": "Steamcraft:exoArmorLegs", "override": "true", "slot": 2, "drop_chance": 0.2 },
+                            { "function": "equip", "id": "Steamcraft:exoArmorBody", "override": "true", "slot": 3, "drop_chance": 0.05 },
+	            	    {
+                  	       "function": "modifier",
+                  	         "attribute": "generic.movementSpeed",
+                  	         "value": "0.4~0.7",
+                  	         "operator": 1
+                  	    },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+					       "damage": 1,	
+                                                "count": 0.02
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:blueprint",
+					       "damage": 2,	
+                                                "count": 0.01
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "Steamcraft:book",
+                                                "count": 0.01
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ihl:guidebook",
+                                                "count": 0.01
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ImmersiveEngineering:tool",
+					       "damage": 3,
+                                                "count": 0.01
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ihl:item.ihlSimpleItem",
+					       "damage": 56,
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ihl:item.ihlSimpleItem",
+					       "damage": 43,
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ihl:item.ihlSimpleItem",
+					       "damage": 36,
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "ihl:item.ihlSimpleItem",
+					       "damage": 34,
+                                                "count": 0.04
+	                                        }
+                                               ]
+                            }
+                            ]
+                        },
+                        { "function": "all", 
                            "weight": 10,
                            "functions":
                             [
@@ -114,14 +192,14 @@
 	                                        },
      			                       { 
                                                "function": "add", 
-                                               "id": "ImmersiveEngineering:blueprint",
-                                                "count": 0.05
+                                               "id": "antiqueatlas:emptyAntiqueAtlas",
+                                                "count": 0.01
 	                                        },
      			                       { 
                                                "function": "add", 
                                                "id": "ImmersiveEngineering:blueprint",
 					       "damage": 1,	
-                                                "count": 0.02
+                                                "count": 0.01
 	                                        },
      			                       { 
                                                "function": "add", 

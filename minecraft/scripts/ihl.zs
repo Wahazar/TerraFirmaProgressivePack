@@ -29,11 +29,11 @@ recipes.addShaped(<ihl:ironWorkbench>, [
 //apatite
 mods.Terrafirmacraft.Quern.addRecipe(<customitems:crushed_apatite>*2, <ihl:item.ihlSimpleItem:10>);
 
-//potassium feldspar
-mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:11>, <ihl:orePotassiumFeldspar>);
+//potassium feldspar - use masher
+//mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:11>, <ihl:orePotassiumFeldspar>);
 
-//mica
-mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:118>, <ihl:oreMica>);
+//mica - use smasher
+//mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:118>, <ihl:oreMica>);
 
 
 //mutton lard
@@ -135,8 +135,6 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("tinymetalbar", 8, 24, 14);
 game.setLocalization("gui.plans.tinymetalbar", "Tiny Metal Bar");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:51> * 2, <customitems:steel_wire>, "tinymetalbar", 4); 
 
-mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:51>, <ihl:item.ihlSimpleItem:50>, <liquid:freshwater> * 10, 1, false, 0, true);
-
 mods.Terrafirmacraft.Anvil.addPlanRecipe("nails2inch", 1, 24, 33);      
 game.setLocalization("gui.plans.nails2inch", "2 inch Nails");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:57> * 8, <ihl:item.ihlSimpleItem:51>, "nails2inch", 4); 
@@ -176,11 +174,26 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:tubBronze>, <terrafirmacraft:item
 
 //heating
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:59>, <ihl:item.ihlSimpleItem:39>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:59>, 1650, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:58>, <ihl:item.ihlSimpleItem:38>, 1300, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:58>, 1650, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:54>, <ihl:item.ihlSimpleItem:55>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:54>, 1650, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:52>, <ihl:item.ihlSimpleItem:53>, 1300, 0.5);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:52>, 1650, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:49>, 1300, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:70>, <terrafirmacraft:item.Steel Ingot>, 1300, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:48>, 1650, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:70>, <foundry:foundryIngot:9>, 1300, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <ihl:item.ihlSimpleItem:70>, 1550, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:32>, <ImmersiveEngineering:metal:38>, 1300, 0.35);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <ihl:item.ihlSimpleItem:32>, 1550, 0.35);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<ihl:item.ihlSimpleItem:50>, <ihl:item.ihlSimpleItem:51>, 1300, 0.2);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:50>, 1750, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimpleItem:50>, 1650, 0.3);
+
+
+//hardening
+mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:51>, <ihl:item.ihlSimpleItem:50>, <liquid:freshwater> * 10, 1, false, 0, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:47>, <liquid:freshwater> * 10, 1, false, 0, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Steel Ingot>, <ihl:item.ihlSimpleItem:70>, <liquid:freshwater> * 10, 1, false, 0, true);
+//mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlTool:7>.withTag({"GT.ToolStats": {MaxDamage: 200}}), <ihl:item.ihlSimpleItem:52>, <liquid:freshwater> * 10, 1, false, 0, true);
 

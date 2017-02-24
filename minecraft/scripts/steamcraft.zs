@@ -518,10 +518,27 @@ mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreBauxite>, <ihl:item.ihlSimpleItem
 //coal from coal ore
 mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:coal_ore>, <terrafirmacraft:item.coal>);
 //uranite from pitchblende
-mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Ore:26>, <customitems:crushed_pitchblende> * 2);
+//mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Ore:26>, <customitems:crushed_pitchblende> * 2);
 //gold grit
-mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Gold Ingot>, <ImmersiveEngineering:metal:9>);
+//mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Gold Ingot>, <ImmersiveEngineering:metal:9>);
 //crushed obsidian
 mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:obsidian>, <Railcraft:cube:4>);
+//diamond dust
+//mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Diamond>, <IC2:itemDust2:1>);
+//mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Diamond:1>, <IC2:itemDust2:1> * 2);
+
 //vanilla gravel from any cobblestone
-//mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:gravel>, <ore:cobblestone>);
+mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:gravel>, <ore:cobblestone>);
+
+//feldspar
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:orePotassiumFeldspar>, <ihl:item.ihlSimpleItem:11>);
+//mica
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreMica>, <ihl:item.ihlSimpleItem:118>);
+//chromite
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreChromite>, <customitems:chromite_dust>);
+//stibnite
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreStibnite>, <ihl:item.ihlSimpleItem:130>);
+//hubnerite
+mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreGyubnera>, <ihl:item.ihlSimpleItem:86>);
+
+
