@@ -193,7 +193,8 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <ihl:item.ihlSimple
 
 //hardening
 mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:51>, <ihl:item.ihlSimpleItem:50>, <liquid:freshwater> * 10, 1, false, 0, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:48>, <ihl:item.ihlSimpleItem:47>, <liquid:freshwater> * 10, 1, false, 0, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:47>, <ihl:item.ihlSimpleItem:48>, <liquid:freshwater> * 10, 1, false, 0, true);
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Steel Ingot>, <ihl:item.ihlSimpleItem:70>, <liquid:freshwater> * 10, 1, false, 0, true);
+
 //mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlTool:7>.withTag({"GT.ToolStats": {MaxDamage: 200}}), <ihl:item.ihlSimpleItem:52>, <liquid:freshwater> * 10, 1, false, 0, true);
 

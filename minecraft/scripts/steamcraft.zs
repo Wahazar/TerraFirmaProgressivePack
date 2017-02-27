@@ -528,7 +528,7 @@ mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:obsidian>, <Railcraft:cube:4>)
 //mods.fsp.RockSmasher.addSmashingRecipe(<terrafirmacraft:item.Diamond:1>, <IC2:itemDust2:1> * 2);
 
 //vanilla gravel from any cobblestone
-mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:gravel>, <ore:cobblestone>);
+mods.fsp.RockSmasher.addSmashingRecipe(<minecraft:gravel>, <terrafirmacraft:StoneIgExCobble:*>);
 
 //feldspar
 mods.fsp.RockSmasher.addSmashingRecipe(<ihl:orePotassiumFeldspar>, <ihl:item.ihlSimpleItem:11>);
