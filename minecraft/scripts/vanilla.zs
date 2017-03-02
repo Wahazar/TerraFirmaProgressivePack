@@ -58,7 +58,10 @@ recipes.addShaped(<minecraft:fence_gate>, [
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
  [<minecraft:cobblestone>, <terrafirmacraft:Grill>, <minecraft:cobblestone>],
- [<minecraft:cobblestone>, <terrafirmacraft:item.flintAndSteel>, <minecraft:cobblestone>]]);
+ [<minecraft:cobblestone>, <ore:toolFlintSteel>, <minecraft:cobblestone>]]);
+
+recipes.addShapeless(<minecraft:flint_and_steel>, [<terrafirmacraft:item.flintAndSteel>]);
+
 
 #recipes.addShaped(<minecraft:furnace>, [[<terrafirmacraft:StoneIgExCobble:*>, #<terrafirmacraft:StoneIgExCobble:*>, <terrafirmacraft:StoneIgExCobble:*>],
 # [<terrafirmacraft:StoneIgExCobble:*>, null, <terrafirmacraft:StoneIgExCobble:*>],
@@ -202,12 +205,27 @@ recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:minecart>, <minecra
 recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 3, [<minecraft:diamond>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
 
 recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 4, [<terrafirmacraft:item.Diamond:2>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<minecraft:diamond> * 1, [<terrafirmacraft:item.Diamond:3>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<minecraft:diamond> * 2, [<terrafirmacraft:item.Diamond:4>, <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<minecraft:diamond> * 1, [<terrafirmacraft:item.Diamond:3>.giveBack(<terrafirmacraft:item.Diamond:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<minecraft:diamond> * 2, [<terrafirmacraft:item.Diamond:4>.giveBack(<terrafirmacraft:item.Diamond:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
 
 recipes.addShapeless(<minecraft:emerald>, [<terrafirmacraft:item.Emerald:2>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<minecraft:emerald> * 2, [<terrafirmacraft:item.Emerald:3>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<minecraft:emerald> * 3, [<terrafirmacraft:item.Emerald:4>, <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<minecraft:emerald> * 1, [<terrafirmacraft:item.Emerald:3>.giveBack(<terrafirmacraft:item.Emerald:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<minecraft:emerald> * 2, [<terrafirmacraft:item.Emerald:4>.giveBack(<terrafirmacraft:item.Emerald:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:pile_of_corund_dust> * 1, <terrafirmacraft:item.Sapphire>);
+mods.Terrafirmacraft.Quern.addRecipe(<customitems:pile_of_corund_dust> * 2, <terrafirmacraft:item.Sapphire:1>);
+recipes.addShapeless(<terrafirmacraft:item.Sapphire:1>, [<terrafirmacraft:item.Sapphire:2>.giveBack(<terrafirmacraft:item.Sapphire:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Sapphire:2> * 1, [<terrafirmacraft:item.Sapphire:3>.giveBack(<terrafirmacraft:item.Sapphire:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Sapphire:2> * 2, [<terrafirmacraft:item.Sapphire:4>.giveBack(<terrafirmacraft:item.Sapphire:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+
+recipes.addShapeless(<terrafirmacraft:item.Ruby:1>, [<terrafirmacraft:item.Ruby:2>.giveBack(<terrafirmacraft:item.Ruby:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Ruby:2> * 1, [<terrafirmacraft:item.Ruby:3>.giveBack(<terrafirmacraft:item.Ruby:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Ruby:2> * 2, [<terrafirmacraft:item.Ruby:4>.giveBack(<terrafirmacraft:item.Ruby:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+
+recipes.addShapeless(<terrafirmacraft:item.Garnet:1>, [<terrafirmacraft:item.Garnet:2>.giveBack(<terrafirmacraft:item.Garnet:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Garnet:2> * 1, [<terrafirmacraft:item.Garnet:3>.giveBack(<terrafirmacraft:item.Garnet:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Garnet:2> * 2, [<terrafirmacraft:item.Garnet:4>.giveBack(<terrafirmacraft:item.Garnet:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+
 
 #redstone from small tourmaline and topaz, cinnabar and cryolite have other uses
 mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone> * 8, <terrafirmacraft:item.Ore:27>);
@@ -218,16 +236,16 @@ mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Topaz:1>);
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Tourmaline>);
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Tourmaline:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Ruby>);
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 4, <terrafirmacraft:item.Ruby:1>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Ruby>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Ruby:1>);
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Agate>);
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Agate:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Garnet>);
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 4, <terrafirmacraft:item.Garnet:1>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 1, <terrafirmacraft:item.Garnet>);
+mods.Terrafirmacraft.Quern.addRecipe(<minecraft:redstone> * 2, <terrafirmacraft:item.Garnet:1>);
 
-recipes.addShapeless(<terrafirmacraft:item.Garnet:1> * 8, [<terrafirmacraft:item.Garnet:4>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<terrafirmacraft:item.Garnet:1> * 4, [<terrafirmacraft:item.Garnet:3>, <Steamcraft:preciseCuttingHead>.reuse()]);
-recipes.addShapeless(<terrafirmacraft:item.Garnet:1> * 2, [<terrafirmacraft:item.Garnet:2>, <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Topaz:1> * 7, [<terrafirmacraft:item.Topaz:4>.giveBack(<terrafirmacraft:item.Topaz:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Topaz:1> * 3, [<terrafirmacraft:item.Topaz:3>.giveBack(<terrafirmacraft:item.Topaz:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Topaz:1> * 1, [<terrafirmacraft:item.Topaz:2>.giveBack(<terrafirmacraft:item.Topaz:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
 
 furnace.remove(<minecraft:redstone>);
 
@@ -331,6 +349,8 @@ furnace.setFuel(<customitems:tree_twig>, 200);
 furnace.remove(<minecraft:coal:1>);  //only TFC charcoal in pitkiln, coke oven
 
 //for ocelots
-furnace.addRecipe(<minecraft:cooked_fished>, <terrafirmacraft:item.Fish>);
+//furnace.remove(<minecraft:cooked_fished>);
+//furnace.addRecipe(<minecraft:cooked_fished>, <terrafirmacraft:item.Fish>.withTag({foodWeight: 1.0 as float}));
 
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:fish>, <terrafirmacraft:item.Fish>.withTag({foodWeight: 1.0 as float}), <liquid:freshwater> * 25, 0, false, 0, true);
 

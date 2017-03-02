@@ -91,6 +91,8 @@ ore_steelgrit.add(<tfcm:item.IronDust>);
 
 val ore_redstone = <ore:oreRedstone>;
 ore_redstone.add(<terrafirmacraft:item.Ruby:2>);
+ore_redstone.add(<terrafirmacraft:item.Agate:2>);
+ore_redstone.add(<terrafirmacraft:item.Garnet:2>);
 ore_redstone.remove(<terrafirmacraft:item.Ore:27>);
 ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 <ore:oreCinnabar>.add(<terrafirmacraft:item.Ore:27>);
@@ -99,6 +101,7 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 <ore:oreSmallCopper>.add(<terrafirmacraft:item.Powder:8>);
 <ore:oreSmallIron>.add(<terrafirmacraft:item.Powder:5>);
 <ore:oreSmallIron>.add(<terrafirmacraft:item.Powder:7>);
+<ore:dustDiamond>.add(<customitems:pile_of_corund_dust>);
 
 //lamps
 <ore:smallLigthGlobe>.add(<customitems:glowstone_lump>);

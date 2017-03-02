@@ -72,7 +72,7 @@ Ready to mine? Bring more copper! No copper visible? Get saw and make timber for
 You need leather not only for leather armor, but also for bellows::1
 Find some lime/calcium rocks::0
 Make stone hammer, crush lime rocks into calcite dust, calcinate it in firepit to get quicklime (flux)::0
-Alternatively, if thre no lime rock nearby, put twigs into firepit and make base liquor from ashes::0
+Alternatively, if there no lime rock nearby, put twigs into firepit and make base liquor from ashes::0
 Throw raw hides into large vessel (or barrel) full of Limewater or Base Liquor, seal::0
 Put hide into limewater, seal::0
 Throw hide onto horizontal placed log (bark up), use knife to clean each hide piece::0
@@ -140,7 +140,7 @@ Start to mining iron ore (25 or 35 unit pieces are the best)::0
 ::1
 === Iron Age ===::1
 You need charcoal. Lot of charcoal. And a smithing experience.::1
-Make bloomery from brass::0
+Make bloomery doors from brass::0
 Build bloomery from stone/bricks, install ladder::0
 Put 8 charcoal pieces into bloomery::0
 Climb above bloomery and drop charcoal and ore into::0
