@@ -173,12 +173,12 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 //pewter ware
-mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal bowl", 2);
-mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <tfcpewter:item.pewterDoubleSheet>, "jug", 2);
+//mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal bowl", 2);
+mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, "metaljug", 2);
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_bowl", 15, 2, 1);      
-game.setLocalization("gui.plans.metal_bowl", "Metal bowl");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal_bowl", 2);    
+//mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_bowl", 15, 2, 1);      
+//game.setLocalization("gui.plans.metal_bowl", "Metal bowl");      
+//mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal_bowl", 2);    
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_jug", 3, 24, 31);      
 game.setLocalization("gui.plans.metal_jug", "Metal jug");      

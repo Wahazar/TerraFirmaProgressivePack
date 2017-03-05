@@ -175,8 +175,8 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("glassbottle", 33, 26, 2);
 game.setLocalization("gui.plans.glassbottle", "Glass Bottle");      
 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, rc_plate_tin.reuse(), "glassplate", 1);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>.transformDamage(1), "glassbottle", 0);  
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:stained_glass:*>, <terrafirmacraft:item.Copper Tuyere>.transformDamage(1), "glassbottle", 0);  
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:stained_glass:*>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
 
 //advanced glass forming with foundry or IHL glass blow pipe
 

@@ -245,6 +245,12 @@ game.setLocalization("gui.plans.flange", "Flange");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_flange>, <customitems:flat_brass_beam_drilled>, <customitems:flat_brass_beam_drilled>, "flange", 2); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_flange>, <customitems:flat_iron_beam_drilled>, <customitems:flat_iron_beam_drilled>, "flange", 3); 
 
+mods.Terrafirmacraft.Anvil.addPlanRecipe("oring", 1, 2, 2);      
+game.setLocalization("gui.plans.oring", "O-ring");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_ring>, <customitems:flat_brass_beam>, "oring", 2); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_ring>, <customitems:flat_steel_beam>, "oring", 4); 
+
+
 recipes.addShaped(<customitems:8_aluminum_rivets_pack>, [
  [<customitems:aluminum_rivet>, <customitems:aluminum_rivet>, <customitems:aluminum_rivet>], 
  [<customitems:aluminum_rivet>, <minecraft:paper>, <customitems:aluminum_rivet>],

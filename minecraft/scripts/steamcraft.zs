@@ -140,9 +140,9 @@ recipes.addShaped(<Steamcraft:vacuum>, [
 
 
 #piston
-recipes.remove(<Steamcraft:steamcraftCrafting:0>);
-recipes.addShaped(<Steamcraft:steamcraftCrafting:0>, [[null, <Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.Bronze Tuyere>],
- [<Steamcraft:steamcraftPlate:4>, <tfcm:item.PistonBase>, <Steamcraft:steamcraftPlate:4>],
+recipes.remove(fsp_piston);
+recipes.addShaped(fsp_piston, [[null, <customitems:flat_brass_beam>, <terrafirmacraft:item.Bronze Tuyere>],
+ [<customitems:brass_rivet>, <customitems:brass_rod>, <customitems:brass_rivet>],
  [<customitems:brass_ring>, <Steamcraft:pipe>, null]]);
 
 #pressure meter
@@ -444,7 +444,7 @@ recipes.addShaped(<Steamcraft:coatingsHydrophobic>, [[fsp_plate_zinc, <terrafirm
 recipes.remove(<Steamcraft:reloadingHolsters>);
 recipes.addShaped(<Steamcraft:reloadingHolsters>, [[<terrafirmacraft:item.TFC Leather>, <Steamcraft:steamcraftPlate:4>, <terrafirmacraft:item.TFC Leather>],
  [<Steamcraft:enhancementRevolver>, null, <Steamcraft:enhancementRevolver>],
- [<Steamcraft:steamcraftCrafting:0>, null, <Steamcraft:steamcraftCrafting:0>]]);
+ [fsp_piston, null, fsp_piston]]);
 
 //recipes.remove(<Steamcraft:autosmelting>); #won't work with TFC
 recipes.remove(<Steamcraft:battleDrill>);

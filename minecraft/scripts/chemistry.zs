@@ -167,8 +167,8 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<IC2:itemBiochaff>, <IC2:itemFuelP
 
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemBiochaff>, <liquid:waste> * 500, <terrafirmacraft:Thatch> * 4, <liquid:freshwater> * 500, 0, true, 48, true);
 
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFertilizer>, <liquid:waste> * 500, <IC2:itemBiochaff> * 4, <liquid:freshwater> * 500, 0, true, 96, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFertilizer>, <liquid:waste> * 1000, <IC2:itemBiochaff> * 5, <liquid:freshwater> * 1000, 0,  true, 24, true, true);
 
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFertilizer> * 4, <liquid:waste> * 4000, <minecraft:rotten_flesh> * 32, <liquid:limemilk> * 10000, 0, true, 96, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFertilizer>, <liquid:waste> * 1000, <minecraft:rotten_flesh>, <liquid:limemilk> * 1000, 0,  true, 96, true, true);
 
 
