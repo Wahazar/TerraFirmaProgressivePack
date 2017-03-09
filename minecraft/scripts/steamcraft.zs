@@ -418,8 +418,8 @@ recipes.addShaped(<Steamcraft:chargingPad>, [
 
 recipes.remove(<Steamcraft:engineering>);
 recipes.addShaped(<Steamcraft:engineering>, [
- [<customitems:iron_l-beam>, <ore:plateIron>, <customitems:iron_l-beam>],
- [<ore:cobblestone>, <minecraft:crafting_table>, <ore:cobblestone>],
+ [<customitems:iron_l-beam>, <ore:plateSteamcraftIron>, <customitems:iron_l-beam>],
+ [<ore:cobblestone>, <ore:craftingTableWood>, <ore:cobblestone>],
  [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 
 recipes.remove(<Steamcraft:steamcellEmpty>);
