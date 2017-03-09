@@ -77,7 +77,7 @@ Throw raw hides into large vessel (or barrel) full of Limewater or Base Liquor, 
 Put hide into limewater, seal::0
 Throw hide onto horizontal placed log (bark up), use knife to clean each hide piece::0
 Wash hide in water container::0
-Treat hide in tannin container. Tannin need leafy tree log to create::0
+Treat hide in tannin container::0
 === Bronze Age ===::1
 Make prospector pickaxe, to find more ores and minerals::1
 Explore your neighbouring using prospector pick and memorise map of resources. In case of copper, try to dig first mine::0
@@ -148,7 +148,6 @@ Lit bloomery, if finished, get iron bloom and work on it while hot::0
 Make iron anvil::0
 Make iron grill - can be used for improved firepit or furnace for producing glass and clay bricks::0
 Make iron armor and sword::0
-Try to kill bear (use any weakness/slowness splash potion first)::0
 === Shiny metal plates ===::1
 Found any sphalerite? Cast some brass ingots. You need them to make some simple automation mechanisms and steam exosuit.::1
 Found any kaolinite/graphit? Make automated bellows::0
@@ -352,10 +351,10 @@ Make laboratory electrolyser, produce Hydrogen::0
 == More Chemistry ==::1
 Once you have advanced tools such welding station or lathe table, you can make use advanced chemistry::1
 Build chemical reactors and fluidised bed reactors::0
-Assemlby IE Refinery and produce Ammonia from Hydrogen and Nitrogen (Haber process)::0
+Produce Ammonia from Hydrogen and Nitrogen::0
 Make setup for efficient fertiliser production::0
 Produce sodium sulfide and make setup for fast paper production::0
-Make electrolysis bath::0
+Make electrolysis bath, connect with thick flexible cable to rectifier::0
 Electrolythically deposit nickel at iron casing::0
 Roast sfalerite in sulfuric acid production setup::0
 Get some cadmium as byproduct of electrolytic production of zinc plates::0

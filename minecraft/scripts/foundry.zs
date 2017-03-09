@@ -673,11 +673,9 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("shotgunframe", 7, 36, 15);
 game.setLocalization("gui.plans.shotgunframe", "Gun Frame");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<foundry:foundryComponent:17>, <terrafirmacraft:item.Steel Sheet>, <tfcm:item.Link_Steel>, "shotgunframe", 4, 20);
 
-//todo: more precise recipes
 //mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<foundry:foundryMold:53>, " ### ", "#####", "## ##", "#####", " ### ");
 //mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<foundry:foundryMold:63>, "     ", " # # ", " ### ", "     ", "     ");
 
-//<IC2:itemTurningBlanks:87313>.withTag({state: {l0: 1, l1: 5, l2: 5, l3: 1, l4: 1}})
 <IC2:itemTurningBlanks:87313>.addTooltip("Unfinished drum");
 
 /* ihl
@@ -695,6 +693,15 @@ furnace.addRecipe(<customitems:small_wheel_mold>, <customitems:small_wheel_soft_
 mods.foundry.Casting.addMold(<customitems:small_wheel_mold>);
 
 mods.foundry.Casting.addRecipe(<customitems:small_wheel>, <liquid:liquidiron>*56, <customitems:small_wheel_mold>);
+
+//transfer ladle
+mods.foundry.Casting.addMold(<foundry:foundryContainer>);
+
+mods.foundry.Casting.addRecipe(<customitems:transfer_ladle-steel>, <liquid:liquidsteel>*5000, <foundry:foundryContainer>, <customitems:transfer_ladle-empty>);
+
+mods.foundry.Casting.addRecipe(<customitems:transfer_ladle-pig_iron>, <liquid:liquid_pig_iron>*5000, <foundry:foundryContainer>, <customitems:transfer_ladle-empty>);
+
+
 
 //cadmium
 mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*18, <customitems:cadmium_sponge>, 600, 100);

@@ -464,21 +464,6 @@
             }
         },
         {
-            "name":"Gaseous Ammonia",
-            "textureName": "fluidGaseousAmmonia",
-            "temperature": 200,
-            "luminosity": 0,
-	    "material": "lava",
-            "density": 0,
-            "viscosity": 500,            
-            "lightLevel": 1.0,
-            "isGas": true,
-            "flowLength": 9,
-            "bucket": {
-                "textureName": "itemCellGas"
-            }
-        },
-        {
             "name":"Carbon Oxide",
             "textureName": "fluidGaseousCarbonOxide",
             "temperature": 300,

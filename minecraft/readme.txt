@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.0.77
+TerraFirmaProgressive custom recipies modpack, v.0.78
 ################################################################################################################################
 
 Installation: 
@@ -44,7 +44,7 @@ TFC Animal Crate animalcrate-0.1.jar
 	http://terrafirmacraft.com/f/topic/8687-tfc-07924-animal-crate/
 		credits:  TaeoG, licence MIT
 
-TFCPewter [1.7.10]TFC Pewter-1.2.jar 
+TFCPewter [1.7.10]TFC Pewter-2.1.jar + [1.7.10]tfcmetals-1.1.jar
 	http://terrafirmacraft.com/f/topic/9584-tfc-07929-pefferns-addons-terrafirmapumpkins-now-with-mushrooms-and-tfcpewter/
 		credits:  Peffern, licence: forum granted
 
@@ -68,11 +68,11 @@ Foundry Foundry-1.7.10-1.2.2.0.jar
 	http://ftb.gamepedia.com/Foundry
 		credits: EXTER7, licence: GNU
 
-IC2 industrialcraft-2-2.2.827-experimental.jar
+IC2 industrialcraft-2-2.2.82x-experimental.jar
 	http://wiki.industrial-craft.net
  		credits: MCP team, licence: webpage granted
 
-IC2 IHL AddOn ihl-tools_n_machines-0.605-1.7.10.jar
+IC2 IHL AddOn ihl-tools_n_machines-0.60x-1.7.10.jar
 	http://forum.industrial-craft.net/index.php?page=Thread&threadID=10458
  		credits: Foghrye4, licence: GNU
 
@@ -111,6 +111,7 @@ ModTweaker ModTweaker2-0.9.5
 Custom items MetaMod customitems-1.0.9_beta_1.7.10.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2215993-customitems-custom-blocks-foods-items-tools-fluids
 		credits: Otho, licence: GNU
+
 
 client side:
 Dynamic Lights DynamicLights-1.7.10.jar

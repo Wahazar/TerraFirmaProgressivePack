@@ -588,9 +588,9 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:7>, [
 
 recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
 recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [
- [<ore:plankTreatedWood>, <customitems:impregnated_plank>, <ore:plankTreatedWood>],
- [<customitems:impregnated_plank>, null, <customitems:impregnated_plank>],
- [<ore:plankTreatedWood>, <customitems:impregnated_plank>, <ore:plankTreatedWood>]]);
+ [<ihl:item.ihlSimpleItem:43>, <ore:plankTreatedWood>, <ihl:item.ihlSimpleItem:43>],
+ [<ore:plankTreatedWood>, <minecraft:chest>, <ore:plankTreatedWood>],
+ [<ihl:item.ihlSimpleItem:56>, <ore:plankTreatedWood>, <ihl:item.ihlSimpleItem:56>]]);
 
 
 //bullet casing: see foundry.zs

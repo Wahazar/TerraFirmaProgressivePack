@@ -635,7 +635,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 200, <liquid:o
 //mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 1200, <liquid:creosote> * 1000, <liquid:ethanol> * 1000);
 
 //ammonia Haber method
-mods.immersiveengineering.Refinery.addRecipe(<liquid:gaseous_ammonia> * 100, <liquid:nitrogen> * 100, <liquid:hydrogen> * 300);
+//mods.immersiveengineering.Refinery.addRecipe(<liquid:gaseous_ammonia> * 100, <liquid:nitrogen> * 100, <liquid:hydrogen> * 300);
 
 
 //coke oven
