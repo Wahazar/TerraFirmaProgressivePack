@@ -47,6 +47,12 @@ var barrels = [
 var chests = [
 <terrafirmacraft:Chest TFC:0>,  <terrafirmacraft:Chest TFC:1>,  <terrafirmacraft:Chest TFC:2>,  <terrafirmacraft:Chest TFC:3>, <terrafirmacraft:Chest TFC:4>,  <terrafirmacraft:Chest TFC:5>,  <terrafirmacraft:Chest TFC:6>,  <terrafirmacraft:Chest TFC:7>, <terrafirmacraft:Chest TFC:8>,  <terrafirmacraft:Chest TFC:9>,  <terrafirmacraft:Chest TFC:10>, <terrafirmacraft:Chest TFC:11>, <terrafirmacraft:Chest TFC:12>, <terrafirmacraft:Chest TFC:13>, <terrafirmacraft:Chest TFC:14>, <terrafirmacraft:Chest TFC:15>, <terrafirmacraft:Chest TFC:16>] as IItemStack[];
 
+var rocks = [
+<terrafirmacraft:item.LooseRock:0>,  <terrafirmacraft:item.LooseRock:1>,  <terrafirmacraft:item.LooseRock:2>,  <terrafirmacraft:item.LooseRock:3>, <terrafirmacraft:item.LooseRock:4>,  <terrafirmacraft:item.LooseRock:5>,  <terrafirmacraft:item.LooseRock:6>,  <terrafirmacraft:item.LooseRock:7>, <terrafirmacraft:item.LooseRock:8>,  <terrafirmacraft:item.LooseRock:9>,  <terrafirmacraft:item.LooseRock:10>, <terrafirmacraft:item.LooseRock:11>, <terrafirmacraft:item.LooseRock:12>, <terrafirmacraft:item.LooseRock:13>, <terrafirmacraft:item.LooseRock:14>, <terrafirmacraft:item.LooseRock:15>, <terrafirmacraft:item.LooseRock:16>, <terrafirmacraft:item.LooseRock:17>, <terrafirmacraft:item.LooseRock:18>, <terrafirmacraft:item.LooseRock:19>, <terrafirmacraft:item.LooseRock:20>] as IItemStack[];
+
+var walls = [
+<terrafirmacraft:WallCobbleIgIn>,  <terrafirmacraft:WallCobbleIgIn:1>,  <terrafirmacraft:WallCobbleIgIn:2>, <terrafirmacraft:WallCobbleSed>, <terrafirmacraft:WallCobbleSed:1>,  <terrafirmacraft:WallCobbleSed:2>,  <terrafirmacraft:WallCobbleSed:3>, <terrafirmacraft:WallCobbleSed:4>, <terrafirmacraft:WallCobbleSed:5>, <terrafirmacraft:WallCobbleSed:6>, <terrafirmacraft:WallCobbleSed:7>, <terrafirmacraft:WallCobbleIgEx>, <terrafirmacraft:WallCobbleIgEx:1>,  <terrafirmacraft:WallCobbleIgEx:2>,  <terrafirmacraft:WallCobbleIgEx:3>, <terrafirmacraft:WallCobbleMM>, <terrafirmacraft:WallCobbleMM:1>, <terrafirmacraft:WallCobbleMM:2>, <terrafirmacraft:WallCobbleMM:3>, <terrafirmacraft:WallCobbleMM:4>, <terrafirmacraft:WallCobbleMM:5>] as IItemStack[];
+
 val tfc_powder_flux = <terrafirmacraft:item.Powder:0>; 
 val calcium_oxide_powder = <ihl:item.ihlSimpleItem:14>;
 val calcium_carbonate_powder = <ihl:item.ihlSimpleItem:13>;
@@ -173,7 +179,6 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("glassplate", 20, 8, 8);
 game.setLocalization("gui.plans.glassplate", "Two Glass Plates");      
 mods.Terrafirmacraft.Anvil.addPlanRecipe("glassbottle", 33, 26, 2);
 game.setLocalization("gui.plans.glassbottle", "Glass Bottle");      
-
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, rc_plate_tin.reuse(), "glassplate", 1);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:stained_glass:*>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
@@ -260,15 +265,22 @@ for i, t in timber {
 */
 }
 
-
 recipes.addShaped(<terrafirmacraft:item.Wooden Bucket Empty>, [
    [<ore:woodLumber>, null, <ore:woodLumber>],
    [<ore:woodLumber>, null, <ore:woodLumber>],
    [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 
 recipes.remove(<terrafirmacraft:item.stick>);
-recipes.addShapeless(<terrafirmacraft:item.stick> * 4, [<ore:woodLumber>, <ore:itemAxe>.transformDamage(4)]);
+recipes.addShapeless(<terrafirmacraft:item.stick> * 4, [<ore:woodLumber>, <ore:itemAxe>.transformDamage(1)]);
 
+
+for i, r in rocks {
+  var w = walls[i];
+  recipes.remove(w);
+  recipes.addShaped(w, [
+   [r, r, r],
+   [r, r, r]]);
+}
 
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14

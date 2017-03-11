@@ -744,6 +744,18 @@ mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Saw B
 
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Steel Knife Blade>, ie_plate_steel, <customitems:knife_press_mold>, 2000, 1);
 
+# press molds
+mods.Terrafirmacraft.Anvil.addPlanRecipe("metalpressmold", 20, 14, 20);      
+game.setLocalization("gui.plans.metalpressmold", "Metal Press Mold");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:mold>, <terrafirmacraft:item.Steel Double Sheet>, "metalpressmold", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:mold:1>, <ImmersiveEngineering:metal:38>, <Railcraft:part.gear:1>.reuse(), "metalpressmold", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:mold:2>, <ImmersiveEngineering:metal:38>, <ImmersiveEngineering:material:14>.reuse(), "metalpressmold", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:knife_press_mold>, <ImmersiveEngineering:metal:38>, <terrafirmacraft:item.Wrought Iron Knife Blade>.reuse(), "metalpressmold", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:saw_press_mold>, <ImmersiveEngineering:metal:38>, <terrafirmacraft:item.Wrought Iron Saw Blade>.reuse(), "metalpressmold", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:shovel_press_mold>, <ImmersiveEngineering:metal:38>, <terrafirmacraft:item.Wrought Iron Shovel Head>.reuse(), "metalpressmold", 4); 
+
+recipes.removeShaped(<ImmersiveEngineering:mold:*>);
+/*
 recipes.addShaped(<customitems:shovel_press_mold>, [
  [null, ie_plate_steel, null],
  [ie_plate_steel, <terrafirmacraft:item.Wrought Iron Shovel Head>, ie_plate_steel],
@@ -758,6 +770,7 @@ recipes.addShaped(<customitems:knife_press_mold>, [
  [null, ie_plate_steel, null],
  [ie_plate_steel, <terrafirmacraft:item.Wrought Iron Knife Blade>, ie_plate_steel],
  [null, ie_plate_steel, null]]);
+*/
 
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <minecraft:iron_bars>, 2000, 1);
 

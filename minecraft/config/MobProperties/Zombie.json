@@ -99,7 +99,7 @@
 	            	    {
                   	       "function": "modifier",
                   	         "attribute": "generic.movementSpeed",
-                  	         "value": "0.4~0.7",
+                  	         "value": "0.4~0.6",
                   	         "operator": 1
                   	    },
                             {"function": "drops",
