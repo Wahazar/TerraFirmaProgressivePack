@@ -13,7 +13,7 @@ recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas>, [<ore:dyeBlack>, <terrafi
 
 #udary mod
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcudarymod:item.Copper Wire>*10, <terrafirmacraft:item.Copper Ingot>, "_wire", 1);
-recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <ore:itemKnife>.anyDamage().transformDamage(1)]);
+recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <ore:itemKnife>.transformDamage(1)]);
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Stone Knife>]);
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Copper Knife>]);
 
@@ -97,7 +97,7 @@ recipes.addShaped(<tfcm:item.BowLimb>, [
 
 
 # NEI.overrideName(<tfcm:item.CasingIron>, "Tin Casing");
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, terrafirmacraft:item.Tin Ingot, "casing", 0, 20);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, <terrafirmacraft:item.Tin Ingot>, "casing", 0, 20);    
 
 //instead of pewter
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:tin_wire>, 340, 0.2);

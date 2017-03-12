@@ -258,7 +258,7 @@ recipes.remove(<IC2:itemTurningBlanksWood:209715>.withTag({state: {l0: 3, l1: 3,
 recipes.addShaped(<IC2:itemTurningBlanksWood:209715>.withTag({state: {l0: 3, l1: 3, l2: 3, l3: 3, l4: 3}}), [
  [null, null, null],
  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
- [null, null, <ore:itemSaw>.transformDamage(8)]]);
+ [null, null, <ore:itemSaw>.transformDamage(1)]]);
 
 
 //compressor for tfm wire coils 
@@ -288,19 +288,19 @@ OreWasher.addRecipe([<terrafirmacraft:Sand:15>*2, <ihl:item.ihlSimpleItem:11>*3,
 
 recipes.remove(ic2_copper_cable);
 recipes.addShapeless(ic2_copper_cable * 3, 
- [<customitems:copper_wire>, <ore:craftingToolWireCutter>.transformDamage(3)]);
+ [<customitems:copper_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
 
 recipes.remove(ic2_tin_cable);
 recipes.addShapeless(ic2_tin_cable * 3, 
- [<customitems:pewter_tin_wire>, <ore:craftingToolWireCutter>.transformDamage(3)]);
+ [<customitems:tin_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
 
 recipes.remove(ic2_gold_cable);
 recipes.addShapeless(ic2_gold_cable * 3, 
- [<customitems:electrum_wire>, <ore:craftingToolWireCutter>.transformDamage(3)]);
+ [<customitems:electrum_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
 
 recipes.remove(ic2_hv_cable);
 recipes.addShapeless(ic2_hv_cable * 3, 
- [<customitems:iron_wire>, <ore:craftingToolWireCutter>.transformDamage(6)]);
+ [<customitems:iron_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
 
 recipes.remove(<IC2:itemCable:9>);
 recipes.addShapeless(<IC2:itemCable:9>, [<customitems:recipe_removed>]);
@@ -462,7 +462,7 @@ recipes.addShaped(<IC2:upgradeModule:2>, [
 //reinforced door
 recipes.addShaped(<IC2:itemDoorAlloy>, [
    [<IC2:itemPartAlloy>, <customitems:flat_bronze_beam>, <customitems:steel_rivet> ],
-   [<IC2:itemPartAlloy>, <IC2:itemPartAlloy>, <ore:itemHammer>.transformDamage(16)],
+   [<IC2:itemPartAlloy>, <IC2:itemPartAlloy>, <ore:itemHammer>.transformDamage(1)],
    [<IC2:itemPartAlloy>, <IC2:itemPartAlloy>, <customitems:steel_rivet>]]);
 
 //painter
@@ -610,7 +610,7 @@ mods.Terrafirmacraft.Knapping.addStoneWorkingRecipe(<IC2:itemMugEmpty>, "#### ",
 recipes.addShaped(<IC2:blockMiningPipe> * 3, [
    [<customitems:black_steel_u-beam>, null, <customitems:black_steel_u-beam>],
    [<customitems:black_steel_u-beam>, <customitems:thermite_welding_powder>, <customitems:black_steel_u-beam>],
-   [<customitems:black_steel_u-beam>, <terrafirmacraft:item.flintAndSteel>.transformDamage(3), <customitems:black_steel_u-beam>]]);
+   [<customitems:black_steel_u-beam>, <terrafirmacraft:item.flintAndSteel>.transformDamage(1), <customitems:black_steel_u-beam>]]);
 
 //blast furnace
 recipes.addShaped(<IC2:blockMachine3:1>, [
@@ -650,7 +650,7 @@ recipes.addShaped(<IC2:itemPartCircuit>, [
 //single use battery
 recipes.addShaped(<IC2:itemBatSU> * 8, [
    [null, <tfcudarymod:item.Carbon Rod>, null],
-   [<ore:itemKnife>.transformDamage(8), mangan_oxide_dust, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ammonium_chloride_nh4cl_aq", Amount: 1000}}).transformReplace(<IC2:itemFluidCell>)],
+   [<ore:itemKnife>.transformDamage(1), mangan_oxide_dust, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "ammonium_chloride_nh4cl_aq", Amount: 1000}}).transformReplace(<IC2:itemFluidCell>)],
    [null, <customitems:zinc_casing>, null]]);
 
 //RE NiCd battery, todo: KOH
