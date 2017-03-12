@@ -101,7 +101,6 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, ie_rod_iron, 1535, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Red Steel Unshaped>, <customitems:red_steel_rod>, 1540, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, ie_rod_steel, 1540, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_rod>, 340, 0.17);
 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_wire>, 985, 0.34);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_wire>, 950, 0.34);
@@ -146,7 +145,6 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_rod>, <terrafirmac
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_iron, <terrafirmacraft:item.Wrought Iron Ingot>, "metalrod", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_rod>, <terrafirmacraft:item.Red Steel Ingot>, "metalrod", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_steel, <terrafirmacraft:item.Steel Ingot>, "metalrod", 4);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:pewter_tin_rod>, <tfcpewter:item.pewterIngot>, "metalrod", 2);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("thickwire", 8, 8, 26);      
 game.setLocalization("gui.plans.thickwire", "Wire");      
@@ -160,7 +158,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_wire>, tfc_rod_cop
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_wire>, ie_rod_iron, "thickwire", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_wire>, <customitems:red_steel_rod>, "thickwire", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_wire>, ie_rod_steel, "thickwire", 4);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:pewter_tin_wire>, <customitems:pewter_tin_rod>, "thickwire", 2);
+
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("flatbeam", 21, 14, 13);      
 game.setLocalization("gui.plans.flatbeam", "Flat Beam");      

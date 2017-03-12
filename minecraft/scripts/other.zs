@@ -13,7 +13,7 @@ recipes.addShapeless(<antiqueatlas:emptyAntiqueAtlas>, [<ore:dyeBlack>, <terrafi
 
 #udary mod
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcudarymod:item.Copper Wire>*10, <terrafirmacraft:item.Copper Ingot>, "_wire", 1);
-recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <ore:itemKnife>.transformDamage(4)]);
+recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <ore:itemKnife>.anyDamage().transformDamage(1)]);
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Stone Knife>]);
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Copper Knife>]);
 
@@ -95,11 +95,16 @@ recipes.addShaped(<tfcm:item.BowLimb>, [
  [<terrafirmacraft:item.SinglePlank:13>, <tfcm:item.SinewFiber>, <terrafirmacraft:item.SinglePlank:13>],
  [<tfcm:item.CaseinGlue>, <tfcm:item.CaseinGlue>, <tfcm:item.CaseinGlue>]]);
 
-mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.CasingIron>, <terrafirmacraft:item.Wrought Iron Ingot>, "casing", 3); 
-
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, <tfcpewter:item.pewterIngot>, "casing", 0, 20);    
 
 # NEI.overrideName(<tfcm:item.CasingIron>, "Tin Casing");
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, terrafirmacraft:item.Tin Ingot, "casing", 0, 20);    
+
+//instead of pewter
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:tin_wire>, 340, 0.2);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:tin_rod>, 340, 0.17);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:tin_rod>, <terrafirmacraft:item.Tin Ingot>, "metalrod", 2);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:tin_wire>, <customitems:tin_rod>, "thickwire", 2);
+
 
 recipes.remove(<minecraft:compass>);
 recipes.addShapeless(<minecraft:compass>, [<terrafirmacraft:item.Small Ore:10>, <tfcm:item.CasingIron>, <ore:dyeRed>]);
@@ -172,25 +177,5 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<ore:logWood>, <terrafirmacraft:item.Straw>, <ore:logWood>],
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
-//pewter ware
-//mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal bowl", 2);
-mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, "metaljug", 2);
-
-//mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_bowl", 15, 2, 1);      
-//game.setLocalization("gui.plans.metal_bowl", "Metal bowl");      
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Bowl>, <tfcpewter:item.pewterSheet>, "metal_bowl", 2);    
-
-mods.Terrafirmacraft.Anvil.addPlanRecipe("metal_jug", 3, 24, 31);      
-game.setLocalization("gui.plans.metal_jug", "Metal jug");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcpewter:item.Metal Jug>, <tfcpewter:item.pewterDoubleSheet>, <customitems:pewter_tin_wire>, "metal_jug", 3);    
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<tfcpewter:item.moltenPewter:1>, <customitems:pewter_tin_wire>, 340, 0.2);
-
-mods.Terrafirmacraft.Barrel.removeItemConversion(<tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 200);
-recipes.removeShapeless(<tfcpewter:item.Metal Bowl>);
-recipes.addShapeless(<tfcpewter:item.Metal Bowl>, [<tfcm:item.BucketHotWater>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>), <tfcpewter:item.Metal Bowl Dirty>]);
-
-
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpewter:item.Metal Bowl>, <liquid:waste> * 1000, <tfcpewter:item.Metal Bowl Dirty>, <liquid:freshwater> * 1000, 0,  false, 0, true, true);
 
 
