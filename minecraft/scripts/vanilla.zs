@@ -51,7 +51,7 @@ recipes.addShaped(<minecraft:diamond_block>, [
 #gate
 recipes.addShaped(<minecraft:fence_gate>, [
  [null, null, null],
- [<customitems:wooden_peg>, <ore:stickWood>, <customitems:wooden_peg>], 
+ [<ore:woodLumber>, <ore:stickWood>, <ore:woodLumber>], 
  [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 #furnace need grill and firestarter

@@ -52,7 +52,18 @@ recipes.addShaped(<ihl:item.ihlTool:16>.withTag({"GT.ToolStats": {MaxDamage: 200
 //graver
 mods.Terrafirmacraft.Anvil.addPlanRecipe("graver", 14, 14, 21);      
 game.setLocalization("gui.plans.graver", "Graver");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:55>, <customitems:flat_steel_beam>, "graver", 6);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:55>, <customitems:flat_steel_beam>, "graver", 5);
+
+//chisel
+mods.Terrafirmacraft.Anvil.addPlanRecipe("blank_chisel", 15, 11, 35);      
+game.setLocalization("gui.plans.blank_chisel", "Blank for chisel");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:31>, <terrafirmacraft:item.HC Steel Ingot>, "blank_chisel", 5);
+
+//carving knife
+mods.Terrafirmacraft.Anvil.addPlanRecipe("carving_knife", 14, 8, 8);      
+game.setLocalization("gui.plans.carving_knife", "Carving knife");      
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:24>, <customitems:flat_bronze_beam>, "blank_chisel", 2);
+
 
 //glass box
 recipes.remove(<ihl:glassBoxBlock>);
@@ -138,6 +149,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:51> * 2, <cust
 mods.Terrafirmacraft.Anvil.addPlanRecipe("nails2inch", 1, 24, 33);      
 game.setLocalization("gui.plans.nails2inch", "2 inch Nails");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ihl:item.ihlSimpleItem:57> * 8, <ihl:item.ihlSimpleItem:51>, "nails2inch", 4); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_nail> * 6, <customitems:copper_wire>, "nails2inch", 1); 
 
 //lead processing
 recipes.addShapeless(<minecraft:dye:1> * 3, [lead_oxide, lead_oxide, <ore:dyeBrown>]);
@@ -197,4 +209,7 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlSimpleItem:47>, <ihl:
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Steel Ingot>, <ihl:item.ihlSimpleItem:70>, <liquid:freshwater> * 10, 1, false, 0, true);
 
 //mods.Terrafirmacraft.Barrel.addItemConversion(<ihl:item.ihlTool:7>.withTag({"GT.ToolStats": {MaxDamage: 200}}), <ihl:item.ihlSimpleItem:52>, <liquid:freshwater> * 10, 1, false, 0, true);
+
+//molten bronze from mold
+recipes.addShapeless(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "molten.bronze", Amount: 100}}), [<terrafirmacraft:item.Bronze Unshaped:1>,<IC2:itemFluidCell>]);
 

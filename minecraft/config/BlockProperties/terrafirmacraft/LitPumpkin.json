@@ -2,7 +2,7 @@
   "_name": "terrafirmacraft:LitPumpkin",
   "stats": {
     "opacity": 255,
-    "brightness": 15,
+    "brightness": 7,
     "hardness": 1.0,
     "resistance": 5.0,
     "sound": "wood",

@@ -97,6 +97,12 @@
             "maxStackSize": 16
         },
         {
+            "name": "Rope Hoop",
+            "textureName": "Hoop_Rope",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
             "name": "Half Aluminum Hoop",
             "textureName": "HalfHoop_Aluminum",
             "creativeTab": "Custom Items",
@@ -380,7 +386,7 @@
             "maxStackSize": 16
         },
         {
-            "name": "Pewter Tin Rod",
+            "name": "Tin Rod",
             "textureName": "Rod_Pewter",
             "creativeTab": "Custom Items",
             "maxStackSize": 16
@@ -476,7 +482,7 @@
             "maxStackSize": 32
         },
         {
-            "name": "Pewter Tin Wire",
+            "name": "Tin Wire",
             "textureName": "wire_Pewter",
             "creativeTab": "Custom Items",
             "maxStackSize": 32
@@ -562,6 +568,12 @@
         {
             "name": "Wooden Peg",
             "textureName": "Wooden_Peg",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Copper Nail",
+            "textureName": "itemCopperNail",
             "creativeTab": "Custom Items",
             "maxStackSize": 64
         },

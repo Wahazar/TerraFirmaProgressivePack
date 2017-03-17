@@ -539,3 +539,8 @@ recipes.remove(<minecraft:torch>);
 recipes.remove(<Railcraft:tool.magnifying.glass>);
 recipes.addShapeless(<Railcraft:tool.magnifying.glass>, [<IC2:itemCasing:1>, <customitems:lense>]);
 
+//crowbars etc: ihl iron workbench
+recipes.remove(<Railcraft:tool.crowbar>);
+recipes.remove(<Railcraft:tool.crowbar.reinforced>);
+recipes.remove(<Railcraft:tool.whistle.tuner>);
+

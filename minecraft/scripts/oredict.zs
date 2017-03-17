@@ -22,6 +22,7 @@ ore_itemRivetsPack.add(<customitems:8_iron_rivets_pack>);
 ore_itemRivetsPack.add(<customitems:8_steel_rivets_pack>);
 
 val ore_itemHoop = <ore:itemHoop>;
+ore_itemHoop.add(<customitems:rope_hoop>);
 ore_itemHoop.add(<customitems:wooden_hoop>);
 ore_itemHoop.add(<customitems:aluminum_hoop>);
 ore_itemHoop.add(<customitems:black_steel_hoop>);
@@ -33,6 +34,7 @@ ore_itemHoop.add(<customitems:steel_hoop>);
 
 val ore_itemNail = <ore:itemNail>;
 ore_itemNail.add(<customitems:wooden_peg>);
+ore_itemNail.add(<customitems:copper_nail>);
 ore_itemNail.add(<ihl:item.ihlSimpleItem:57>);
 
 val ore_beamFlat = <ore:beamFlat>;

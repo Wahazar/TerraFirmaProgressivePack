@@ -169,7 +169,14 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_copper_beam> * 2, <t
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_iron_beam> * 2, <terrafirmacraft:item.Wrought Iron Ingot>, "flatbeam", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_steel_beam> * 2, <terrafirmacraft:item.Steel Ingot>, "flatbeam", 4);
 
+
+
 recipes.addShapeless( <customitems:wooden_press>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>]);
+
+recipes.addShaped(<customitems:rope_hoop>, [
+ [<tfcm:item.SinewFiber>, <terrafirmacraft:item.Rope>, <tfcm:item.SinewFiber>], 
+ [<terrafirmacraft:item.Rope>, null, <terrafirmacraft:item.Rope>],
+ [<tfcm:item.SinewFiber>, <terrafirmacraft:item.Rope>, <tfcm:item.SinewFiber>]]);
 
 recipes.addShaped(<customitems:half_wooden_hoop>, [
  [null, <ore:logWood>.reuse(), null], 
@@ -454,7 +461,7 @@ game.setLocalization("gui.plans.metal_bar", "Metal Bar");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_bar>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, "metal_bar", 3);       
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_bar>, <terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Steel Ingot>, "metal_bar", 4);       
 
-recipes.addShapeless(<customitems:wooden_peg> * 2, [<ore:woodLumber>, <ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<customitems:wooden_peg> * 2, [<customitems:impregnated_plank>, <ore:itemSaw>.transformDamage()]);
 
 
 #creozote barrel

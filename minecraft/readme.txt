@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.0.80
+TerraFirmaProgressive custom recipies modpack, v.0.9
 ################################################################################################################################
 
 Installation: 
@@ -112,6 +112,9 @@ Custom items MetaMod customitems-1.0.9_beta_1.7.10.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2215993-customitems-custom-blocks-foods-items-tools-fluids
 		credits: Otho, licence: GNU
 
+Carpenters Blocks Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar
+	http://www.carpentersblocks.com/
+		credits: Mineshopper, Tander, licence: GNU
 
 client side:
 Dynamic Lights DynamicLights-1.7.10.jar

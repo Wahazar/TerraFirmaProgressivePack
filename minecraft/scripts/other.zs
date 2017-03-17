@@ -178,4 +178,4 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 
-
+mods.nei.NEI.overrideName(<tfcudarymod:item.Rod Mold:3>, "Rod Mould (Bronze)");

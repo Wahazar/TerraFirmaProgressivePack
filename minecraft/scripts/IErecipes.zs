@@ -633,7 +633,8 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:material>, <
 
 mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:material>, <terrafirmacraft:item.stick>, <liquid:oliveoil> * 50, 0, true, 8, true);
 
-recipes.addShapeless(<ImmersiveEngineering:material> * 4, [<customitems:impregnated_plank>, <ore:itemSaw>.transformDamage(1)]);
+recipes.removeShaped(<ImmersiveEngineering:material>);
+recipes.addShapeless(<ImmersiveEngineering:material> * 4, [<customitems:impregnated_plank>, <ore:itemAxe>.transformDamage(1)]);
 
 recipes.removeShaped(<ImmersiveEngineering:woodenDecoration:2>);
 recipes.addShapeless(<ImmersiveEngineering:woodenDecoration:2> * 2, [<ore:plankTreatedWood>, <ore:itemSaw>.transformDamage(1)]);

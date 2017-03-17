@@ -22,12 +22,12 @@
 		{ 
                    "function": "add", 
                    "id": "IC2:itemFuelPlantBall",
-                   "count": 0.8
+                   "count": 0.2
 	            },
 		{ 
                    "function": "add", 
                    "id": "terrafirmacraft:Pumpkin",
-                   "count": 0.3
+                   "count": 0.8
 	            }
 		]
 	}
