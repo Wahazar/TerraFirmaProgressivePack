@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.0.9
+TerraFirmaProgressive custom recipies modpack, v.0.91
 ################################################################################################################################
 
 Installation: 
@@ -112,6 +112,10 @@ Custom items MetaMod customitems-1.0.9_beta_1.7.10.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2215993-customitems-custom-blocks-foods-items-tools-fluids
 		credits: Otho, licence: GNU
 
+Antique Atlas antiqueatlas-4.2.7-1.7.10.jar
+	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292324-antique-atlas 
+	credits: Hunternif, Licence: forum granted
+
 Carpenters Blocks Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar
 	http://www.carpentersblocks.com/
 		credits: Mineshopper, Tander, licence: GNU
@@ -128,10 +132,6 @@ Damage Indicators Damage-Indicators-Mod-1.7.10.jar
 Map Writer MapWriter-1.7.10-2.1.10.jar
 	http://mods.curse.com/mc-mods/minecraft/mapwriter
 		credits: Mapwriter, VectronDiablon, Licence: public domain
-
-Antique Atlas antiqueatlas-4.2.7-1.7.10.jar
-	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292324-antique-atlas 
-	credits: Hunternif, Licence: forum granted
 
 server side:
 Mob properties by docrobb, MobProperties-1.7.10-1.0.2.jar

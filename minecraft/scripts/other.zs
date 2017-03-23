@@ -178,4 +178,14 @@ recipes.addShaped(<animalcrate:blockcrate>, [
  [<terrafirmacraft:item.SinglePlank:*>, <ore:logWood>, <terrafirmacraft:item.SinglePlank:*>]]);
 
 
-mods.nei.NEI.overrideName(<tfcudarymod:item.Rod Mold:3>, "Rod Mould (Bronze)");
+//alternative for liquid dyes
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.brown> * 1000, <tfcm:item.BrownDye>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.cyan> * 1000, <minecraft:dye:6>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.gray> * 1000, <minecraft:dye:8>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.green> * 1000, <customitems:chromium_oxide_dust>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.light_blue> * 1000, <minecraft:dye:12>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.lime> * 1000, <minecraft:dye:10>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.orange> * 1000, <minecraft:dye:14>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.red> * 1000, <minecraft:dye:1>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.silver> * 1000, <minecraft:dye:7>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+

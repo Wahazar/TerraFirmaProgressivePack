@@ -127,6 +127,20 @@
             }
         },
         {
+            "name":"Lithium Hydroxide Aq",
+            "textureName": "liquidAqLithiumSulfate",
+            "temperature": 320,
+	    "material": "water",
+            "density": 1100,
+            "viscosity": 2000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 5,
+            "bucket": {
+                "textureName": "bucket_Waste"
+            }
+        },
+        {
             "name":"Leached Urainite",
             "textureName": "liquidLeachedUrainite",
             "temperature": 300,

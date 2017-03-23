@@ -629,8 +629,10 @@ mods.immersiveengineering.Fermenter.addRecipe(<terrafirmacraft:item.Fertilizer>,
 //biodiesel from diesel fuel
 mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:biodiesel>);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 3000, <liquid:fuel> * 2900, <liquid:ethanol> * 100);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 3000, <liquid:fuel> * 2800, <liquid:methanol> * 200);
 
-mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 200, <liquid:oliveoil> * 100, <liquid:ethanol> * 100);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 400, <liquid:oliveoil> * 300, <liquid:ethanol> * 100);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 300, <liquid:oliveoil> * 200, <liquid:methanol> * 100);
 
 //mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 1200, <liquid:creosote> * 1000, <liquid:ethanol> * 1000);
 

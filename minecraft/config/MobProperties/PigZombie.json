@@ -6,10 +6,6 @@
 		"functions": 
 		[			
 		{ 
-                   "function": "default", 
-                   "value": "false" 
-                  },
-		{ 
                    "function": "add", 
                    "id": "minecraft:rotten_flesh",
                    "count": 0.8
