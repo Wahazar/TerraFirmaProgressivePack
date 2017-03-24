@@ -288,19 +288,19 @@ OreWasher.addRecipe([<terrafirmacraft:Sand:15>*2, <ihl:item.ihlSimpleItem:11>*3,
 
 recipes.remove(ic2_copper_cable);
 recipes.addShapeless(ic2_copper_cable * 3, 
- [<customitems:copper_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
+ [<customitems:copper_wire>, <ore:craftingToolWireCutter>]);
 
 recipes.remove(ic2_tin_cable);
 recipes.addShapeless(ic2_tin_cable * 3, 
- [<customitems:tin_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
+ [<customitems:tin_wire>, <ore:craftingToolWireCutter>]);
 
 recipes.remove(ic2_gold_cable);
 recipes.addShapeless(ic2_gold_cable * 3, 
- [<customitems:electrum_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
+ [<customitems:electrum_wire>, <ore:craftingToolWireCutter>]);
 
 recipes.remove(ic2_hv_cable);
 recipes.addShapeless(ic2_hv_cable * 3, 
- [<customitems:iron_wire>, <ore:craftingToolWireCutter>.transformDamage(1)]);
+ [<customitems:iron_wire>, <ore:craftingToolWireCutter>]);
 
 recipes.remove(<IC2:itemCable:9>);
 recipes.addShapeless(<IC2:itemCable:9>, [<customitems:recipe_removed>]);
@@ -656,7 +656,7 @@ recipes.addShaped(<IC2:itemBatSU> * 8, [
 //RE NiCd battery, todo: KOH
 recipes.addShaped(<IC2:itemBatREDischarged>, [
    [null, <customitems:cadmium_cable>, null],
-   [<ore:craftingToolWireCutter>.reuse(), <customitems:impregnated_paper>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "solution.natriumhydroxide", Amount: 1000}}).transformReplace(<IC2:itemFluidCell>)],
+   [<ore:craftingToolWireCutter>, <customitems:impregnated_paper>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "solution.natriumhydroxide", Amount: 1000}}).transformReplace(<IC2:itemFluidCell>)],
    [null, <customitems:nickel_plated_casing>, null]]);
 
 //Adv battery: .ini

@@ -58,7 +58,7 @@ recipes.remove(<cuchaz.ships:blockShip:5>);
 recipes.addShaped(<cuchaz.ships:blockShip:5>, [
  [<minecraft:diamond_block>, <ImmersiveEngineering:metalDevice2:3>, <minecraft:diamond_block>],
  [<terrafirmacraft:item.Blue Steel Double Sheet>, <cuchaz.ships:blockShip:4>, <terrafirmacraft:item.Blue Steel Double Sheet>],
- [<minecraft:diamond_block>, <IC2:itemToolCutter>.transformDamage(), <minecraft:diamond_block>]]);
+ [<minecraft:diamond_block>, <IC2:itemToolCutter>, <minecraft:diamond_block>]]);
 
 recipes.remove(<cuchaz.ships:blockShip:6>);
 recipes.addShaped(<cuchaz.ships:blockShip:6>, [

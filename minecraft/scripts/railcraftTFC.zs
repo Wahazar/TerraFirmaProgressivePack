@@ -160,6 +160,7 @@ recipes.remove(<Railcraft:part.tie:0>);
 
 recipes.addShapeless(<Railcraft:part.tie:0> * 4, [<customitems:creozote_treated_tie>, <ore:itemSaw>.transformDamage(4)]);
 
+recipes.remove(<Railcraft:part.rail:2>);
 recipes.addShaped(<Railcraft:part.rail:2> * 2, [
  [<Railcraft:part.tie>, null], 
  [<customitems:flat_iron_beam>, null]]);
