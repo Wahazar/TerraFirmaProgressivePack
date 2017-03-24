@@ -112,10 +112,10 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemDust:9>, <liquid:sal
 
 //quartzite
 recipes.addShapeless(<terrafirmacraft:Sand:15>, 
- [<terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand2:3>]);
+ [<terrafirmacraft:Sand2:3>.giveBack(<terrafirmacraft:Sand:7>), <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand2:3>.giveBack(<IC2:itemDust:9>)]);
 
 recipes.addShapeless(<terrafirmacraft:Sand:15>, 
- [<terrafirmacraft:Sand>, <terrafirmacraft:Sand>, <terrafirmacraft:Sand>, <terrafirmacraft:Sand>.giveBack(<ihl:item.ihlSimpleItem:11>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand>]);
+ [<terrafirmacraft:Sand>.giveBack(<terrafirmacraft:Sand:1>), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand>.giveBack(<ihl:item.ihlSimpleItem:11>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>)]);
 
 //KCl
 mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Ore:31>);
