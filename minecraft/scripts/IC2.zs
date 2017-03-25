@@ -678,8 +678,8 @@ recipes.addShaped(<IC2:itemScanner:26>, [
 mods.Terrafirmacraft.Quern.addRecipe(<IC2:itemDustSmall:2>, <minecraft:gold_nugget>);
 
 //empty cell alternative
-mods.Terrafirmacraft.Anvil.addPlanRecipe("cell", 2, 2, 14);      
+mods.Terrafirmacraft.Anvil.addPlanRecipe("item_cell", 2, 2, 14);      
 game.setLocalization("gui.plans.item_cell", "Empty fluid cell");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemCellEmpty>, <terrafirmacraft:item.Steel Sheet>, "cell", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemCellEmpty>, <terrafirmacraft:item.Steel Sheet>, "item_cell", 4);
 
 

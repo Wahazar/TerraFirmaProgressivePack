@@ -66,31 +66,31 @@
                 },
                 {
                     "id": "ihl:item.ihlSimpleItem:11",
-                    "min": 1,
+                    "min": 0,
                     "max": 2,
                     "chance": 15
                 },
                 {
                     "id": "terrafirmacraft:item.Ore:30",
-                    "min": 1,
+                    "min": 0,
                     "max": 2,
                     "chance": 10
                 },
                 {
                     "id": "terrafirmacraft:item.Ore:25",
-                    "min": 1,
+                    "min": 0,
                     "max": 2,
                     "chance": 5
                 },
                 {
                     "id": "terrafirmacraft:item.Tourmaline:1",
-                    "min": 1,
+                    "min": 0,
                     "max": 2,
                     "chance": 2
                 },
                 {
                     "id": "minecraft:quartz",
-                    "min": 1,
+                    "min": 0,
                     "max": 2,
                     "chance": 1
                 }

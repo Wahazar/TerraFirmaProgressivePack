@@ -99,7 +99,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirma
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_bismuth_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_sterling_silver>*10, [<liquid:liquidcopper>*3, <liquid:liquidsilver>*7]);
-mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_rose_gold>*10, [<liquid:liquidcopper>*2, <liquid:liquidgold>*8]);
+//mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_rose_gold>*10, [<liquid:liquidcopper>*2, <liquid:liquidgold>*8]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_weak_steel>*10, [<liquid:liquidsteel>*6, <liquid:liquidnickel>*2, <liquid:liquid_black_bronze>*2]);
 
 //weak and HC black steel
@@ -115,11 +115,12 @@ mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <liquid:li
 
 mods.foundry.Infuser.addRecipe(<liquid:liquid_pig_iron>*8, <liquid:liquidiron>*8, <infusersubstance:carbon>*4);
 
+
 //permalloy
 mods.foundry.Melting.addRecipe(<liquid:liquid_permalloy>*108, ie_ingot_permalloy, 1750, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_permalloy>*54, <customitems:small_permalloy_plate>, 1750, 100);
 mods.foundry.Casting.addRecipe(ie_ingot_permalloy, <liquid:liquid_permalloy>*108, <foundry:foundryMold>);
-mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_permalloy>*10, [<liquid:liquidnickel>*8, <liquid:liquidiron>*2]);
+mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_permalloy>*10, [<liquid:liquidnickel>*8, <liquid:liquidsteel>*2]);
 
 //TFC ingots
 var tfc_meltableingots = [

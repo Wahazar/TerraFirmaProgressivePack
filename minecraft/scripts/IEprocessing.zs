@@ -237,7 +237,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:stone>, <terrafirmacra
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:blaze_powder>, <terrafirmacraft:item.Powder:7>, null, 900, 2000, [<ore:dustRedstone>], "Alloying");
 
 #NiFe permalloy
-mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_permalloy, <ore:dustNickel>, ie_slag, 400, 500, [<customitems:small_pile_of_iron_dust>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_permalloy, <ore:dustNickel>, null, 400, 500, [ie_nugget_steel * 2], "Alloying");
 
 #melting
 
