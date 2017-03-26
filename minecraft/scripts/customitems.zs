@@ -471,7 +471,7 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<customitems:impregnated_plank>, <
 mods.Terrafirmacraft.Barrel.addItemConversion(<customitems:creozote_treated_tie>, <terrafirmacraft:WoodSupportV:*>, <liquid:creosote> * 125, 1, true, 8, true);
 
 #impregnated paper
-mods.Terrafirmacraft.Barrel.addItemConversion(<customitems:impregnated_paper>, <terrafirmacraft:WoodSupportV:*>, <liquid:creosote> * 250, 1, true, 4, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<customitems:impregnated_paper>, <minecraft:paper>, <liquid:creosote> * 50, 1, true, 4, true);
 
 #alternative for creozote
 mods.Terrafirmacraft.Barrel.addItemConversion(<customitems:impregnated_plank>, <terrafirmacraft:item.SinglePlank:*>, <liquid:oliveoil> * 100, 1, true, 32, true);
@@ -509,9 +509,9 @@ recipes.addShaped(<customitems:permalloy_sheet_stack>, [
  [<customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>],
  [<customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>]]);
 
-recipes.addShapeless(<customitems:grease_lump>, [<ore:cellOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <ore:itemSoap>]);
+recipes.addShapeless(<customitems:grease_lump> * 2, [<ore:cellOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <ore:itemSoap>]);
 
-recipes.addShapeless(<customitems:grease_lump> * 3, [<ore:cellMineralOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <customitems:lithium_soap_lump>]);
+//recipes.addShapeless(<customitems:grease_lump> * 4, [<ore:cellMineralOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <customitems:lithium_soap_lump>]);
 
 recipes.addShapeless(<customitems:grease_lump> * 2, [<minecraft:slime_ball>, <terrafirmacraft:item.Powder:2>]);
 
