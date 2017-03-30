@@ -598,3 +598,6 @@ recipes.addShaped(<customitems:redstone_sensor>, [
  [<customitems:electrum_rod>, <ore:dustRedstone>, <ihl:item.ihlSimpleItem:119>],
  [null, <IC2:itemCasing:4>, <IC2:itemCable:1>]]);
 
+//insulators
+mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_formed_insulator>, "# # #", "  #  ", "# # #", "  #  ", "# # #");
+furnace.addRecipe(<customitems:ceramic_insulator>, <customitems:clay_formed_insulator>);

@@ -139,6 +139,18 @@
             "maxStackSize": 1
         },
         {
+            "name": "Insulator Soft Mold",
+            "textureName": "claymold_insulator",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Insulator Mold",
+            "textureName": "mold_insulator",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
             "name": "Knife Press Mold",
             "textureName": "mold_knife",
             "creativeTab": "Custom Items",

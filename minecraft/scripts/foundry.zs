@@ -595,9 +595,9 @@ mods.foundry.Casting.addRecipe(<customitems:steel_bar>, <liquid:liquidsteel>*216
 mods.foundry.Casting.addRecipe(<customitems:stainless_steel_bar>, <liquid:liquidstainlesssteel>*216, <customitems:bar_mold>);
 
 //ic2 turning blank
-recipes.addShapeless(<customitems:turning_blank_mold>, [f_blank, <IC2:itemTurningBlanks:349525>.withTag({state: {l0: 5, l1: 5, l2: 5, l3: 5, l4: 5}})]);
+recipes.addShapeless(<customitems:turning_blank_soft_mold>, [f_blank, <IC2:itemTurningBlanks:349525>.withTag({state: {l0: 5, l1: 5, l2: 5, l3: 5, l4: 5}})]);
 
-furnace.addRecipe(<customitems:turning_blank_soft_mold>, <customitems:turning_blank_mold>);
+furnace.addRecipe(<customitems:turning_blank_mold>, <customitems:turning_blank_soft_mold>);
 mods.foundry.Casting.addMold(<customitems:turning_blank_mold>);
 
 mods.foundry.Casting.addRecipe(<IC2:itemTurningBlanks:349525>.withTag({state: {l0: 5, l1: 5, l2: 5, l3: 5, l4: 5}}), <liquid:liquidiron>*216, <customitems:turning_blank_mold>);
@@ -900,4 +900,17 @@ mods.foundry.Casting.addRecipe(<customitems:iron_rivet> * 4, <liquid:liquidiron>
 mods.foundry.Casting.addRecipe(<customitems:steel_rivet> * 4, <liquid:liquidsteel>*48, <customitems:rivets_mold>);
 
 
+#insulators, IE connectors
+recipes.addShapeless(<customitems:insulator_soft_mold>, 
+ [<customitems:ceramic_insulator>.reuse(), <foundry:foundryComponent:4>]);
+
+furnace.addRecipe(<customitems:insulator_mold>, <customitems:insulator_soft_mold>);
+
+mods.foundry.Casting.addMold(<customitems:insulator_mold>);
+
+mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:2>, <liquid:liquidglass.brown>*108, <customitems:insulator_mold>, <customitems:steel_rivet>);
+
+mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:6>, <liquid:liquidglass.brown>*162, <customitems:insulator_mold>, <customitems:aluminum_rivet>);
+
+mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:5>, <liquid:liquidglass.green>*162, <customitems:insulator_mold>, <ImmersiveEngineering:material:14>);
 

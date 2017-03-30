@@ -762,6 +762,18 @@
             "textureName": "itemRocketNozzle_Titan",
             "creativeTab": "Custom Items",
             "maxStackSize": 1
+        },
+        {
+            "name": "Clay formed insulator",
+            "textureName": "clay_insulator",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Ceramic insulator",
+            "textureName": "ceramic_insulator",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
         }
     ]
 }

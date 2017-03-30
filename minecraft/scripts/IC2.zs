@@ -388,7 +388,7 @@ recipes.remove(<IC2:itemToolCutter>);
 recipes.addShaped(<IC2:itemToolCutter>, [
  [<terrafirmacraft:item.Steel Knife Blade>, null, <terrafirmacraft:item.Steel Knife Blade>],
  [null, <customitems:steel_rivet>, null],
- [ie_rod_steel, null, ie_rod_steel]]);
+ [ie_treated_stick, null, ie_treated_stick]]);
 
 //Plan Rules: Any=1, BendAny=2, BendLast=3, BendLastTwo=4, BendNotLast=5,  BendSecondFromLast=6, BendThirdFromLast=7, DrawAny=8, DrawLast=9, DrawLastTwo=10, DrawNotLast=11, DrawSecondFromLast=12, DrawThirdFromLast=13, HitAny=14, HitLast=15, HitLastTwo=16, HitNotLast=17, HitSecondFromLast=18, HitThirdFromLast=19, PunchAny=20, PunchLast=21, PunchLastTwo=22, PunchNotLast=23, PunchSecondFromLast=24, PunchThridFromLast=25, ShrinkAny=26, ShrinkLast=27, ShrinkLastTwo=28, ShrinkNotLast=29, ShrinkSecondFromLast=30, ShrinkThirdFromLast=31, UpsetAny=32, UpsetLast=33, UpsetLastTwo=34, UpsetNotLast=35, UpsetSecondFromLast=36, UpsetThirdFromLast=37
 

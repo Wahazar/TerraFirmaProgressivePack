@@ -60,7 +60,7 @@ recipes.addShaped(<minecraft:furnace>, [[<minecraft:cobblestone>, <minecraft:cob
  [<minecraft:cobblestone>, <terrafirmacraft:Grill>, <minecraft:cobblestone>],
  [<minecraft:cobblestone>, <ore:toolFlintSteel>, <minecraft:cobblestone>]]);
 
-recipes.addShapeless(<minecraft:flint_and_steel>, [<terrafirmacraft:item.flintAndSteel>]);
+// recipes.addShapeless(<minecraft:flint_and_steel>, [<terrafirmacraft:item.flintAndSteel>]);
 
 
 #recipes.addShaped(<minecraft:furnace>, [[<terrafirmacraft:StoneIgExCobble:*>, #<terrafirmacraft:StoneIgExCobble:*>, <terrafirmacraft:StoneIgExCobble:*>],

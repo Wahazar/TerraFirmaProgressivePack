@@ -387,7 +387,10 @@ recipes.addShaped(<Railcraft:borehead.diamond>, [[<terrafirmacraft:item.Diamond>
  [<terrafirmacraft:item.Diamond>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:item.Diamond>]]);
 
 #smoker
+recipes.remove(<Railcraft:machine.alpha:5>);
 recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <terrafirmacraft:Peat>, null],
+ [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
+recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <terrafirmacraft:item.Ore:24>, null],
  [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
 
 #carts

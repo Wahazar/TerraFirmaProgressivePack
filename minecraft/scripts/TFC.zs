@@ -227,6 +227,10 @@ recipes.addShaped(<terrafirmacraft:item.Fire Brick> * 8, [
 mods.Terrafirmacraft.Knapping.addFireClayWorkingRecipe(<terrafirmacraft:item.Fire Brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
 //furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
 
+//TFC flint&steel from iron, standard from steel
+recipes.remove(<terrafirmacraft:item.flintAndSteel>);
+recipes.addShapeless(<terrafirmacraft:item.flintAndSteel>, [<ore:ingotIron>,<minecraft:flint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>,<minecraft:flint>]);
 
 //spawnmeter with all glass types
 recipes.remove(<terrafirmacraft:SpawnMeter>);

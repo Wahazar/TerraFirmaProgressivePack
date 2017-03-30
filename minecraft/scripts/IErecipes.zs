@@ -151,17 +151,19 @@ recipes.addShaped(<ImmersiveEngineering:tool:2>, [
  [null, <IC2:itemCable:2>, null]]);
 
 //wire insulating supports
-recipes.remove(<ImmersiveEngineering:metalDevice:2> * 2);
-recipes.addShaped(<ImmersiveEngineering:metalDevice:2>, [
- [<minecraft:stained_hardened_clay:7>, <ore:ingotSteel>, <minecraft:stained_hardened_clay:7>],
- [null, <ore:ingotSteel>, null],
- [<minecraft:stained_hardened_clay:7>, <ore:ingotSteel>, <minecraft:stained_hardened_clay:7>]]);
+recipes.remove(<ImmersiveEngineering:metalDevice>);
+recipes.addShapeless(<ImmersiveEngineering:metalDevice>, 
+ [<customitems:ceramic_insulator>, <customitems:iron_rivet>]);
 
+recipes.remove(<ImmersiveEngineering:metalDevice:2>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:2>, [
+ [null, <customitems:steel_rivet>, null],
+ [null, <customitems:ceramic_insulator>, null],
+ [null, <customitems:ceramic_insulator>, <IC2:itemToolPainterBrown>.transformDamage(1)]]);
+
+recipes.remove(<ImmersiveEngineering:metalDevice:5>);
 recipes.remove(<ImmersiveEngineering:metalDevice:6>);
-recipes.addShaped(<ImmersiveEngineering:metalDevice:6> * 3, [
- [<minecraft:stained_hardened_clay:7>, ie_ingot_alum, <minecraft:stained_hardened_clay:7>],
- [<minecraft:stained_hardened_clay:7>, ie_ingot_alum, <minecraft:stained_hardened_clay:7>],
- [<minecraft:stained_hardened_clay:7>, ie_ingot_alum, <minecraft:stained_hardened_clay:7>]]);
+//foundry
 
 recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
 recipes.addShapeless(<ImmersiveEngineering:metalDecoration:8> * 6, 
@@ -181,9 +183,9 @@ recipes.addShaped(<ImmersiveEngineering:mold:2>, [
 #capacitors
 recipes.remove(<ImmersiveEngineering:metalDecoration2:1>);
 recipes.addShaped(<ImmersiveEngineering:metalDecoration2:1>, [
- [<ore:plateLead>, <customitems:impregnated_paper>, <ore:plateLead>],
- [<customitems:impregnated_paper>, <ore:plateLead>, <customitems:impregnated_paper>],
- [<ore:plateLead>, <customitems:impregnated_paper>, <ore:plateLead>]]);
+ [<ore:plateSteamcraftLead>, <customitems:impregnated_paper>, <ore:plateSteamcraftLead>],
+ [<customitems:impregnated_paper>, <ore:plateSteamcraftLead>, <customitems:impregnated_paper>],
+ [<ore:plateSteamcraftLead>, <customitems:impregnated_paper>, <ore:plateSteamcraftLead>]]);
 
 //LV capacitor
 recipes.remove(<ImmersiveEngineering:metalDevice:1>);
