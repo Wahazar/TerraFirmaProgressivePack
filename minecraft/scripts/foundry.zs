@@ -884,7 +884,7 @@ furnace.remove(<foundry:foundryIngot:*>);
 
 # rivets
 
-recipes.addShapeless(<customitems:rivets_soft_mold>, [
+recipes.addShapeless(<customitems:rivets_soft_mold>, 
  [<foundry:foundryComponent:4>, <ore:itemRivet>.reuse()]);
 
 furnace.addRecipe(<customitems:rivets_mold>, <customitems:rivets_soft_mold>);

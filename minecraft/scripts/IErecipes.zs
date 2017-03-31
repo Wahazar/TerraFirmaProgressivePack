@@ -174,9 +174,9 @@ recipes.remove(<ImmersiveEngineering:metalDecoration:9>);
 recipes.addShapeless(<ImmersiveEngineering:metalDecoration:9> * 2, 
  [<customitems:steel_l-beam>, <customitems:flat_steel_beam_drilled>, <customitems:steel_rivet>, <customitems:steel_rivet>]);
 
-recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
-recipes.addShapeless(<ImmersiveEngineering:metalDecoration:6>, 
- [<ore:treatedStick>, <customitems:impregnated_plank>, <customitems:wooden_peg>, <customitems:wooden_peg>]);
+recipes.remove(<ImmersiveEngineering:woodenDecoration:6>);
+recipes.addShapeless(<ImmersiveEngineering:woodenDecoration:6>, 
+ [<customitems:impregnated_plank>, <customitems:creozote_treated_tie>, <customitems:wooden_peg>, <customitems:wooden_peg>]);
 
 recipes.addShaped(<ImmersiveEngineering:mold:2>, [
  [null, <Railcraft:part.plate:1>, null],
