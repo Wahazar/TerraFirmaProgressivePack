@@ -121,34 +121,35 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:13>, [
 
 //wires
 recipes.remove(<ImmersiveEngineering:coil>);
-recipes.addShaped(<ImmersiveEngineering:coil>, [
+recipes.addShaped(<ImmersiveEngineering:coil> * 2, [
  [<customitems:copper_wire>, <customitems:copper_wire>, <customitems:copper_wire>],
  [<ImmersiveEngineering:treatedWood>, <customitems:impregnated_plank>, <ImmersiveEngineering:treatedWood>],
  [<customitems:copper_wire>, <customitems:copper_wire>, <customitems:copper_wire>]]);
 
 recipes.remove(<ImmersiveEngineering:coil:1>);
-recipes.addShaped(<ImmersiveEngineering:coil:1>, [
+recipes.addShaped(<ImmersiveEngineering:coil:1> * 2, [
  [<customitems:electrum_wire>, <customitems:electrum_wire>, <customitems:electrum_wire>],
  [<ImmersiveEngineering:treatedWood>, <customitems:impregnated_plank>, <ImmersiveEngineering:treatedWood>],
  [<customitems:electrum_wire>, <customitems:electrum_wire>, <customitems:electrum_wire>]]);
 
 recipes.remove(<ImmersiveEngineering:coil:2>);
-recipes.addShaped(<ImmersiveEngineering:coil:2>, [
+recipes.addShaped(<ImmersiveEngineering:coil:2> * 2, [
  [<customitems:aluminum_wire>, <customitems:steel_wire>, <customitems:aluminum_wire>],
  [<ImmersiveEngineering:treatedWood>, <customitems:impregnated_plank>, <ImmersiveEngineering:treatedWood>],
  [<customitems:aluminum_wire>, <customitems:steel_wire>, <customitems:aluminum_wire>]]);
 
 recipes.remove(<ImmersiveEngineering:coil:4>);
-recipes.addShaped(<ImmersiveEngineering:coil:4>, [
+recipes.addShaped(<ImmersiveEngineering:coil:4> * 2, [
  [null, <customitems:steel_wire>, null],
  [<customitems:steel_wire>, <ImmersiveEngineering:material>, <customitems:steel_wire>],
  [null, <customitems:steel_wire>, null]]);
 
+//voltmeter
 recipes.remove(<ImmersiveEngineering:tool:2>);
 recipes.addShaped(<ImmersiveEngineering:tool:2>, [
  [<customitems:brass_rivet>, <minecraft:compass>, <customitems:brass_rivet>],
  [<ore:treatedStick>, <tfcudarymod:item.Copper Rod>, <ore:treatedStick>],
- [null, <IC2:itemCable:2>, null]]);
+ [null, <IC2:itemCable>, null]]);
 
 //wire insulating supports
 recipes.remove(<ImmersiveEngineering:metalDevice>);
@@ -173,6 +174,9 @@ recipes.remove(<ImmersiveEngineering:metalDecoration:9>);
 recipes.addShapeless(<ImmersiveEngineering:metalDecoration:9> * 2, 
  [<customitems:steel_l-beam>, <customitems:flat_steel_beam_drilled>, <customitems:steel_rivet>, <customitems:steel_rivet>]);
 
+recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
+recipes.addShapeless(<ImmersiveEngineering:metalDecoration:6>, 
+ [<ore:treatedStick>, <customitems:impregnated_plank>, <customitems:wooden_peg>, <customitems:wooden_peg>]);
 
 recipes.addShaped(<ImmersiveEngineering:mold:2>, [
  [null, <Railcraft:part.plate:1>, null],

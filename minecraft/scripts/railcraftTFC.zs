@@ -318,6 +318,11 @@ mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:cre
 mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 500, <terrafirmacraft:item.Ore:15>, 2000); //coke
 mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 750, <terrafirmacraft:item.Ore:14>, 2900); //coke 
 
+//tin plate from tin
+mods.railcraft.Rolling.removeRecipe(rc_plate_tin);
+mods.railcraft.Rolling.addShaped(rc_plate_tin * 4, [[<ore:ingotTin>, <ore:ingotTin>, null], 
+                                                    [<ore:ingotTin>, <ore:ingotTin>, null]]);
+
 //bushing gear alternative
 //mods.railcraft.Rolling.addShaped(<Railcraft:part.gear:3> *2, [[null, <ore:ingotTin>, null], 
 //                                                              [<ore:ingotTin>, null, <ore:ingotTin>],

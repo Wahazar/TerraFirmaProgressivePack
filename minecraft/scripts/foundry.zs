@@ -884,20 +884,18 @@ furnace.remove(<foundry:foundryIngot:*>);
 
 # rivets
 
-recipes.addShaped(<customitems:rivets_soft_mold>, [
- [<ore:itemRivet>.reuse(), null, <ore:itemRivet>.reuse()], 
- [null, <foundry:foundryComponent:4>, null],
- [<ore:itemRivet>.reuse(), null, <ore:itemRivet>.reuse()]]);
+recipes.addShapeless(<customitems:rivets_soft_mold>, [
+ [<foundry:foundryComponent:4>, <ore:itemRivet>.reuse()]);
 
 furnace.addRecipe(<customitems:rivets_mold>, <customitems:rivets_soft_mold>);
 
 mods.foundry.Casting.addMold(<customitems:rivets_mold>);
 
-mods.foundry.Casting.addRecipe(<customitems:aluminum_rivet> * 4, <liquid:liquidaluminum>*48, <customitems:rivets_mold>);
-mods.foundry.Casting.addRecipe(<customitems:brass_rivet> * 4, <liquid:liquidbrass>*48, <customitems:rivets_mold>);
-mods.foundry.Casting.addRecipe(<customitems:copper_rivet> * 4, <liquid:liquidcopper>*48, <customitems:rivets_mold>);
-mods.foundry.Casting.addRecipe(<customitems:iron_rivet> * 4, <liquid:liquidiron>*48, <customitems:rivets_mold>);
-mods.foundry.Casting.addRecipe(<customitems:steel_rivet> * 4, <liquid:liquidsteel>*48, <customitems:rivets_mold>);
+mods.foundry.Casting.addRecipe(<customitems:aluminum_rivet>, <liquid:liquidaluminum>*12, <customitems:rivets_mold>);
+mods.foundry.Casting.addRecipe(<customitems:brass_rivet>, <liquid:liquidbrass>*12, <customitems:rivets_mold>);
+mods.foundry.Casting.addRecipe(<customitems:copper_rivet>, <liquid:liquidcopper>*12, <customitems:rivets_mold>);
+mods.foundry.Casting.addRecipe(<customitems:iron_rivet>, <liquid:liquidiron>*12, <customitems:rivets_mold>);
+mods.foundry.Casting.addRecipe(<customitems:steel_rivet>, <liquid:liquidsteel>*12, <customitems:rivets_mold>);
 
 
 #insulators, IE connectors

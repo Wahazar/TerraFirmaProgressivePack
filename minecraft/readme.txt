@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.0.95
+TerraFirmaProgressive custom recipies modpack, v.0.96
 ################################################################################################################################
 
 Installation: 
@@ -60,7 +60,7 @@ Simple Achievements SimpleAchievements-MC1.7.10-1.1.0-21.jar
 	http://mods.curse.com/mc-mods/minecraft/231126-simple-achievements
 		credits: tterrag1098
 
-Immersive Engineering ImmersiveEngineering-0.7.5.jar
+Immersive Engineering ImmersiveEngineering-0.7.7.jar
 	http://minecraft.curseforge.com/projects/immersive-engineering
 		credits: BluSunrize, Mr_Hazard, licence: webpage granted
 
