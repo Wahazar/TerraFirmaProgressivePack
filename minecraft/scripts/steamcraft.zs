@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 #predefined values
 
 val fsp_plate_copper = <Steamcraft:steamcraftPlate:0>;
@@ -143,7 +145,7 @@ recipes.addShaped(<Steamcraft:vacuum>, [
 recipes.remove(fsp_piston);
 recipes.addShaped(fsp_piston, [[null, <customitems:flat_brass_beam>, <terrafirmacraft:item.Bronze Tuyere>],
  [<customitems:brass_rivet>, <customitems:brass_rod>, <customitems:brass_rivet>],
- [<customitems:brass_ring>, <Steamcraft:pipe>, null]]);
+ [<customitems:brass_ring>, <customitems:brass_spring>, null]]);
 
 #pressure meter
 recipes.remove(<Steamcraft:ruptureDisc>);
@@ -466,9 +468,9 @@ recipes.addShaped(<Steamcraft:chargePlacer>, [[<terrafirmacraft:item.Red Steel T
 
 recipes.remove(<Steamcraft:smasher>);
 recipes.addShaped(<Steamcraft:smasher>, [
- [fsp_plate_brass, fsp_piston, <Railcraft:slab:6>],
- [<ore:blockBrass>, fsp_piston, <Railcraft:slab:6>], 
- [fsp_plate_brass, fsp_piston, <Railcraft:slab:6>]]);
+ [<ore:plateSteamcraftBrass>, fsp_piston, <customitems:brass_rivet>],
+ [<ore:blockBrass>, <customitems:iron_bar>, <ore:slabIron>], 
+ [<ore:plateSteamcraftBrass>, fsp_piston, <customitems:brass_rivet>]]);
 
 furnace.remove(fsp_ingot_copper);
 #recipes.addShapeless(<terrafirmacraft:item.Copper Ingot>, [fsp_ingot_copper, <terrafirmacraft:item.Wooden Bucket Water>]);
@@ -540,5 +542,25 @@ mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreChromite>, <customitems:chromite_
 mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreStibnite>, <ihl:item.ihlSimpleItem:130>);
 //hubnerite
 mods.fsp.RockSmasher.addSmashingRecipe(<ihl:oreGyubnera>, <ihl:item.ihlSimpleItem:86>);
+
+var rocks = [
+<terrafirmacraft:item.LooseRock:0>,  <terrafirmacraft:item.LooseRock:1>,  <terrafirmacraft:item.LooseRock:2>,  <terrafirmacraft:item.LooseRock:3>, <terrafirmacraft:item.LooseRock:4>,  <terrafirmacraft:item.LooseRock:5>,  <terrafirmacraft:item.LooseRock:6>,  <terrafirmacraft:item.LooseRock:7>, <terrafirmacraft:item.LooseRock:8>,  <terrafirmacraft:item.LooseRock:9>,  <terrafirmacraft:item.LooseRock:10>, <terrafirmacraft:item.LooseRock:11>, <terrafirmacraft:item.LooseRock:12>, <terrafirmacraft:item.LooseRock:13>, <terrafirmacraft:item.LooseRock:14>, <terrafirmacraft:item.LooseRock:15>, <terrafirmacraft:item.LooseRock:16>, <terrafirmacraft:item.LooseRock:17>, <terrafirmacraft:item.LooseRock:18>, <terrafirmacraft:item.LooseRock:19>, <terrafirmacraft:item.LooseRock:20>] as IItemStack[];
+
+var cobble = [
+<terrafirmacraft:StoneIgInCobble>,  <terrafirmacraft:StoneIgInCobble:1>,  <terrafirmacraft:StoneIgInCobble:2>, <terrafirmacraft:StoneSedCobble>, <terrafirmacraft:StoneSedCobble:1>,  <terrafirmacraft:StoneSedCobble:2>,  <terrafirmacraft:StoneSedCobble:3>, <terrafirmacraft:StoneSedCobble:4>, <terrafirmacraft:StoneSedCobble:5>, <terrafirmacraft:StoneSedCobble:6>, <terrafirmacraft:StoneSedCobble:7>, <terrafirmacraft:StoneIgExCobble>, <terrafirmacraft:StoneIgExCobble:1>,  <terrafirmacraft:StoneIgExCobble:2>,  <terrafirmacraft:StoneIgExCobble:3>, <terrafirmacraft:StoneMMCobble>, <terrafirmacraft:StoneMMCobble:1>, <terrafirmacraft:StoneMMCobble:2>, <terrafirmacraft:StoneMMCobble:3>, <terrafirmacraft:StoneMMCobble:4>, <terrafirmacraft:StoneMMCobble:5>] as IItemStack[];
+
+var sand = [
+<terrafirmacraft:Sand:0>,  <terrafirmacraft:Sand:1>,  <terrafirmacraft:Sand:2>,  <terrafirmacraft:Sand:3>, <terrafirmacraft:Sand:4>,  <terrafirmacraft:Sand:5>,  <terrafirmacraft:Sand:6>,  <terrafirmacraft:Sand:7>, <terrafirmacraft:Sand:8>,  <terrafirmacraft:Sand:9>,  <terrafirmacraft:Sand:10>, <terrafirmacraft:Sand:11>, <terrafirmacraft:Sand:12>, <terrafirmacraft:Sand:13>, <terrafirmacraft:Sand:14>, <terrafirmacraft:Sand:15>, <terrafirmacraft:Sand2:0>, <terrafirmacraft:Sand2:1>, <terrafirmacraft:Sand2:2>, <terrafirmacraft:Sand2:3>, <terrafirmacraft:Sand2:4>] as IItemStack[];
+
+var gravel = [
+<terrafirmacraft:Gravel:0>,  <terrafirmacraft:Gravel:1>,  <terrafirmacraft:Gravel:2>,  <terrafirmacraft:Gravel:3>, <terrafirmacraft:Gravel:4>,  <terrafirmacraft:Gravel:5>,  <terrafirmacraft:Gravel:6>,  <terrafirmacraft:Gravel:7>, <terrafirmacraft:Gravel:8>,  <terrafirmacraft:Gravel:9>,  <terrafirmacraft:Gravel:10>, <terrafirmacraft:Gravel:11>, <terrafirmacraft:Gravel:12>, <terrafirmacraft:Gravel:13>, <terrafirmacraft:Gravel:14>, <terrafirmacraft:Gravel:15>, <terrafirmacraft:Gravel2:0>, <terrafirmacraft:Gravel2:1>, <terrafirmacraft:Gravel2:2>, <terrafirmacraft:Gravel2:3>, <terrafirmacraft:Gravel2:4>] as IItemStack[];
+
+for i, cb in cobble {
+  var s = sand[i];
+  var g = gravel[i];
+  mods.fsp.RockSmasher.addSmashingRecipe(cb, g);
+  mods.fsp.RockSmasher.addSmashingRecipe(g, s);
+
+}
 
 

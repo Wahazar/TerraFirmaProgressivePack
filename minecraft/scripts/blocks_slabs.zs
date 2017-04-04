@@ -59,10 +59,9 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Lead Unshaped>, <I
 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Platinum Unshaped>, <foundry:foundryIngot:13>, 1730, 1);
 
+//slabs melting in TFC firepit
 
-//slabs melting in TFC crucible
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped> * 4, <Railcraft:slab:6>, 1080, 1);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped> * 4, <Railcraft:slab:40>, 1080, 1);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped> * 4, <foundry:slab1:2>, 1080, 1);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped> * 4, <ImmersiveEngineering:storageSlab>, 1080, 1);
 
@@ -89,6 +88,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Silver Unshaped> *
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped> * 4, <foundry:slab1:7>, 1453, 1);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped> * 4, <ImmersiveEngineering:storageSlab:4>, 1453, 1);
 
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped> * 4, <foundry:slab2:1>, 930, 1);
 
 //vanilla
 //recipes.addShaped(<minecraft:iron_block>, [[<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>], [<terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>]]);
@@ -134,19 +134,19 @@ recipes.remove(<Railcraft:slab:*>);
 //recipes.addShapeless(<Railcraft:slab:8>*2, [<minecraft:diamond_block>, <Steamcraft:preciseCuttingHead>]);
 
 
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:6>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>, 2);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:6>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>, 3);
 
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:7>, <terrafirmacraft:item.Gold Double Ingot>, <terrafirmacraft:item.Gold Double Ingot>, 1);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:7>, <terrafirmacraft:item.Gold Double Ingot>, <terrafirmacraft:item.Gold Double Ingot>, 2);
 
-mods.Terrafirmacraft.Anvil.addWeldRecipe(rc_copper_slab, <terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>, 0);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(rc_copper_slab, <terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>, 1);
 
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:41>, <terrafirmacraft:item.Tin Double Ingot>, <terrafirmacraft:item.Tin Double Ingot>, 1);
 
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:slab:42>, <terrafirmacraft:item.Lead Double Ingot>, <terrafirmacraft:item.Lead Double Ingot>, 1);
 
-mods.Terrafirmacraft.Anvil.addWeldRecipe(rc_steel_slab, <terrafirmacraft:item.Steel Double Ingot>, <terrafirmacraft:item.Steel Double Ingot>, 3);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(rc_steel_slab, <terrafirmacraft:item.Steel Double Ingot>, <terrafirmacraft:item.Steel Double Ingot>, 4);
 
-
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<foundry:slab2:1>, <terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>, 2);
 
 #metal blocks/ingots 1:8
 
@@ -171,15 +171,16 @@ recipes.remove(<Steamcraft:blockBrass>);
 recipes.removeShaped(fsp_ingot_brass);
 //recipes.addShaped(<Steamcraft:blockBrass>, [[<terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>], [<terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>]]);
 
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<minecraft:iron_block>, <Railcraft:slab:6>, <Railcraft:slab:6>, 2);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<minecraft:iron_block>, <Railcraft:slab:6>, <Railcraft:slab:6>, 3);
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<minecraft:gold_block>, <Railcraft:slab:7>, <Railcraft:slab:7>, 2);
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:2>, rc_steel_slab, rc_steel_slab, 3);
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:9>, rc_copper_slab, rc_copper_slab, 0);
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:10>, rc_tin_slab, rc_tin_slab, 0);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:2>, rc_steel_slab, rc_steel_slab, 4);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:9>, rc_copper_slab, rc_copper_slab, 1);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:10>, rc_tin_slab, rc_tin_slab, 1);
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<Railcraft:cube:11>, rc_lead_slab, rc_lead_slab, 1);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<foundry:blockFoundryMetal:7>, <foundry:slab2:1>, <foundry:slab2:1>, 2);
 
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<ImmersiveEngineering:storage:3>, <ImmersiveEngineering:storageSlab:3>, <ImmersiveEngineering:storageSlab:3>, 1);
-mods.Terrafirmacraft.Anvil.addWeldRecipe(<ImmersiveEngineering:storage:4>, <ImmersiveEngineering:storageSlab:4>, <ImmersiveEngineering:storageSlab:4>, 1);
+mods.Terrafirmacraft.Anvil.addWeldRecipe(<ImmersiveEngineering:storage:4>, <ImmersiveEngineering:storageSlab:4>, <ImmersiveEngineering:storageSlab:4>, 3);
 
 
 # Immersive Engineering dark block and slabs obtained by water passivation
