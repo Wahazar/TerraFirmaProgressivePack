@@ -72,7 +72,7 @@ ore_slabGold.add(<Railcraft:slab:7>);
 ore_slabGold.add(<foundry:slab1:1>);
 
 val ore_slabCopper = <ore:slabCopper>;
-ore_slabCopper.add(rc_steel_slab);
+ore_slabCopper.add(rc_copper_slab);
 ore_slabCopper.add(<foundry:slab1:2>);
 
 val ore_slabTin = <ore:slabTin>;

@@ -215,8 +215,8 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [
 //heateer
 recipes.remove(<ImmersiveEngineering:metalDevice:12>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:12>, [
- [<customitems:steel_l-beam>, <terrafirmacraft:item.Black Steel Sheet>, <customitems:steel_l-beam>],
- [<tfcm:item.Coil_BlackSteel>, <tfcm:item.Coil_BlackSteel>, <tfcm:item.Coil_BlackSteel>],
+ [<customitems:steel_l-beam>, <ore:plateCopper>, <customitems:steel_l-beam>],
+ [<tfcm:item.Coil_BlackSteel>, <ore:plateCopper>, <tfcm:item.Coil_BlackSteel>],
  [<customitems:steel_l-beam>, <ore:slabCopper>, <customitems:steel_l-beam>]]);
 
 

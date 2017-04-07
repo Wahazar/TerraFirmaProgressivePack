@@ -133,7 +133,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <
 
 //Plan Rules: Any=1, BendAny=2, BendLast=3, BendLastTwo=4, BendNotLast=5,  BendSecondFromLast=6, BendThirdFromLast=7, DrawAny=8, DrawLast=9, DrawLastTwo=10, DrawNotLast=11, DrawSecondFromLast=12, DrawThirdFromLast=13, HitAny=14, HitLast=15, HitLastTwo=16, HitNotLast=17, HitSecondFromLast=18, HitThirdFromLast=19, PunchAny=20, PunchLast=21, PunchLastTwo=22, PunchNotLast=23, PunchSecondFromLast=24, PunchThridFromLast=25, ShrinkAny=26, ShrinkLast=27, ShrinkLastTwo=28, ShrinkNotLast=29, ShrinkSecondFromLast=30, ShrinkThirdFromLast=31, UpsetAny=32, UpsetLast=33, UpsetLastTwo=34, UpsetNotLast=35, UpsetSecondFromLast=36, UpsetThirdFromLast=37
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("metalrod", 21, 14, 13);      
+mods.Terrafirmacraft.Anvil.addPlanRecipe("metalrod", 14, 14, 11);      
 game.setLocalization("gui.plans.metalrod", "Metal Rod");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bismuth_bronze_rod>, <terrafirmacraft:item.Bismuth Bronze Ingot>, "metalrod", 2); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_rod>, <terrafirmacraft:item.Black Steel Ingot>, "metalrod", 5);    
@@ -160,7 +160,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_wire>, <customi
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_wire>, ie_rod_steel, "thickwire", 4);
 
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("flatbeam", 21, 14, 13);      
+mods.Terrafirmacraft.Anvil.addPlanRecipe("flatbeam", 21, 14, 11);      
 game.setLocalization("gui.plans.flatbeam", "Flat Beam");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_black_steel_beam> * 2, <terrafirmacraft:item.Black Steel Ingot>, "flatbeam", 5);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_brass_beam> * 2, <terrafirmacraft:item.Brass Ingot>, "flatbeam", 2);    
@@ -234,12 +234,20 @@ mods.Terrafirmacraft.Anvil.addWeldRecipe(<customitems:iron_t-beam>, <customitems
 mods.Terrafirmacraft.Anvil.addWeldRecipe(<customitems:steel_t-beam>, <customitems:steel_l-beam>, <customitems:steel_l-beam>, 4);
 
 // rivets mold in foundry.zs
-mods.Terrafirmacraft.Anvil.addPlanRecipe("rivet", 32, 8, 1);      
+mods.Terrafirmacraft.Anvil.addPlanRecipe("rivets", 32, 8, 1);      
+game.setLocalization("gui.plans.rivets", "Rivets");         
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_rivet>*8, <customitems:brass_rod>, "rivets", 2);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>*8, tfc_rod_copper, "rivets", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_rivet>*8, ie_rod_iron, "rivets", 3);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_rivet>*8, ie_rod_steel, "rivets", 4);
+
+mods.Terrafirmacraft.Anvil.addPlanRecipe("rivet", 32, 1, 1);      
 game.setLocalization("gui.plans.rivet", "Rivet");         
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_rivet>*8, <customitems:brass_rod>, "rivet", 2);       
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>*8, tfc_rod_copper, "rivet", 1);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_rivet>*8, ie_rod_iron, "rivet", 3);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_rivet>*8, ie_rod_steel, "rivet", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_rivet>, fsp_nugget_brass, "rivet", 2);       
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>, ie_nugget_copper, "rivet", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_rivet>, ie_nugget_iron, "rivet", 3);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_rivet>, ie_nugget_steel, "rivet", 4);
+
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("handbore", 21, 6, 7);      
 game.setLocalization("gui.plans.handbore", "Simple Hand Bore");         

@@ -845,6 +845,8 @@ mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 
 
 mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 1000, FluidName: "liquidglass"}), <minecraft:glass>, <foundry:foundryContainer>);
 
+mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 1000, FluidName: "liquidelectrum"}), <ore:ingotElectrum>, <foundry:foundryContainer>);
+
 //some liquid metals/alloys from unshaped metal
 recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidtin"}), [<terrafirmacraft:item.Tin Unshaped:1>, <foundry:foundryContainer>]);
 

@@ -279,12 +279,12 @@
      			                       { 
                                                "function": "add", 
                                                "id": "terrafirmacraft:item.Seeds Jute",
-                                                "count": 0.03
+                                                "count": 0.04
 	                                        },     
      			                       { 
                                                "function": "add", 
                                                "id": "ImmersiveEngineering:seed",
-                                                "count": 0.02
+                                                "count": 0.03
 	                                        }     
                                                ]
                             }

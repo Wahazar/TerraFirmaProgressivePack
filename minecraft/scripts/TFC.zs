@@ -261,12 +261,6 @@ for i, t in timber {
    [t, <ore:itemHoop>, t],
    [t, null, t],
    [t, <ore:itemHoop>, t]]);
-/*
-  recipes.addShaped(c, [
-   [<ore:itemRivet>, t, <ore:itemRivet>],
-   [t, null, t],
-   [t, t, t]]);
-*/
 }
 
 recipes.addShaped(<terrafirmacraft:item.Wooden Bucket Empty>, [
