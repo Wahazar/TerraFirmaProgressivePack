@@ -160,7 +160,7 @@ recipes.remove(<ImmersiveEngineering:metalDevice:2>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:2>, [
  [null, <customitems:steel_rivet>, null],
  [null, <customitems:ceramic_insulator>, null],
- [null, <customitems:ceramic_insulator>, <IC2:itemToolPainterBrown>.transformDamage(1)]]);
+ [null, <customitems:ceramic_insulator>, <IC2:itemToolPainterBrown>.anyDamage().transformDamage(1)]]);
 
 recipes.remove(<ImmersiveEngineering:metalDevice:5>);
 recipes.remove(<ImmersiveEngineering:metalDevice:6>);
@@ -303,6 +303,18 @@ recipes.addShaped(<ImmersiveEngineering:storage:10>, [
  [<ImmersiveEngineering:coil:2>, <customitems:permalloy_sheet_stack>, <ImmersiveEngineering:coil:2>],
  [<ImmersiveEngineering:coil:2>, <tfcm:item.Coil_Steel>, <ImmersiveEngineering:coil:2>]]);
 
+//breakers
+recipes.remove(<ImmersiveEngineering:metalDevice2>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice2>, [
+ [null, <ore:treatedStick>, null],
+ [<IC2:itemCable:1>, <customitems:copper_u-beam>, <IC2:itemCable:1>],
+ [<customitems:copper_rivet>, <ore:plateSteel>, <customitems:copper_rivet>]]);
+
+recipes.remove(<ImmersiveEngineering:metalDevice2:9>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice2:9>, [
+ [<ImmersiveEngineering:metalDevice:6>, <ore:stickSteel>, <ImmersiveEngineering:metalDevice:6>],
+ [<IC2:itemCable:6>, <ihl:item.ihlSimpleItem:19> , <IC2:itemCable:6>],
+ [ie_plate_steel, <minecraft:repeater>, ie_plate_steel]]);
 
 //MV transformer
 recipes.remove(<ImmersiveEngineering:metalDevice:4>);
@@ -576,6 +588,12 @@ recipes.addShaped(<ImmersiveEngineering:woodenDevice:5>, [
  [<ihl:item.ihlSimpleItem:34>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],
  [<ore:craftingTableWood>, null, <ImmersiveEngineering:woodenDecoration:1>]]);
 
+recipes.remove(<ImmersiveEngineering:skyhook>);
+recipes.addShaped(<ImmersiveEngineering:skyhook>, [
+ [<minecraft:tripwire_hook>, <tfcm:item.Link_WroughtIron>, null],
+ [<ore:stickIron>, <customitems:iron_l-beam_drilled>, <customitems:iron_rivet>],
+ [<customitems:iron_rivet>, ie_grip, ie_grip]]);
+
 
 //<ore:craftingToolWireCutter>.add(<ImmersiveEngineering:tool:1>);
 
@@ -653,7 +671,7 @@ recipes.addShaped(<ImmersiveEngineering:treatedWood>, [
 recipes.addShaped(<ImmersiveEngineering:treatedWood:1>, [
  [<customitems:impregnated_plank>, <customitems:impregnated_plank>, null],
  [<customitems:impregnated_plank>, <customitems:impregnated_plank>, null],
- [<ore:itemNail>, <ore:itemNail>, <ore:itemHammer>.transformDamage(2)]]);
+ [<ore:itemNail>, <ore:itemNail>, <ore:itemHammer>.transformDamage(1)]]);
 
 recipes.addShaped(<ImmersiveEngineering:treatedWood:2>, [
  [<customitems:impregnated_plank>, <customitems:impregnated_plank>, <ore:itemNail>],

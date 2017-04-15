@@ -17,6 +17,10 @@ recipes.addShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Stone Knife>]);
 //recipes.removeShapeless(<tfcudarymod:item.Copper Wire>*2, [<customitems:copper_wire>, <terrafirmacraft:item.Copper Knife>]);
 
+//original Volta battery
+recipes.addShapeless(<tfcudarymod:item.Ceramic Battery>, [<terrafirmacraft:item.Small Vessel:1>, <ore:plateSteamcraftZinc>, <ore:plateSteamcraftCopper>, <tfcudarymod:item.Brine>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>)]);
+
+
 #TFC misc
 
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<tfcm:item.Coil_BismuthBronze>, <terrafirmacraft:item.Bismuth Bronze Ingot>, "coil", 2);

@@ -101,6 +101,8 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, ie_rod_iron, 1535, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Red Steel Unshaped>, <customitems:red_steel_rod>, 1540, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, ie_rod_steel, 1540, 0.45);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_cupronickel * 8, <foundry:foundryIngot:16>, 1170, 0.45);
+mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, ie_nugget_cupronickel, 1240, 0.4);
 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_wire>, 985, 0.34);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_wire>, 950, 0.34);
@@ -145,6 +147,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_rod>, <terrafirmac
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_iron, <terrafirmacraft:item.Wrought Iron Ingot>, "metalrod", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_rod>, <terrafirmacraft:item.Red Steel Ingot>, "metalrod", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_steel, <terrafirmacraft:item.Steel Ingot>, "metalrod", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:cupronickel_rod>, <foundry:foundryIngot:16>, "metalrod", 4);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("thickwire", 8, 8, 26);      
 game.setLocalization("gui.plans.thickwire", "Wire");      
@@ -607,5 +610,5 @@ recipes.addShaped(<customitems:redstone_sensor>, [
  [null, <IC2:itemCasing:4>, <IC2:itemCable:1>]]);
 
 //insulators
-mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_formed_insulator>, "# # #", "  #  ", "# # #", "  #  ", "# # #");
+mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_formed_insulator>, "# # #", "# # #", "  #  ", "  #  ", "# # #");
 furnace.addRecipe(<customitems:ceramic_insulator>, <customitems:clay_formed_insulator>);

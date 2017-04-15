@@ -848,29 +848,29 @@ mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 
 mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 1000, FluidName: "liquidelectrum"}), <ore:ingotElectrum>, <foundry:foundryContainer>);
 
 //some liquid metals/alloys from unshaped metal
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidtin"}), [<terrafirmacraft:item.Tin Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidtin"}), [<terrafirmacraft:item.Tin Unshaped:1>.giveBack(<terrafirmacraft:item.Tin Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidlead"}), [<terrafirmacraft:item.Lead Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidlead"}), [<terrafirmacraft:item.Lead Unshaped:1>.giveBack(<terrafirmacraft:item.Lead Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidgold"}), [<terrafirmacraft:item.Gold Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidgold"}), [<terrafirmacraft:item.Gold Unshaped:1>.giveBack(<terrafirmacraft:item.Gold Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidcopper"}), [<terrafirmacraft:item.Copper Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidcopper"}), [<terrafirmacraft:item.Copper Unshaped:1>.giveBack(<terrafirmacraft:item.Copper Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidzinc"}), [<terrafirmacraft:item.Zinc Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidzinc"}), [<terrafirmacraft:item.Zinc Unshaped:1>.giveBack(<terrafirmacraft:item.Zinc Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidsilver"}), [<terrafirmacraft:item.Silver Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidsilver"}), [<terrafirmacraft:item.Silver Unshaped:1>.giveBack(<terrafirmacraft:item.Silver Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidbrass"}), [<terrafirmacraft:item.Brass Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidbrass"}), [<terrafirmacraft:item.Brass Unshaped:1>.giveBack(<terrafirmacraft:item.Brass Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidbronze"}), [<terrafirmacraft:item.Bronze Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidbronze"}), [<terrafirmacraft:item.Bronze Unshaped:1>.giveBack(<terrafirmacraft:item.Bronze Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidiron"}), [<terrafirmacraft:item.Wrought Iron Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidiron"}), [<terrafirmacraft:item.Wrought Iron Unshaped:1>.giveBack(<terrafirmacraft:item.Wrought Iron Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidsteel"}), [<terrafirmacraft:item.Steel Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidsteel"}), [<terrafirmacraft:item.Steel Unshaped:1>.giveBack(<terrafirmacraft:item.Steel Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquidnickel"}), [<terrafirmacraft:item.Nickel Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidnickel"}), [<terrafirmacraft:item.Nickel Unshaped:1>.giveBack(<terrafirmacraft:item.Nickel Unshaped:99>), <foundry:foundryContainer>]);
 
-recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 100, FluidName: "liquid_pig_iron"}), [<terrafirmacraft:item.Pig Iron Unshaped:1>, <foundry:foundryContainer>]);
+recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquid_pig_iron"}), [<terrafirmacraft:item.Pig Iron Unshaped:1>.giveBack(<terrafirmacraft:item.Pig Iron Unshaped:99>), <foundry:foundryContainer>]);
 
 //remove useless weapon
 recipes.remove(<foundry:foundryRevolver>);

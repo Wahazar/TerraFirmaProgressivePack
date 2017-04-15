@@ -117,6 +117,8 @@ recipes.addShapeless(<terrafirmacraft:Sand:15>,
 recipes.addShapeless(<terrafirmacraft:Sand:15>, 
  [<terrafirmacraft:Sand>.giveBack(<terrafirmacraft:Sand:1>), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>), <terrafirmacraft:Sand>.giveBack(<ihl:item.ihlSimpleItem:11>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand>.giveBack(<IC2:itemDust:9>)]);
 
+mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:Sand:15>, <minecraft:quartz>);
+
 //KCl
 mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Ore:31>);
 mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:88>*3, <terrafirmacraft:item.Ore:31>);

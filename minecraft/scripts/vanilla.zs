@@ -199,6 +199,10 @@ recipes.addShaped(<minecraft:chest>, [[<customitems:black_steel_l-beam>, null, <
 [null, <terrafirmacraft:Chest TFC:*>, null],
  [<customitems:black_steel_l-beam>, null, <customitems:black_steel_l-beam>]]);
 
+recipes.remove(<minecraft:tripwire_hook>);
+recipes.addShapeless(<minecraft:tripwire_hook>, [<customitems:iron_flange>, <ore:woodLumber>]);
+
+
 recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:minecart>, <minecraft:chest>]);
 
 
