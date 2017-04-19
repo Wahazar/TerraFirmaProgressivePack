@@ -103,6 +103,7 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_sterling_silver>*10, [<liquid:l
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_weak_steel>*10, [<liquid:liquidsteel>*6, <liquid:liquidnickel>*2, <liquid:liquid_black_bronze>*2]);
 
 //weak and HC black steel
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*108, <terrafirmacraft:item.Steel Ingot>, 1900, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirmacraft:item.Weak Steel Ingot>, 1850, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*108, <terrafirmacraft:item.Black Steel Ingot>, 1900, 100);
 
@@ -261,7 +262,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*10, <terrafirmacraft:item.S
 mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*864, <Steamcraft:blockZinc>, 700, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*60, <Steamcraft:steamcraftPlate:1>, 700, 100);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1380, 100);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidtin>*864, <Railcraft:slab:41>, 550, 200);
 mods.foundry.Melting.addRecipe(<liquid:liquidtin>*108, <Railcraft:part.plate:2>, 550, 100);
@@ -899,6 +900,11 @@ mods.foundry.Casting.addRecipe(<customitems:copper_rivet>, <liquid:liquidcopper>
 mods.foundry.Casting.addRecipe(<customitems:iron_rivet>, <liquid:liquidiron>*12, <customitems:rivets_mold>);
 mods.foundry.Casting.addRecipe(<customitems:steel_rivet>, <liquid:liquidsteel>*12, <customitems:rivets_mold>);
 
+mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*12, <customitems:aluminum_rivet>, 1100, 20);
+mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*12, <customitems:brass_rivet>, 1380, 20);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*12, <customitems:copper_rivet>, 1400, 20);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*12, <customitems:iron_rivet>, 1750, 20);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*12, <customitems:steel_rivet>, 1785, 20);
 
 #insulators, IE connectors
 recipes.addShapeless(<customitems:insulator_soft_mold>, 

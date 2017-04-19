@@ -1,0 +1,163 @@
+[
+  {
+    "modId": "TFC-Tweaks",
+    "deps": [
+      {
+        "type": "after",
+        "target": "terrafirmacraft"
+      },
+      {
+        "type": "before",
+        "target": "DecorationsTFC"
+      },
+      {
+        "type": "before",
+        "target": "tfcm"
+      },
+      {
+        "type": "before",
+        "target": "tfcautomatedbellows"
+      },
+      {
+        "type": "before",
+        "target": "tfccellars"
+      },
+      {
+        "type": "before",
+        "target": "weightingscales"
+      },
+      {
+        "type": "before",
+        "target": "tfcudarymod"
+      },
+      {
+        "type": "before",
+        "target": "creativecore"
+      },
+      {
+        "type": "before",
+        "target": "customitems"
+      },
+      {
+        "type": "before",
+        "target": "DamageIndicatorsMod"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_onFire"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_creepers"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_dropItems"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_mobEquipment"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_flameArrows"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_floodLights"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_otherPlayers"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_thePlayer"
+      },
+      {
+        "type": "before",
+        "target": "IC2"
+      },
+      {
+        "type": "before",
+        "target": "Railcraft"
+      },
+      {
+        "type": "before",
+        "target": "foundry"
+      },
+      {
+        "type": "before",
+        "target": "Steamcraft"
+      },
+      {
+        "type": "before",
+        "target": "ihl"
+      },
+      {
+        "type": "before",
+        "target": "ImmersiveEngineering"
+      },
+      {
+        "type": "before",
+        "target": "MapWriter"
+      },
+      {
+        "type": "before",
+        "target": "MineTweaker3"
+      },
+      {
+        "type": "before",
+        "target": "MobProperties"
+      },
+      {
+        "type": "before",
+        "target": "modtweaker2"
+      },
+      {
+        "type": "before",
+        "target": "neiintegration"
+      },
+      {
+        "type": "before",
+        "target": "ReiMinimap"
+      },
+      {
+        "type": "before",
+        "target": "cuchaz.cuchazinteractive"
+      },
+      {
+        "type": "before",
+        "target": "cuchaz.ships"
+      },
+      {
+        "type": "before",
+        "target": "SimpleAchievements"
+      },
+      {
+        "type": "before",
+        "target": "TerraFirmaCraftNEIplugin"
+      },
+      {
+        "type": "before",
+        "target": "TFCTweaker"
+      },
+      {
+        "type": "before",
+        "target": "TooMuchTime"
+      },
+      {
+        "type": "before",
+        "target": "Waila"
+      },
+      {
+        "type": "before",
+        "target": "JustAnotherSpawner"
+      }
+    ]
+  }
+]

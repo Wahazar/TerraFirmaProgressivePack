@@ -203,6 +203,16 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_hoop>*2,
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_hoop>*2, 
 <customitems:flat_steel_beam>, <customitems:flat_steel_beam>, "metalhoop", 4);
 
+mods.railcraft.Rolling.addShaped(<customitems:bronze_hoop>*2, [
+ [null, <customitems:flat_bronze_beam>, null], 
+ [<customitems:flat_bronze_beam>, null, <customitems:flat_bronze_beam>],
+ [null, <customitems:flat_bronze_beam>, null]]);
+
+mods.railcraft.Rolling.addShaped(<customitems:brass_hoop>*2, [
+ [null, <customitems:flat_brass_beam>, null], 
+ [<customitems:flat_brass_beam>, null, <customitems:flat_brass_beam>],
+ [null, <customitems:flat_brass_beam>, null]]);
+
 mods.railcraft.Rolling.addShaped(<customitems:half_aluminum_hoop> *3, [
  [null, <customitems:flat_aluminum_beam_drilled>, null], 
  [<customitems:flat_aluminum_beam_drilled>, null, null],

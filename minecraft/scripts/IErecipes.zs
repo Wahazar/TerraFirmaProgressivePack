@@ -253,13 +253,13 @@ recipes.remove(ie_iron_component);
 recipes.addShaped(ie_iron_component, [
  [<ore:plateIron>, <tfcm:item.Coil_WroughtIron>, <ore:plateIron>],
  [rc_tin_bushing, tfc_rod_copper, rc_tin_bushing],
- [<ore:plateIron>, <customitems:iron_l-beam>, <ore:plateIron>]]);
+ [<customitems:iron_l-beam>, <ore:plateIron>, <customitems:iron_l-beam>]]);
 
 recipes.remove(ie_steel_component);
 recipes.addShaped(ie_steel_component, [
  [<ore:plateSteel>, <tfcm:item.Coil_Steel>, <ore:plateSteel>],
  [rc_steel_gear, <Railcraft:part.rebar>, rc_steel_gear],
- [<ore:plateSteel>, <customitems:steel_l-beam>, <ore:plateSteel>]]);
+ [<customitems:steel_l-beam>, <ore:plateSteel>, <customitems:steel_l-beam>]]);
 
 recipes.addShaped(ie_steel_component *2, [
  [ie_plate_steel, <tfcm:item.Coil_Steel>, ie_plate_steel],
@@ -287,21 +287,22 @@ recipes.addShaped(ie_heavy_engineering, [
 //wire coils (core)
 recipes.remove(<ImmersiveEngineering:storage:8>);
 recipes.addShaped(<ImmersiveEngineering:storage:8>, [
- [<ImmersiveEngineering:coil:0>, <tfcm:item.Coil_Copper>, <ImmersiveEngineering:coil:0>],
- [<ImmersiveEngineering:coil:0>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:coil:0>],
- [<ImmersiveEngineering:coil:0>, <tfcm:item.Coil_Copper>, <ImmersiveEngineering:coil:0>]]);
+ [<customitems:copper_wire>, <tfcm:item.Coil_Copper>, <customitems:copper_wire>],
+ [<customitems:copper_wire>, <ImmersiveEngineering:metalDecoration:10>, <customitems:copper_wire>],
+ [<customitems:copper_wire>, <tfcm:item.Coil_Copper>, <customitems:copper_wire>]]);
 
 recipes.remove(<ImmersiveEngineering:storage:9>);
 recipes.addShaped(<ImmersiveEngineering:storage:9>, [
- [<ImmersiveEngineering:coil:1>, <customitems:electrum_coil>, <ImmersiveEngineering:coil:1>],
- [<ImmersiveEngineering:coil:1>, ie_steel_sheets, <ImmersiveEngineering:coil:1>],
- [<ImmersiveEngineering:coil:1>, <customitems:electrum_coil>, <ImmersiveEngineering:coil:1>]]);
+ [<customitems:electrum_wire>, <customitems:electrum_coil>, <customitems:electrum_wire>],
+ [<customitems:electrum_wire>, ie_steel_sheets, <customitems:electrum_wire>],
+ [<customitems:electrum_wire>, <customitems:electrum_coil>, <customitems:electrum_wire>]]);
+
 
 recipes.remove(<ImmersiveEngineering:storage:10>);
 recipes.addShaped(<ImmersiveEngineering:storage:10>, [
- [<ImmersiveEngineering:coil:2>, <customitems:aluminum_coil>, <ImmersiveEngineering:coil:2>],
- [<ImmersiveEngineering:coil:2>, <customitems:permalloy_sheet_stack>, <ImmersiveEngineering:coil:2>],
- [<ImmersiveEngineering:coil:2>, <tfcm:item.Coil_Steel>, <ImmersiveEngineering:coil:2>]]);
+ [<customitems:aluminum_wire>, <customitems:aluminum_coil>, <customitems:steel_wire>],
+ [<customitems:aluminum_wire>, <customitems:permalloy_sheet_stack>, <customitems:steel_wire>],
+ [<customitems:aluminum_wire>, <tfcm:item.Coil_Steel>, <customitems:steel_wire>]]);
 
 //breakers
 recipes.remove(<ImmersiveEngineering:metalDevice2>);
