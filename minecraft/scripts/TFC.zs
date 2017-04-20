@@ -28,6 +28,10 @@ val fsp_plate_gold = <Steamcraft:steamcraftPlate:3>;
 val fsp_plate_brass = <Steamcraft:steamcraftPlate:4>;
 val fsp_plate_lead = <Steamcraft:steamcraftPlate:9>;
 
+val fsp_ingot_copper = <Steamcraft:steamcraftIngot:0>;
+val fsp_ingot_zinc = <Steamcraft:steamcraftIngot:1>;
+val fsp_ingot_brass = <Steamcraft:steamcraftIngot:2>;
+
 var cube_glass = [
 <minecraft:stained_glass:0>,  <minecraft:stained_glass:1>,  <minecraft:stained_glass:2>,  <minecraft:stained_glass:3>, <minecraft:stained_glass:4>,  <minecraft:stained_glass:5>,  <minecraft:stained_glass:6>,  <minecraft:stained_glass:7>, <minecraft:stained_glass:8>,  <minecraft:stained_glass:9>,  <minecraft:stained_glass:10>, <minecraft:stained_glass:11>, <minecraft:stained_glass:12>, <minecraft:stained_glass:13>, <minecraft:stained_glass:14>, <minecraft:stained_glass:15>] as IItemStack[];
 
@@ -134,13 +138,16 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <m
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:1>, <minecraft:gold_nugget>, 900, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped>, <ImmersiveEngineering:metal:4>, 1453, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:8>, ie_nugget_nickel, 1600, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <Steamcraft:steamcraftIngot:2>, 930, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, fsp_ingot_brass, 930, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <foundry:foundryIngot:7>, 930, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, <foundry:foundryIngot:2>, 950, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, fsp_nugget_brass, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped>, <Steamcraft:steamcraftIngot:1>, 420, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped>, fsp_ingot_zinc, 420, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nugget_zinc, 500, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <Steamcraft:steamcraftIngot:0>, 1080, 0.4);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, fsp_ingot_copper, 1080, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1200, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1950, 0.5);
+
 
 #flux from CaCO3->CaO pyrolisis
 mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, calcium_carbonate_powder, 680, 1.0);
@@ -281,6 +288,29 @@ for i, r in rocks {
    [r, r, r],
    [r, r, r]]);
 }
+
+//ingot compatibility
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, fsp_ingot_copper, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, <ImmersiveEngineering:metal>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, <foundry:foundryIngot>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Zinc Ingot>, fsp_ingot_zinc, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Zinc Ingot>, <foundry:foundryIngot:6>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Brass Ingot>, fsp_ingot_brass, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Brass Ingot>, <foundry:foundryIngot:7>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Nickel Ingot>, <ImmersiveEngineering:metal:4>, <liquid:freshwater> * 25, 0, false, 0, true);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Bronze Ingot>, <foundry:foundryIngot:2>, <liquid:freshwater> * 25, 0, false, 0, true);
 
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14

@@ -762,7 +762,7 @@ recipes.addShaped(<foundry:refractoryCasing>, [
 
 recipes.remove(<foundry:refractoryHopper>);
 recipes.addShaped(<foundry:refractoryHopper>, [
- [<terrafirmacraft:item.Steel Double Sheet>, null, <terrafirmacraft:item.Steel Double Sheet>],
+ [<customitems:black_steel_t-beam>, null, <customitems:black_steel_t-beam>],
  [f_brick, <minecraft:hopper>, f_brick],
  [null, <terrafirmacraft:item.Steel Tuyere>, null]
 ]);
@@ -846,7 +846,7 @@ mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 
 
 mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 1000, FluidName: "liquidglass"}), <minecraft:glass>, <foundry:foundryContainer>);
 
-mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 1000, FluidName: "liquidelectrum"}), <ore:ingotElectrum>, <foundry:foundryContainer>);
+mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 108, FluidName: "liquidelectrum"}), <ore:ingotElectrum>, <foundry:foundryContainer>);
 
 //some liquid metals/alloys from unshaped metal
 recipes.addShapeless(<foundry:foundryContainer>.withTag({Amount: 99, FluidName: "liquidtin"}), [<terrafirmacraft:item.Tin Unshaped:1>.giveBack(<terrafirmacraft:item.Tin Unshaped:99>), <foundry:foundryContainer>]);

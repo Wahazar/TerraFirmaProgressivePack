@@ -473,20 +473,11 @@ recipes.addShaped(<Steamcraft:smasher>, [
  [<ore:plateSteamcraftBrass>, fsp_piston, <customitems:brass_rivet>]]);
 
 furnace.remove(fsp_ingot_copper);
-#recipes.addShapeless(<terrafirmacraft:item.Copper Ingot>, [fsp_ingot_copper, <terrafirmacraft:item.Wooden Bucket Water>]);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, fsp_ingot_copper, <liquid:freshwater> * 25, 0, false, 0, true);
 
 furnace.remove(fsp_ingot_zinc);
-#recipes.addShapeless(<terrafirmacraft:item.Zinc Ingot>, [fsp_ingot_zinc, <terrafirmacraft:item.Wooden Bucket Water>]);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Zinc Ingot>, fsp_ingot_zinc, <liquid:freshwater> * 25, 0, false, 0, true);
 
 # furnace.remove(fsp_ingot_brass);
-#recipes.addShapeless(<terrafirmacraft:item.Brass Ingot>, [fsp_ingot_brass, <terrafirmacraft:item.Wooden Bucket Water>]);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Brass Ingot>, fsp_ingot_brass, <liquid:freshwater> * 25, 0, false, 0, true);
 
-recipes.addShapeless(<terrafirmacraft:item.Wrought Iron Ingot>, [<minecraft:iron_ingot>, <terrafirmacraft:item.Wooden Bucket Water>]);
-
-recipes.addShapeless(<terrafirmacraft:item.Nickel Ingot>, [<ImmersiveEngineering:metal:4>, <terrafirmacraft:item.Wooden Bucket Water>]);
 
 #use crucible for nuggets:
 recipes.remove(<Steamcraft:steamcraftNugget:0>);

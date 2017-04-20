@@ -191,9 +191,9 @@ recipes.addShaped(<minecraft:sand:1> * 8, [[<terrafirmacraft:Sand:9>, <terrafirm
 #recipes.addShaped(<minecraft:compass>, [[<terrafirmacraft:item.Ink>, <terrafirmacraft:item.Small Ore:10>],
 # [null, <terrafirmacraft:item.stick>]]);
 
-recipes.addShaped(<minecraft:hopper>, [[<terrafirmacraft:item.Steel Sheet>, <customitems:steel_hoop>, <terrafirmacraft:item.Steel Sheet>], 
+recipes.addShaped(<minecraft:hopper>, [[<ore:plateSteel>, <customitems:steel_hoop>, <ore:plateSteel>], 
 [<customitems:steel_u-beam>, <minecraft:chest>, <customitems:steel_u-beam>], 
- [null, <terrafirmacraft:item.Steel Sheet>, null]]);
+ [null, <ore:plateSteel>, null]]);
 
 recipes.addShaped(<minecraft:chest>, [[<customitems:black_steel_l-beam>, null, <customitems:black_steel_l-beam>], 
 [null, <terrafirmacraft:Chest TFC:*>, null],
