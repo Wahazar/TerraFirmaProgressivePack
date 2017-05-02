@@ -72,7 +72,7 @@
                   "value": "0.4~0.7",
                   "operator": 1
                  },
-                 {"function": "equip", "id": "tfcm:item.Poniard_BismuthBronze", "override": "true", "slot": 0, "damage": 10~30, "drop_chance": 0.05 }
+                 {"function": "equip", "id": "terrafirmacraft:item.Copper Sword", "override": "true", "slot": 0, "damage": 10~30, "drop_chance": 0.1 }
                ]
              }
 ]

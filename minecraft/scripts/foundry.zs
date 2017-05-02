@@ -803,7 +803,7 @@ recipes.remove(<foundry:foundryMachine:3>);
 recipes.addShaped(<foundry:foundryMachine:3>, [
  [<foundry:refractoryHopper>, <ore:dustRedstone>, <foundry:refractoryHopper>],
  [<ore:gearSteel>, <foundry:refractoryCasing>, <ore:gearSteel>],
- [<foundry:foundryComponent:1>, <Steamcraft:crucible>, <foundry:foundryComponent:1>]
+ [<foundry:foundryComponent:1>, <ihl:crucible>, <foundry:foundryComponent:1>]
 ]);
 
 //material router

@@ -51,6 +51,12 @@
                     "min": 0,
                     "max": 1,
                     "chance": 2
+                },
+                {
+                    "id": "terrafirmacraft:item.Diamond:0",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 1
                 }
             ]
         },

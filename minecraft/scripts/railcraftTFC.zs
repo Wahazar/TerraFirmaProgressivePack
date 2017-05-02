@@ -319,18 +319,22 @@ mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:cre
 mods.railcraft.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, <liquid:creosote> * 750, <terrafirmacraft:item.Ore:14>, 2900); //coke 
 
 //tin plate from tin
-mods.railcraft.Rolling.removeRecipe(rc_plate_tin);
-mods.railcraft.Rolling.addShaped(rc_plate_tin * 4, [[<ore:ingotTin>, <ore:ingotTin>, null], 
-                                                    [<ore:ingotTin>, <ore:ingotTin>, null]]);
+//mods.railcraft.Rolling.removeRecipe(rc_plate_tin);
+//mods.railcraft.Rolling.addShaped(rc_plate_tin * 4, [[<ore:ingotTin>, <ore:ingotTin>, null], 
+ //                                                   [<ore:ingotTin>, <ore:ingotTin>, null]]);
 
 //bushing gear alternative
 //mods.railcraft.Rolling.addShaped(<Railcraft:part.gear:3> *2, [[null, <ore:ingotTin>, null], 
 //                                                              [<ore:ingotTin>, null, <ore:ingotTin>],
 //                                                              [null, <ore:ingotTin>, null]]);
 
-mods.Terrafirmacraft.Anvil.addPlanRecipe("tin_gear", 15, 2, 2);      
-game.setLocalization("gui.plans.tin_gear", "Tin plated gear");         
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Railcraft:part.gear:3>, <terrafirmacraft:item.Tin Double Ingot>, <customitems:flat_brass_beam>, "tin_gear", 2);       
+mods.Terrafirmacraft.Anvil.addPlanRecipe("tin_bushing", 15, 2, 2);      
+game.setLocalization("gui.plans.tin_gear", "Tin plated bushing");         
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Railcraft:part.gear:3>, <terrafirmacraft:item.Tin Double Ingot>, <customitems:flat_brass_beam>, "tin_bushing", 2);       
+
+mods.Terrafirmacraft.Anvil.addPlanRecipe("gear", 20, 20, 14);      
+game.setLocalization("gui.plans.tin_gear", "Gear");         
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Railcraft:part.gear:1>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <Railcraft:part.gear:3>, "gear", 3);   
 
 //iron and steel gear only from metal press or foundry
 recipes.remove(<Railcraft:part.gear:1>);
@@ -338,7 +342,7 @@ recipes.remove(<Railcraft:part.gear:2>);
 
 #new rolling machine recipe
 recipes.remove(<Railcraft:machine.alpha:8>);
-recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Railcraft:part.gear:2>, <minecraft:piston>, <Railcraft:part.gear:2>],
+recipes.addShaped(<Railcraft:machine.alpha:8>, [[<Railcraft:part.gear:1>, <minecraft:piston>, <Railcraft:part.gear:1>],
  [<minecraft:piston>, <terrafirmacraft:Workbench>, <minecraft:piston>],
  [<customitems:iron_bar>, <terrafirmacraft:Anvil:4>, <customitems:iron_bar>]]);
 

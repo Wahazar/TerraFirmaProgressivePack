@@ -213,3 +213,7 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Steel Ingot>
 //molten bronze from mold
 recipes.addShapeless(<IC2:itemFluidCell>.withTag({Fluid: {FluidName: "molten.bronze", Amount: 100}}), [<terrafirmacraft:item.Bronze Unshaped:1>,<IC2:itemFluidCell>]);
 
+//silicon oxide
+recipes.addShapeless(<IC2:itemDust2>, 
+ [<terrafirmacraft:Sand:15>.giveBack(<ihl:item.ihlSimpleItem:182>), <terrafirmacraft:Sand:15>.giveBack(<IC2:itemDust:15>), <terrafirmacraft:Sand:15>.giveBack(<ihl:item.ihlSimpleItem:182>), <terrafirmacraft:Sand:15>.giveBack(<ihl:item.ihlSimpleItem:182>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand:15>.giveBack(<IC2:itemDust:9>)]);
+

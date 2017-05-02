@@ -190,18 +190,18 @@ recipes.addShapeless(<customitems:wooden_hoop>, [<customitems:half_wooden_hoop>,
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("metalhoop", 15, 2, 2);      
 game.setLocalization("gui.plans.metalhoop", "Metal Hoop");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_hoop>*2, 
-<customitems:flat_black_steel_beam>, <customitems:flat_black_steel_beam>, "metalhoop", 5);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_hoop>*2, 
-<customitems:flat_brass_beam>, <customitems:flat_brass_beam>, "metalhoop", 2);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_hoop>*2, 
-<customitems:flat_bronze_beam>, <customitems:flat_bronze_beam>, "metalhoop", 2);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_hoop>*2, 
-<customitems:flat_copper_beam>, <customitems:flat_copper_beam>, "metalhoop", 1);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_hoop>*2, 
-<customitems:flat_iron_beam>, <customitems:flat_iron_beam>, "metalhoop", 3);    
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_hoop>*2, 
-<customitems:flat_steel_beam>, <customitems:flat_steel_beam>, "metalhoop", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_hoop>, 
+<customitems:flat_black_steel_beam>, "metalhoop", 5);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_hoop>, 
+<customitems:flat_brass_beam>, "metalhoop", 2);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_hoop>, 
+<customitems:flat_bronze_beam>, "metalhoop", 2);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_hoop>, 
+<customitems:flat_copper_beam>, "metalhoop", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_hoop>, 
+<customitems:flat_iron_beam>, "metalhoop", 3);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_hoop>, 
+<customitems:flat_steel_beam>, "metalhoop", 4);
 
 mods.railcraft.Rolling.addShaped(<customitems:bronze_hoop>*2, [
  [null, <customitems:flat_bronze_beam>, null], 
@@ -212,6 +212,16 @@ mods.railcraft.Rolling.addShaped(<customitems:brass_hoop>*2, [
  [null, <customitems:flat_brass_beam>, null], 
  [<customitems:flat_brass_beam>, null, <customitems:flat_brass_beam>],
  [null, <customitems:flat_brass_beam>, null]]);
+
+mods.railcraft.Rolling.addShaped(<customitems:iron_hoop>*2, [
+ [null, <customitems:flat_iron_beam>, null], 
+ [<customitems:flat_iron_beam>, null, <customitems:flat_iron_beam>],
+ [null, <customitems:flat_iron_beam>, null]]);
+
+mods.railcraft.Rolling.addShaped(<customitems:steel_hoop>*2, [
+ [null, <customitems:flat_steel_beam>, null], 
+ [<customitems:flat_steel_beam>, null, <customitems:flat_steel_beam>],
+ [null, <customitems:flat_steel_beam>, null]]);
 
 mods.railcraft.Rolling.addShaped(<customitems:half_aluminum_hoop> *3, [
  [null, <customitems:flat_aluminum_beam_drilled>, null], 
@@ -526,9 +536,9 @@ mods.railcraft.Rolling.addShaped(<customitems:small_permalloy_plate> *2, [
  [null, null, null]]);
 
 recipes.addShaped(<customitems:permalloy_sheet_stack>, [
- [<customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>], 
- [<customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>],
- [<customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>, <customitems:small_permalloy_plate>]]);
+ [<customitems:small_permalloy_plate>, <customitems:impregnated_paper>, <customitems:small_permalloy_plate>], 
+ [<customitems:impregnated_paper>, <customitems:small_permalloy_plate>, <customitems:impregnated_paper>],
+ [<customitems:small_permalloy_plate>, <customitems:impregnated_paper>, <customitems:small_permalloy_plate>]]);
 
 recipes.addShapeless(<customitems:grease_lump> * 2, [<ore:cellOil>.transformReplace(<IC2:itemCellEmpty>), <terrafirmacraft:item.Powder:2>, <ore:itemSoap>]);
 
@@ -559,7 +569,7 @@ recipes.addShapeless(<customitems:plumber_putty_lump> * 8, [<ihl:item.ihlSimpleI
 //minecart wheels
 mods.Terrafirmacraft.Anvil.addPlanRecipe("small_wheel", 14, 14, 20);      
 game.setLocalization("gui.plans.small_wheel", "Small Wheel");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:small_wheel> * 2, <terrafirmacraft:item.Wrought Iron Ingot>, "metalrod", 3); 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:small_wheel> * 2, <terrafirmacraft:item.Wrought Iron Ingot>, "small_wheel", 3); 
 #foundry alternative
 
 recipes.addShaped(<customitems:minecart_wheels>, [

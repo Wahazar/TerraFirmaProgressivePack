@@ -44,11 +44,12 @@ val ie_grit_silver = <ImmersiveEngineering:metal:13>;
 val ie_grit_nickel = <ImmersiveEngineering:metal:14>;
 val ie_grit_cupronickel = <ImmersiveEngineering:metal:15>;
 val ie_grit_electrum = <ImmersiveEngineering:metal:16>;
+val ic2_bronze_dust = <IC2:itemDust>;
 val misc_grit_steel = <tfcm:item.IronDust>;
 val foundry_grit_zinc = <foundry:foundryComponent:18>;
 val foundry_grit_brass = <foundry:foundryComponent:19>;
 val small_bronze_dust = <IC2:itemDustSmall:8>;
-
+val small_copper_dust = <IC2:itemDustSmall:1>;
 val wood_dust = <ihl:item.ihlSimpleItem:122>;
 val stone_dust = <IC2:itemDust:9>;
 
@@ -320,6 +321,22 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:stoneDevice
 //crusher
 //OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
 
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Chisel>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Pick>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Shovel>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Hoe>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Hammer>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper ProPick>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Saw>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Knife>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <tfccellars:BronzeIceSaw>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *6, <terrafirmacraft:item.Copper Mace>.anyDamage(), 1000, wood_dust, 0.2);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *6, <terrafirmacraft:item.Copper Sword>.anyDamage(), 1000, wood_dust, 0.2);
+
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *8, <terrafirmacraft:item.Copper Chestplate>.anyDamage(), 2400, ie_grit_copper, 0.8);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *8, <terrafirmacraft:item.Copper Greaves>.anyDamage(), 2400, ie_grit_copper, 0.8);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Helmet>.anyDamage(), 1200, ie_grit_copper, 0.4);
+mods.immersiveengineering.Crusher.addRecipe(small_copper_dust *4, <terrafirmacraft:item.Copper Boots>.anyDamage(), 1200, ie_grit_copper, 0.4);
 
 mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Chisel>.anyDamage(), 1000, wood_dust, 0.2);
 mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Pick>.anyDamage(), 1000, wood_dust, 0.2);
@@ -330,10 +347,10 @@ mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacra
 mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Saw>.anyDamage(), 1000, wood_dust, 0.2);
 mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4,<terrafirmacraft:item.Bronze Knife>.anyDamage(), 1000, wood_dust, 0.2);
 mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <tfccellars:BronzeIceSaw>.anyDamage(), 1000, wood_dust, 0.2);
-mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *8, <terrafirmacraft:item.Bronze Chestplate>.anyDamage(), 2400, foundry_grit_brass, 0.8);
-mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *8, <terrafirmacraft:item.Bronze Greaves>.anyDamage(), 2400, foundry_grit_brass, 0.8);
-mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Helmet>.anyDamage(), 1200, foundry_grit_brass, 0.4);
-mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Boots>.anyDamage(), 1200, foundry_grit_brass, 0.4);
+mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *8, <terrafirmacraft:item.Bronze Chestplate>.anyDamage(), 2400, ic2_bronze_dust, 0.8);
+mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *8, <terrafirmacraft:item.Bronze Greaves>.anyDamage(), 2400, ic2_bronze_dust, 0.8);
+mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Helmet>.anyDamage(), 1200, ic2_bronze_dust, 0.4);
+mods.immersiveengineering.Crusher.addRecipe(small_bronze_dust *4, <terrafirmacraft:item.Bronze Boots>.anyDamage(), 1200, ic2_bronze_dust, 0.4);
 
 mods.immersiveengineering.Crusher.addRecipe(<customitems:small_pile_of_iron_dust> *4, <terrafirmacraft:item.Wrought Iron Chisel>.anyDamage(), 2000, wood_dust, 0.2);
 mods.immersiveengineering.Crusher.addRecipe(<customitems:small_pile_of_iron_dust> *4, <terrafirmacraft:item.Wrought Iron Pick>.anyDamage(), 2000, wood_dust, 0.2);

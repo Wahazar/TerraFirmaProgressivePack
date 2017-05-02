@@ -131,7 +131,7 @@ mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:88>*3, <terrafirmac
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <terrafirmacraft:item.Copper Tuyere>, 1080, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <terrafirmacraft:item.Wrought Iron Tuyere>, 1535, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <terrafirmacraft:item.Steel Tuyere>, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(rc_nugget_tin * 2, rc_plate_tin, 230, 0.3);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Unknown Unshaped>, rc_plate_tin, 280, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <minecraft:iron_ingot>, 1535, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:10>, ie_nugget_iron, 1600, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <minecraft:gold_ingot>, 1060, 0.4);
@@ -147,7 +147,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nug
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, fsp_ingot_copper, 1080, 0.4);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1200, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1950, 0.5);
-
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Unknown Unshaped>, <Railcraft:part.gear:3>, 290, 0.4);
 
 #flux from CaCO3->CaO pyrolisis
 mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, calcium_carbonate_powder, 680, 1.0);
