@@ -16,7 +16,7 @@ val ie_ingot_galvanised_steel = <ImmersiveEngineering:metal:7>;
 val ie_rod_iron = <ImmersiveEngineering:material:14>;
 val ie_rod_steel = <ImmersiveEngineering:material:15>;
 val ie_rod_alum = <ImmersiveEngineering:material:16>;
-val tfc_rod_copper = <tfcudarymod:item.Copper Rod>;
+// val tfc_rod_copper = <tfcudarymod:item.Copper Rod>;
 
 val ie_slag = <ImmersiveEngineering:material:13>;
 
@@ -703,7 +703,7 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(ie_mold_rod);
 // mods.immersiveengineering.MetalPress.removeRecipe(ie_rod_alum);
 
 mods.immersiveengineering.MetalPress.addRecipe(ie_rod_alum, <ore:ingotAluminum>, <ImmersiveEngineering:mold:2>, 2800, 1);
-mods.immersiveengineering.MetalPress.addRecipe(tfc_rod_copper, <ore:ingotCopper>, <ImmersiveEngineering:mold:2>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<customitems:copper_rod>, <ore:ingotCopper>, <ImmersiveEngineering:mold:2>, 2000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<customitems:bismuth_bronze_rod>, <ore:ingotBismuthBronze>, <ImmersiveEngineering:mold:2>, 2500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<customitems:black_bronze_rod>, <ore:ingotBlackBronze>, <ImmersiveEngineering:mold:2>, 2500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<customitems:black_steel_rod>, <ore:ingotBlackSteel>, <ImmersiveEngineering:mold:2>, 4000, 1);

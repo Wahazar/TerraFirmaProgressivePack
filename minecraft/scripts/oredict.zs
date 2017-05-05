@@ -58,6 +58,11 @@ ore_flux.add(<customitems:borax_powder>);
 <ore:dyeBrown>.add(<tfcm:item.BrownDye>);
 <ore:dyeWhite>.add(<customitems:zinc_white_powder>);
 
+//ingots
+#permalloy
+<ore:ingotNickel>.remove(<ImmersiveEngineering:metal:4>);
+
+
 //slabs
 <ore:slabCopper>.add(<Railcraft:slab:40>);
 <ore:concrete>.add(<Railcraft:cube:1>);
@@ -115,6 +120,8 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 
 //sticks
 <ore:stickCupronickel>.add(<customitems:cupronickel_rod>);
+<ore:stickCopper>.add(<tfcudarymod:item.Copper Rod>);
+<ore:stickCopper>.add(<customitems:copper_rod>);
 
 //tools
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Red Steel Chisel>);
@@ -148,6 +155,11 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 //soaps
 <ore:itemSoap>.add(<ihl:item.ihlSimpleItem:27>);
 <ore:itemSoap>.add(<customitems:lithium_soap_lump>);
+
+//bladders
+#<ore:animalBladder>.add(<lwstfc:item.Bladder>);
+#<ore:animalBladder>.add(<lwstfc:item.Bladder:1>);
+#<ore:animalBladder>.add(<lwstfc:item.Bladder:2>);
 
 //ores removal
 <ore:crushedUranium>.remove(<IC2:itemCrushedOre:4>);

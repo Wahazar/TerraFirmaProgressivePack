@@ -44,7 +44,7 @@ val ie_slag = <ImmersiveEngineering:material:13>;
 val ie_rod_iron = <ImmersiveEngineering:material:14>;
 val ie_rod_steel = <ImmersiveEngineering:material:15>;
 val ie_rod_alum = <ImmersiveEngineering:material:16>;
-val tfc_rod_copper = <tfcudarymod:item.Copper Rod>;
+//val tfc_rod_copper = <tfcudarymod:item.Copper Rod>;
 val ie_lubrication = <ImmersiveEngineering:toolupgrade:1>;
 
 val stone_dust = <IC2:itemDust:9>;

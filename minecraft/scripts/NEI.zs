@@ -219,7 +219,7 @@ NEI.hide(<Railcraft:ingot:2>);
 NEI.hide(<Railcraft:ingot:3>);
 # NEI.hide(<Railcraft:dust:1>);
 # NEI.hide(<Railcraft:dust:2>);
-# NEI.hide(<Railcraft:fuel.coke>);
+NEI.hide(<Railcraft:fuel.coke>);
 
 NEI.hide(<Railcraft:stair:*>);
 
@@ -324,3 +324,5 @@ NEI.hide(<IC2:itemTFBPFlatification>);
 NEI.hide(<IC2:itemTFBPMushroom>);
 
 NEI.overrideName(<ihl:item.ihlTool:19>, "Thermometer");
+
+NEI.overrideName(<tfcudarymod:item.Copper Rod>, "Copper Electrode");

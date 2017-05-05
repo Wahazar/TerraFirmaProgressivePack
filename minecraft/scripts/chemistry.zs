@@ -56,6 +56,8 @@ val potassium_chloride_powder = <ihl:item.ihlSimpleItem:88>;
 mods.Terrafirmacraft.Barrel.removeItemFluidConversion(tfc_powder_flux, <liquid:freshwater> * 500);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:limewater> * 1000, calcium_oxide_powder, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:item.Mortar>, <liquid:limemilk> * 500, calcium_oxide_powder, <liquid:limewater> * 500, 0,  false, 0, false, true);
+//reverse
+mods.Terrafirmacraft.Barrel.addFluidCombination(<liquid:limewater> * 10000, <liquid:limemilk> * 9000, <liquid:freshwater> * 1000);
 
 //mortar from limemilk
 mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:Sand:*>, <liquid:limewater> * 100);

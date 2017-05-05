@@ -148,7 +148,7 @@ recipes.addShaped(<ImmersiveEngineering:coil:4> * 2, [
 recipes.remove(<ImmersiveEngineering:tool:2>);
 recipes.addShaped(<ImmersiveEngineering:tool:2>, [
  [<customitems:brass_rivet>, <minecraft:compass>, <customitems:brass_rivet>],
- [<ore:treatedStick>, <tfcudarymod:item.Copper Rod>, <ore:treatedStick>],
+ [<ore:treatedStick>, <ore:stickCopper>, <ore:treatedStick>],
  [null, <IC2:itemCable>, null]]);
 
 //wire insulating supports
@@ -180,7 +180,7 @@ recipes.addShapeless(<ImmersiveEngineering:woodenDecoration:6>,
 
 recipes.addShaped(<ImmersiveEngineering:mold:2>, [
  [null, <Railcraft:part.plate:1>, null],
- [<Railcraft:part.plate:1>, tfc_rod_copper, <Railcraft:part.plate:1>],
+ [<Railcraft:part.plate:1>, <ore:stickCopper>, <Railcraft:part.plate:1>],
  [null, <Railcraft:part.plate:1>, null]]);
 
 
@@ -225,12 +225,12 @@ recipes.remove(<ImmersiveEngineering:metalDevice:11>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:11>, [
  [<terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.TFC Leather>, <terrafirmacraft:item.TFC Leather>],
  [<ore:gearIron>, <ore:dustRedstone>, <customitems:flat_black_steel_beam>],
- [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);
-
-recipes.addShaped(<ImmersiveEngineering:metalDevice:11>, [
- [<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>],
- [<ore:gearIron>, <ore:dustRedstone>, <customitems:flat_black_steel_beam>],
  [<tfcm:item.SinewString>, <tfcm:item.SinewString>, <tfcm:item.SinewString>]]);
+
+recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 2, [
+ [<ihl:item.ihlSimpleItem:67>, <ihl:item.ihlSimpleItem:67>, <ihl:item.ihlSimpleItem:67>],
+ [<ore:gearIron>, <ore:dustRedstone>, <customitems:flat_black_steel_beam>],
+ [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);
 
 
 //sample core drill
@@ -252,7 +252,7 @@ recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [
 recipes.remove(ie_iron_component);
 recipes.addShaped(ie_iron_component, [
  [<ore:plateIron>, <tfcm:item.Coil_WroughtIron>, <ore:plateIron>],
- [rc_tin_bushing, tfc_rod_copper, rc_tin_bushing],
+ [rc_tin_bushing, <ore:stickCopper>, rc_tin_bushing],
  [<customitems:iron_l-beam>, <ore:plateIron>, <customitems:iron_l-beam>]]);
 
 recipes.remove(ie_steel_component);
@@ -275,14 +275,14 @@ recipes.addShaped(<ImmersiveEngineering:toolupgrade:1>, [
 recipes.remove(ie_light_engineering);
 recipes.addShaped(ie_light_engineering, [
  [<customitems:iron_rivet>, <customitems:iron_l-beam_drilled>, <customitems:iron_rivet>],
- [<tfcm:item.PistonBase>, rc_plate_copper, ie_iron_component],
+ [<tfcm:item.Circuit>, rc_plate_copper, ie_iron_component],
  [<customitems:iron_rivet>, <customitems:iron_l-beam_drilled>, <customitems:iron_rivet>]]);
 
 recipes.remove(ie_heavy_engineering);
 recipes.addShaped(ie_heavy_engineering, [
- [<ihl:item.ihlSimpleItem:43>, <customitems:black_steel_t-beam>, <ihl:item.ihlSimpleItem:43>],
+ [<ihl:item.ihlSimpleItem:43>, <customitems:steel_l-beam_drilled>, <ihl:item.ihlSimpleItem:43>],
  [<minecraft:piston>, <Railcraft:part.plate:1>, ie_steel_component],
- [<ihl:item.ihlSimpleItem:56>, <customitems:black_steel_t-beam>, <ihl:item.ihlSimpleItem:56>]]);
+ [<ihl:item.ihlSimpleItem:56>, <customitems:steel_l-beam_drilled>, <ihl:item.ihlSimpleItem:56>]]);
 
 //wire coils (core)
 recipes.remove(<ImmersiveEngineering:storage:8>);

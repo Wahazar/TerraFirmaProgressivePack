@@ -92,6 +92,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, 
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <customitems:iron_t-beam>, 1535, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <customitems:steel_t-beam>, 1540, 0.5);
 
+mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <customitems:copper_rod>, 1080, 0.3);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_rod>, 985, 0.24);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_rod>, 950, 0.24);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Steel Unshaped>, <customitems:black_steel_rod>, 1485, 0.45);
@@ -143,7 +144,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_bronze_rod>, <terra
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:blue_steel_rod>, <terrafirmacraft:item.Blue Steel Ingot>, "metalrod", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_rod>, <terrafirmacraft:item.Brass Ingot>, "metalrod", 2);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_rod>, <terrafirmacraft:item.Bronze Ingot>, "metalrod", 2);    
-//mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcudarymod:item.Copper Rod>, <terrafirmacraft:item.Copper Ingot>, "metalrod", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rod>, <terrafirmacraft:item.Copper Ingot>, "metalrod", 1);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_iron, <terrafirmacraft:item.Wrought Iron Ingot>, "metalrod", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_rod>, <terrafirmacraft:item.Red Steel Ingot>, "metalrod", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(ie_rod_steel, <terrafirmacraft:item.Steel Ingot>, "metalrod", 4);
@@ -158,6 +159,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:blue_steel_wire>, <custom
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_wire>, <customitems:brass_rod>, "thickwire", 2);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:bronze_wire>, <customitems:bronze_rod>, "thickwire", 2);   
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_wire>, tfc_rod_copper, "thickwire", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_wire>, <customitems:copper_rod>, "thickwire", 1); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_wire>, ie_rod_iron, "thickwire", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:red_steel_wire>, <customitems:red_steel_rod>, "thickwire", 6); 
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_wire>, ie_rod_steel, "thickwire", 4);
@@ -203,22 +205,22 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_hoop>,
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_hoop>, 
 <customitems:flat_steel_beam>, "metalhoop", 4);
 
-mods.railcraft.Rolling.addShaped(<customitems:bronze_hoop>*2, [
+mods.railcraft.Rolling.addShaped(<customitems:bronze_hoop>*4, [
  [null, <customitems:flat_bronze_beam>, null], 
  [<customitems:flat_bronze_beam>, null, <customitems:flat_bronze_beam>],
  [null, <customitems:flat_bronze_beam>, null]]);
 
-mods.railcraft.Rolling.addShaped(<customitems:brass_hoop>*2, [
+mods.railcraft.Rolling.addShaped(<customitems:brass_hoop>*4, [
  [null, <customitems:flat_brass_beam>, null], 
  [<customitems:flat_brass_beam>, null, <customitems:flat_brass_beam>],
  [null, <customitems:flat_brass_beam>, null]]);
 
-mods.railcraft.Rolling.addShaped(<customitems:iron_hoop>*2, [
+mods.railcraft.Rolling.addShaped(<customitems:iron_hoop>*4, [
  [null, <customitems:flat_iron_beam>, null], 
  [<customitems:flat_iron_beam>, null, <customitems:flat_iron_beam>],
  [null, <customitems:flat_iron_beam>, null]]);
 
-mods.railcraft.Rolling.addShaped(<customitems:steel_hoop>*2, [
+mods.railcraft.Rolling.addShaped(<customitems:steel_hoop>*4, [
  [null, <customitems:flat_steel_beam>, null], 
  [<customitems:flat_steel_beam>, null, <customitems:flat_steel_beam>],
  [null, <customitems:flat_steel_beam>, null]]);
@@ -228,7 +230,7 @@ mods.railcraft.Rolling.addShaped(<customitems:half_aluminum_hoop> *3, [
  [<customitems:flat_aluminum_beam_drilled>, null, null],
  [null, <customitems:flat_aluminum_beam_drilled>, null]]);
 
-recipes.addShaped(<customitems:aluminum_hoop>*2, [
+recipes.addShaped(<customitems:aluminum_hoop>*4, [
  [null, <customitems:aluminum_rivet>, null], 
  [<customitems:half_aluminum_hoop>, <ore:itemHammer>.transformDamage(1), <customitems:half_aluminum_hoop>],
  [null, <customitems:aluminum_rivet>, null]]);
@@ -260,7 +262,8 @@ mods.Terrafirmacraft.Anvil.addWeldRecipe(<customitems:steel_t-beam>, <customitem
 mods.Terrafirmacraft.Anvil.addPlanRecipe("rivets", 32, 8, 1);      
 game.setLocalization("gui.plans.rivets", "Rivets");         
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:brass_rivet>*8, <customitems:brass_rod>, "rivets", 2);       
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>*8, tfc_rod_copper, "rivets", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>*8, tfc_rod_copper, "rivets", 1);  
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:copper_rivet>*8, <customitems:copper_rod>, "rivets", 1);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:iron_rivet>*8, ie_rod_iron, "rivets", 3);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:steel_rivet>*8, ie_rod_steel, "rivets", 4);
 
@@ -468,9 +471,9 @@ mods.railcraft.Rolling.addShaped(<customitems:brass_wire> *3, [
  [<customitems:brass_rod>, null, null]]);
 
 mods.railcraft.Rolling.addShaped(<customitems:copper_wire> *3, [
- [null, null, tfc_rod_copper], 
- [null, tfc_rod_copper, null],
- [tfc_rod_copper, null, null]]);
+ [null, null, <ore:stickCopper>], 
+ [null, <ore:stickCopper>, null],
+ [<ore:stickCopper>, null, null]]);
 
 mods.railcraft.Rolling.addShaped(<customitems:iron_wire> *3, [
  [null, null, ie_rod_iron], 

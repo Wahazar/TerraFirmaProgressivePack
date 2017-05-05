@@ -193,3 +193,14 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.oran
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.red> * 1000, <minecraft:dye:1>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.silver> * 1000, <minecraft:dye:7>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 
+//water sac
+recipes.remove(<lwstfc:item.LeatherWaterSac:600>);
+recipes.addShaped(<lwstfc:item.LeatherWaterSac:600>, [
+ [null, <terrafirmacraft:item.WoolYarn>, null],
+ [<lwstfc:item.WaterSacLeather>, <lwstfc:item.Bladder:*>, <lwstfc:item.WaterSacLeather>],
+ [null, <tfcm:item.CaseinGlue>, <ore:itemKnife>.transformDamage(1)]]);
+recipes.addShaped(<lwstfc:item.LeatherWaterSac:600>, [
+ [null, <ore:materialString>, null],
+ [<terrafirmacraft:item.BurlapCloth>, <ihl:item.ihlSimpleItem:67>, <terrafirmacraft:item.BurlapCloth>],
+ [null, <IC2:itemRubber>, <ore:itemKnife>.transformDamage(1)]]);
+

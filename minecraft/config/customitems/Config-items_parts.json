@@ -324,78 +324,83 @@
             "creativeTab": "Custom Items",
             "maxStackSize": 32
         },
-
+        {
+            "name": "Copper Rod",
+            "textureName": "Rod_Copper",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
         {
             "name": "Bismuth Bronze Rod",
             "textureName": "Rod_Bismuth_Bronze",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Black Bronze Rod",
             "textureName": "Rod_Black_Bronze",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Black Steel Rod",
             "textureName": "Rod_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Blue Steel Rod",
             "textureName": "Rod_Blue_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Brass Rod",
             "textureName": "Rod_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Bronze Rod",
             "textureName": "Rod_Bronze",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Red Steel Rod",
             "textureName": "Rod_Red_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Electrum Rod",
             "textureName": "Rod_Electrum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Cupronickel Rod",
             "textureName": "Rod_Cupronickel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Redstone Rod",
             "textureName": "Rod_Redstone",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Tin Rod",
             "textureName": "Rod_Pewter",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Cadmium Rod",
             "textureName": "Rod_Cadmium",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 64
         },
         {
             "name": "Cadmium Ingot",
