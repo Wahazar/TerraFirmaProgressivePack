@@ -498,11 +498,14 @@ mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Glass Bottle>, <liquid:liqu
 
 //quartz glass
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*1000, <terrafirmacraft:Sand:15>, 1990, 80);
-mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*400, <customitems:crushed_quartz_glass>, 1990, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*400, <customitems:crushed_quartz_glass>, 1990, 180);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*1000, <customitems:quartz_glass>, 1990, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*729, <customitems:quartz_glass_stairs>, 1990, 80);
-mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*500, <customitems:quartz_glass_pane>, 1990, 80);
-mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*375, <customitems:quartz_glass_slab>, 1990, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*500, <customitems:quartz_glass_pane>, 1990, 120);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*375, <customitems:quartz_glass_slab>, 1990, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*100, <ihl:item.ihlSimpleItem:182>, 1990, 280);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*900, <IC2:itemDust2>, 1990, 150);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*100, <ImmersiveEngineering:metal:18>, 1990, 220);
 
 mods.foundry.Casting.addRecipe(<customitems:quartz_glass_pane>, <liquid:liquid_quartz_glass>*375, <Railcraft:part.plate:2>, <minecraft:glass_pane>, 50);
 mods.foundry.Casting.addRecipe(<customitems:quartz_glass_stairs>, <liquid:liquid_quartz_glass>*729, <foundry:foundryMold:30>);

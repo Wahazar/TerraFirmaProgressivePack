@@ -679,3 +679,7 @@ recipes.addShaped(<ImmersiveEngineering:treatedWood:2>, [
  [<customitems:impregnated_plank>, <customitems:impregnated_plank>, null],
  [<ore:itemNail>, null, <ore:itemHammer>.transformDamage(1)]]);
 
+//quartz dust from crushed q. glass
+mods.Terrafirmacraft.Quern.addRecipe(<ImmersiveEngineering:metal:18>, <customitems:crushed_quartz_glass>);
+
+
