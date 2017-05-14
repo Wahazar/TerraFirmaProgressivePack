@@ -127,58 +127,7 @@ mods.Terrafirmacraft.Quern.removeRecipe(<terrafirmacraft:item.Fertilizer> * 4, <
 mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:88>*3, <terrafirmacraft:item.Ore:31>);
 
 //heating
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <terrafirmacraft:item.Copper Tuyere>, 1080, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <terrafirmacraft:item.Wrought Iron Tuyere>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <terrafirmacraft:item.Steel Tuyere>, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Unknown Unshaped>, rc_plate_tin, 280, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <minecraft:iron_ingot>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:10>, ie_nugget_iron, 1600, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Gold Unshaped>, <minecraft:gold_ingot>, 1060, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:1>, <minecraft:gold_nugget>, 900, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Nickel Unshaped>, <ImmersiveEngineering:metal:4>, 1453, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:8>, ie_nugget_nickel, 1600, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, fsp_ingot_brass, 930, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <foundry:foundryIngot:7>, 930, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, <foundry:foundryIngot:2>, 950, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, fsp_nugget_brass, 1100, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Zinc Unshaped>, fsp_ingot_zinc, 420, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<customitems:zinc_white_powder>, fsp_nugget_zinc, 500, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, fsp_ingot_copper, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore>, ie_nugget_copper, 1200, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Small Ore:11>, ie_nugget_steel, 1950, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Unknown Unshaped>, <Railcraft:part.gear:3>, 290, 0.4);
-
-#flux from CaCO3->CaO pyrolisis
-mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, calcium_carbonate_powder, 680, 1.0);
-mods.Terrafirmacraft.ItemHeat.addRecipe(calcium_oxide_powder, <terrafirmacraft:item.dyePowder:7>, 700, 0.2);
-
-#only brown or gray glass from sand in firepit, normal glass from furnace and quartzite sand with flux
-
-mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand:*>);
-mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand2:*>);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:4>.withTag({temperature: 650 as float}),<minecraft:sand>, 650, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:14>.withTag({temperature: 650 as float}),<minecraft:sand:1>, 650, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:7>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:*>, 650, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:12>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand2:*>, 650, 0.5);
-#mods.Terrafirmacraft.ItemHeat.removeRecipe(<terrafirmacraft:Sand:15>);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>,<terrafirmacraft:Sand:15>, 1800, 0.8);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:9>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:3>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:1>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:4>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:0>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:5>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:5>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:6>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:4>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:7>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:8>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:8>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:14>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:9>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:8>.withTag({temperature: 600 as float}),<terrafirmacraft:Sand:10>, 600, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:13>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:11>, 650, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:stained_glass:15>.withTag({temperature: 650 as float}),<terrafirmacraft:Sand:12>, 650, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:glass>.withTag({temperature: 800 as float}),<minecraft:glass>, 800, 0.2);
-
-for i, cg in cube_glass {
-  mods.Terrafirmacraft.ItemHeat.addRecipe(cg.withTag({temperature: 600 as float}),cg, 600, 0.2);
-}
+#see heat.zs
 
 //glass
 # pane glass and bottle forming
@@ -187,7 +136,7 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("glassplate", 20, 8, 8);
 game.setLocalization("gui.plans.glassplate", "Two Glass Plates");      
 mods.Terrafirmacraft.Anvil.addPlanRecipe("glassbottle", 33, 26, 2);
 game.setLocalization("gui.plans.glassbottle", "Glass Bottle");      
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, rc_plate_tin.reuse(), "glassplate", 1);    
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:glass_pane>, <minecraft:glass>, <terrafirmacraft:item.Tin Double Sheet>.reuse(), "glassplate", 1);    
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:glass>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <minecraft:stained_glass:*>, <terrafirmacraft:item.Copper Tuyere>.anyDamage().transformDamage(1), "glassbottle", 0);  
 
@@ -195,8 +144,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, <
 
 for i, cg in cube_glass {
   var pg = pane_glass[i];
-  mods.Terrafirmacraft.Anvil.addAnvilRecipe(pg, cg, "glassplate", 3, 15);    
-  mods.Terrafirmacraft.Anvil.addAnvilRecipe(<terrafirmacraft:item.Glass Bottle>, cg, "glassbottle", 0, 20);  
+  mods.Terrafirmacraft.Anvil.addAnvilRecipe(pg, cg, <terrafirmacraft:item.Tin Double Sheet>.reuse(), "glassplate", 1);    
 }
 
 
@@ -288,7 +236,8 @@ for i, r in rocks {
    [r, r, r]]);
 }
 
-//ingot compatibility
+//ingot compatibility - obsolete, see heat.zs
+/*
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, fsp_ingot_copper, <liquid:freshwater> * 25, 0, false, 0, true);
 
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Copper Ingot>, <ImmersiveEngineering:metal>, <liquid:freshwater> * 25, 0, false, 0, true);
@@ -305,11 +254,8 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Brass Ingot>
 
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
 
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Nickel Ingot>, <ImmersiveEngineering:metal:4>, <liquid:freshwater> * 25, 0, false, 0, true);
-
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Bronze Ingot>, <foundry:foundryIngot:2>, <liquid:freshwater> * 25, 0, false, 0, true);
+*/
 
 # Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
 # Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14

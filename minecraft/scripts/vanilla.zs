@@ -309,7 +309,7 @@ recipes.addShaped(<minecraft:trapdoor>, [
 
 furnace.remove(<minecraft:gold_ingot>);
 # recipes.addShapeless(<terrafirmacraft:item.Gold Ingot>, [<minecraft:gold_ingot>, <terrafirmacraft:item.Wooden Bucket Water>]);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Gold Ingot>, <minecraft:gold_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
+//mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Gold Ingot>, <minecraft:gold_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
 
 furnace.remove(<minecraft:gold_nugget>);
 furnace.addRecipe(<ImmersiveEngineering:material:13> , <terrafirmacraft:item.Small Ore:1>);
@@ -320,7 +320,7 @@ furnace.addRecipe(<minecraft:gold_nugget> * 3, <terrafirmacraft:item.Ore:36>);
 furnace.remove(<minecraft:iron_ingot>);
 
 #recipes.addShapeless(<terrafirmacraft:item.Wrought Iron Ingot>, [<minecraft:iron_ingot>, <terrafirmacraft:item.Wooden Bucket Water>]);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
+//mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Wrought Iron Ingot>, <minecraft:iron_ingot>, <liquid:freshwater> * 25, 0, false, 0, true);
 
 
 #bucket for vanilla water - see ihl cfg electrolysis
@@ -353,6 +353,7 @@ furnace.setFuel(<terrafirmacraft:item.helmetCloth>.anyDamage(), 150);
 furnace.setFuel(<terrafirmacraft:item.chestplateCloth>.anyDamage(), 200);
 furnace.setFuel(<terrafirmacraft:item.leggingsCloth>.anyDamage(), 200);
 furnace.setFuel(<terrafirmacraft:item.bootsCloth>.anyDamage(), 150);
+furnace.setFuel(<terrafirmacraft:item.Reeds>, 50);
 
 furnace.remove(<minecraft:coal:1>);  //only TFC charcoal in pitkiln, coke oven
 

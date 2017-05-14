@@ -34,104 +34,6 @@ val fsp_nugget_brass = <Steamcraft:steamcraftNugget:3>;
 
 
 #construction beams
-# Bismuth: 270C at 0.14                        Iron: 1535C at 0.35                    Sterling Silver: 900C at 0.35
-# Bismuth Bronze: 985C at 0.35          Lead: 328C at 0.22                     Tin: 230C at 0.14
-# Black Bronze: 1070C at 0.35             Nickel: 1453C at 0.48                 Zinc: 420C at 0.21
-# Black Steel: 1485C at 0.35                 Pig Iron: 1500C at 0.35              Sand: 600C at 1
-# Blue Steel: 1540C at 0.35                  Platinum: 1730 at 0.35              Cook Food: 600C at 1
-# Brass: 930C at 0.35                            Red Steel: 1540 at 0.35              Incinerate Food: 1200C at 1
-# Bronze: 950C at 0.35                         Rose Gold: 960C at 0.35            Ignite stick: 40C at 1
-# Copper: 1080C at 0.35                       Silver: 961C at 0.48
-# Gold: 1060C at 0.6                              Steel: 1540C at 0.35
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:flat_black_steel_beam>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:flat_brass_beam>, 930, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:flat_bronze_beam>, 950, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 3, <customitems:flat_copper_beam>, 1080, 0.35);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 3, <customitems:flat_iron_beam>, 1535, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:flat_steel_beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 2, <customitems:flat_brass_beam_drilled>, 930, 0.25);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 2, <customitems:flat_copper_beam_drilled>, 1080, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 2, <customitems:flat_iron_beam_drilled>, 1535, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 2, <customitems:flat_steel_beam_drilled>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:black_steel_hoop>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:brass_hoop>, 930, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:bronze_hoop>, 950, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 3, <customitems:copper_hoop>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 3, <customitems:iron_hoop>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:steel_hoop>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:black_steel_l-beam>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:brass_l-beam>, 930, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 3, <customitems:copper_l-beam>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 3, <customitems:iron_l-beam>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:steel_l-beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 2, <customitems:brass_l-beam_drilled>, 930, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 2, <customitems:copper_l-beam_drilled>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 2, <customitems:iron_l-beam_drilled>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 2, <customitems:steel_l-beam_drilled>, 1540, 0.5);
-
-//mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Steel Unshaped:50>*5, <customitems:black_steel_i-beam>, 1485, 0.5);
-//mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped:50>*5, <customitems:brass_i-beam>, 930, 0.4);
-//mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped:50>*5, <customitems:copper_i-beam>, 1080, 0.4);
-//mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped:50>*5, <customitems:iron_i-beam>, 1535, 0.5);
-//mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped:50>*5, <customitems:steel_i-beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:black_steel_u-beam>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:brass_u-beam>, 930, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 3, <customitems:copper_u-beam>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 3, <customitems:iron_u-beam>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:steel_u-beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Steel Unshaped>, <customitems:black_steel_t-beam>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <customitems:brass_t-beam>, 930, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <customitems:copper_t-beam>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <customitems:iron_t-beam>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <customitems:steel_t-beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <customitems:copper_rod>, 1080, 0.3);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_rod>, 985, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_rod>, 950, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Steel Unshaped>, <customitems:black_steel_rod>, 1485, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Blue Steel Unshaped>, <customitems:blue_steel_rod>, 1540, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <customitems:brass_rod>, 930, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, <customitems:bronze_rod>, 950, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, ie_rod_iron, 1535, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Red Steel Unshaped>, <customitems:red_steel_rod>, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, ie_rod_steel, 1540, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_cupronickel * 8, <foundry:foundryIngot:16>, 1170, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, ie_nugget_cupronickel, 1240, 0.4);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bismuth Bronze Unshaped>, <customitems:bismuth_bronze_wire>, 985, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Bronze Unshaped>, <customitems:black_bronze_wire>, 950, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Black Steel Unshaped>, <customitems:black_steel_wire>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Blue Steel Unshaped>, <customitems:blue_steel_wire>, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped>, <customitems:brass_wire>, 930, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Bronze Unshaped>, <customitems:bronze_wire>, 950, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <customitems:copper_wire>, 1080, 0.4);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <customitems:iron_wire>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Red Steel Unshaped>, <customitems:red_steel_wire>, 1540, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <customitems:steel_wire>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass, <customitems:brass_rivet>, 930, 0.7);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper, <customitems:copper_rivet>, 1080, 0.7);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron, <customitems:iron_rivet>, 1535, 0.7);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel, <customitems:steel_rivet>, 1540, 0.7);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:brass_spring>, 930, 0.7);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:flat_black_steel_beam>, 1485, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(fsp_nugget_brass * 3, <customitems:flat_brass_beam>, 930, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_slag, <customitems:flat_bronze_beam>, 950, 0.24);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_copper * 3, <customitems:flat_copper_beam>, 1080, 0.34);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_iron * 3, <customitems:flat_iron_beam>, 1535, 0.45);
-mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:flat_steel_beam>, 1540, 0.5);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <customitems:iron_bar>, 1535, 0.5);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <customitems:steel_bar>, 1540, 0.2);
 
 
 //Plan Rules: Any=1, BendAny=2, BendLast=3, BendLastTwo=4, BendNotLast=5,  BendSecondFromLast=6, BendThirdFromLast=7, DrawAny=8, DrawLast=9, DrawLastTwo=10, DrawNotLast=11, DrawSecondFromLast=12, DrawThirdFromLast=13, HitAny=14, HitLast=15, HitLastTwo=16, HitNotLast=17, HitSecondFromLast=18, HitThirdFromLast=19, PunchAny=20, PunchLast=21, PunchLastTwo=22, PunchNotLast=23, PunchSecondFromLast=24, PunchThridFromLast=25, ShrinkAny=26, ShrinkLast=27, ShrinkLastTwo=28, ShrinkNotLast=29, ShrinkSecondFromLast=30, ShrinkThirdFromLast=31, UpsetAny=32, UpsetLast=33, UpsetLastTwo=34, UpsetNotLast=35, UpsetSecondFromLast=36, UpsetThirdFromLast=37
@@ -560,7 +462,7 @@ recipes.addShapeless(<customitems:sifter>, [<ore:stickWood>, <terrafirmacraft:it
 //tree twig
 recipes.addShapeless(<customitems:tree_twig> * 3, [<ore:logWood>, <ore:itemHammer>.transformDamage(1)]);
 recipes.addShapeless(<terrafirmacraft:item.stick>, [<customitems:tree_twig>, <ore:itemKnife>.transformDamage(1)]);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<IC2:itemDust2:3>, <customitems:tree_twig>, 500, 0.3);
+
 
 //fluorite, cryolite
 recipes.addShapeless(<customitems:cryolite_powder>, [<terrafirmacraft:item.Ore:28>, <ore:itemHammer>.transformDamage(1)]);

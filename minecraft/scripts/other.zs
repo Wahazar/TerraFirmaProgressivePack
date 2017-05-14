@@ -104,8 +104,6 @@ recipes.addShaped(<tfcm:item.BowLimb>, [
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tfcm:item.CasingIron>, <terrafirmacraft:item.Tin Ingot>, "casing", 0, 20);    
 
 //instead of pewter
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:tin_wire>, 340, 0.2);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Ingot>, <customitems:tin_rod>, 340, 0.17);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:tin_rod>, <terrafirmacraft:item.Tin Ingot>, "metalrod", 2);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:tin_wire>, <customitems:tin_rod>, "thickwire", 2);
 
@@ -172,7 +170,7 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:plaster> * 500,
 
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<DecorationsTFC:Alabaster>, <liquid:plaster> * 50, ihl_dehydrated_gypsum, <liquid:plaster> * 100, 0,  true, 1, true, true);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(ihl_dehydrated_gypsum, ihl_gypsum, 300, 0.2);
+
 
 //animal crate
 recipes.remove(<animalcrate:blockcrate>);
@@ -203,4 +201,12 @@ recipes.addShaped(<lwstfc:item.LeatherWaterSac:600>, [
  [null, <ore:materialString>, null],
  [<terrafirmacraft:item.BurlapCloth>, <ihl:item.ihlSimpleItem:67>, <terrafirmacraft:item.BurlapCloth>],
  [null, <IC2:itemRubber>, <ore:itemKnife>.transformDamage(1)]]);
+
+//scale
+recipes.remove(<weightingscales:tile.Scale>);
+recipes.addShaped(<weightingscales:tile.Scale>, [
+ [<terrafirmacraft:item.ClayBowl:1>, null, <terrafirmacraft:item.ClayBowl:1>],
+ [<ore:stickWood>, <ore:itemRivet>, <ore:stickWood>],
+ [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+
 

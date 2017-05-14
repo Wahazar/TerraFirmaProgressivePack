@@ -109,9 +109,12 @@ mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*108, <terrafirmacraft:i
 
 mods.foundry.Infuser.addRecipe(<liquid:liquidblacksteel>*8, <liquid:liquid_black_weak_steel>*7, <infusersubstance:carbon>*3); 
 
+//mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
+
+
 //pig iron
 mods.foundry.Melting.addRecipe(<liquid:liquid_pig_iron>*108, <terrafirmacraft:item.Pig Iron Ingot>, 1750, 100);
-mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), <liquid:liquid_pig_iron>*108, <terrafirmacraft:item.Mold:1>);
+
 mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <liquid:liquid_pig_iron>*108, <foundry:foundryMold>);
 
 mods.foundry.Infuser.addRecipe(<liquid:liquid_pig_iron>*8, <liquid:liquidiron>*8, <infusersubstance:carbon>*4);
@@ -144,7 +147,7 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_permalloy>*10, [<liquid:liquidn
 //TFC ingots
 var tfc_meltableingots = [
 <terrafirmacraft:item.Bismuth Ingot>.withTag({temperature: 268 as float}), <terrafirmacraft:item.Bismuth Bronze Ingot>.withTag({temperature: 980 as float}), <terrafirmacraft:item.Black Bronze Ingot>.withTag({temperature: 1067 as float}),  <terrafirmacraft:item.Sterling Silver Ingot>.withTag({temperature: 895 as float}), <terrafirmacraft:item.Rose Gold Ingot>.withTag({temperature: 958 as float}),
-<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), <terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}),  <terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), <terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  <terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), <terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), <terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), <terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), <terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), <terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), <terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
+<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), <terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}),  <terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), <terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  <terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), <terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), <terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), <terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), <terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), <terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), <terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), <terrafirmacraft:item.Black Steel Ingot>.withTag({temperature: 1475 as float}), <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), <terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
 
 var tfc_unshapedmetals = [
 <terrafirmacraft:item.Brass Unshaped:1>, <terrafirmacraft:item.Bronze Unshaped:1>,  <terrafirmacraft:item.Copper Unshaped:1>, <terrafirmacraft:item.Gold Unshaped:1>,  <terrafirmacraft:item.Wrought Iron Unshaped:1>, <terrafirmacraft:item.Lead Unshaped:1>, <terrafirmacraft:item.Nickel Unshaped:1>, <terrafirmacraft:item.Platinum Unshaped:1>, <terrafirmacraft:item.Silver Unshaped:1>, <terrafirmacraft:item.Steel Unshaped:1>, <terrafirmacraft:item.Weak Steel Unshaped:1>, <terrafirmacraft:item.Tin Unshaped:1>, <terrafirmacraft:item.Zinc Ingot>] as IItemStack[];
@@ -152,7 +155,7 @@ var tfc_unshapedmetals = [
 
 var liquid_metals = [
 <liquid:liquid_bismuth>, <liquid:liquid_bismuth_bronze>, <liquid:liquid_black_bronze>, <liquid:liquid_sterling_silver>, <liquid:liquid_rose_gold>,
-<liquid:liquidbrass>, <liquid:liquidbronze>, <liquid:liquidcopper>,  <liquid:liquidgold>, <liquid:liquidiron>, <liquid:liquidlead>, <liquid:liquidnickel>, <liquid:liquidplatinum>, <liquid:liquidsilver>, <liquid:liquidsteel>, <liquid:liquid_black_weak_steel>, <liquid:liquidtin>, <liquid:liquidzinc>] as ILiquidStack[];
+<liquid:liquidbrass>, <liquid:liquidbronze>, <liquid:liquidcopper>,  <liquid:liquidgold>, <liquid:liquidiron>, <liquid:liquidlead>, <liquid:liquidnickel>, <liquid:liquidplatinum>, <liquid:liquidsilver>, <liquid:liquid_pig_iron>, <liquid:liquidsteel>, <liquid:liquid_black_weak_steel>, <liquid:liquidblacksteel>, <liquid:liquidtin>, <liquid:liquidzinc>] as ILiquidStack[];
 
 var liquid_glass = [<liquid:liquidglass>, 
 <liquid:liquidglass.white>,  <liquid:liquidglass.orange>,  <liquid:liquidglass.magenta>,  <liquid:liquidglass.light_blue>, <liquid:liquidglass.yellow>,  <liquid:liquidglass.lime>,  <liquid:liquidglass.pink>,  <liquid:liquidglass.gray>, <liquid:liquidglass.silver>,  <liquid:liquidglass.cyan>,  <liquid:liquidglass.purple>, <liquid:liquidglass.blue>, <liquid:liquidglass.brown>, <liquid:liquidglass.green>, <liquid:liquidglass.red>, <liquid:liquidglass.black>] as ILiquidStack[];
@@ -205,6 +208,7 @@ mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold
 //remove foundry bullets
 mods.foundry.Casting.removeRecipe(<liquid:liquidbrass>*24, <foundry:foundryMold:60>); 
 mods.foundry.Casting.removeRecipe(<liquid:liquidlead>*36, <foundry:foundryMold:46>); 
+
 
 //ballancing molten metal production (8i/b, 4i/s):
 
@@ -389,6 +393,9 @@ recipes.remove(<foundry:foundryMold:5>);
 
 recipes.remove(<foundry:foundryMold:33>);
 
+recipes.remove(<foundry:foundryMold:7>);
+recipes.remove(<foundry:foundryMold:29>);
+
 recipes.addShapeless(<foundry:foundryMold:19>, [f_blank, <terrafirmacraft:item.Wrought Iron Helmet>]);
 recipes.addShapeless(<foundry:foundryMold:3>, [f_blank, <terrafirmacraft:item.Wrought Iron Chestplate>]);
 recipes.addShapeless(<foundry:foundryMold:17>, [f_blank, <terrafirmacraft:item.Wrought Iron Greaves>]);
@@ -402,6 +409,11 @@ recipes.addShapeless(<foundry:foundryMold:5>, [f_blank, <ore:itemPick>]);
 
 recipes.addShapeless(<foundry:foundryMold:33>, [f_blank, <ore:plateSteamcraftLead>]);
 
+recipes.addShapeless(<foundry:foundryMold:7>, [f_blank, <ore:blockTin>]);
+recipes.addShapeless(<foundry:foundryMold:7>, [f_blank, <ore:blockLead>]);
+
+recipes.addShapeless(<foundry:foundryMold:29>, [f_blank, <ore:slabTin>]);
+recipes.addShapeless(<foundry:foundryMold:29>, [f_blank, <ore:slabLead>]);
 
 #tools and parts recycling
 //todo crusher
@@ -683,7 +695,6 @@ recipes.remove(<foundry:foundryMold:61>);
 recipes.addShapeless(<foundry:foundryMold:61>, [f_blank, <ImmersiveEngineering:bullet>]);
 mods.foundry.Casting.addRecipe(<ImmersiveEngineering:bullet>, <liquid:liquidbrass>*48, <foundry:foundryMold:60>);
 //alternative anvil recipe
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Brass Unshaped:50>, fsp_plate_brass, 930, 1.0);
 mods.Terrafirmacraft.Anvil.addPlanRecipe("shellcasing", 2, 2, 15);
 game.setLocalization("gui.plans.shelcasing", "Shell casing");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:bullet>, fsp_plate_brass, "shellcasing", 2, 20);
@@ -692,7 +703,6 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:bullet>, fsp_pla
 recipes.addShapeless(<foundry:foundryMold:51>, [f_blank, <Steamcraft:steamcraftCrafting:2>]);
 
 //revolver frame from steel ingot and steel link
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped:6>, <tfcm:item.Link_Steel>, 1850, 1.5);
 mods.Terrafirmacraft.Anvil.addPlanRecipe("revolverframe", 7, 36, 15);
 game.setLocalization("gui.plans.revolverframe", "Revolver Frame");
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<foundry:foundryComponent:7>, <terrafirmacraft:item.Steel Ingot>, <tfcm:item.Link_Steel>, "revolverframe", 4, 20);
@@ -940,6 +950,8 @@ recipes.addShapeless(<customitems:insulator_soft_mold>,
 furnace.addRecipe(<customitems:insulator_mold>, <customitems:insulator_soft_mold>);
 
 mods.foundry.Casting.addMold(<customitems:insulator_mold>);
+
+mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice>, <liquid:liquidglass.red>*108, <customitems:insulator_mold>, <customitems:iron_rivet>);
 
 mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:2>, <liquid:liquidglass.brown>*108, <customitems:insulator_mold>, <customitems:steel_rivet>);
 

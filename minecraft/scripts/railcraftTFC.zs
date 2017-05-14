@@ -111,7 +111,7 @@ recipes.addShaped(<Railcraft:slab:2>, [[null, null, null],
 //<ore:slabConcrete>.add(<Railcraft:slab:2>);
 
 recipes.removeShapeless(<Railcraft:part.bleached.clay>);
-recipes.addShapeless(<Railcraft:part.bleached.clay>, [<ore:lumpClay>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<Railcraft:part.bleached.clay>, [<ore:lumpClay>, <ore:dyeWhite>]);
 
 recipes.remove(<Railcraft:brick.bleachedbone:2>);
 recipes.addShaped(<Railcraft:brick.bleachedbone:2>, [
@@ -503,27 +503,27 @@ recipes.remove(<Railcraft:lantern.stone:*>);
 recipes.remove(<Railcraft:lantern.metal:*>);
 recipes.addShaped(<Railcraft:lantern.metal:0>, [
  [null, <ore:slabIron>, null],
- [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:0>],
+ [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>.withTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:0>],
  [null, <ore:slabIron>, null]]);
 recipes.addShaped(<Railcraft:lantern.metal:1>, [
  [null, <ore:slabGold>, null],
- [<Railcraft:glass:4>, <terrafirmacraft:OilLamp:0>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:4>],
+ [<Railcraft:glass:4>, <terrafirmacraft:OilLamp:0>.withTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:4>],
  [null, <ore:slabGold>, null]]);
 recipes.addShaped(<Railcraft:lantern.metal:2>, [
  [null, <ore:slabCopper>, null],
- [<Railcraft:glass:14>, <terrafirmacraft:OilLamp:2>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:14>],
+ [<Railcraft:glass:14>, <terrafirmacraft:OilLamp:2>.withTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:14>],
  [null, <ore:slabCopper>, null]]);
 recipes.addShaped(<Railcraft:lantern.metal:3>, [
  [null, <ore:slabTin>, null],
- [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:0>],
+ [<Railcraft:glass:0>, <terrafirmacraft:OilLamp:4>.withTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:0>],
  [null, <ore:slabTin>, null]]);
 recipes.addShaped(<Railcraft:lantern.metal:4>, [
  [null, <ore:slabLead>, null],
- [<Railcraft:glass:3>, <terrafirmacraft:OilLamp:5>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:3>],
+ [<Railcraft:glass:3>, <terrafirmacraft:OilLamp:5>, <Railcraft:glass:3>],
  [null, <ore:slabLead>, null]]);
 recipes.addShaped(<Railcraft:lantern.metal:5>, [
  [null, <ore:slabSteel>, null],
- [<Railcraft:glass:8>, <terrafirmacraft:OilLamp:3>.onlyWithTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:8>],
+ [<Railcraft:glass:8>, <terrafirmacraft:OilLamp:3>.withTag({FluidName: "oliveoil", Amount: 250}), <Railcraft:glass:8>],
  [null, <ore:slabSteel>, null]]);
 
 
@@ -533,10 +533,8 @@ recipes.addShapeless(<Railcraft:dust:3>, [<ore:gemCharcoal>, <ore:itemHammer>.tr
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:stair:*>);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:cube:*>);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<Railcraft:brick.quarried:5>, <Railcraft:cube:7>, 800, 0.15);
 recipes.addShapeless(<terrafirmacraft:item.LooseRock:20> * 2, [<Railcraft:brick.quarried:5>, <ore:itemHammer>.transformDamage(2)]);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<Railcraft:brick.abyssal:5>, <Railcraft:cube:6>, 1200, 0.2);
 
 #creozote wood
 recipes.removeShapeless(<Railcraft:cube:8>);

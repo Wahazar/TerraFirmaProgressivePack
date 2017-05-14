@@ -43,21 +43,6 @@ ore_slabSteel.add(<foundry:slab2:3>);
 # Copper: 1080C at 0.35                       Silver: 961C at 0.48
 # Gold: 1060C at 0.6                              Steel: 1540C at 0.35
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <Railcraft:ingot:1>, 1080, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <foundry:foundryIngot>, 1080, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Copper Unshaped>, <ImmersiveEngineering:metal>, 1080, 1);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <Railcraft:ingot>, 1540, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <foundry:foundryIngot:9>, 1540, 1);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Unshaped>, <Railcraft:ingot:2>, 230, 0);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Tin Unshaped>, <foundry:foundryIngot:1>, 230, 0);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Lead Unshaped>, <Railcraft:ingot:3>, 328, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Lead Unshaped>, <foundry:foundryIngot:10>, 328, 1);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Lead Unshaped>, <ImmersiveEngineering:metal:2>, 328, 1);
-
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Platinum Unshaped>, <foundry:foundryIngot:13>, 1730, 1);
 
 //slabs melting in TFC firepit
 
