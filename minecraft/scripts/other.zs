@@ -61,6 +61,12 @@ recipes.addShaped(<tfcm:item.Copper_Chain_Greaves>, [
  [<tfcm:item.Chain_Sheet_Copper>, <terrafirmacraft:item.BurlapCloth>, <tfcm:item.Chain_Sheet_Copper>],
  [<tfcm:item.Chain_Sheet_Copper>, null, <tfcm:item.Chain_Sheet_Copper>]]);
 
+recipes.remove(<tfcm:item.SinewString>);
+recipes.addShaped(<tfcm:item.SinewString>, [
+ [<tfcm:item.SinewFiber>, <tfcprimitivetech:itemLeatherBelt>, null],
+ [<tfcm:item.SinewFiber>, <tfcprimitivetech:itemLeatherBelt>, null],
+ [<tfcm:item.SinewFiber>, <tfcprimitivetech:itemLeatherBelt>, null]]);
+
 recipes.remove(<tfcm:item.CrossBow>);
 recipes.addShaped(<tfcm:item.CrossBow>, [
  [<tfcm:item.BowLimb>, <tfcm:item.SinewString>, null],

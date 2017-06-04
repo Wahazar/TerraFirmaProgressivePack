@@ -153,9 +153,9 @@ mods.Terrafirmacraft.Anvil.addWeldRecipe(fsp_ironbarrel, <terrafirmacraft:item.W
 
 
 //leather 
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide>, <terrafirmacraft:item.Hide>, <liquid:base_potash_liquor> * 500, 0, true, 16, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:1>, <terrafirmacraft:item.Hide:1>, <liquid:base_potash_liquor> * 700, 0, true, 16, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:2>, <terrafirmacraft:item.Hide:2>, <liquid:base_potash_liquor> * 900, 0, true, 16, true);
+// mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide>, <terrafirmacraft:item.Hide>, <liquid:base_potash_liquor> * 500, 0, true, 16, true);
+// mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:1>, <terrafirmacraft:item.Hide:1>, <liquid:base_potash_liquor> * 700, 0, true, 16, true);
+// mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Soaked Hide:2>, <terrafirmacraft:item.Hide:2>, <liquid:base_potash_liquor> * 900, 0, true, 16, true);
 
 mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:item.Scraped Hide>, <liquid:freshwater> * 300);
 mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:item.Scraped Hide:1>, <liquid:freshwater> * 400);

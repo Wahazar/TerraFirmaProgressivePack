@@ -348,7 +348,7 @@ furnace.setFuel(<Railcraft:dust:3>, 1800); //charcoal dust
 furnace.setFuel(<minecraft:deadbush>, 90); 
 furnace.setFuel(<ihl:item.ihlSimpleItem:122>, 900); 
 furnace.setFuel(<customitems:wood_pulp>, 500);
-furnace.setFuel(<customitems:tree_twig>, 200);
+furnace.setFuel(<tfcprimitivetech:itemWoodenTwig>, 200);  //todo: burnable
 furnace.setFuel(<terrafirmacraft:item.helmetCloth>.anyDamage(), 150);
 furnace.setFuel(<terrafirmacraft:item.chestplateCloth>.anyDamage(), 200);
 furnace.setFuel(<terrafirmacraft:item.leggingsCloth>.anyDamage(), 200);

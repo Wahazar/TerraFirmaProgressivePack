@@ -259,7 +259,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(ie_nugget_steel * 3, <customitems:flat_s
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Wrought Iron Unshaped>, <customitems:iron_bar>, 1535, 0.5);
 mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraft:item.Steel Unshaped>, <customitems:steel_bar>, 1540, 0.2);
 
-mods.Terrafirmacraft.ItemHeat.addRecipe(<IC2:itemDust2:3>, <customitems:tree_twig>, 500, 0.3);
+// mods.Terrafirmacraft.ItemHeat.addRecipe(<IC2:itemDust2:3>, <customitems:tree_twig>, 500, 0.3);
 
 
 

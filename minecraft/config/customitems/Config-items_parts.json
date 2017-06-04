@@ -733,12 +733,6 @@
             "maxStackSize": 16
         },
         {
-            "name": "tree twig",
-            "textureName": "twig",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 64
-        },
-        {
             "name": "Hot aluminum plate",
             "textureName": "plateHotAluminum",
             "creativeTab": "Custom Items",

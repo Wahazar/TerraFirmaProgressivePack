@@ -102,12 +102,12 @@ furnace.addRecipe(<customitems:alumina_powder>, <customitems:aluminium_hydroxide
 
 
 //paper production
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:cellulose_fibers>, <liquid:waste> * 1000, <terrafirmacraft:item.Reeds>, <liquid:limewater> * 1000, 0,  true, 24, true, true);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:cellulose_fibers>, <liquid:waste> * 1000, <terrafirmacraft:item.Reeds>, <liquid:base_potash_liquor> * 1000, 0,  true, 24, true, true);
-recipes.remove(<minecraft:paper>);
-recipes.addShapeless(<minecraft:paper>, [<customitems:wooden_press>.anyDamage().transformDamage(1), <customitems:cellulose_fibers>, <customitems:cellulose_fibers>, <customitems:wooden_press>.anyDamage().transformDamage(1)]);
+// mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:cellulose_fibers>, <liquid:waste> * 1000, <terrafirmacraft:item.Reeds>, <liquid:limewater> * 1000, 0,  true, 24, true, true);
+// mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:cellulose_fibers>, <liquid:waste> * 1000, <terrafirmacraft:item.Reeds>, <liquid:base_potash_liquor> * 1000, 0,  true, 24, true, true);
+// recipes.remove(<minecraft:paper>);
+//recipes.addShapeless(<minecraft:paper>, [<customitems:wooden_press>.anyDamage().transformDamage(1), <customitems:cellulose_fibers>, <customitems:cellulose_fibers>, <customitems:wooden_press>.anyDamage().transformDamage(1)]);
 
-recipes.addShapeless(<customitems:wood_pulp>, [<customitems:tree_twig>, <customitems:tree_twig>, <ore:itemHammer>.transformDamage(2)]);
+recipes.addShapeless(<customitems:wood_pulp>, [<tfcprimitivetech:itemWoodenTwig>, <tfcprimitivetech:itemWoodenTwig>, <ore:itemHammer>.transformDamage(2)]);
 //or ie crusher
 
 //mangan
@@ -154,11 +154,11 @@ recipes.addShaped(<customitems:pile_of_yag_premix> * 8, [
  [<customitems:alumina_powder>, <customitems:yttrium_oxide_dust>, <customitems:alumina_powder>]]);
 
 //plumbate
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:151>, <liquid:waste> * 200, <customitems:small_pile_of_litharge>*8, <liquid:base_potash_liquor> * 250, 0,  true, 8, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:151>, <liquid:waste> * 200, <customitems:small_pile_of_litharge>*8, <liquid:basepotashliquor> * 250, 0,  true, 8, true, true);
 
 
 //ash to potash
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:base_potash_liquor> * 500, ic2ash, <liquid:freshwater> * 500, 0,  true, 4, false, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:basepotashliquor> * 500, ic2ash, <liquid:freshwater> * 500, 0,  true, 4, false, true);
 
 //fertilisers
 

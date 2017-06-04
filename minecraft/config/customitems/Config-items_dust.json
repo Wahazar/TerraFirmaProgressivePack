@@ -176,12 +176,6 @@
             "maxStackSize": 64
         },
         {
-            "name": "Cellulose fibers",
-            "textureName": "cellulose_fibers",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 32
-        },
-        {
             "name": "Cadmium sponge",
             "textureName": "spongeCadmium",
             "creativeTab": "Custom Items",

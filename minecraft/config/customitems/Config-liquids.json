@@ -85,20 +85,6 @@
             }
         },
         {
-            "name":"Waste",
-            "textureName": "liquidWaste",
-            "temperature": 320,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Waste"
-            }
-        },
-        {
             "name":"Sulfurised Spodumene liquor",
             "textureName": "liquidSulfurisedSpodumene",
             "temperature": 320,
@@ -209,20 +195,6 @@
             "flowLength": 5,
             "bucket": {
                 "textureName": "bucket_AqSodiumChromate"
-            }
-        },
-        {
-            "name":"Base Potash Liquor",
-            "textureName": "basePotashliquor",
-            "temperature": 320,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 3000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_basePotashliquor"
             }
         },
         {

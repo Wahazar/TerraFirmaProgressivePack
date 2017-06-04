@@ -78,7 +78,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:flat_steel_beam> * 2, <te
 
 
 
-recipes.addShapeless( <customitems:wooden_press>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>]);
+// recipes.addShapeless( <customitems:wooden_press>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>]);
 
 recipes.addShaped(<customitems:rope_hoop>, [
  [<tfcm:item.SinewFiber>, <terrafirmacraft:item.Rope>, <tfcm:item.SinewFiber>], 
@@ -88,7 +88,7 @@ recipes.addShaped(<customitems:rope_hoop>, [
 recipes.addShaped(<customitems:half_wooden_hoop>, [
  [null, <ore:logWood>.reuse(), null], 
  [null, <ore:woodLumber>, null],
- [<tfcm:item.BucketHotWater>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>), <customitems:wooden_press>.anyDamage().transformDamage(1), null]]);
+ [<tfcm:item.BucketHotWater>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>), <tfcprimitivetech:itemWoodenPress>, null]]);
 
 recipes.addShapeless(<customitems:wooden_hoop>, [<customitems:half_wooden_hoop>, <ore:itemHammer>.transformDamage(1), <customitems:half_wooden_hoop>,<ore:itemNail>]);
 
@@ -460,8 +460,8 @@ recipes.addShapeless(<customitems:sifter>, [<ore:stickWood>, <ihl:item.ihlSimple
 recipes.addShapeless(<customitems:sifter>, [<ore:stickWood>, <terrafirmacraft:item.BurlapCloth>, <ore:itemHoop>]);
 
 //tree twig
-recipes.addShapeless(<customitems:tree_twig> * 3, [<ore:logWood>, <ore:itemHammer>.transformDamage(1)]);
-recipes.addShapeless(<terrafirmacraft:item.stick>, [<customitems:tree_twig>, <ore:itemKnife>.transformDamage(1)]);
+//recipes.addShapeless(<customitems:tree_twig> * 3, [<ore:logWood>, <ore:itemHammer>.transformDamage(1)]);
+//recipes.addShapeless(<terrafirmacraft:item.stick>, [<customitems:tree_twig>, <ore:itemKnife>.transformDamage(1)]);
 
 
 //fluorite, cryolite

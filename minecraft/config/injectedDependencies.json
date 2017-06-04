@@ -12,11 +12,11 @@
       },
       {
         "type": "before",
-        "target": "tfcm"
+        "target": "lwstfc"
       },
       {
         "type": "before",
-        "target": "tfcpewter"
+        "target": "tfcm"
       },
       {
         "type": "before",
@@ -25,6 +25,10 @@
       {
         "type": "before",
         "target": "tfccellars"
+      },
+      {
+        "type": "before",
+        "target": "tfcprimitivetech"
       },
       {
         "type": "before",
@@ -45,6 +49,10 @@
       {
         "type": "before",
         "target": "BlockProperties"
+      },
+      {
+        "type": "before",
+        "target": "CarpentersBlocks"
       },
       {
         "type": "before",
@@ -120,6 +128,10 @@
       },
       {
         "type": "before",
+        "target": "MapWriter"
+      },
+      {
+        "type": "before",
         "target": "MineTweaker3"
       },
       {
@@ -133,18 +145,6 @@
       {
         "type": "before",
         "target": "neiintegration"
-      },
-      {
-        "type": "before",
-        "target": "MapWriter"
-      },
-      {
-        "type": "before",
-        "target": "Opis"
-      },
-      {
-        "type": "before",
-        "target": "ReiMinimap"
       },
       {
         "type": "before",

@@ -10,13 +10,7 @@
     "tool_data": []
   },
   "break_speed": [],
-  "drops": [
-		{ 
-                   "function": "add", 
-                   "id": "customitems:tree_twig",
-		   "count": 0.2
-	            }
-],
+  "drops": [],
   "harvest": [],
   "xp": []
 }
