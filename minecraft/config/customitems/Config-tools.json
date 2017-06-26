@@ -21,15 +21,5 @@
             "efficiencyOnProperMaterial":1,
             "damageVsEntity":1,
             "enchantability":1
-        },
-        {
-            "name":"Wooden Press",
-            "textureName":"item_Wooden_Press",
-            "harvestLevel":1,
-            "maxUses":100,
-            "efficiencyOnProperMaterial":1,
-            "damageVsEntity":2,
-            "enchantability":1
-        }
-    ]
+        }    ]
 }
