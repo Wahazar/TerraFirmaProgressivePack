@@ -497,7 +497,7 @@ recipes.addShaped(<customitems:radioactive_waste_box>, [
  [<terrafirmacraft:item.egg>.withTag({foodWeight: 2.0 as float}), <IC2:itemUran238>, <IC2:itemFuelPlantBall>],
  [<IC2:itemPlates:6>, <terrafirmacraft:sapling:8>, <IC2:itemPlates:6>]]);
 
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:radioactive_waste_happy_box>, <liquid:waste> * 400, <customitems:radioactive_waste_box>, <liquid:freshwater> * 500, 0,  true, 60, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<tfcpphelper:luckyBlock_RadioactiveWaste>, <liquid:waste> * 400, <customitems:radioactive_waste_box>, <liquid:freshwater> * 500, 0,  true, 60, true, true);
 
 //zinc processing
 furnace.addRecipe(<customitems:zinc_white_powder> * 1, <terrafirmacraft:item.Small Ore:12>);

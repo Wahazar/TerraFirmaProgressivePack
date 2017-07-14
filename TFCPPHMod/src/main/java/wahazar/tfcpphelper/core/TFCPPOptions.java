@@ -8,10 +8,12 @@ import net.minecraftforge.common.config.Property;
 public class TFCPPOptions
 {
 	public static int abyssalFissureRarity = 0;
+	public static int radiationPotionId = 9;
 
     	private static void loadOptions(Configuration config)
     		{
         		abyssalFissureRarity = config.get("Options", "AbyssalFissureRarity", 100).getInt(100);
+        		radiationPotionId = config.get("Options", "RadiationPotionId", 9).getInt(9); //change to IC2 potion Id
 
     		}
 	

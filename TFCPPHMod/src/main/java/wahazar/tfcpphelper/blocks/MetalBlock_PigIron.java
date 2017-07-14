@@ -22,7 +22,7 @@ public class MetalBlock_PigIron extends BlockTerra
     {
         super(Material.iron);
         this.setBlockName(unlocalizedname);        
-        this.setHardness(0.8f);
+        this.setHardness(8.8f);
         this.setResistance(40.0f);
         this.setCreativeTab(TFCTabs.TFC_MATERIALS);       
     }

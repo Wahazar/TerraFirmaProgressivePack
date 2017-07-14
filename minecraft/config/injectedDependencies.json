@@ -28,6 +28,10 @@
       },
       {
         "type": "before",
+        "target": "tfcpphelper"
+      },
+      {
+        "type": "before",
         "target": "tfcprimitivetech"
       },
       {
@@ -45,10 +49,6 @@
       {
         "type": "before",
         "target": "antiqueatlas"
-      },
-      {
-        "type": "before",
-        "target": "BlockProperties"
       },
       {
         "type": "before",

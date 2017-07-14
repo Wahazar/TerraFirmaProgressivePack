@@ -449,14 +449,16 @@ recipes.addShaped(<customitems:iron_ore_batch>, [
 
 recipes.addShapeless(<customitems:container_with_iron_ore_batch>, [<customitems:iron_ore_batch>, <foundry:foundryContainer>]);
 
-recipes.addShaped(<customitems:transfer_ladle-empty>, [
+recipes.addShapeless(<tfcpphelper:TransferLadle_Empty>, [<customitems:transfer_ladle-empty>]);  //compatibility with old version
+
+recipes.addShaped(<tfcpphelper:TransferLadle_Empty>, [
  [null, null, null], 
  [<customitems:small_wheel>, <terrafirmacraft:Bloomery>, <customitems:small_wheel>],
  [null, null, null]]);
 
-recipes.addShaped(<customitems:transfer_ladle-batch>, [
+recipes.addShaped(<tfcpphelper:TransferLadle_OreBatch>, [
  [<customitems:iron_ore_batch>, <customitems:iron_ore_batch>, <customitems:iron_ore_batch>], 
- [<customitems:iron_ore_batch>, <customitems:transfer_ladle-empty>, <customitems:iron_ore_batch>],
+ [<customitems:iron_ore_batch>, <tfcpphelper:TransferLadle_Empty>, <customitems:iron_ore_batch>],
  [<ore:dustFlux>, <ore:dustFlux>, <ore:dustFlux>]]);
 
 
@@ -672,7 +674,7 @@ mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storag
 //mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, fsp_smashed_iron, 1000, ie_slag);
 
 #transfer ladle
-mods.immersiveengineering.BlastFurnace.addRecipe(<customitems:transfer_ladle-pig_iron>, <customitems:transfer_ladle-batch>, 5000, ie_slag);
+mods.immersiveengineering.BlastFurnace.addRecipe(<tfcpphelper:TransferLadle_PigIron>, <tfcpphelper:TransferLadle_OreBatch>, 5000, ie_slag);
 //mods.immersiveengineering.BlastFurnace.addRecipe(<customitems:transfer_ladle-steel>, <customitems:transfer_ladle-batch>, 5000, ie_slag);
 
 

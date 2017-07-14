@@ -5,6 +5,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,7 @@ import net.minecraft.world.World;
 import wahazar.tfcpphelper.core.TFCPPBlocks;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import com.bioxx.tfc.Blocks.BlockTerra;
@@ -42,9 +44,9 @@ public class TransferLadle_BlackSteel extends BlockTerra
         this.setResistance(20.0f);
 		this.setLightLevel(0.6F);
         this.setCreativeTab(TFCTabs.TFC_DEVICES);       
-	    this._moltenMetal = GameRegistry.findBlock("foundry", "liquidBlackSteel");
-	    if (_moltenMetal==null)
-	    	_moltenMetal=Blocks.lava;
+	    this._moltenMetal = TFCPPBlocks.moltenBlackSteel; //GameRegistry.findBlock("foundry", "liquidBlackSteel");
+//	    if (_moltenMetal==null)
+//	    	_moltenMetal=Blocks.lava;
 
     }
 
@@ -131,5 +133,5 @@ public void onBlockPlacedBy(World w_, int x_, int y_, int z_, EntityLivingBase p
     {
         return true;
     }
-    
+        
 }

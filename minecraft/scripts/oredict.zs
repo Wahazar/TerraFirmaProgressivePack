@@ -127,7 +127,7 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Red Steel Chisel>);
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Blue Steel Chisel>);
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Black Steel Chisel>);
-<ore:itemPress>.add(<customitems:wooden_press>);
+// <ore:itemPress>.add(<customitems:wooden_press>);
 
 //<ore:craftingToolWireCutter>.add(<ImmersiveEngineering:tool:1>);
 

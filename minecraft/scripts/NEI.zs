@@ -285,12 +285,14 @@ NEI.overrideName(darkoak_log, "Impregnated Hickory Log");
 NEI.overrideName(<minecraft:cooked_fished:0>, "Cat Food");
 
 //hide alloys buckets
-NEI.hide(<customitems:liquid_black_weak_steel_bucket>);
+// NEI.hide(<customitems:liquid_black_weak_steel_bucket>);
 NEI.hide(<customitems:liquid_rose_gold_bucket>);
 NEI.hide(<customitems:liquid_sterling_silver_bucket>);
 NEI.hide(<customitems:liquid_bismuth_bucket>);
 NEI.hide(<customitems:liquid_bismuth_bronze_bucket>);
 NEI.hide(<customitems:liquid_black_bronze_bucket>);
+NEI.hide(<customitems:molten_sodium_bucket>);
+NEI.hide(<customitems:molten.silicon_bucket>);
 
 #IC2 
 NEI.overrideName(<IC2:blockMetal:5>, "Stainless Steel Block");

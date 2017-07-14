@@ -89,10 +89,10 @@ public class BlueSteelBucket_BlackSteel  extends Item implements ISize
 					{
 						world.func_147480_a(x, y, z, true);
 					}
-				Block moltenMetal;
-				moltenMetal = GameRegistry.findBlock("foundry", "liquidBlackSteel");
-				if (moltenMetal!=null)
-					world.setBlock(x, y, z, moltenMetal, 0, 3);
+//				Block moltenMetal;
+//				moltenMetal = GameRegistry.findBlock("foundry", "liquidBlackSteel");
+//				if (moltenMetal!=null)
+					world.setBlock(x, y, z, TFCPPBlocks.moltenBlackSteel, 0, 3);
 				return true;
 			}
 	}

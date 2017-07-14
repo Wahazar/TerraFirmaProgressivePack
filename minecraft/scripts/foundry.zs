@@ -94,7 +94,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquid_bismuth_bronze>*108, <customitems:
 mods.foundry.Melting.addRecipe(<liquid:liquid_black_bronze>*108, <terrafirmacraft:item.Black Bronze Ingot>, 1370, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_sterling_silver>*108, <terrafirmacraft:item.Sterling Silver Ingot>, 1200, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_rose_gold>*108, <terrafirmacraft:item.Rose Gold Ingot>, 1260, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirmacraft:item.Weak Steel Ingot>, 1785, 100);
+//mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirmacraft:item.Weak Steel Ingot>, 1785, 100);
 
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_bismuth_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
@@ -105,9 +105,10 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_weak_steel>*10, [<liquid:
 //weak and HC black steel
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*108, <terrafirmacraft:item.Steel Ingot>, 1900, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirmacraft:item.Weak Steel Ingot>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*108, <terrafirmacraft:item.HC Black Steel Ingot>, 1870, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*108, <terrafirmacraft:item.Black Steel Ingot>, 1900, 100);
 
-mods.foundry.Infuser.addRecipe(<liquid:liquidblacksteel>*8, <liquid:liquid_black_weak_steel>*7, <infusersubstance:carbon>*3); 
+mods.foundry.Infuser.addRecipe(<liquid:liquidcarbonblacksteel>*10, <liquid:liquid_black_weak_steel>*10, <infusersubstance:carbon>*4); 
 
 //mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
 
@@ -147,15 +148,15 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_permalloy>*10, [<liquid:liquidn
 //TFC ingots
 var tfc_meltableingots = [
 <terrafirmacraft:item.Bismuth Ingot>.withTag({temperature: 268 as float}), <terrafirmacraft:item.Bismuth Bronze Ingot>.withTag({temperature: 980 as float}), <terrafirmacraft:item.Black Bronze Ingot>.withTag({temperature: 1067 as float}),  <terrafirmacraft:item.Sterling Silver Ingot>.withTag({temperature: 895 as float}), <terrafirmacraft:item.Rose Gold Ingot>.withTag({temperature: 958 as float}),
-<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), <terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}),  <terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), <terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  <terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), <terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), <terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), <terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), <terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), <terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), <terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), <terrafirmacraft:item.Black Steel Ingot>.withTag({temperature: 1475 as float}), <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), <terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
+<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), <terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}),  <terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), <terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  <terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), <terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), <terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), <terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), <terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), <terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), <terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), <terrafirmacraft:item.HC Black Steel Ingot>.withTag({temperature: 1470 as float}), <terrafirmacraft:item.Black Steel Ingot>.withTag({temperature: 1475 as float}), <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), <terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
 
 var tfc_unshapedmetals = [
-<terrafirmacraft:item.Brass Unshaped:1>, <terrafirmacraft:item.Bronze Unshaped:1>,  <terrafirmacraft:item.Copper Unshaped:1>, <terrafirmacraft:item.Gold Unshaped:1>,  <terrafirmacraft:item.Wrought Iron Unshaped:1>, <terrafirmacraft:item.Lead Unshaped:1>, <terrafirmacraft:item.Nickel Unshaped:1>, <terrafirmacraft:item.Platinum Unshaped:1>, <terrafirmacraft:item.Silver Unshaped:1>, <terrafirmacraft:item.Steel Unshaped:1>, <terrafirmacraft:item.Weak Steel Unshaped:1>, <terrafirmacraft:item.Tin Unshaped:1>, <terrafirmacraft:item.Zinc Ingot>] as IItemStack[];
+<terrafirmacraft:item.Brass Unshaped:1>, <terrafirmacraft:item.Bronze Unshaped:1>,  <terrafirmacraft:item.Copper Unshaped:1>, <terrafirmacraft:item.Gold Unshaped:1>,  <terrafirmacraft:item.Wrought Iron Unshaped:1>, <terrafirmacraft:item.Lead Unshaped:1>, <terrafirmacraft:item.Nickel Unshaped:1>, <terrafirmacraft:item.Platinum Unshaped:1>, <terrafirmacraft:item.Silver Unshaped:1>, <terrafirmacraft:item.Steel Unshaped:1>, <terrafirmacraft:item.Weak Steel Unshaped:1>, <terrafirmacraft:item.HC Black Steel Unshaped>, <terrafirmacraft:item.Tin Unshaped:1>, <terrafirmacraft:item.Zinc Ingot>] as IItemStack[];
 
 
 var liquid_metals = [
 <liquid:liquid_bismuth>, <liquid:liquid_bismuth_bronze>, <liquid:liquid_black_bronze>, <liquid:liquid_sterling_silver>, <liquid:liquid_rose_gold>,
-<liquid:liquidbrass>, <liquid:liquidbronze>, <liquid:liquidcopper>,  <liquid:liquidgold>, <liquid:liquidiron>, <liquid:liquidlead>, <liquid:liquidnickel>, <liquid:liquidplatinum>, <liquid:liquidsilver>, <liquid:liquid_pig_iron>, <liquid:liquidsteel>, <liquid:liquid_black_weak_steel>, <liquid:liquidblacksteel>, <liquid:liquidtin>, <liquid:liquidzinc>] as ILiquidStack[];
+<liquid:liquidbrass>, <liquid:liquidbronze>, <liquid:liquidcopper>,  <liquid:liquidgold>, <liquid:liquidiron>, <liquid:liquidlead>, <liquid:liquidnickel>, <liquid:liquidplatinum>, <liquid:liquidsilver>, <liquid:liquid_pig_iron>, <liquid:liquidsteel>, <liquid:liquid_black_weak_steel>, <liquid:liquidcarbonblacksteel>, <liquid:liquidblacksteel>, <liquid:liquidtin>, <liquid:liquidzinc>] as ILiquidStack[];
 
 var liquid_glass = [<liquid:liquidglass>, 
 <liquid:liquidglass.white>,  <liquid:liquidglass.orange>,  <liquid:liquidglass.magenta>,  <liquid:liquidglass.light_blue>, <liquid:liquidglass.yellow>,  <liquid:liquidglass.lime>,  <liquid:liquidglass.pink>,  <liquid:liquidglass.gray>, <liquid:liquidglass.silver>,  <liquid:liquidglass.cyan>,  <liquid:liquidglass.purple>, <liquid:liquidglass.blue>, <liquid:liquidglass.brown>, <liquid:liquidglass.green>, <liquid:liquidglass.red>, <liquid:liquidglass.black>] as ILiquidStack[];
@@ -270,6 +271,11 @@ mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*864, <ImmersiveEngineering:s
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <ImmersiveEngineering:storageSlab:7>, 1850, 200);
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*216, <Railcraft:part.plate:1>, 1850, 200);
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <Railcraft:slab:43>, 1850, 200);
+
+mods.foundry.Melting.addRecipe(<liquid:liquid_pig_iron>*432, <tfcpphelper:metalBlock_PigIron>, 1860, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*432, <tfcpphelper:metalBlock_WeakBlackSteel>, 1840, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*432, <tfcpphelper:metalBlock_CarbonBlackSteel>, 1850, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*432, <tfcpphelper:metalBlock_BlackSteel>, 1850, 200);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <Steamcraft:blockCopper>, 1400, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <ImmersiveEngineering:storage>, 1400, 100);
@@ -736,11 +742,15 @@ mods.foundry.Casting.addRecipe(<customitems:small_wheel>, <liquid:liquidiron>*56
 //transfer ladle
 mods.foundry.Casting.addMold(<foundry:foundryContainer>);
 
-mods.foundry.Casting.addRecipe(<customitems:transfer_ladle-steel>, <liquid:liquidsteel>*5000, <foundry:foundryContainer>, <customitems:transfer_ladle-empty>);
+mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_Steel>, <liquid:liquidsteel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
-mods.foundry.Casting.addRecipe(<customitems:transfer_ladle-pig_iron>, <liquid:liquid_pig_iron>*5000, <foundry:foundryContainer>, <customitems:transfer_ladle-empty>);
+mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_PigIron>, <liquid:liquid_pig_iron>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
+mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_CarbonBlackSteel>, <liquid:liquidcarbonblacksteel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
+mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_WeakBlackSteel>, <liquid:liquid_black_weak_steel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
+
+mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_BlackSteel>, <liquid:liquidblacksteel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
 //cadmium
 mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*18, <customitems:cadmium_sponge>, 600, 100);

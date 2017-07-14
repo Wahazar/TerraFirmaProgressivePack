@@ -9,11 +9,32 @@
 #= Blocks =
 #==========
 
+tile.TransferLadle_PigIron.name=Transfer Ladle with Pig Iron
+tile.TransferLadle_CarbonBlackSteel.name=Transfer Ladle with Carbonised Black Steel
+tile.TransferLadle_WeakBlackSteel.name=Transfer Ladle with Weak Black Steel
+tile.TransferLadle_BlackSteel.name=Transfer Ladle with Black Steel
+tile.TransferLadle_Steel.name=Transfer Ladle with Steel
+tile.TransferLadle_OreBatch.name=Transfer Ladle with Ore Batch
+tile.TransferLadle_Empty.name=Empty Transfer Ladle
+tile.blockSlag.name=Block of slag
+tile.metalBlock_PigIron.name=Block of Pig Iron
+tile.metalBlock_CarbonBlackSteel.name=Block of Carbonised Black Steel
+tile.metalBlock_WeakBlackSteel.name=Block of Weak Black Steel
+tile.metalBlock_BlackSteel.name=Block of Black Steel
+tile.luckyBlock_RadioactiveWaste.name=Lucky Block of Radioactive Waste
 
 #=========
 #= Items =
 #=========
-item.WoodenBucket.Creozote.name=Wooden Bucket of Creozote
+item.WoodenBucket_Creozote.name=Wooden Bucket of Creozote Oil
+item.WoodenBucket_Oil.name=Wooden Bucket of Crude Oil
+item.RedSteelBucket_LeachedUranite.name=Red Steel Bucket of Leached Urainite
+item.RedSteelBucket_HydrochloricAcid.name=Red Steel Bucket of Hydrochloric Acid
+item.BlueSteelBucket_CarbonBlackSteel.name=Blue Steel Bucket with liquid Carbonised Black Steel
+item.BlueSteelBucket_WeakBlackSteel.name=Blue Steel Bucket with liquid Weak Black Steel
+item.BlueSteelBucket_BlackSteel.name=Blue Steel Bucket with liquid Black Steel
+item.BlueSteelBucket_Steel.name=Blue Steel Bucket with liquid Steel
+item.BlueSteelBucket_PigIron.name=Blue Steel Bucket with liquid Pig Iron
 
 #=======
 #= GUI =
@@ -28,6 +49,27 @@ item.WoodenBucket.Creozote.name=Wooden Bucket of Creozote
 #========
 #= Misc =
 #========
+fluid.Awkward_Potion=Awkward Potion
+fluid.Mundane_Potion=Mundane Potion
+fluid.Sodium_Sulfate_Na2SO4_aq=water solution of Sodium Sulfate Na2SO4
+fluid.Zinc_Sulfate_ZnSO4_aq=water solution of Zinc Sulfate ZnSO4
+fluid.Ammonium_Chloride_NH4Cl_aq=water solution of Ammonium Chloride NH4Cl
+fluid.Ammonia_Brine=Ammonia Brine
+fluid.Sodium_Carbonate_Na2CO3_aq=water solution of Sodium Carbonate Na2CO3
+fluid.Aluminium_Hydroxide_AlOH3_aq=water solution of Aluminium Hydroxide Al(OH3)
+fluid.Lithium_Sulfate_Aq=water solution of Lithium Sulfate Li2SO4
+fluid.Lithium_Hydroxide_Aq=water solution of Lithium Hydroxide LiOH
+
+fluid.Leached_Urainite=Leached Urainite
+fluid.Hydrochloric_Acid_aq=water solution of Hydrochloric Acid
+fluid.Sulfurised_Spodumene_liquor=Sulfurised Spodumene liquor
+
+fluid.liquid_black_weak_steel=liquid Weak Black Steel
+fluid.liquidCarbonBlackSteel=liquid Carbon Black Steel
+fluid.liquid_Pig_Iron=liquid Pig Iron
+
+fluid.Carbon_Dioxide=gaseous Carbon Dioxide
+fluid.Vapours_of_Hydrogen_Fluoride=vapours of Hydrogen Fluoride
 
 #== Creative Tabs ==
 

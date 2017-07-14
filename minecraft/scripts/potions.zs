@@ -51,7 +51,7 @@ mods.Terrafirmacraft.ItemHeat.addRecipe(splash_potion_invisible, potion_invisibl
 //fermented spider eye
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<minecraft:fermented_spider_eye>, <liquid:freshwater> * 1000, <minecraft:spider_eye>, <liquid:freshwater> * 2000, 0, true, 48, true);
 
-//awkward base potion (neutral for healthly potions)
+//awkward base potion (neutral, for healthly potions)
 //mods.Terrafirmacraft.Barrel.addItemConversion(awkward_potion, <terrafirmacraft:Fungi:0> * 32, <liquid:vinegar> * 1000, 0, true, 48, false);
 
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:awkward_potion> * 100, <terrafirmacraft:Fungi:0>, <liquid:vinegar> * 100, 0,  true, 24, true, true);
@@ -59,13 +59,13 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:awkward_potion>
 //mods.Terrafirmacraft.Barrel.addItemConversion(awkward_potion, <terrafirmacraft:Fungi:0> * 32, <liquid:vinegar> * 1000, 0, true, 1, false);
 
 
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 1000, <minecraft:glass_bottle>, <liquid:awkward_potion> * 2000, 0, false, 0, true, true);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:awkward_potion> * 500, 0, false, 0, true, true);
+//mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 1000, <minecraft:glass_bottle>, <liquid:awkward_potion> * 2000, 0, false, 0, true, true);
+//mods.Terrafirmacraft.Barrel.addItemFluidConversion(awkward_potion, <liquid:awkward_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:awkward_potion> * 500, 0, false, 0, true, true);
 
-//mundane base potion (neutral for harming potions)
+//mundane base potion (neutral, for harming potions)
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:mundane_potion> * 5000, <terrafirmacraft:Fungi:1> * 32, <liquid:vinegar> * 5000, 0,  true, 24, true, false);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 1000, <minecraft:glass_bottle>, <liquid:mundane_potion> * 2000, 0, false, 0, true, true);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:mundane_potion> * 500, 0, false, 0, true, true);
+//mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 1000, <minecraft:glass_bottle>, <liquid:mundane_potion> * 2000, 0, false, 0, true, true);
+//mods.Terrafirmacraft.Barrel.addItemFluidConversion(mundane_potion, <liquid:mundane_potion> * 250, <terrafirmacraft:item.Glass Bottle>, <liquid:mundane_potion> * 500, 0, false, 0, true, true);
 
 
 //negative effects

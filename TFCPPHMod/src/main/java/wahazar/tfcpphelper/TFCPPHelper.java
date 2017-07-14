@@ -75,7 +75,7 @@ public class TFCPPHelper
 		proxy.registerGuiHandler();	
 		// register worldgens
 		GameRegistry.registerWorldGenerator(new WorldGenAbyssalFissure(TFCBlocks.lava, 2, true, TFCPPOptions.abyssalFissureRarity).setUnderground(false, 20).setSeed(1), 0);	
-		GameRegistry.registerWorldGenerator(new WorldGenAbyssalFissure(TFCBlocks.hotWater, 2, false, TFCPPOptions.abyssalFissureRarity).setUnderground(false, 20).setSeed(1), 0);	
+		GameRegistry.registerWorldGenerator(new WorldGenAbyssalFissure(TFCBlocks.hotWater, 2, false, TFCPPOptions.abyssalFissureRarity).setUnderground(false, 20).setSeed(2), 0);	
 	}
 
 	@EventHandler

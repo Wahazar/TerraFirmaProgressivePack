@@ -10,7 +10,7 @@ public class TFCPPDetails
 	public static final int VersionRevision = 1;
 
 	public static final String ModVersion = VersionMajor + "." + VersionMinor + "." + VersionRevision;
-	public static final String ModDependencies = "after:TerraFirmaCraft";
+	public static final String ModDependencies = "after:TerraFirmaCraft;" + "after:Immersive Engineering";
 	public static final String ModChannel = "TFCPPHelper";
 	public static final String SERVER_PROXY_CLASS = "wahazar.tfcpphelper.core.TFCPPCommonProxy";
 	public static final String CLIENT_PROXY_CLASS = "wahazar.tfcpphelper.core.TFCPPClientProxy";

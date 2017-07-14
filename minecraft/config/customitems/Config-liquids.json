@@ -1,147 +1,6 @@
 {
      "fluids":[
         {
-            "name":"Sodium Sulfate Na2SO4 aq",
-            "textureName": "liquidAqSodiumSulfate",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqSodiumSulfate"
-            }
-        },
-        {
-            "name":"Zinc Sulfate ZnSO4 aq",
-            "textureName": "liquidAqZincSulfate",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1200,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqSodiumSulfate"
-            }
-        },
-        {
-            "name":"Ammonium Chloride NH4Cl aq",
-            "textureName": "liquidAqAmmoniumChloride",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1000,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqAmmoniumChloride"
-            }
-        },
-        {
-            "name":"Ammonia Brine",
-            "textureName": "liquidAmmoniaBrine",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1200,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqAmmoniumChloride"
-            }
-        },
-        {
-            "name":"Sodium Carbonate Na2CO3 aq",
-            "textureName": "liquidAqSodiumCarbonate",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1000,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqSodiumCarbonate"
-            }
-        },
-        {
-            "name":"Hydrochloric Acid aq",
-            "textureName": "liquidAqHydrochloricAcid",
-            "temperature": 300,
-	    "material": "lava",
-            "density": 1000,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqHydrochloricAcid"
-            }
-        },
-        {
-            "name":"Sulfurised Spodumene liquor",
-            "textureName": "liquidSulfurisedSpodumene",
-            "temperature": 320,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Waste"
-            }
-        },
-        {
-            "name":"Lithium Sulfate Aq",
-            "textureName": "liquidAqLithiumSulfate",
-            "temperature": 320,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Waste"
-            }
-        },
-        {
-            "name":"Lithium Hydroxide Aq",
-            "textureName": "liquidAqLithiumSulfate",
-            "temperature": 320,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Waste"
-            }
-        },
-        {
-            "name":"Leached Urainite",
-            "textureName": "liquidLeachedUrainite",
-            "temperature": 300,
-	    "material": "water",
-            "luminosity": 3,
-            "density": 1600,
-            "viscosity": 2000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqSodiumSulfate"
-            }
-        },
-        {
             "name":"Neodymium Sulfate Aq",
             "textureName": "liquidAqNeodymiumSulfate",
             "temperature": 320,
@@ -170,20 +29,6 @@
             }
         },
         {
-            "name":"Aluminium Hydroxide AlOH3 aq",
-            "textureName": "liquidAqAluminiumHydroxide",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 3000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_AqAluminiumHydroxide"
-            }
-        },
-        {
             "name":"Titanium TetraChloride",
             "textureName": "liquidTitaniumTetraChloride",
             "temperature": 300,
@@ -195,34 +40,6 @@
             "flowLength": 5,
             "bucket": {
                 "textureName": "bucket_AqSodiumChromate"
-            }
-        },
-        {
-            "name":"Awkward Potion",
-            "textureName": "awkwardpotion",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 3000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Potion"
-            }
-        },
-        {
-            "name":"Mundane Potion",
-            "textureName": "mundanepotion",
-            "temperature": 300,
-	    "material": "water",
-            "density": 1100,
-            "viscosity": 3000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 5,
-            "bucket": {
-                "textureName": "bucket_Potion"
             }
         },
         {
@@ -297,36 +114,6 @@
             "flowLength": 2,
             "bucket": {
                 "textureName": "bucket_rose_gold"
-            }
-        },
-        {
-            "name":"Liquid Black Weak Steel",
-            "textureName": "liquidBlackWeakSteel",
-            "temperature": 1785,
-            "luminosity": 11,
-	    "material": "lava",
-            "density": 8000,
-            "viscosity": 6000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 3,
-            "bucket": {
-                "textureName": "bucket_black_weak_steel"
-            }
-        },
-        {
-            "name":"Liquid Pig Iron",
-            "textureName": "liquidPigIron",
-            "temperature": 1770,
-            "luminosity": 12,
-	    "material": "lava",
-            "density": 7900,
-            "viscosity": 6000,            
-            "lightLevel": 1.0,
-            "isGas": false,
-            "flowLength": 3,
-            "bucket": {
-                "textureName": "bucket_black_weak_steel"
             }
         },
         {
@@ -447,36 +234,6 @@
             "flowLength": 3,
             "bucket": {
                 "textureName": "bucket_quartz_glass"
-            }
-        },
-        {
-            "name":"Carbon Oxide",
-            "textureName": "fluidGaseousCarbonOxide",
-            "temperature": 300,
-            "luminosity": 0,
-	    "material": "water",
-            "density": 3,
-            "viscosity": 500,            
-            "lightLevel": 1.0,
-            "isGas": true,
-            "flowLength": 9,
-            "bucket": {
-                "textureName": "itemCellGas"
-            }
-        },
-        {
-            "name":"Vapours of Hydrogen Fluoride",
-            "textureName": "fluidGaseousHydroFluoride",
-            "temperature": 300,
-            "luminosity": 0,
-	    "material": "lava",
-            "density": 0,
-            "viscosity": 500,            
-            "lightLevel": 1.0,
-            "isGas": true,
-            "flowLength": 9,
-            "bucket": {
-                "textureName": "itemCellGas"
             }
         }
     ]

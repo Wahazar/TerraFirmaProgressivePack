@@ -27,7 +27,7 @@ public class BlockSlag extends BlockTerra
     {
         super(Material.rock);
         this.setBlockName(unlocalizedname);
-        this.setHardness(0.5f);
+        this.setHardness(5.5f);
         this.setResistance(20.0f);
         this.setCreativeTab(TFCTabs.TFC_MATERIALS);       
     }
