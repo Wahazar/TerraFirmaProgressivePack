@@ -195,8 +195,11 @@ public class WorldGenAbyssalFissure implements IWorldGenerator
 		if (salmiac==null)
 			salmiac=TFCPPBlocks.blockSlag;
 		Block hubneryt = GameRegistry.findBlock("ihl", "oreGyubnera");
-		if (salmiac==null)
-			salmiac=TFCPPBlocks.metalBlock_CarbonBlackSteel;
+		if (hubneryt==null)
+			hubneryt=TFCPPBlocks.metalBlock_CarbonBlackSteel;
+		Block pyrolusite = GameRegistry.findBlock("customitems", "pyrolusite_dendrites");
+		if (pyrolusite==null)
+			pyrolusite=TFCPPBlocks.metalBlock_BlackSteel;
 
 		int xCoord = x, yCoord = y-poolDepth-1, zCoord = z;
 		float downChance = 75;
@@ -241,7 +244,7 @@ public class WorldGenAbyssalFissure implements IWorldGenerator
 					world.setBlock(xCoord-1, yCoord, zCoord, rockLayer.block, rockLayer.meta, 2);
 			if(fillBlock != null && world.getBlock(xCoord, yCoord, zCoord+1).getMaterial() != fillBlock.getMaterial())
 				if ((fillBlock.getMaterial() == Material.water) && (addOre==4))
-					world.setBlock(xCoord, yCoord, zCoord+1, cinnabar, 0, 2);
+					world.setBlock(xCoord, yCoord, zCoord+1, pyrolusite, 0, 2);
 				else if ((fillBlock.getMaterial() == Material.lava) && (addOre==5))
 					world.setBlock(xCoord, yCoord, zCoord+1, hubneryt, 0, 2);			
 				else				

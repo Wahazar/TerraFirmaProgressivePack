@@ -120,6 +120,13 @@ Carpenters Blocks Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar
 	http://www.carpentersblocks.com/
 		credits: Mineshopper, Tander, licence: GNU
 
+Primitive Technology TFC addon
+	 http://terrafirmacraft.com/f/topic/9902-primitive-technology-tfc-add-on-mod/
+		credits: Wahazar (myself)
+
+TFCPPHelperMod (created especially for this modpack)
+		credits: Wahazar (myself)
+
 client side:
 Dynamic Lights DynamicLights-1.7.10.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272478-dynamic-lights-portable-and-moving-lightsources
@@ -140,8 +147,6 @@ http://mods.curse.com/mc-mods/minecraft/224298-mob-properties
 Just Another Spawner by Crudedragos, JustAnotherSpawner-0.17.7.jar
 http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288431-just-another-spawner-jas-v0-14
 
-Block properties by Father Toast, BlockProperties-1.7.10-0.1.5.jar
-https://minecraft.curseforge.com/projects/block-properties
 
 Client side mods should be only placed in client distribution, do not use Dynamic Light on server side.
 Server side mods aren't required fo client (unless singleplayer mode, which need its own internal server).
