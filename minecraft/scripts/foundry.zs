@@ -97,8 +97,8 @@ mods.foundry.Melting.addRecipe(<liquid:liquid_rose_gold>*108, <terrafirmacraft:i
 //mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*108, <terrafirmacraft:item.Weak Steel Ingot>, 1785, 100);
 
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_bismuth_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
-mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_bronze>*10, [<liquid:liquidzinc>*3, <liquid:liquidcopper>*5, <liquid:liquid_bismuth>*2]);
-mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_sterling_silver>*10, [<liquid:liquidcopper>*3, <liquid:liquidsilver>*7]);
+mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_bronze>*10, [<liquid:liquidsilver>*2, <liquid:liquidcopper>*6, <liquid:liquidgold>*2]);
+//mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_sterling_silver>*10, [<liquid:liquidcopper>*3, <liquid:liquidsilver>*7]);
 //mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_rose_gold>*10, [<liquid:liquidcopper>*2, <liquid:liquidgold>*8]);
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_black_weak_steel>*10, [<liquid:liquidsteel>*6, <liquid:liquidnickel>*2, <liquid:liquid_black_bronze>*2]);
 
@@ -109,6 +109,8 @@ mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*108, <terrafirmac
 mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*108, <terrafirmacraft:item.Black Steel Ingot>, 1900, 100);
 
 mods.foundry.Infuser.addRecipe(<liquid:liquidcarbonblacksteel>*10, <liquid:liquid_black_weak_steel>*10, <infusersubstance:carbon>*4); 
+
+mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
 
 //mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
 

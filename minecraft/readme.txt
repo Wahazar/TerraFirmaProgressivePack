@@ -120,6 +120,10 @@ Carpenters Blocks Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar
 	http://www.carpentersblocks.com/
 		credits: Mineshopper, Tander, licence: GNU
 
+Leather Water Sac for TFC 
+	http://terrafirmacraft.com/f/topic/3460-tfc-07923-leather-water-sac-for-tfc/
+		credits: Emris, licence: forum granted
+
 Primitive Technology TFC addon
 	 http://terrafirmacraft.com/f/topic/9902-primitive-technology-tfc-add-on-mod/
 		credits: Wahazar (myself)
