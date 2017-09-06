@@ -46,6 +46,9 @@ ore_beamFlat.add(<customitems:flat_iron_beam>);
 ore_beamFlat.add(<customitems:flat_steel_beam>);
 ore_beamFlat.add(<customitems:flat_aluminum_beam>);
 
+val ore_flange = <ore:metalFlange>;
+ore_flange.add(<customitems:brass_flange>);
+ore_flange.add(<customitems:iron_flange>);
 
 val ore_flux = <ore:dustFlux>;
 ore_flux.add(<customitems:ammonium_chloride_powder>);
@@ -114,6 +117,10 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 <ore:smallLigthGlobe>.add(<customitems:glowstone_lump>);
 <ore:smallLigthGlobe>.add(<ihl:lightBulb>);
 
+//glass
+<ore:paneGlassColorless>.add(<customitems:quartz_glass_pane>);
+<ore:blockGlassColorless>.add(<customitems:quartz_glass>);
+
 //nozzle
 <ore:nozzleBrass>.add(<customitems:brass_nozzle>);
 <ore:nozzleTitanium>.add(<customitems:titanium_nozzle>);
@@ -131,15 +138,15 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 
 //<ore:craftingToolWireCutter>.add(<ImmersiveEngineering:tool:1>);
 
-<ore:craftingToolVise>.add(<ihl:item.ihlTool:11>);
-<ore:craftingToolBore>.add(<ihl:item.ihlTool:9>);
-<ore:craftingToolDrill>.add(<ihl:item.ihlTool:7>);
-<ore:craftingToolTapM10>.add(<ihl:item.ihlTool:12>);
-<ore:craftingToolDiceM10>.add(<ihl:item.ihlTool:13>);
-<ore:craftingToolBlowingTube>.add(<ihl:item.ihlTool:16>);
-<ore:craftingToolGrindStone>.add(<ihl:item.ihlTool:4>);
-<ore:craftingToolPolishingPucks>.add(<ihl:item.ihlTool:15>);
-<ore:craftingToolNeedleFile>.add(<ihl:item.ihlTool:6>);
+//<ore:craftingToolVise>.add(<ihl:item.ihlTool:11>);
+//<ore:craftingToolBore>.add(<ihl:item.ihlTool:9>);
+//<ore:craftingToolDrill>.add(<ihl:item.ihlTool:7>);
+//<ore:craftingToolTapM10>.add(<ihl:item.ihlTool:12>);
+//<ore:craftingToolDiceM10>.add(<ihl:item.ihlTool:13>);
+//<ore:craftingToolBlowingTube>.add(<ihl:item.ihlTool:16>);
+//<ore:craftingToolGrindStone>.add(<ihl:item.ihlTool:4>);
+//<ore:craftingToolPolishingPucks>.add(<ihl:item.ihlTool:15>);
+//<ore:craftingToolNeedleFile>.add(<ihl:item.ihlTool:6>);
 
 //<ore:craftingToolChisel>.add(<ihl:item.ihlTool:6>);
 

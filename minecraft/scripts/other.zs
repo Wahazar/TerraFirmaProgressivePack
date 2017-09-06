@@ -215,4 +215,11 @@ recipes.addShaped(<weightingscales:tile.Scale>, [
  [<ore:stickWood>, <ore:itemRivet>, <ore:stickWood>],
  [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 
+//engineer
+recipes.remove(<tfcengineer:tile.ElectricForge>);
+recipes.remove(<tfcengineer:tile.InductionForge>);
+recipes.remove(<tfcengineer:tile.Fridge>);
+recipes.remove(<tfcengineer:tile.DeepFreezer>);
+recipes.remove(<tfcengineer:item.Lunchbox>);
 
+recipes.addShapeless(<tfcengineer:item.Lunchbox>, [<tfcengineer:item.InsulationCloth>, <ore:itemKnife>.transformDamage(1), <tfcm:item.Link_Steel>, <customitems:steel_rivet>]);

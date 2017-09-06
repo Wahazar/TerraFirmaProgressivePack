@@ -16,73 +16,73 @@
             "name": "Flat Aluminum Beam",
             "textureName": "FlatBeam_Aluminum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Black Steel Beam",
             "textureName": "FlatBeam_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Brass Beam",
             "textureName": "FlatBeam_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Bronze Beam",
             "textureName": "FlatBeam_Bronze",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Copper Beam",
             "textureName": "FlatBeam_Copper",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Iron Beam",
             "textureName": "FlatBeam_Iron",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Steel Beam",
             "textureName": "FlatBeam_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Aluminum Beam drilled",
             "textureName": "FlatBeam_Aluminum_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Brass Beam drilled",
             "textureName": "FlatBeam_Brass_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Copper Beam drilled",
             "textureName": "FlatBeam_Copper_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Iron Beam drilled",
             "textureName": "FlatBeam_Iron_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Flat Steel Beam drilled",
             "textureName": "FlatBeam_Steel_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Half Wooden Hoop",
@@ -154,175 +154,175 @@
             "name": "Aluminum L-Beam",
             "textureName": "L-Beam_Aluminum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Black Steel L-Beam",
             "textureName": "L-Beam_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Brass L-Beam",
             "textureName": "L-Beam_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Copper L-Beam",
             "textureName": "L-Beam_Copper",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Iron L-Beam",
             "textureName": "L-Beam_Iron",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Steel L-Beam",
             "textureName": "L-Beam_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Aluminum L-Beam drilled",
             "textureName": "L-Beam_Aluminum_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Brass L-Beam drilled",
             "textureName": "L-Beam_Brass_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Copper L-Beam drilled",
             "textureName": "L-Beam_Copper_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Iron L-Beam drilled",
             "textureName": "L-Beam_Iron_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Steel L-Beam drilled",
             "textureName": "L-Beam_Steel_drilled",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Aluminum I-Beam",
             "textureName": "I-Beam_Aluminum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Black Steel I-Beam",
             "textureName": "I-Beam_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Brass I-Beam",
             "textureName": "I-Beam_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Copper I-Beam",
             "textureName": "I-Beam_Copper",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Iron I-Beam",
             "textureName": "I-Beam_Iron",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Steel I-Beam",
             "textureName": "I-Beam_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 8
+            "maxStackSize": 16
         },
         {
             "name": "Aluminum T-Beam",
             "textureName": "T-Beam_Aluminum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Black Steel T-Beam",
             "textureName": "T-Beam_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Brass T-Beam",
             "textureName": "T-Beam_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Copper T-Beam",
             "textureName": "T-Beam_Copper",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Iron T-Beam",
             "textureName": "T-Beam_Iron",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Steel T-Beam",
             "textureName": "T-Beam_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 16
+            "maxStackSize": 32
         },
         {
             "name": "Aluminum U-Beam",
             "textureName": "U-Beam_Aluminum",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Black Steel U-Beam",
             "textureName": "U-Beam_Black_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Brass U-Beam",
             "textureName": "U-Beam_Brass",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Copper U-Beam",
             "textureName": "U-Beam_Copper",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Iron U-Beam",
             "textureName": "U-Beam_Iron",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Steel U-Beam",
             "textureName": "U-Beam_Steel",
             "creativeTab": "Custom Items",
-            "maxStackSize": 32
+            "maxStackSize": 64
         },
         {
             "name": "Copper Rod",

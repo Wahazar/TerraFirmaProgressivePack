@@ -449,6 +449,11 @@ recipes.addShaped(<customitems:iron_ore_batch>, [
 
 recipes.addShapeless(<customitems:container_with_iron_ore_batch>, [<customitems:iron_ore_batch>, <foundry:foundryContainer>]);
 
+recipes.addShaped(<customitems:container_with_copper_ore_batch>, [
+ [purified_copper_ore, purified_copper_ore, purified_copper_ore], 
+ [purified_copper_ore, <foundry:foundryContainer>, purified_copper_ore],
+ [purified_copper_ore, purified_copper_ore, purified_copper_ore]]);
+
 recipes.addShapeless(<tfcpphelper:TransferLadle_Empty>, [<customitems:transfer_ladle-empty>]);  //compatibility with old version
 
 recipes.addShaped(<tfcpphelper:TransferLadle_Empty>, [

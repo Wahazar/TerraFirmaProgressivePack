@@ -121,6 +121,7 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre:1
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre:3>, <liquid:waste> * 1000, <IC2:itemCrushedOre:3>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre:6>, <liquid:waste> * 1000, <IC2:itemCrushedOre:6>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre>, <liquid:waste> * 1000, <IC2:itemCrushedOre>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:109>, <liquid:waste> * 1000, <ihl:item.ihlSimpleItem:108> * 2, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 
 
 

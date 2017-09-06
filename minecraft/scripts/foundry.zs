@@ -266,66 +266,67 @@ mods.foundry.Melting.removeRecipe(<IC2:itemPurifiedCrushedOre:3>);
 mods.foundry.Melting.removeRecipe(<IC2:itemPurifiedCrushedOre:6>);
 
 
-mods.foundry.Melting.addRecipe(<liquid:liquidgold>*864, <minecraft:gold_block>, 1350, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidgold>*432, <Railcraft:slab:7>, 1350, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidgold>*864, <minecraft:gold_block>, 1350, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidgold>*432, <Railcraft:slab:7>, 1350, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquidgold>*37, <terrafirmacraft:item.Ore:36>, 1350, 300);
 mods.foundry.Melting.addRecipe(<liquid:liquidgold>*27, <terrafirmacraft:item.Ore:1>, 1350, 400);
 mods.foundry.Melting.addRecipe(<liquid:liquidgold>*16, <terrafirmacraft:item.Ore:50>, 1350, 500);
 mods.foundry.Melting.addRecipe(<liquid:liquidgold>*10, <terrafirmacraft:item.Small Ore:1>, 1350, 600);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*864, <minecraft:iron_block>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*864, <minecraft:iron_block>, 1850, 50);
 mods.foundry.Melting.addRecipe(<liquid:liquidiron>*216, <Railcraft:part.plate>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*432, <Railcraft:slab:6>, 1850, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*432, <Railcraft:slab:6>, 1850, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*108, <terrafirmacraft:item.Iron Bloom:100>, 1860, 40);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*864, <ImmersiveEngineering:storage:7>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <ImmersiveEngineering:storageSlab:7>, 1850, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*864, <ImmersiveEngineering:storage:7>, 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <ImmersiveEngineering:storageSlab:7>, 1850, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*216, <Railcraft:part.plate:1>, 1850, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <Railcraft:slab:43>, 1850, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*432, <Railcraft:slab:43>, 1850, 80);
 
-mods.foundry.Melting.addRecipe(<liquid:liquid_pig_iron>*432, <tfcpphelper:metalBlock_PigIron>, 1860, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*432, <tfcpphelper:metalBlock_WeakBlackSteel>, 1840, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*432, <tfcpphelper:metalBlock_CarbonBlackSteel>, 1850, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*432, <tfcpphelper:metalBlock_BlackSteel>, 1850, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquid_pig_iron>*432, <tfcpphelper:metalBlock_PigIron>, 1860, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquid_black_weak_steel>*432, <tfcpphelper:metalBlock_WeakBlackSteel>, 1840, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidcarbonblacksteel>*432, <tfcpphelper:metalBlock_CarbonBlackSteel>, 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*432, <tfcpphelper:metalBlock_BlackSteel>, 1850, 50);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <Steamcraft:blockCopper>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <ImmersiveEngineering:storage>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*432, <Railcraft:slab:40>, 1400, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*432, <ImmersiveEngineering:storageSlab>, 1400, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*216, <Railcraft:part.plate:3>, 1400, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <Steamcraft:blockCopper>, 1400, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*864, <ImmersiveEngineering:storage>, 1400, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*432, <Railcraft:slab:40>, 1400, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*432, <ImmersiveEngineering:storageSlab>, 1400, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*216, <Railcraft:part.plate:3>, 1400, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*37, <terrafirmacraft:item.Ore:35>, 1400, 300);
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*27, <terrafirmacraft:item.Ore:0>, 1400, 400);
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*16, <terrafirmacraft:item.Ore:49>, 1400, 500);
 mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*10, <terrafirmacraft:item.Small Ore:0>, 1400, 600);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*864, <Steamcraft:blockZinc>, 700, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*864, <Steamcraft:blockZinc>, 700, 50);
 mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*60, <Steamcraft:steamcraftPlate:1>, 700, 100);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1380, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1380, 50);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidtin>*864, <Railcraft:slab:41>, 550, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidtin>*864, <Railcraft:slab:41>, 550, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquidtin>*108, <Railcraft:part.plate:2>, 550, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidtin>*216, <Railcraft:part.gear:3>, 550, 200);
+//mods.foundry.Melting.addRecipe(<liquid:liquidtin>*216, <Railcraft:part.gear:3>, 550, 200);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*864, <ImmersiveEngineering:storage:4>, 1750, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*864, <ImmersiveEngineering:storage:4>, 1750, 50);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*1, <tfcudarymod:item.Nickel Flake:1>, 1750, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*10, <tfcudarymod:item.Nickel Flake:10>, 1750, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*1, <tfcudarymod:item.Nickel Flake:1>, 1750, 600);
+mods.foundry.Melting.addRecipe(<liquid:liquidnickel>*10, <tfcudarymod:item.Nickel Flake:10>, 1750, 300);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidelectrum>*864, <ImmersiveEngineering:storage:6>, 1350, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidelectrum>*864, <ImmersiveEngineering:storage:6>, 1350, 50);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*864, <ImmersiveEngineering:storage:3>, 1250, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*864, <ImmersiveEngineering:storage:3>, 1250, 50);
 mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*37, <terrafirmacraft:item.Ore:39>, 1250, 300);
 mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*27, <terrafirmacraft:item.Ore:4>, 1250, 400);
 mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*16, <terrafirmacraft:item.Ore:53>, 1250, 500);
 mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*10, <terrafirmacraft:item.Small Ore:4>, 1250, 600);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*10, <tfcudarymod:item.Silver Flake:10>, 1250, 600);
-mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*1, <tfcudarymod:item.Silver Flake:1>, 1250, 600);
+mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*1, <tfcudarymod:item.Silver Flake:1>, 1250, 300);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <Railcraft:cube:11>, 650, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <ImmersiveEngineering:storage:2>, 650, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <Railcraft:cube:11>, 650, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <ImmersiveEngineering:storage:2>, 650, 50);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*864, <ImmersiveEngineering:storage:1>, 1100, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*864, <ImmersiveEngineering:storage:1>, 1100, 50);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidplatinum>*37, <terrafirmacraft:item.Ore:37>, 2050, 300);
 mods.foundry.Melting.addRecipe(<liquid:liquidplatinum>*27, <terrafirmacraft:item.Ore:2>, 2050, 400);
@@ -333,9 +334,9 @@ mods.foundry.Melting.addRecipe(<liquid:liquidplatinum>*16, <terrafirmacraft:item
 mods.foundry.Melting.addRecipe(<liquid:liquidplatinum>*10, <terrafirmacraft:item.Small Ore:2>, 2050, 600);
 mods.foundry.Melting.addRecipe(<liquid:liquidplatinum>*108, <customitems:pile_of_platinum_dust>, 2050, 600);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*216, <customitems:iron_bar>, 1850, 200);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*216, <customitems:steel_bar>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidstainlesssteel>*216, <customitems:stainless_steel_bar>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*216, <customitems:iron_bar>, 1850, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*216, <customitems:steel_bar>, 1850, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidstainlesssteel>*216, <customitems:stainless_steel_bar>, 1850, 80);
 
 //TFC ingots from TFC molds
 mods.foundry.Casting.addMold(<terrafirmacraft:item.Mold:1>);
@@ -500,9 +501,9 @@ mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.St
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Boots>, 1850, 100);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*32, <Railcraft:part.rail:*>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*44, <Railcraft:machine.beta:13>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*34, <Railcraft:machine.beta:14>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*44, <Railcraft:machine.beta:15>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*44, <Railcraft:machine.beta:13>, 1850, 60);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*34, <Railcraft:machine.beta:14>, 1850, 60);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*44, <Railcraft:machine.beta:15>, 1850, 60);
 
 //float glass pane from tin plate
 mods.foundry.Casting.addMold(<Railcraft:part.plate:2>);
@@ -514,7 +515,7 @@ for i, lg in liquid_glass {
 }
 mods.foundry.Melting.removeRecipe(<minecraft:sand:*>);
 mods.foundry.Melting.addRecipe(<liquid:liquidglass>*1000, <minecraft:sand>, 1550, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidglass>*400, crushed_glass, 1400, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidglass>*400, crushed_glass, 1400, 150);
 //borrow hollow point mold for glass bottle recipe
 /*
 recipes.remove(<foundry:foundryMold:47>);
@@ -527,10 +528,10 @@ mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Glass Bottle>, <liquid:liqu
 //quartz glass
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*1000, <terrafirmacraft:Sand:15>, 1990, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*400, <customitems:crushed_quartz_glass>, 1990, 180);
-mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*1000, <customitems:quartz_glass>, 1990, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*1000, <customitems:quartz_glass>, 1990, 40);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*729, <customitems:quartz_glass_stairs>, 1990, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*500, <customitems:quartz_glass_pane>, 1990, 120);
-mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*375, <customitems:quartz_glass_slab>, 1990, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*375, <customitems:quartz_glass_slab>, 1990, 60);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*100, <ihl:item.ihlSimpleItem:182>, 1990, 280);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*900, <IC2:itemDust2>, 1990, 150);
 mods.foundry.Melting.addRecipe(<liquid:liquid_quartz_glass>*100, <ImmersiveEngineering:metal:18>, 1990, 220);
@@ -583,7 +584,7 @@ mods.foundry.Casting.addRecipe(rc_tin_bushing, <liquid:liquidtin>*216, <foundry:
 //mods.foundry.Casting.addRecipe(ie_nugget_steel, <liquid:liquidsteel>*12, <foundry:foundryMold:58>);
 //mods.foundry.Casting.addRecipe(<customitems:chromium_nugget>, <liquid:liquidchromium>*12, <foundry:foundryMold:58>);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidchromium>*12, <customitems:chromium_nugget>, 2200, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidchromium>*12, <customitems:chromium_nugget>, 2200, 180);
 
 mods.Terrafirmacraft.Anvil.addPlanRecipe("pellet", 14, 14, 31);      
 game.setLocalization("gui.plans.pellet", "Pellet");  
@@ -763,10 +764,10 @@ mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_WeakBlackSteel>, <liqu
 mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_BlackSteel>, <liquid:liquidblacksteel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
 //cadmium
-mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*18, <customitems:cadmium_sponge>, 600, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*18, <customitems:cadmium_sponge>, 600, 200);
 mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*108, <customitems:cadmium_ingot>, 600, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*108, <customitems:cadmium_rod>, 600, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*27, <customitems:cadmium_cable>, 600, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*27, <customitems:cadmium_cable>, 600, 150);
 
 mods.foundry.Casting.addRecipe(<customitems:cadmium_ingot>, <liquid:liquid_cadmium>*108, <foundry:foundryMold>); 
 mods.foundry.Casting.addRecipe(<customitems:cadmium_rod>, <liquid:liquid_cadmium>*108, <foundry:foundryMold:56>); 
@@ -957,11 +958,11 @@ mods.foundry.Casting.addRecipe(<customitems:copper_rivet>, <liquid:liquidcopper>
 mods.foundry.Casting.addRecipe(<customitems:iron_rivet>, <liquid:liquidiron>*12, <customitems:rivets_mold>);
 mods.foundry.Casting.addRecipe(<customitems:steel_rivet>, <liquid:liquidsteel>*12, <customitems:rivets_mold>);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*12, <customitems:aluminum_rivet>, 1100, 20);
-mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*12, <customitems:brass_rivet>, 1380, 20);
-mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*12, <customitems:copper_rivet>, 1400, 20);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*12, <customitems:iron_rivet>, 1750, 20);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*12, <customitems:steel_rivet>, 1785, 20);
+mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*12, <customitems:aluminum_rivet>, 1100, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*12, <customitems:brass_rivet>, 1380, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidcopper>*12, <customitems:copper_rivet>, 1400, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*12, <customitems:iron_rivet>, 1750, 200);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*12, <customitems:steel_rivet>, 1785, 200);
 
 #insulators, IE connectors
 recipes.addShapeless(<customitems:insulator_soft_mold>, 
@@ -978,4 +979,9 @@ mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:2>, <liquid:liq
 mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:6>, <liquid:liquidglass.brown>*162, <customitems:insulator_mold>, <customitems:aluminum_rivet>);
 
 mods.foundry.Casting.addRecipe(<ImmersiveEngineering:metalDevice:5>, <liquid:liquidglass.green>*162, <customitems:insulator_mold>, <ImmersiveEngineering:material:14>);
+
+//redstone integration connector
+recipes.remove(<immersiveintegration:redstoneWireConnector>);
+mods.foundry.Casting.addRecipe(<immersiveintegration:redstoneWireConnector>, <liquid:liquidredstone>*28, <customitems:insulator_mold>, <ImmersiveEngineering:metalDevice>);
+
 

@@ -57,7 +57,7 @@ recipes.addShaped(<minecraft:fence_gate>, [
 #furnace need grill and firestarter
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
- [<minecraft:cobblestone>, <terrafirmacraft:Grill>, <minecraft:cobblestone>],
+ [<minecraft:cobblestone>, <ore:metalFlange>, <minecraft:cobblestone>],
  [<minecraft:cobblestone>, <ore:toolFlintSteel>, <minecraft:cobblestone>]]);
 
 // recipes.addShapeless(<minecraft:flint_and_steel>, [<terrafirmacraft:item.flintAndSteel>]);
@@ -128,10 +128,15 @@ recipes.addShaped(<minecraft:cobblestone>, [[<terrafirmacraft:item.LooseRock:*>,
 mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:mossy_cobblestone>, <minecraft:cobblestone>, <liquid:freshwater> * 100, 1, true, 48, true);
 
 #stone brick
-recipes.addShaped(<minecraft:stonebrick>, [
+recipes.addShaped(<minecraft:stonebrick>*4, [
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>],
  [<terrafirmacraft:StoneIgExBrick:*>, <ImmersiveEngineering:tool>, <terrafirmacraft:StoneIgExBrick:*>],
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>]]);
+
+recipes.addShaped(<minecraft:stonebrick>*4, [
+ [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>],
+ [<terrafirmacraft:item.Clay>, <ImmersiveEngineering:tool>, <terrafirmacraft:item.Clay>],
+ [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>]]);
 
 furnace.remove(<minecraft:stone>);  //see Arc furnace
 

@@ -235,7 +235,7 @@ recipes.addShaped(<Railcraft:machine.beta:13>*8, [
 recipes.removeShaped(<Railcraft:machine.beta:2>);
 recipes.addShaped(<Railcraft:machine.beta:2> * 4, [
  [<Railcraft:part.plate>, <customitems:8_iron_rivets_pack>, <Railcraft:part.plate>],
- [<customitems:valve_handle>, <customitems:brass_pellet>, <customitems:iron_flange>],
+ [<customitems:valve_handle>, <customitems:brass_pellet>, <ore:metalFlange>],
  [<Railcraft:part.plate>, <customitems:brass_ring>, <Railcraft:part.plate>]]);
 
 recipes.removeShaped(<Railcraft:machine.beta:15>);
@@ -301,6 +301,8 @@ mods.railcraft.BlastFurnace.addFuel(<terrafirmacraft:item.coal:1>);             
 
 
 mods.railcraft.BlastFurnace.addRecipe(<customitems:container_with_iron_ore_batch>, false, false, 900, <foundry:foundryContainer>.withTag({FluidName: "liquidiron", Amount: 1000}));
+mods.railcraft.BlastFurnace.addRecipe(<customitems:container_with_copper_ore_batch>, false, false, 700, <foundry:foundryContainer>.withTag({FluidName: "liquidcopper", Amount: 1000}));
+
 //
 //mods.railcraft.BlastFurnace.addRecipe(fsp_smashed_iron, false, false, 700, <terrafirmacraft:item.Iron Bloom:100>);
 //mods.railcraft.BlastFurnace.addRecipe(<customitems:iron_ore_batch>, false, false, 4000, <terrafirmacraft:item.Iron Bloom:100> * 10);

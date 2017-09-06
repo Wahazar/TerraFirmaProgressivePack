@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.1.11
+TerraFirmaProgressive custom recipies modpack, v.1.2
 ################################################################################################################################
 
 Installation: 
@@ -63,6 +63,10 @@ Simple Achievements SimpleAchievements-MC1.7.10-1.1.0-21.jar
 Immersive Engineering ImmersiveEngineering-0.7.7.jar
 	http://minecraft.curseforge.com/projects/immersive-engineering
 		credits: BluSunrize, Mr_Hazard, licence: webpage granted
+
+Immersive Integration immersiveintegration-0.6.8
+	https://minecraft.curseforge.com/projects/immersive-integration
+		credits: UnwrittenFun, licence: webpage granted
 
 Foundry Foundry-1.7.10-1.2.2.0.jar
 	http://ftb.gamepedia.com/Foundry

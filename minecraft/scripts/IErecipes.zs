@@ -477,9 +477,29 @@ recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6>, [
 //item router
 recipes.remove(<ImmersiveEngineering:metalDevice:13>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:13>, [
- [<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>],
- [<ore:plankTreatedWood>, ie_steel_component, <Railcraft:part.circuit:0>],
- [<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>]]);
+ [<customitems:steel_l-beam_drilled>, <ore:metalFlange>, <customitems:steel_l-beam_drilled>],
+ [ie_steel_component, <ore:plankTreatedWood>, <Railcraft:part.circuit:2>],
+ [<customitems:steel_rivet>, <ore:metalFlange>, <customitems:steel_rivet>]]);
+
+//robin
+recipes.remove(<immersiveintegration:itemRobin>);
+recipes.addShaped(<immersiveintegration:itemRobin>, [
+ [<customitems:iron_l-beam>, <ore:metalFlange>, <customitems:iron_l-beam>],
+ [ie_steel_component, <ore:plankTreatedWood>, <minecraft:comparator>],
+ [<customitems:iron_l-beam>, <ore:metalFlange>, <customitems:iron_l-beam>]]);
+
+//extendable wooden post
+recipes.remove(<immersiveintegration:extendablePost>);
+recipes.addShaped(<immersiveintegration:extendablePost>, [
+ [null, <terrafirmacraft:item.ItemStoneBrick:*>, null],
+ [null, <terrafirmacraft:item.Mortar>, null],
+ [null, <terrafirmacraft:item.ItemStoneBrick:*>, null]]);
+
+//immersive integration items by ihl tools:
+recipes.remove(<immersiveintegration:steelDecoration:*>);
+recipes.remove(<immersiveintegration:steelTrapdoor>);
+recipes.remove(<immersiveintegration:iiWireCoil>);
+
 
 //radiator block, coolant cell
 recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
