@@ -15,7 +15,7 @@ NEI.hide(<minecraft:red_flower>);
 NEI.hide(<minecraft:brown_mushroom>);
 NEI.hide(<minecraft:red_mushroom>);
 // NEI.hide(<minecraft:torch>);
-NEI.hide(<minecraft:mob_spawner>);
+NEI.hide(<minecraft:mob_spawner:*>);
 NEI.hide(<minecraft:spawn_egg>);
 // NEI.hide(<minecraft:oak_stairs>);
 NEI.hide(<minecraft:diamond_ore>);
@@ -307,8 +307,11 @@ NEI.overrideName(<IC2:itemCasing:5>, "Stainless Steel Casing");
 NEI.overrideName(<IC2:itemPlates>, "Refined Copper Plate"); //for wires
 
 NEI.overrideName(<IC2:itemCrushedOre:4>, "Uranium Oxide"); 
+<IC2:itemPurifiedCrushedOre:4>.displayName = "Uranium Oxide UO2";
 NEI.overrideName(<IC2:itemPurifiedCrushedOre:4>, "Uranium TetraFluoride"); //for centrifuge
+<IC2:itemPurifiedCrushedOre:4>.displayName = "Uranium TetraFluoride UF4";
 NEI.overrideName(<IC2:blockMachine3:1>, "Bessemer Convertor Furnace");
+<IC2:blockMachine3:1>.displayName = "Bessemer Convertor Blast Furnace";
 
 NEI.hide(<IC2:itemCropSeed>);
 
@@ -328,3 +331,8 @@ NEI.hide(<IC2:itemTFBPMushroom>);
 NEI.overrideName(<ihl:item.ihlTool:19>, "Thermometer");
 
 NEI.overrideName(<tfcudarymod:item.Copper Rod>, "Copper Electrode");
+<tfcudarymod:item.Copper Rod>.displayName = "Copper Electrode Rod";
+
+NEI.overrideName(<minecraft:dye:5>, "Potassium Permanganate (purple dye)");
+<minecraft:dye:5>.displayName = "Purple dye (Potassium Permanganate KMnO4)";
+

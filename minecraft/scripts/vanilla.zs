@@ -261,6 +261,14 @@ furnace.remove(<minecraft:redstone>);
 //red dye from cinnabar
 mods.Terrafirmacraft.Quern.addRecipe(<minecraft:dye:1> * 2, <terrafirmacraft:item.Ore:27>);
 
+//flowers dye: see chemistry
+recipes.removeShapeless(<minecraft:dye:13>, [<minecraft:red_flower:2>]);
+recipes.removeShapeless(<minecraft:dye:13>, [<minecraft:double_plant:1>]);
+recipes.removeShapeless(<minecraft:dye:9>);
+recipes.removeShapeless(<minecraft:dye:5>);
+recipes.removeShapeless(<minecraft:dye:12>, [<minecraft:red_flower:1>]);
+recipes.removeShapeless(<minecraft:dye:14>, [<minecraft:red_flower:5>]);
+
 #redstone devices needs redstone
 
 recipes.remove(<minecraft:lever>);

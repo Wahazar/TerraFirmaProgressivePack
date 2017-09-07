@@ -50,7 +50,12 @@ val potassium_chloride_powder = <ihl:item.ihlSimpleItem:88>;
 #Add Item Conversion Recipe
 #Output Stack, Input Stack, Input Fluid(in mb), Min Tech Level (Default: 1, Optional), Sealed (Default: true, Optional), Sealed Time (Default: 8, Optional), Allow Any Stack (Default: true, Optional)
 
+//flower dye
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFuelPlantBall>, <liquid:liquid_dye.magenta> * 1000, <terrafirmacraft:Flowers2:2>*4, <liquid:ethanol> * 4000, 0,  true, 24, false, false);
 
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFuelPlantBall>, <liquid:liquid_dye.pink> * 1000, <terrafirmacraft:Flowers2:7>*4, <liquid:ethanol> * 4000, 0,  true, 24, false, false);
+
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemFuelPlantBall>, <liquid:liquid_dye.light_blue> * 1000, <terrafirmacraft:Flowers2:1>*4, <liquid:ethanol> * 4000, 0,  true, 24, false, false);
 
 //limewater, limemilk
 mods.Terrafirmacraft.Barrel.removeItemFluidConversion(tfc_powder_flux, <liquid:freshwater> * 500);
@@ -111,7 +116,7 @@ recipes.addShapeless(<customitems:wood_pulp>, [<tfcprimitivetech:itemWoodenTwig>
 //or ie crusher
 
 //mangan
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:85>, <liquid:waste> * 1000, <customitems:crushed_pyrolusite>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:180>, <liquid:waste> * 1000, <customitems:crushed_pyrolusite>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 
 //cleaning ores
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<customitems:purified_crushed_bismuth_ore>, <liquid:waste> * 1000, <customitems:crushed_bismuth_ore>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
@@ -122,7 +127,6 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre:3
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre:6>, <liquid:waste> * 1000, <IC2:itemCrushedOre:6>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<IC2:itemPurifiedCrushedOre>, <liquid:waste> * 1000, <IC2:itemCrushedOre>, <liquid:freshwater> * 1000, 0, false, 0, true, true);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<ihl:item.ihlSimpleItem:109>, <liquid:waste> * 1000, <ihl:item.ihlSimpleItem:108> * 2, <liquid:freshwater> * 1000, 0, false, 0, true, true);
-
 
 
 //uranite

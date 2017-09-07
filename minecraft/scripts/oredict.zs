@@ -105,6 +105,7 @@ ore_redstone.add(<terrafirmacraft:item.Agate:2>);
 ore_redstone.add(<terrafirmacraft:item.Garnet:2>);
 ore_redstone.remove(<terrafirmacraft:item.Ore:27>);
 ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
+ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:oreCinnabar>.add(<terrafirmacraft:item.Ore:27>);
 
 //powders
