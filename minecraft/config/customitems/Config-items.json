@@ -31,6 +31,12 @@
             "maxStackSize": 8
         },
         {
+            "name": "Container with Copper Ore Batch",
+            "textureName": "container_batch_CopperOre",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
+        },
+        {
             "name": "Grease Lump",
             "textureName": "Lump_Grease",
             "creativeTab": "Custom Items",

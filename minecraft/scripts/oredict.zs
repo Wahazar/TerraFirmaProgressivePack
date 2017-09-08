@@ -169,6 +169,16 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 #<ore:animalBladder>.add(<lwstfc:item.Bladder:1>);
 #<ore:animalBladder>.add(<lwstfc:item.Bladder:2>);
 
+//lapis, cobalt blue
+<ore:gemLapis>.remove(<minecraft:dye:4>);
+<ore:gemLapis>.add(<terrafirmacraft:item.dyePowder:4>);
+<ore:dustTinyLapis>.remove(<IC2:itemDustSmall:9>);
+<ore:dustLapis>.remove(<IC2:itemDust:12>);
+<ore:dyeBlue>.add(<IC2:itemDust:12>);
+<ore:blockLapis>.remove(<minecraft:lapis_block>);
+<ore:plateLapis>.remove(<IC2:itemPlates:8>);
+<ore:plateDenseLapis>.remove(<IC2:itemDensePlates:8>);
+
 //ores removal
 <ore:crushedUranium>.remove(<IC2:itemCrushedOre:4>);
 <ore:crushedUranium>.add(<customitems:crushed_pitchblende>);

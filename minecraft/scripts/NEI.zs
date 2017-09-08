@@ -336,3 +336,15 @@ NEI.overrideName(<tfcudarymod:item.Copper Rod>, "Copper Electrode");
 NEI.overrideName(<minecraft:dye:5>, "Potassium Permanganate (purple dye)");
 <minecraft:dye:5>.displayName = "Purple dye (Potassium Permanganate KMnO4)";
 
+NEI.overrideName(<minecraft:dye:4>, "Cobalt Blue");
+<minecraft:dye:4>.displayName = "Blue Gem";
+NEI.overrideName(<IC2:itemDust:12>, "Cobalt Blue dust");
+<IC2:itemDust:12>.displayName = "Cobalt Blue dust (CoAl2O4)";
+NEI.overrideName(<IC2:itemDustSmall:9>, "Tiny pile of Cobalt Blue dust");
+<IC2:itemDustSmall:9>.displayName = "Tiny pile of Cobalt Blue dust (CoAl2O4)";
+NEI.overrideName(<minecraft:lapis_block>, "Cobalt Blue block");
+<minecraft:lapis_block>.displayName = "Cobalt Blue (CoAl2O4) block";
+NEI.overrideName(<IC2:itemPlates:8>, "Cobalt Blue Plate");
+<IC2:itemPlates:8>.displayName = "Cobalt Blue Plate";
+NEI.overrideName(<IC2:itemDensePlates:8>, "Cobalt Blue Dense Plate");
+<IC2:itemDensePlates:8>.displayName = "Cobalt Blue Dense Plate";

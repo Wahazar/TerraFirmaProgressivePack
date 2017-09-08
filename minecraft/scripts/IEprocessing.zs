@@ -148,6 +148,7 @@ recipes.remove(<ImmersiveEngineering:metal:*>);
 furnace.remove(<ImmersiveEngineering:metal:*>);
 
 mods.immersiveengineering.Crusher.removeRecipe(ie_grit_alum); 
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:4>); 
 recipes.remove(<Railcraft:dust:1>); 
 recipes.remove(<Railcraft:dust:2>);
 recipes.remove(<minecraft:quartz>);

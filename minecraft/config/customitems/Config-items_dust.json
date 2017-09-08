@@ -390,6 +390,12 @@
             "textureName": "itemDustCorund",
             "creativeTab": "Custom Items",
             "maxStackSize": 64
+        },
+        {
+            "name": "Small pile of Cobalt Oxide dust",
+            "textureName": "smallpile_dustcobaltoxide",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 128
         }
     ]
 }

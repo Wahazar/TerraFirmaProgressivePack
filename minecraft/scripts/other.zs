@@ -196,6 +196,7 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.lime
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.orange> * 1000, <minecraft:dye:14>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.red> * 1000, <minecraft:dye:1>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.silver> * 1000, <minecraft:dye:7>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(null, <liquid:liquid_dye.blue> * 1000, <IC2:itemDust:12>, <liquid:freshwater> * 1000, 0,  false, 0, false, false);
 
 //water sac
 recipes.remove(<lwstfc:item.LeatherWaterSac:600>);
