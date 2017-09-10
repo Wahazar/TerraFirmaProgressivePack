@@ -35,6 +35,7 @@ public class TFCPPBlocks
 	public static Block luckyBlock_RadioactiveWaste;	
 	public static Block blockGaseousCarbonOxide;
 	public static Block blockGaseousHydroFluoride;
+	public static Block blockGaseousEthylene;
 	
 	public static void initialise()
 	{
@@ -62,6 +63,7 @@ public class TFCPPBlocks
 		luckyBlock_RadioactiveWaste = new LuckyBlock_RadioactiveWaste("luckyBlock_RadioactiveWaste");
 		blockGaseousCarbonOxide = new BlockGaseousCarbonOxide();
 		blockGaseousHydroFluoride = new BlockGaseousHydroFluoride();
+		blockGaseousEthylene = new BlockGaseousEthylene();
 		
 		registerBlocks();
 		
@@ -99,5 +101,6 @@ public class TFCPPBlocks
 		GameRegistry.registerBlock(luckyBlock_RadioactiveWaste, "luckyBlock_RadioactiveWaste");
 		GameRegistry.registerBlock(blockGaseousCarbonOxide, "blockGaseousCarbonOxide");
 		GameRegistry.registerBlock(blockGaseousHydroFluoride, "blockGaseousHydroFluoride");
+		GameRegistry.registerBlock(blockGaseousEthylene, "blockGaseousEthylene");
 	}
 }

@@ -41,6 +41,7 @@ public class TFCPPFluids
 
     public static final Fluid gasCarboxDioxide = new Fluid("Carbon_Dioxide").setDensity(3).setViscosity(500).setTemperature(400).setUnlocalizedName("Carbon_Dioxide");
     public static final Fluid gasHydrogenFluoride = new Fluid("Vapours_of_Hydrogen_Fluoride").setDensity(0).setViscosity(500).setTemperature(400).setUnlocalizedName("Vapours_of_Hydrogen_Fluoride");
+    public static final Fluid gasEthylene = new Fluid("Ethylene").setDensity(2).setViscosity(500).setTemperature(400).setUnlocalizedName("Ethylene");
 
       public static Fluid fluidCrudeOil = new Fluid("oil").setDensity(850).setViscosity(1000).setTemperature(273).setUnlocalizedName("Oil");
 
@@ -69,6 +70,7 @@ public class TFCPPFluids
 //      FluidRegistry.registerFluid(liquidBismuth);  
       FluidRegistry.registerFluid(gasCarboxDioxide);
       FluidRegistry.registerFluid(gasHydrogenFluoride);
+      FluidRegistry.registerFluid(gasEthylene);
       if (FluidRegistry.getFluid("oil")==null)
           FluidRegistry.registerFluid(fluidCrudeOil);
     }

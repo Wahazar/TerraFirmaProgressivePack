@@ -269,6 +269,8 @@ recipes.removeShapeless(<minecraft:dye:5>);
 recipes.removeShapeless(<minecraft:dye:12>, [<minecraft:red_flower:1>]);
 recipes.removeShapeless(<minecraft:dye:14>, [<minecraft:red_flower:5>]);
 
+furnace.remove(<minecraft:dye:4>);
+
 #redstone devices needs redstone
 
 recipes.remove(<minecraft:lever>);

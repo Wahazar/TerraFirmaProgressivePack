@@ -23,6 +23,19 @@ tile.metalBlock_WeakBlackSteel.name=Block of Weak Black Steel
 tile.metalBlock_BlackSteel.name=Block of Black Steel
 tile.luckyBlock_RadioactiveWaste.name=Lucky Block of Radioactive Waste
 
+tile.Leached_Urainite.name=Leached Urainite
+tile.Hydrochloric_Acid_aq.name=water solution of Hydrochloric Acid
+tile.Sulfurised_Spodumene_liquor.name=Sulfurised Spodumene liquor
+
+tile.liquid_Black_Weak_Steel.name=liquid Weak Black Steel
+tile.liquidCarbonBlackSteel.name=liquid Carbon Black Steel
+tile.liquidBlackSteel.name=liquid Black Steel
+tile.liquid_Pig_Iron.name=liquid Pig Iron
+
+tile.Carbon_Dioxide.name=gaseous Carbon Dioxide
+tile.Vapours_of_Hydrogen_Fluoride.name=vapours of Hydrogen Fluoride
+tile.Ethylene.name=gaseous Ethylene
+
 #=========
 #= Items =
 #=========
@@ -64,7 +77,8 @@ fluid.Leached_Urainite=Leached Urainite
 fluid.Hydrochloric_Acid_aq=water solution of Hydrochloric Acid
 fluid.Sulfurised_Spodumene_liquor=Sulfurised Spodumene liquor
 
-fluid.liquid_black_weak_steel=liquid Weak Black Steel
+fluid.liquid_Black_Weak_Steel=liquid Weak Black Steel
+fluid.liquid_Black_Steel=liquid Black Steel
 fluid.liquidCarbonBlackSteel=liquid Carbon Black Steel
 fluid.liquid_Pig_Iron=liquid Pig Iron
 

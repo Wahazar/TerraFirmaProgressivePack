@@ -226,7 +226,7 @@ public class WorldGenAbyssalFissure implements IWorldGenerator
 			world.setBlock(xCoord, yCoord, zCoord, fillBlock != null ? fillBlock : Blocks.air, 0, 0x2);
 			
 			Random r = new Random();
-			int addOre = r.nextInt(50);
+			int addOre = r.nextInt(40);
 					
 			if(fillBlock != null && world.getBlock(xCoord+1, yCoord, zCoord).getMaterial() != fillBlock.getMaterial())
 				if ((fillBlock.getMaterial() == Material.water) && (addOre==0))
@@ -250,7 +250,7 @@ public class WorldGenAbyssalFissure implements IWorldGenerator
 				else				
 					world.setBlock(xCoord, yCoord, zCoord+1, rockLayer.block, rockLayer.meta, 2);
 			if(fillBlock != null && world.getBlock(xCoord, yCoord, zCoord-1).getMaterial() != fillBlock.getMaterial())
-				if ((fillBlock.getMaterial() == Material.water) && (addOre>45))
+				if ((fillBlock.getMaterial() == Material.water) && (addOre>35))
 					world.setBlock(xCoord, yCoord, zCoord+1, prismarine, 0, 2);
 				else if ((fillBlock.getMaterial() == Material.lava) && (addOre<5))
 						world.setBlock(xCoord, yCoord, zCoord+1, salmiac, 0, 2);
