@@ -242,12 +242,12 @@ mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*540, <foundry:foundryMold:
 mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*432, <foundry:foundryMold:20>); 
 
 //remove ic2 plates
-mods.foundry.Casting.removeRecipe(<liquid:liquidcopper>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidtin>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidiron>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidbronze>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidlead>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidcopper>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidtin>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidiron>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidbronze>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidlead>*108, <foundry:foundryMold:32>);
 
 //remove railcraft plates
 mods.foundry.Casting.removeRecipe(<liquid:liquidcopper>*108, <foundry:foundryMold:32>);
@@ -377,7 +377,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidiron>*216, <customitems:iron_bar>, 
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*216, <customitems:steel_bar>, 1850, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquidstainlesssteel>*216, <customitems:stainless_steel_bar>, 1850, 80);
 
-//TFC ingots from TFC molds
+//TFC hot ingots from TFC mold
 mods.foundry.Casting.addMold(<terrafirmacraft:item.Mold:1>);
 
 for i, tfcmi in tfc_meltableingots  {
@@ -386,9 +386,12 @@ for i, tfcmi in tfc_meltableingots  {
 }
 mods.foundry.Casting.addRecipe(ie_ingot_alum, <liquid:liquidaluminum>*108, <terrafirmacraft:item.Mold:1>);
 
+//TFC cold ingots from steamcraft mold
+mods.foundry.Casting.addMold(<Steamcraft:ingotMold>);
+
 for i, tfcingots in tfc_ingots  {
  var molten = liquid_metals[i];
- mods.foundry.Casting.addRecipe(tfcingots, molten*108, <foundry:foundryMold>);  
+ mods.foundry.Casting.addRecipe(tfcingots, molten*108, <Steamcraft:ingotMold>);  
 }
 
 mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
@@ -436,12 +439,13 @@ mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Wrought Iron Unfinished Hel
 mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Wrought Iron Unfinished Boots>, <liquid:liquidiron>*216, <foundry:foundryMold:20>);
 
 //alternative for fsp plates
-mods.foundry.Casting.addRecipe(fsp_plate_copper, <liquid:liquidcopper>*60, <foundry:foundryMold:32>);
-mods.foundry.Casting.addRecipe(fsp_plate_zinc, <liquid:liquidzinc>*60, <foundry:foundryMold:32>);
-mods.foundry.Casting.addRecipe(fsp_plate_iron, <liquid:liquidiron>*60, <foundry:foundryMold:32>);
-mods.foundry.Casting.addRecipe(fsp_plate_gold, <liquid:liquidgold>*60, <foundry:foundryMold:32>);
-mods.foundry.Casting.addRecipe(fsp_plate_brass, <liquid:liquidbrass>*60, <foundry:foundryMold:32>);
-mods.foundry.Casting.addRecipe(fsp_plate_lead, <liquid:liquidlead>*60, <foundry:foundryMold:32>);
+mods.foundry.Casting.addMold(<Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_copper, <liquid:liquidcopper>*60, <Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_zinc, <liquid:liquidzinc>*60, <Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_iron, <liquid:liquidiron>*60, <Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_gold, <liquid:liquidgold>*60, <Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_brass, <liquid:liquidbrass>*60, <Steamcraft:plateMold>);
+mods.foundry.Casting.addRecipe(fsp_plate_lead, <liquid:liquidlead>*60, <Steamcraft:plateMold>);
 
 //molds
 recipes.remove(<foundry:foundryMold:19>);

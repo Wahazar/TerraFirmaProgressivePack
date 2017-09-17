@@ -1,10 +1,12 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.1.24
+TerraFirmaProgressive custom recipies modpack, v.1.25
 ################################################################################################################################
 
 Installation: 
-1. FORGE 1.7.10 required, forge-1.7.10-10.13.4.1558 recommended
+1. [1.7.10]TerraFirmaCraft-0.79.29.922.jar compatible, FORGE 1.7.10 required, forge-1.7.10-10.13.4.1558 recommended
 2. in .minecraft dir, remove /mods folder, unpack /mods, /scripts and /config dirs with their content into ./minecraft folder
+
+In case of problems/crashes, please show logs content and double check above conditions.
 
 ################################################################################################################################
 Included:
