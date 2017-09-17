@@ -110,15 +110,11 @@ mods.foundry.Melting.addRecipe(<liquid:liquidblacksteel>*108, <terrafirmacraft:i
 
 mods.foundry.Infuser.addRecipe(<liquid:liquidcarbonblacksteel>*10, <liquid:liquid_black_weak_steel>*10, <infusersubstance:carbon>*4); 
 
-mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
-
 //mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
 
 
 //pig iron
 mods.foundry.Melting.addRecipe(<liquid:liquid_pig_iron>*108, <terrafirmacraft:item.Pig Iron Ingot>, 1750, 100);
-
-mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <liquid:liquid_pig_iron>*108, <foundry:foundryMold>);
 
 mods.foundry.Infuser.addRecipe(<liquid:liquid_pig_iron>*8, <liquid:liquidiron>*8, <infusersubstance:carbon>*4);
 
@@ -149,8 +145,51 @@ mods.foundry.AlloyMixer.addRecipe(<liquid:liquid_permalloy>*10, [<liquid:liquidn
 
 //TFC ingots
 var tfc_meltableingots = [
-<terrafirmacraft:item.Bismuth Ingot>.withTag({temperature: 268 as float}), <terrafirmacraft:item.Bismuth Bronze Ingot>.withTag({temperature: 980 as float}), <terrafirmacraft:item.Black Bronze Ingot>.withTag({temperature: 1067 as float}),  <terrafirmacraft:item.Sterling Silver Ingot>.withTag({temperature: 895 as float}), <terrafirmacraft:item.Rose Gold Ingot>.withTag({temperature: 958 as float}),
-<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), <terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}),  <terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), <terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  <terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), <terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), <terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), <terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), <terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), <terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), <terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), <terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), <terrafirmacraft:item.HC Black Steel Ingot>.withTag({temperature: 1470 as float}), <terrafirmacraft:item.Black Steel Ingot>.withTag({temperature: 1475 as float}), <terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), <terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
+<terrafirmacraft:item.Bismuth Ingot>.withTag({temperature: 268 as float}), 
+<terrafirmacraft:item.Bismuth Bronze Ingot>.withTag({temperature: 980 as float}), 
+<terrafirmacraft:item.Black Bronze Ingot>.withTag({temperature: 1067 as float}),  
+<terrafirmacraft:item.Sterling Silver Ingot>.withTag({temperature: 895 as float}), 
+<terrafirmacraft:item.Rose Gold Ingot>.withTag({temperature: 958 as float}),
+<terrafirmacraft:item.Brass Ingot>.withTag({temperature: 928 as float}), 
+<terrafirmacraft:item.Bronze Ingot>.withTag({temperature: 948 as float}), 
+<terrafirmacraft:item.Copper Ingot>.withTag({temperature: 1077 as float}), 
+<terrafirmacraft:item.Gold Ingot>.withTag({temperature: 1057 as float}),  
+<terrafirmacraft:item.Wrought Iron Ingot>.withTag({temperature: 1530 as float}), 
+<terrafirmacraft:item.Lead Ingot>.withTag({temperature: 326 as float}), 
+<terrafirmacraft:item.Nickel Ingot>.withTag({temperature: 1450 as float}), 
+<terrafirmacraft:item.Platinum Ingot>.withTag({temperature: 1725 as float}), 
+<terrafirmacraft:item.Silver Ingot>.withTag({temperature: 960 as float}), 
+<terrafirmacraft:item.Pig Iron Ingot>.withTag({temperature: 1435 as float}), 
+<terrafirmacraft:item.Steel Ingot>.withTag({temperature: 1535 as float}), 
+<terrafirmacraft:item.Weak Steel Ingot>.withTag({temperature: 1495 as float}), 
+<terrafirmacraft:item.HC Black Steel Ingot>.withTag({temperature: 1470 as float}), 
+<terrafirmacraft:item.Black Steel Ingot>.withTag({temperature: 1475 as float}), 
+<terrafirmacraft:item.Tin Ingot>.withTag({temperature: 228 as float}), 
+<terrafirmacraft:item.Zinc Ingot>.withTag({temperature: 417 as float})] as IItemStack[];
+
+var tfc_ingots = [
+<terrafirmacraft:item.Bismuth Ingot>, 
+<terrafirmacraft:item.Bismuth Bronze Ingot>, 
+<terrafirmacraft:item.Black Bronze Ingot>,  
+<terrafirmacraft:item.Sterling Silver Ingot>, 
+<terrafirmacraft:item.Rose Gold Ingot>,
+<terrafirmacraft:item.Brass Ingot>, 
+<terrafirmacraft:item.Bronze Ingot>,  
+<terrafirmacraft:item.Copper Ingot>, 
+<terrafirmacraft:item.Gold Ingot>,  
+<terrafirmacraft:item.Wrought Iron Ingot>, 
+<terrafirmacraft:item.Lead Ingot>, 
+<terrafirmacraft:item.Nickel Ingot>, 
+<terrafirmacraft:item.Platinum Ingot>, 
+<terrafirmacraft:item.Silver Ingot>, 
+<terrafirmacraft:item.Pig Iron Ingot>, 
+<terrafirmacraft:item.Steel Ingot>, 
+<terrafirmacraft:item.Weak Steel Ingot>, 
+<terrafirmacraft:item.HC Black Steel Ingot>, 
+<terrafirmacraft:item.Black Steel Ingot>, 
+<terrafirmacraft:item.Tin Ingot>, 
+<terrafirmacraft:item.Zinc Ingot>] as IItemStack[];
+
 
 var tfc_doubleingots = [
 <terrafirmacraft:item.Bismuth Double Ingot>, <terrafirmacraft:item.Bismuth Bronze Double Ingot>, <terrafirmacraft:item.Black Bronze Double Ingot>,  <terrafirmacraft:item.Sterling Silver Double Ingot>, <terrafirmacraft:item.Rose Gold Double Ingot>,
@@ -341,11 +380,19 @@ mods.foundry.Melting.addRecipe(<liquid:liquidstainlesssteel>*216, <customitems:s
 //TFC ingots from TFC molds
 mods.foundry.Casting.addMold(<terrafirmacraft:item.Mold:1>);
 
-for i, tfcingots in tfc_meltableingots  {
+for i, tfcmi in tfc_meltableingots  {
  var molten = liquid_metals[i];
- mods.foundry.Casting.addRecipe(tfcingots, molten*108, <terrafirmacraft:item.Mold:1>);  
+ mods.foundry.Casting.addRecipe(tfcmi, molten*108, <terrafirmacraft:item.Mold:1>);  
 }
 mods.foundry.Casting.addRecipe(ie_ingot_alum, <liquid:liquidaluminum>*108, <terrafirmacraft:item.Mold:1>);
+
+for i, tfcingots in tfc_ingots  {
+ var molten = liquid_metals[i];
+ mods.foundry.Casting.addRecipe(tfcingots, molten*108, <foundry:foundryMold>);  
+}
+
+mods.foundry.Casting.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <liquid:liquidblacksteel>*108, <foundry:foundryMold>);
+
 
 //bronze tools
 mods.foundry.Casting.removeRecipe(<liquid:liquidbronze>*216, <foundry:foundryMold:14>, <minecraft:stick>); 
