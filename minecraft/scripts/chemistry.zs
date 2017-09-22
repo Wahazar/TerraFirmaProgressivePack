@@ -66,8 +66,9 @@ mods.Terrafirmacraft.Barrel.addFluidCombination(<liquid:limewater> * 10000, <liq
 
 //mortar from limemilk
 mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:Sand:*>, <liquid:limewater> * 100);
-//mods.Terrafirmacraft.Barrel.removeItemConversion(<minecraft:sand:*>, <liquid:limewater> * 100);
+mods.Terrafirmacraft.Barrel.removeItemConversion(<terrafirmacraft:Sand2:*>, <liquid:limewater> * 100);
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Mortar> * 16, <terrafirmacraft:Sand:*>, <liquid:limemilk> * 100, 0, true, 8, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraft:item.Mortar> * 16, <terrafirmacraft:Sand2:*>, <liquid:limemilk> * 100, 0, true, 8, true);
 
 //nitric acid
 recipes.remove(<tfcudarymod:item.Bottled Nitric Acid>);

@@ -4,8 +4,9 @@ import java.io.File;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.World;
+import wahazar.tfcpphelper.handlers.ServerTickHandler;
 
-import com.bioxx.tfc.Handlers.ServerTickHandler;
+//import com.bioxx.tfc.Handlers.ServerTickHandler;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.network.NetworkRegistry;

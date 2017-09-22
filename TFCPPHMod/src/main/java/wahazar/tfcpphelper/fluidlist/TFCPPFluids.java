@@ -43,8 +43,6 @@ public class TFCPPFluids
     public static final Fluid gasHydrogenFluoride = new Fluid("Vapours_of_Hydrogen_Fluoride").setDensity(0).setViscosity(500).setTemperature(400).setUnlocalizedName("Vapours_of_Hydrogen_Fluoride");
     public static final Fluid gasEthylene = new Fluid("Ethylene").setDensity(2).setViscosity(500).setTemperature(400).setUnlocalizedName("Ethylene");
 
-      public static Fluid fluidCrudeOil = new Fluid("oil").setDensity(850).setViscosity(1000).setTemperature(273).setUnlocalizedName("Oil");
-
 	
     public static void register()
     {
@@ -71,8 +69,6 @@ public class TFCPPFluids
       FluidRegistry.registerFluid(gasCarboxDioxide);
       FluidRegistry.registerFluid(gasHydrogenFluoride);
       FluidRegistry.registerFluid(gasEthylene);
-      if (FluidRegistry.getFluid("oil")==null)
-          FluidRegistry.registerFluid(fluidCrudeOil);
     }
     
     public static void registerFluidContainers()
@@ -81,9 +77,11 @@ public class TFCPPFluids
         if (FluidRegistry.getFluid("creosote")!= null)
         		FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("creosote"), 1000), new ItemStack(TFCPPItems.itemWoodenBucket_Creozote), new ItemStack(TFCItems.woodenBucketEmpty));
 
-        FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("oil"), 1000), new ItemStack(TFCPPItems.itemWoodenBucket_Oil), new ItemStack(TFCItems.woodenBucketEmpty));
+        if (FluidRegistry.getFluid("oil")!= null)
+    		FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("oil"), 1000), new ItemStack(TFCPPItems.itemWoodenBucket_Oil), new ItemStack(TFCItems.woodenBucketEmpty));
 
         FluidContainerRegistry.registerFluidContainer(new FluidStack(fluidLeachedUrainite, 1000), new ItemStack(TFCPPItems.itemRedSteelBucket_LeachedUranite), new ItemStack(TFCItems.redSteelBucketEmpty));
+        FluidContainerRegistry.registerFluidContainer(new FluidStack(solutionHydrochloricAcid, 1000), new ItemStack(TFCPPItems.itemRedSteelBucket_HydrochloricAcid), new ItemStack(TFCItems.redSteelBucketEmpty));
 
         FluidContainerRegistry.registerFluidContainer(new FluidStack(liquidWeakBlackSteel, 1000), new ItemStack(TFCPPItems.itemBlueSteelBucket_WeakBlackSteel), new ItemStack(TFCItems.blueSteelBucketEmpty));
         FluidContainerRegistry.registerFluidContainer(new FluidStack(liquidCarbonBlackSteel, 1000), new ItemStack(TFCPPItems.itemBlueSteelBucket_CarbonBlackSteel), new ItemStack(TFCItems.blueSteelBucketEmpty));
