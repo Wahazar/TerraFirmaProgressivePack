@@ -31,6 +31,11 @@ recipes.addShaped(cblock * 2,
   [tplank, tstick, tplank],
   [peg, tplank, peg]]);
 
+recipes.addShaped(cblock * 2,
+ [[tplank, peg, tplank],
+  [peg, tstick, peg],
+  [tplank, peg, tplank]]);
+
 //1 cb ~ 6 planks
   
 #recycling

@@ -38,9 +38,9 @@ recipes.addShapeless(<customitems:dark_quartz_pillar> * 2,
 
 
 #1.8 items
-recipes.addShaped(<customitems:red_sandstone>, [
- [<minecraft:sand:1>, <minecraft:sand:1>],
- [<minecraft:sand:1>, <minecraft:sand:1>]]);
+//recipes.addShaped(<customitems:red_sandstone>, [
+// [<minecraft:sand:1>, <minecraft:sand:1>],
+// [<minecraft:sand:1>, <minecraft:sand:1>]]);
 
 recipes.addShaped(<customitems:chiseled_red_sandstone>, [
  [<customitems:red_sandstone_slab>, null],
@@ -50,8 +50,9 @@ recipes.addShaped(<customitems:smooth_red_sandstone> * 4, [
  [<customitems:red_sandstone>, <customitems:red_sandstone>],
  [<customitems:red_sandstone>, <customitems:red_sandstone>]]);
 
-recipes.addShaped(<customitems:red_sandstone_slab> * 6, [
- [<customitems:red_sandstone>, <customitems:red_sandstone>, <customitems:red_sandstone>]]);
+//recipes.addShaped(<customitems:red_sandstone_slab> * 6, [
+// [<customitems:red_sandstone>, <customitems:red_sandstone>, <customitems:red_sandstone>]]);
+recipes.addShapeless(<customitems:red_sandstone_slab> * 2, [<customitems:red_sandstone>, <ore:itemChisel>.transformDamage(1)]);
 
 recipes.addShaped(<customitems:red_sandstone_stairs> * 4, [
  [<customitems:red_sandstone>, null, null],

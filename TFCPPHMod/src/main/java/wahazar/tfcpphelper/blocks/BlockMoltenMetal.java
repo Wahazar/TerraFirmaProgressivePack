@@ -29,9 +29,11 @@ public class BlockMoltenMetal extends BlockFluidClassic implements IFluidBlock
 	protected IIcon[] icons;
 	protected String fluidName;
 	protected Block solidBlock;
+	private Fluid fluid;
 	public BlockMoltenMetal(String fluidname, Block solidblock)
 	{
 		super(FluidRegistry.getFluid(fluidname.toLowerCase()), Material.lava);
+		this.fluid = FluidRegistry.getFluid(fluidname.toLowerCase());		
 		this.setTickRandomly(true);
 		this.setHardness(0.0F);
 		this.setLightLevel(0.8F);
@@ -116,8 +118,8 @@ public class BlockMoltenMetal extends BlockFluidClassic implements IFluidBlock
 	@Override
 	public void registerBlockIcons(IIconRegister register)
 	{
-		this.getFluid().setIcons(register.registerIcon("tfcpphelper:"+fluidName+"_still"), register.registerIcon("tfcpphelper:"+fluidName+"_flow"));
-		icons = new IIcon[]{getFluid().getStillIcon(), getFluid().getFlowingIcon()};
+		this.fluid.setIcons(register.registerIcon("tfcpphelper:"+fluidName+"_still"), register.registerIcon("tfcpphelper:"+fluidName+"_flow"));
+		icons = new IIcon[]{fluid.getStillIcon(), fluid.getFlowingIcon()};
 	}
 
 	@Override
@@ -126,7 +128,7 @@ public class BlockMoltenMetal extends BlockFluidClassic implements IFluidBlock
 	{
 		return side != 0 && side != 1 ? this.icons[1] : this.icons[0];
 	}
-
+/*
     @Override
     public FluidStack drain(World world, int x, int y, int z, boolean doDrain)
     {
@@ -135,8 +137,8 @@ public class BlockMoltenMetal extends BlockFluidClassic implements IFluidBlock
             world.setBlock(x, y, z, Blocks.air);
         }
         
-        return new FluidStack(getFluid(),
-                MathHelper.floor_float(getQuantaPercentage(world, x, y, z) * FluidContainerRegistry.BUCKET_VOLUME));
+        return new FluidStack(fluid,
+                MathHelper.floor_float(getQuantaPercentage(world, x, y, z) * 1000));
     }
 
     @Override
@@ -150,10 +152,10 @@ public class BlockMoltenMetal extends BlockFluidClassic implements IFluidBlock
 		return 1;
 	}
 
-
+*/
 	@Override
 	public Fluid getFluid() {
-        return FluidRegistry.getFluid(fluidName.toLowerCase());
+        return fluid;
 	}
 
 

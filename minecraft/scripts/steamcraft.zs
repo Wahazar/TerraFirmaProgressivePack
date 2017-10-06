@@ -551,7 +551,7 @@ for i, cb in cobble {
   var g = gravel[i];
   mods.fsp.RockSmasher.addSmashingRecipe(cb, g);
   mods.fsp.RockSmasher.addSmashingRecipe(g, s);
-
 }
 
-
+//sandstone
+mods.fsp.RockSmasher.addSmashingRecipe(<customitems:red_sandstone>, <minecraft:sand:1>);

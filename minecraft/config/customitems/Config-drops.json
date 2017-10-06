@@ -13,6 +13,42 @@
             ]
         },
         {
+            "id": "minecraft:stained_glass",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "ihl:item.ihlSimpleItem:115",
+                    "min": 0,
+                    "max": 2,
+                    "chance": 20
+                }
+            ]
+        },
+        {
+            "id": "minecraft:stained_glass:7",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "ihl:item.ihlSimpleItem:115",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 12
+                }
+            ]
+        },
+        {
+            "id": "minecraft:stained_glass:8",
+            "overrides": true,
+            "drops": [
+                {
+                    "id": "ihl:item.ihlSimpleItem:115",
+                    "min": 0,
+                    "max": 1,
+                    "chance": 15
+                }
+            ]
+        },
+        {
             "id": "minecraft:glass_pane",
             "overrides": true,
             "drops": [
@@ -73,7 +109,7 @@
                 {
                     "id": "ihl:item.ihlSimpleItem:11",
                     "min": 0,
-                    "max": 2,
+                    "max": 1,
                     "chance": 15
                 },
                 {
@@ -93,6 +129,12 @@
                     "min": 0,
                     "max": 2,
                     "chance": 2
+                },
+                {
+                    "id": "terrafirmacraft:item.Powder:2",
+                    "min": 0,
+                    "max": 2,
+                    "chance": 3
                 },
                 {
                     "id": "minecraft:quartz",

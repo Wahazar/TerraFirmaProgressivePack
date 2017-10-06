@@ -217,10 +217,11 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:orePoorTin>.remove(<Railcraft:ore:10>);
 <ore:orePoorLead>.remove(<Railcraft:ore:11>);
 
+/*
 <ore:oreCopper>.remove(<foundry:blockFoundryOre>);
 <ore:oreTin>.remove(<foundry:blockFoundryOre:1>);
 <ore:oreNickel>.remove(<foundry:blockFoundryOre:2>);
 <ore:oreZinc>.remove(<foundry:blockFoundryOre:3>);
 <ore:oreSilver>.remove(<foundry:blockFoundryOre:4>);
 <ore:oreLead>.remove(<foundry:blockFoundryOre:5>);
-
+*/

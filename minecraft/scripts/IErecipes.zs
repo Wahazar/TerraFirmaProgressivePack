@@ -702,4 +702,11 @@ recipes.addShaped(<ImmersiveEngineering:treatedWood:2>, [
 //quartz dust from crushed q. glass
 mods.Terrafirmacraft.Quern.addRecipe(<ImmersiveEngineering:metal:18>, <customitems:crushed_quartz_glass>);
 
+//canister
+recipes.remove(<ImmersiveEngineering:jerrycan>);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("canister", 2, 14, 20);
+game.setLocalization("gui.plans.canister", "Canister");
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:jerrycan>, <terrafirmacraft:item.Bismuth Bronze Double Sheet>, <tfcm:item.Link_BismuthBronze>, "canister", 2, 40);
+
+
 

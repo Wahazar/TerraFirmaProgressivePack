@@ -77,13 +77,14 @@ fluid.Leached_Urainite=Leached Urainite
 fluid.Hydrochloric_Acid_aq=water solution of Hydrochloric Acid
 fluid.Sulfurised_Spodumene_liquor=Sulfurised Spodumene liquor
 
-fluid.liquid_Black_Weak_Steel=liquid Weak Black Steel
+fluid.liquidWeakBlackSteel=liquid Weak Black Steel
 fluid.liquid_Black_Steel=liquid Black Steel
 fluid.liquidCarbonBlackSteel=liquid Carbon Black Steel
-fluid.liquid_Pig_Iron=liquid Pig Iron
+fluid.liquidPigIron=liquid Pig Iron
 
 fluid.Carbon_Dioxide=gaseous Carbon Dioxide
 fluid.Vapours_of_Hydrogen_Fluoride=vapours of Hydrogen Fluoride
+fluid.Ethylene=gaseous Ethylene
 
 #== Creative Tabs ==
 

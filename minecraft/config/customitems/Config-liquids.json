@@ -235,6 +235,21 @@
             "bucket": {
                 "textureName": "bucket_quartz_glass"
             }
+        },
+        {
+            "name":"Molten Plastic",
+            "textureName": "liquidPlastic",
+            "temperature": 200,
+            "luminosity": 1,
+	    "material": "lava",
+            "density": 970,
+            "viscosity": 9000,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 3,
+            "bucket": {
+                "textureName": "bucket_liquidPlastic"
+            }
         }
     ]
 }

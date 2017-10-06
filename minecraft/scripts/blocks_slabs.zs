@@ -188,13 +188,14 @@ mods.Terrafirmacraft.ItemHeat.removeRecipe(<tfcudarymod:item.Copper Wire>);
 recipes.addShapeless(<ImmersiveEngineering:metal:22> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotCopper>]);
 recipes.addShapeless(<Steamcraft:steamcraftNugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotBrass>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotElectrum>]);
-recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotTin>]);
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotGold>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:24> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotLead>]);
 recipes.addShapeless(<Steamcraft:steamcraftNugget:1> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotZinc>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotNickel>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotConstantan>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotSilver>]);
+recipes.removeShapeless(<Railcraft:nugget:3>);
+recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:itemChisel>.transformDamage(), <ore:ingotTin>]);
 
 recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselHard>.transformDamage(), <ore:ingotIron>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:21> * 9, [<ore:itemChiselSteel>.transformDamage(), <ore:ingotIron>]);

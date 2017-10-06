@@ -934,6 +934,10 @@ recipes.addShaped(<foundry:foundryMachine:5>, [
 recipes.remove(<foundry:foundryComponent>);
 mods.Terrafirmacraft.Knapping.addStoneWorkingRecipe(<foundry:foundryComponent>, "# # #", " ### ", "## ##", " ### ", "# # #");
 
+//TFC binary alloys
+mods.foundry.AlloyFurnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <ore:nuggetTin>, <IC2:itemPurifiedCrushedOre:1>);
+mods.foundry.AlloyFurnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <ore:nuggetZinc>, <IC2:itemPurifiedCrushedOre:1>);
+
 //some low temperature liquid metals from alloy furnace
 mods.foundry.AlloyFurnace.addRecipe(<foundry:foundryContainer>.withTag({Amount: 108, FluidName: "liquidtin"}), <ore:ingotTin>, <foundry:foundryContainer>);
 

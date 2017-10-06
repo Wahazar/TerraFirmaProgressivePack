@@ -56,6 +56,10 @@
       },
       {
         "type": "before",
+        "target": "CoFHCore"
+      },
+      {
+        "type": "before",
         "target": "creativecore"
       },
       {
@@ -104,6 +108,10 @@
       },
       {
         "type": "before",
+        "target": "enviromine"
+      },
+      {
+        "type": "before",
         "target": "IC2"
       },
       {
@@ -120,11 +128,19 @@
       },
       {
         "type": "before",
+        "target": "HardcoreDarkness"
+      },
+      {
+        "type": "before",
         "target": "ihl"
       },
       {
         "type": "before",
         "target": "ImmersiveEngineering"
+      },
+      {
+        "type": "before",
+        "target": "immersiveintegration"
       },
       {
         "type": "before",
@@ -148,6 +164,10 @@
       },
       {
         "type": "before",
+        "target": "ReiMinimap"
+      },
+      {
+        "type": "before",
         "target": "cuchaz.cuchazinteractive"
       },
       {
@@ -161,6 +181,10 @@
       {
         "type": "before",
         "target": "TerraFirmaCraftNEIplugin"
+      },
+      {
+        "type": "before",
+        "target": "tfcengineer"
       },
       {
         "type": "before",

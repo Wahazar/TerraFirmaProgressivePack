@@ -166,7 +166,34 @@
                             ]
                         },
                         { "function": "all", 
-                           "weight": 10,
+                           "weight": 25,
+                           "functions":
+                            [
+				{
+		   		"function": "equip", 
+		   		"id": "terrafirmacraft:Torch", 
+		   		"slot": 0, 
+		   		"drop_chance": 0.3 
+		  		},
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Clay",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.LooseRock",
+					       "damage": 6,	
+                                                "count": 0.05
+	                                        }
+                                               ]
+                            }
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 6,
                            "functions":
                             [
                             { "function": "name", "value": "Zombie messenger" },
@@ -183,12 +210,17 @@
      			                       { 
                                                "function": "add", 
                                                "id": "minecraft:paper",
-                                                "count": 0.4
+                                                "count": 0.3
 	                                        },
      			                       { 
                                                "function": "add", 
                                                "id": "minecraft:book",
-                                                "count": 0.1
+                                                "count": 0.02
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:feather",
+                                                "count": 0.02
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -220,12 +252,45 @@
                             ]
                         },
                         { "function": "all", 
-                           "weight": 5,
+                           "weight": 8,
                            "functions":
                             [
                             { "function": "name", "value": "Zombie digger" },
                             {"function": "equip", "id": "terrafirmacraft:item.IgIn Stone Shovel", "slot": 0, "damage": 10~30, "drop_chance": 0.2 },
-                            {"function": "equip", "id": "terrafirmacraft:item.helmetCloth", "override": "true", "slot": 4, "drop_chance": 1 },
+                            {"function": "equip", "id": "enviromine:hardHat", "override": "true", "slot": 4, "drop_chance": 0.5 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Ore",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Wooden Bucket Empty",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:ladder",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "DecorationsTFC:Lantern.Copper",
+                                                "count": 0.05
+	                                        }
+                                               ]
+                            }
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 4,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie miner" },
+                            {"function": "equip", "id": "terrafirmacraft:item.Copper Pick", "slot": 0, "damage": 30~350, "drop_chance": 0.2 },
+                            {"function": "equip", "id": "enviromine:hardHat", "override": "true", "slot": 4, "drop_chance": 0.5 },
                             {"function": "drops",
 				  "functions": [
      			                       { 
@@ -241,7 +306,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "minecraft:ladder",
-                                                "count": 0.05
+                                                "count": 0.07
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -250,8 +315,8 @@
 	                                        },
      			                       { 
                                                "function": "add", 
-                                               "id": "DecorationsTFC:Lantern.Copper",
-                                                "count": 0.05
+                                               "id": "enviromine:davy_lamp",
+                                                "count": 0.07
 	                                        }
                                                ]
                             }
@@ -323,7 +388,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "minecraft:log",
-                                                "count": 0.2
+                                                "count": 0.1
 	                                        }     
                                                ]
                             }
@@ -377,7 +442,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "terrafirmacraft:item.Stone Knife",
-                                                "damage": 10~30, "count": 0.05
+                                                "damage": 10~40, "count": 0.05
 	                                        }
                                                ]
                             }

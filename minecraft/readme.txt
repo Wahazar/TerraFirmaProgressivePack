@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.1.26
+TerraFirmaProgressive custom recipies modpack, v.1.30
 ################################################################################################################################
 
 Installation: 
@@ -137,7 +137,16 @@ Primitive Technology TFC addon
 TFCPPHelperMod (created especially for this modpack)
 		credits: Wahazar (myself)
 
-client side:
+Hardcore Darkness 
+	https://minecraft.curseforge.com/projects/hardcore-darkness
+		credits: Lumien
+
+Enviromine
+	http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1293048-enviromine-discontinued-a-little-bit-of-realism
+		credist: TimbuckTato, Funwayguy et al.
+
+
+client side (server will crash with these):
 Dynamic Lights DynamicLights-1.7.10.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272478-dynamic-lights-portable-and-moving-lightsources
 		credits: AtomicStryker, licence: unknown
@@ -156,7 +165,6 @@ http://mods.curse.com/mc-mods/minecraft/224298-mob-properties
 
 Just Another Spawner by Crudedragos, JustAnotherSpawner-0.17.7.jar
 http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288431-just-another-spawner-jas-v0-14
-
 
 Client side mods should be only placed in client distribution, do not use Dynamic Light on server side.
 Server side mods aren't required fo client (unless singleplayer mode, which need its own internal server).

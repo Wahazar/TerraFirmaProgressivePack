@@ -40,7 +40,7 @@ recipes.addShaped(<Railcraft:part.signal.lamp>, [
 recipes.removeShapeless(rc_nugget_iron);
 recipes.removeShapeless(rc_nugget_steel);
 recipes.removeShapeless(rc_nugget_copper);
-recipes.removeShapeless(rc_nugget_tin);
+//recipes.removeShapeless(rc_nugget_tin);
 recipes.removeShapeless(rc_nugget_lead);
 furnace.remove(rc_nugget_iron);
 furnace.remove(rc_nugget_copper);

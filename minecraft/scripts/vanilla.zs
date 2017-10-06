@@ -124,18 +124,44 @@ recipes.addShaped(<minecraft:cobblestone>, [[<terrafirmacraft:item.LooseRock:*>,
  [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>],
  [<terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>]]);
 
+recipes.addShaped(<minecraft:stone_stairs>, [
+ [<terrafirmacraft:item.LooseRock:*>, null, null],
+ [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>, null],
+ [<terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>]]);
+
+recipes.addShaped(<minecraft:stone_slab:3>, [
+ [null, null, null],
+ [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>],
+ [<terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>]]);
+
+//sandstone in smasher/compressor
+recipes.remove(<minecraft:sandstone>);
+recipes.remove(<customitems:red_sandstone>);
+
+//stone slabs
+//recipes.remove(<minecraft:stone_slab>);
+recipes.addShapeless(<minecraft:stone_slab> * 2, [<minecraft:stone>, <ore:itemChisel>.transformDamage(1)]);
+recipes.remove(<minecraft:stone_slab:1>);
+recipes.addShapeless(<minecraft:stone_slab:1> * 2, [<minecraft:sandstone>, <ore:itemChisel>.transformDamage(1)]);
+recipes.remove(<minecraft:stone_slab:5>);
+recipes.addShaped(<minecraft:stone_slab:5> * 2, [
+ [null, null, null],
+ [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>],
+ [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>]]);
+
 //mossy cobblestone
 mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:mossy_cobblestone>, <minecraft:cobblestone>, <liquid:freshwater> * 100, 1, true, 48, true);
 
 #stone brick
+recipes.remove(<minecraft:stonebrick>);
 recipes.addShaped(<minecraft:stonebrick>*4, [
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>],
- [<terrafirmacraft:StoneIgExBrick:*>, <ImmersiveEngineering:tool>, <terrafirmacraft:StoneIgExBrick:*>],
+ [<terrafirmacraft:StoneIgExBrick:*>, <ImmersiveEngineering:tool>.reuse(), <terrafirmacraft:StoneIgExBrick:*>],
  [<terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>]]);
 
 recipes.addShaped(<minecraft:stonebrick>*4, [
  [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>],
- [<terrafirmacraft:item.Clay>, <ImmersiveEngineering:tool>, <terrafirmacraft:item.Clay>],
+ [<terrafirmacraft:item.Clay>, <ImmersiveEngineering:tool>.reuse(), <terrafirmacraft:item.Clay>],
  [<terrafirmacraft:StoneIgExBrick:*>, <terrafirmacraft:item.Clay>, <terrafirmacraft:StoneIgExBrick:*>]]);
 
 furnace.remove(<minecraft:stone>);  //see Arc furnace
