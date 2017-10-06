@@ -137,13 +137,13 @@ Primitive Technology TFC addon
 TFCPPHelperMod (created especially for this modpack)
 		credits: Wahazar (myself)
 
-Hardcore Darkness 
+HardcoreDarkness-MC1.7.10-1.7 
 	https://minecraft.curseforge.com/projects/hardcore-darkness
-		credits: Lumien
+		credits: Lumien, licence: forum granted
 
-Enviromine
+EnviroMine-1.3.124
 	http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1293048-enviromine-discontinued-a-little-bit-of-realism
-		credist: TimbuckTato, Funwayguy et al.
+		credits: TimbuckTato, Funwayguy et al., licence: GNU
 
 
 client side (server will crash with these):
