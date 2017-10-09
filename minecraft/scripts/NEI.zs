@@ -226,9 +226,13 @@ NEI.hide(<Railcraft:stair:*>);
 #immersive engineering
 NEI.overrideName(<ImmersiveEngineering:metal:0>, "Refined Copper Ingot"); //for wires
 NEI.overrideName(<ImmersiveEngineering:metal:4>, "Permalloy Ingot");  //NiFe
+<ImmersiveEngineering:metal:4>.displayName = "Permalloy Ni80Fe20 Ingot";
 NEI.overrideName(<ImmersiveEngineering:metal:7>, "Galvanised Steel Ingot");  //steel, Ni covered
+<ImmersiveEngineering:metal:7>.displayName = "Nickel Galvanised Steel Ingot";
 NEI.overrideName(<tfcm:item.CasingIron>, "Tin Casing");
+<tfcm:item.CasingIron>.displayName = "Tin Casing";
 NEI.overrideName(<tfcm:item.IronDust>, "Steel Grit");
+<tfcm:item.IronDust>.displayName = "Steel Grit";
 
 NEI.hide(<ImmersiveEngineering:ore>);
 

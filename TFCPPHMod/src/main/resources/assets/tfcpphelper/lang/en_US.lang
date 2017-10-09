@@ -30,6 +30,7 @@ tile.Sulfurised_Spodumene_liquor.name=Sulfurised Spodumene liquor
 tile.liquid_Black_Weak_Steel.name=liquid Weak Black Steel
 tile.liquidCarbonBlackSteel.name=liquid Carbon Black Steel
 tile.liquidBlackSteel.name=liquid Black Steel
+tile.liquidSteel.name=liquid Steel
 tile.liquid_Pig_Iron.name=liquid Pig Iron
 
 tile.Carbon_Dioxide.name=gaseous Carbon Dioxide
@@ -80,6 +81,7 @@ fluid.Sulfurised_Spodumene_liquor=Sulfurised Spodumene liquor
 fluid.liquidWeakBlackSteel=liquid Weak Black Steel
 fluid.liquid_Black_Steel=liquid Black Steel
 fluid.liquidCarbonBlackSteel=liquid Carbon Black Steel
+fluid.liquidSteel=liquid Steel
 fluid.liquidPigIron=liquid Pig Iron
 
 fluid.Carbon_Dioxide=gaseous Carbon Dioxide

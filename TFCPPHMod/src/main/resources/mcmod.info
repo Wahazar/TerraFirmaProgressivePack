@@ -3,7 +3,7 @@
     "modList": [{
         "modid": "tfcpphelper",
         "name": "TFC Progressive Pack Helper Mod",
-        "description": "�bThis mod is designed to work together with TerraFirmaCraft Progressive Pack �a${tfc_version}.�r",
+        "description": "�bThis mod is designed to work together with TerraFirmaCraft Progressive Pack and TFC �a${tfc_version}.�r",
         "version": "${mod_version}",
         "mcversion": "${minecraft_version}",
         "url": "",

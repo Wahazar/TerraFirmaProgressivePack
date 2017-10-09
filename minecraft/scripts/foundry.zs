@@ -289,6 +289,7 @@ mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:storage:4>);
 mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:storage:6>);
 mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:storage:3>);
 mods.foundry.Melting.removeRecipe(<ImmersiveEngineering:storage:1>);
+mods.foundry.Melting.removeRecipe(<foundry:slab2:1>);
 //mods.foundry.Melting.removeRecipe(rc_tin_bushing);
 
 
@@ -341,8 +342,10 @@ mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*864, <Steamcraft:blockZinc>, 
 mods.foundry.Melting.addRecipe(<liquid:liquidzinc>*60, <Steamcraft:steamcraftPlate:1>, 700, 100);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*864, <Steamcraft:blockBrass>, 1380, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidbrass>*432, <foundry:slab2:1>, 1380, 80);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidtin>*864, <Railcraft:slab:41>, 550, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidtin>*864, <Railcraft:cube:10>, 550, 80);
+mods.foundry.Melting.addRecipe(<liquid:liquidtin>*432, <Railcraft:slab:41>, 550, 80);
 mods.foundry.Melting.addRecipe(<liquid:liquidtin>*108, <Railcraft:part.plate:2>, 550, 100);
 //mods.foundry.Melting.addRecipe(<liquid:liquidtin>*216, <Railcraft:part.gear:3>, 550, 200);
 
@@ -364,6 +367,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidsilver>*1, <tfcudarymod:item.Silver
 
 mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <Railcraft:cube:11>, 650, 50);
 mods.foundry.Melting.addRecipe(<liquid:liquidlead>*864, <ImmersiveEngineering:storage:2>, 650, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidlead>*432, <Railcraft:slab:42>, 650, 80);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidaluminum>*864, <ImmersiveEngineering:storage:1>, 1100, 50);
 

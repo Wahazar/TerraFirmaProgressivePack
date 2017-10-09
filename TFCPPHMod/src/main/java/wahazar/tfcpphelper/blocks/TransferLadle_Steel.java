@@ -42,9 +42,10 @@ public class TransferLadle_Steel extends BlockTerra
         this.setResistance(20.0f);
 		this.setLightLevel(0.6F);
         this.setCreativeTab(TFCTabs.TFC_DEVICES);       
-	    this._moltenMetal = GameRegistry.findBlock("foundry", "liquidSteel");
-	    if (_moltenMetal==null)
-	    	_moltenMetal=Blocks.lava;
+//	    this._moltenMetal = GameRegistry.findBlock("foundry", "liquidSteel"); 
+        this._moltenMetal = TFCPPBlocks.moltenSteel;    
+//	    if (_moltenMetal==null)
+//	    	_moltenMetal=Blocks.lava;
 
     }
 
@@ -66,21 +67,32 @@ public void onBlockPlacedBy(World w_, int x_, int y_, int z_, EntityLivingBase p
 			break;
 		default: return;
 	}
-	if (!player.isSneaking() && w_.isAirBlock(x_+xdir, y_, z_+zdir))
+//&& (_moltenMetal!=null)
+	if (!player.isSneaking() && w_.isAirBlock(x_+xdir, y_, z_+zdir) )
 	{
 		int mfilled = 0;
-		for (int h = y_-6; h < y_; ++h)
+		int emptyb = 0;
+		do {
+			++emptyb;			
+		} while (w_.isAirBlock(x_+xdir, y_-emptyb, z_+zdir) && (emptyb<10));
+		for (int h = y_-emptyb+1; ((h < y_-emptyb+6) && (h<=y_)); ++h)
 		{
-			if (w_.isAirBlock(x_+xdir, h, z_+zdir)) 
+			if (w_.isAirBlock(x_+xdir, h, z_+zdir) && (h<=y_)) 
 			{
 				w_.setBlock(x_+xdir, h, z_+zdir, _moltenMetal, 0, 3);
 				++mfilled;
 			}
 		}
+		
+		Block hopper;
+		hopper = w_.getBlock(x_+xdir, y_-emptyb, z_+zdir);
+		w_.scheduleBlockUpdate(x_+xdir, y_-emptyb, z_+zdir, hopper, hopper.tickRate(w_));
+		
 		w_.setBlock(x_, y_, z_, TFCPPBlocks.blockTransferLadle_Empty, pdir, 2);
+		
 		if (mfilled<4)
 		{
-			for (int hstep = 1; hstep < 5-mfilled; ++hstep)
+			for (int hstep = 2; hstep <= 5-mfilled; ++hstep)
 			{
 				if (w_.isAirBlock(x_+xdir*hstep, y_, z_+zdir*hstep))
 					w_.setBlock(x_+xdir*hstep, y_, z_+zdir*hstep, _moltenMetal, 0, 3);

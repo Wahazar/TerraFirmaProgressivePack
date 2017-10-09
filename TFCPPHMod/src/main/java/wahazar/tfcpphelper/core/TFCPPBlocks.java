@@ -21,6 +21,7 @@ public class TFCPPBlocks
 	public static Block moltenWeakBlackSteel;
 	public static Block moltenCarbonBlackSteel;
 	public static Block moltenBlackSteel;
+	public static Block moltenSteel;
 	public static Block moltenPigIron;
 	public static Block blockTransferLadle_Empty;
 	public static Block blockTransferLadle_OreBatch;
@@ -49,6 +50,7 @@ public class TFCPPBlocks
 		moltenWeakBlackSteel = new BlockMoltenWeakBlackSteel();
 		moltenCarbonBlackSteel = new BlockMoltenCarbonBlackSteel();
 		moltenBlackSteel = new BlockMoltenBlackSteel();		
+		moltenSteel = new BlockMoltenSteel();	
 		moltenPigIron = new BlockMoltenPigIron();
 		blockTransferLadle_Empty = new TransferLadle_Empty();
 		blockTransferLadle_OreBatch = new TransferLadle_OreBatch();
@@ -87,6 +89,7 @@ public class TFCPPBlocks
 		GameRegistry.registerBlock(moltenWeakBlackSteel, "MoltenWeakBlackSteel");
 		GameRegistry.registerBlock(moltenCarbonBlackSteel, "MoltenCarbonBlackSteel");
 		GameRegistry.registerBlock(moltenBlackSteel, "MoltenBlackSteel");
+		GameRegistry.registerBlock(moltenSteel, "MoltenSteel");
 		GameRegistry.registerBlock(moltenPigIron, "MoltenPigIron");
 		GameRegistry.registerBlock(blockTransferLadle_Empty, ItemTransferLadle_Empty.class, "TransferLadle_Empty");		
 		GameRegistry.registerBlock(blockTransferLadle_OreBatch, ItemTransferLadle_OreBatch.class, "TransferLadle_OreBatch");		

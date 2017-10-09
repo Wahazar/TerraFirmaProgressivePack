@@ -180,8 +180,8 @@ recipes.remove(<IC2:blockMetal:*>);
 mods.foundry.Melting.removeRecipe(ic2_ingot_steel);
 mods.foundry.Melting.removeRecipe(ic2_casing_steel);
 
-mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*54, <foundry:foundryMold:26>); 
-mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>);
+//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*54, <foundry:foundryMold:26>); 
+//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>);
 
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquidstainlesssteel>*9, [<liquid:liquidsteel>*8, <liquid:liquidchromium>]);
 

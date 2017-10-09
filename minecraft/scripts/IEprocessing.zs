@@ -308,7 +308,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<customitems:chromium_nugget> * 2
 //mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot>, <ore:ingotGold>, ie_slag, 200, 800, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>, <tfcudarymod:item.Red Steel Bucket Nitric Acid>], "Recycling");
 
 # Cr galvanised steel
-mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_galvanised_steel, <ore:ingotSteel>, ie_slag, 200, 800, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>, <customitems:chromium_nugget>], "Recycling");
+//mods.immersiveengineering.ArcFurnace.addRecipe(ie_ingot_galvanised_steel, <ore:ingotSteel>, ie_slag, 200, 800, [<tfcudarymod:item.Blue Steel Bucket Sulfuric Acid>, <customitems:chromium_nugget>], "Recycling");
 
 # Sodium carbonate - Leblanc process
 mods.immersiveengineering.ArcFurnace.addRecipe(<customitems:black_ash_powder> * 2, sodium_sulfate_powder, ie_slag, 200, 400, [calcium_carbonate_powder, <ore:dustCoal>], "Recycling");

@@ -36,6 +36,7 @@ public class TFCPPFluids
 	public static final Fluid liquidWeakBlackSteel = new Fluid("liquid_Black_Weak_Steel").setLuminosity(13).setDensity(9000).setViscosity(8000).setTemperature(1700).setUnlocalizedName("liquidWeakBlackSteel");   	
 	public static final Fluid liquidCarbonBlackSteel = new Fluid("liquidCarbonBlackSteel").setLuminosity(12).setDensity(8900).setViscosity(8000).setTemperature(1700).setUnlocalizedName("liquidCarbonBlackSteel");   
 	public static final Fluid liquidBlackSteel = new Fluid("liquidBlackSteel").setLuminosity(14).setDensity(9000).setViscosity(8000).setTemperature(1750).setUnlocalizedName("liquidBlackSteel");   
+	public static final Fluid liquidSteel = new Fluid("liquidSteel").setLuminosity(14).setDensity(9000).setViscosity(8000).setTemperature(1750).setUnlocalizedName("liquidSteel");   
 	public static final Fluid liquidPigIron = new Fluid("liquid_Pig_Iron").setLuminosity(14).setDensity(8500).setViscosity(8500).setTemperature(1750).setUnlocalizedName("liquidPigIron");   
 //	public static final Fluid liquidBismuth = new Fluid("liquid_Bismuth").setLuminosity(14).setDensity(8500).setViscosity(8500).setTemperature(1750).setUnlocalizedName("liquidBismuth");   
 
@@ -64,6 +65,7 @@ public class TFCPPFluids
       FluidRegistry.registerFluid(liquidWeakBlackSteel);
       FluidRegistry.registerFluid(liquidCarbonBlackSteel);
       FluidRegistry.registerFluid(liquidBlackSteel);
+      FluidRegistry.registerFluid(liquidSteel); 
       FluidRegistry.registerFluid(liquidPigIron);
 //      FluidRegistry.registerFluid(liquidBismuth);  
       FluidRegistry.registerFluid(gasCarboxDioxide);
@@ -88,7 +90,7 @@ public class TFCPPFluids
         // if (FluidRegistry.getFluid("liquidblacksteel")!= null)
         FluidContainerRegistry.registerFluidContainer(new FluidStack(liquidBlackSteel, 1000), new ItemStack(TFCPPItems.itemBlueSteelBucket_BlackSteel), new ItemStack(TFCItems.blueSteelBucketEmpty));
         FluidContainerRegistry.registerFluidContainer(new FluidStack(liquidPigIron, 1000), new ItemStack(TFCPPItems.itemBlueSteelBucket_PigIron), new ItemStack(TFCItems.blueSteelBucketEmpty));
-        if (FluidRegistry.getFluid("liquidsteel")!= null)
+//        if (FluidRegistry.getFluid("liquidsteel")!= null)
         	FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("liquidsteel"), 1000), new ItemStack(TFCPPItems.itemBlueSteelBucket_Steel), new ItemStack(TFCItems.blueSteelBucketEmpty));
         FluidContainerRegistry.registerFluidContainer(new FluidStack(fluidMundanePotion, 1000), new ItemStack(Items.potionitem,1,8192), new ItemStack(Items.glass_bottle));
         FluidContainerRegistry.registerFluidContainer(new FluidStack(fluidAwkwardPotion, 1000), new ItemStack(Items.potionitem,1,16), new ItemStack(Items.glass_bottle));
