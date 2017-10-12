@@ -53,6 +53,10 @@ recipes.remove(rc_ingot_lead);
 furnace.addRecipe(rc_nugget_tin * 7, <terrafirmacraft:item.Tin Ingot>);
 furnace.addRecipe(rc_nugget_lead * 7, <terrafirmacraft:item.Lead Ingot>);
 
+furnace.remove(<Railcraft:brick.quarried:2>);
+recipes.addShapeless(<Railcraft:brick.quarried:2>, [<terrafirmacraft:StoneMMSmooth:5>]);
+recipes.addShapeless(<Railcraft:cube:7>, [<terrafirmacraft:StoneMM:5>]);
+
 #circuits from nuggets/plates and str. glass
 recipes.remove(<Railcraft:part.circuit:0>);
 recipes.addShaped(<Railcraft:part.circuit:0>, [

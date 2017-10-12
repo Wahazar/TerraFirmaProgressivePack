@@ -16,7 +16,7 @@ val saltpetre = <terrafirmacraft:item.Powder:4>;
 val lead_oxide = <ihl:item.ihlSimpleItem:151>;
 val ie_nugget_steel = <ImmersiveEngineering:metal:29>;
 
-recipes.addShapeless(<ihl:guidebook>, [<minecraft:book>,<IC2:itemFluidCell>.reuse(),<IC2:itemCable:1>]);
+// recipes.addShapeless(<ihl:guidebook>, [<minecraft:book>,<IC2:itemFluidCell>.reuse(),<IC2:itemCable:1>]);
 
 //iron workbench
 recipes.remove(<ihl:ironWorkbench>);

@@ -252,7 +252,7 @@ mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*432, <foundry:foundryMold:
 //remove railcraft plates
 mods.foundry.Casting.removeRecipe(<liquid:liquidcopper>*108, <foundry:foundryMold:32>);
 mods.foundry.Casting.removeRecipe(<liquid:liquidiron>*108, <foundry:foundryMold:32>);
-mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>); 
+//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>); 
 
 
 //remove foundry bullets

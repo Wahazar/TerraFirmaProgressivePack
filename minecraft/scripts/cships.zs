@@ -28,7 +28,7 @@ recipes.addShaped(<cuchaz.ships:berth>, [
 
 recipes.remove(<cuchaz.ships:blockShip:0>);
 recipes.addShapeless(<cuchaz.ships:blockShip:0>, 
- [<terrafirmacraft:Thatch>, <ore:itemKnife>.transformDamage(), <terrafirmacraft:item.Ink>, <terrafirmacraft:item.Firestarter>]);
+ [<terrafirmacraft:Thatch>, <ore:itemKnife>.transformDamage(), <ore:dyeBlack>, <ihl:guidebook>]);
 
 recipes.remove(<cuchaz.ships:blockShip:1>);
 recipes.addShaped(<cuchaz.ships:blockShip:1>, [

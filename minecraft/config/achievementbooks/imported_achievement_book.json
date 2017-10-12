@@ -1,0 +1,1778 @@
+{
+  "itemName": "TFPP_manual",
+  "bookName": "TFPP Manual and Achievement Book",
+  "colour": "black",
+  "pages": [
+    [
+      {
+        "id": 0,
+        "header": "\u003d\u003d\u003d Dark age milestones \u003d\u003d\u003d"
+      },
+      {
+        "id": 1,
+        "achievement": "Stone Age"
+      },
+      {
+        "id": 2,
+        "achievement": "Pottery"
+      },
+      {
+        "id": 3,
+        "achievement": "First metal casting"
+      },
+      {
+        "id": 4,
+        "achievement": "Leather preparation"
+      },
+      {
+        "id": 5,
+        "achievement": "Bronze Age"
+      },
+      {
+        "id": 6,
+        "achievement": "Hammer time"
+      },
+      {
+        "id": 7,
+        "achievement": "Stones, minerals"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "achievement": "Clean up with Bronze"
+      },
+      {
+        "id": 9,
+        "achievement": "Winter is coming"
+      },
+      {
+        "id": 10,
+        "achievement": "Charcoal pyrolisys"
+      },
+      {
+        "id": 11,
+        "achievement": "Iron Age"
+      },
+     {
+        "id": 12,
+        "achievement": "Shiny metal plates"
+      },
+      {
+        "id": 13,
+        "achievement": "Clean up with Lead"
+      }
+    ],
+    [
+      {
+        "id": 14,
+        "header": "\u003d\u003d\u003d Modern technology \u003d\u003d\u003d"
+      },
+      {
+        "id": 15,
+        "achievement": "Advanced farming"
+      },
+      {
+        "id": 16,
+        "achievement": "Hard like steel"
+      },
+      {
+        "id": 17,
+        "achievement": "Choke with coke"
+      },
+      {
+        "id": 18,
+        "achievement": "Better Transport"
+      },
+      {
+        "id": 19,
+        "achievement": "Crucial crucible"
+      },
+      {
+        "id": 20,
+        "achievement": "Power On"
+      }
+    ],
+    [
+      {
+        "id": 21,
+        "achievement": "Metal Foundry"
+      },
+      {
+        "id": 22,
+        "achievement": "Glassworks"
+      },
+      {
+        "id": 23,
+        "achievement": "Automatic forge"
+      },
+      {
+        "id": 24,
+        "achievement": "Clean up with Steel"
+      },
+      {
+        "id": 25,
+        "achievement": "Industry Giant"
+      },
+      {
+        "id": 26,
+        "achievement": "Efficient Steel Production"
+      },
+      {
+        "id": 27,
+        "achievement": "Improved Transport"
+      }
+    ],
+    [
+      {
+        "id": 28,
+        "header": "\u003d\u003d Advanced technology \u003d\u003d"
+      },
+      {
+        "id": 29,
+        "achievement": "Sparks"
+      },
+      {
+        "id": 30,
+        "achievement": "Injection Mold"
+      },
+      {
+        "id": 31,
+        "achievement": "Better tools"
+      },
+      {
+        "id": 32,
+        "achievement": "Modern Chemistry"
+      },
+      {
+        "id": 33,
+        "achievement": "Useful gases"
+      },
+      {
+        "id": 34,
+        "achievement": "More Chemistry"
+      },
+      {
+        "id": 35,
+        "achievement": "More Energy!"
+      }
+    ],
+    [
+      {
+        "id": 36,
+        "achievement": "Oxygen Affinity"
+      },
+      {
+        "id": 37,
+        "achievement": "Advanced Metallurgy"
+      },
+      {
+        "id": 38,
+        "achievement": "Advanced Circuit"
+      },
+      {
+        "id": 39,
+        "achievement": "Clean up with Charge"
+      },
+      {
+        "id": 40,
+        "header": "details-\u003e"
+      }    ],
+    [
+      {
+        "id": 41,
+        "header": "\u003d\u003d\u003d Stone Age \u003d\u003d\u003d"
+      },
+      {
+        "id": 42,
+        "header": "You need to make some primitive tools, collect wood and straw, find good place for shelter, try to start fire with sticks and survive first night."
+      },
+      {
+        "id": 43,
+        "achievement": "Grab some stones and sticks, make basic stone tools (knife, axe, shovel)"
+      },
+      {
+        "id": 44,
+        "achievement": "Cut some trees with axe"
+      },
+      {
+        "id": 45,
+        "achievement": "Cut some grass with knife"
+      }
+    ],
+    [
+      {
+        "id": 46,
+        "achievement": "Find pond with drinkable (fresh) water"
+      },
+      {
+        "id": 47,
+        "achievement": "Find flat terrain near pond, dig trench around and build temporary shelter. Thatch can be used for doors"
+      },
+      {
+        "id": 48,
+        "achievement": "Make firestarter and try to light fire pit. Put some stick into to get torches"
+      },
+      {
+        "id": 49,
+        "achievement": "Wait for dawn, make more stone tools"
+      }
+    ],
+    [
+      {
+        "id": 50,
+        "header": "\u003d\u003d\u003d Pottery \u003d\u003d\u003d"
+      },
+      {
+        "id": 51,
+        "header": "You need clay to make containers and molds."
+      },
+      {
+        "id": 52,
+        "achievement": "Explore your shelter neighbouring"
+      },
+      {
+        "id": 53,
+        "achievement": "Collect any food you spotted (crops, sea weeds)"
+      },
+      {
+        "id": 54,
+        "achievement": "Kill any large animal (not a sheeps or female cow), fry meat, use raw hide to make temporary bed to set your spawn point"
+      },
+      {
+        "id": 55,
+        "achievement": "Find some clay deposits (look for Goldenrod flowers)"
+      }
+    ],
+    [
+      {
+        "id": 56,
+        "achievement": "Memorise any spot, where metal ore are spotted (copper is most valuable now)"
+      },
+      {
+        "id": 57,
+        "achievement": "Bring clay to shelter, knap it to produce some bowls, vessels and jugs"
+      },
+      {
+        "id": 58,
+        "achievement": "Dig hole, place your earthenwares (shift+right click), place 8 straw shafts and 8 logs to create pit kiln, start fire."
+      }
+    ],
+    [
+     {
+        "id": 59,
+        "header": "\u003d\u003d\u003d First metal casting \u003d\u003d\u003d"
+      },
+      {
+        "id": 60,
+        "header": "Saw or pickaxe?"
+      },
+      {
+        "id": 61,
+        "achievement": "Explore your neighbouring, collect more clay"
+      },
+      {
+        "id": 62,
+        "achievement": "Found fruit trees? cut branches and replant near your shelter"
+      },
+      {
+        "id": 63,
+        "achievement": "Did you seen any copper ore in ravines/mountain walls? Make pickaxe mold. If not, make saw mold"
+      }
+    ],
+    [
+      {
+        "id": 64,
+        "achievement": "Can you collect 10..20 pieces of copper (or at least 9 copper and 1 cassiterite)? If not, change bowl into gold pan and siewe sand or gravel above flowing water."
+      },
+      {
+        "id": 65,
+        "achievement": "10 ore pieces gives you one tool - put it into vessel and use pit kiln again"
+      },
+      {
+        "id": 66,
+        "achievement": "Pour molten metal into your fired mold"
+      },
+      {
+        "id": 67,
+        "achievement": "Ready to mine? Bring more copper! No copper visible? Get saw and make timber for sluice"
+      }
+    ],
+    [
+      {
+        "id": 68,
+        "header": "\u003d\u003d Leather preparation \u003d\u003d"
+      },
+      {
+        "id": 69,
+        "header": "You need leather not only for leather armor, but also for bellows"
+      },
+      {
+        "id": 70,
+        "achievement": "Find some lime/calcium rocks"
+      },
+      {
+        "id": 71,
+        "achievement": "Make stone hammer, crush lime rocks into calcite dust, calcinate it in firepit to get quicklime (flux)"
+      },
+      {
+        "id": 72,
+        "achievement": "Alternatively, if there no lime rock nearby, put twigs into firepit and make base liquor from ashes"
+      }
+    ],
+    [
+      {
+        "id": 73,
+        "achievement": "Throw raw hides into large vessel (or barrel) full of Limewater or Base Liquor, seal"
+      },
+      {
+        "id": 74,
+        "achievement": "Put hide into limewater, seal"
+      },
+      {
+        "id": 75,
+        "achievement": "Throw hide onto horizontal placed log (bark up), use knife to clean each hide piece"
+      },
+      {
+        "id": 76,
+        "achievement": "Wash hide in water container"
+      },
+      {
+        "id": 77,
+        "achievement": "Treat hide in tannin container"
+      }
+    ],
+    [
+      {
+        "id": 78,
+        "header": "\u003d\u003d\u003d Bronze Age \u003d\u003d\u003d"
+      },
+      {
+        "id": 79,
+        "header": "Make prospector pickaxe, to find more ores and minerals"
+      },
+      {
+        "id": 80,
+        "achievement": "Explore your neighbouring using prospector pick and memorise map of resources. In case of copper, try to dig first mine"
+      },
+      {
+        "id": 81,
+        "achievement": "If any chipped jewels found, make alloy calculator and protection range detector"
+      }
+    ],
+    [
+      {
+        "id": 82,
+        "achievement": "Collected enough copper and other metals? Make other molds and cast copper or bronze to get chisel, axe, mace, scythe"
+      },
+      {
+        "id": 83,
+        "achievement": "Make some ingot molds"
+      },
+      {
+        "id": 84,
+        "achievement": "Flux source nearby? If not, make boat and explore another lands"
+      },
+      {
+        "id": 85,
+        "achievement": "Found some seeds? Prepare farmland near water with hoe, plant these seeds"
+      }
+    ],
+    [
+      {
+        "id": 86,
+        "header": "\u003d\u003d\u003d Hammer time \u003d\u003d\u003d"
+      },
+      {
+        "id": 87,
+        "header": "Make your first anvil"
+      },
+      {
+        "id": 88,
+        "achievement": "Prerequisites: chisel and flux"
+      },
+      {
+        "id": 89,
+        "achievement": "Make stone anvil, put flux and hammer into"
+      },
+      {
+        "id": 90,
+        "achievement": "Prepare two firepits, two bellows and heaps of logs, alternatively make forge if you have charcoal"
+      },
+      {
+        "id": 91,
+        "achievement": "Cast 14 copper ingots, try to weld until hot or heat up in firepit/forge"
+      }
+    ],
+    [
+      {
+        "id": 92,
+        "achievement": "Make first real anvil from 7 double copper ingots"
+      },
+      {
+        "id": 93,
+        "achievement": "Try to make some copper sheets"
+      },
+      {
+        "id": 94,
+        "achievement": "Make copper armor or evaporation pan"
+      },
+      {
+        "id": 95,
+        "achievement": "Weld bronze/rose gold ingots, make better anvil, bronze armor"
+      }
+    ],
+    [
+      {
+        "id": 96,
+        "header": "\u003d\u003d\u003d Stones, minerals \u003d\u003d\u003d"
+      },
+      {
+        "id": 97,
+        "header": "Found better place for your habitat? Want to upgrade your slumsy shelter?"
+      },
+      {
+        "id": 98,
+        "achievement": "Explore other lands, seek for kalolinite, graphite, claystone"
+      },
+      {
+        "id": 99,
+        "achievement": "Collect different types of rocks"
+      },
+      {
+        "id": 100,
+        "achievement": "Use chisel to make bricks from your favorite type of rocks"
+      }
+    ],
+    [
+      {
+        "id": 101,
+        "achievement": "Make mortar from limemilk or gypsum plaster and sand"
+      },
+      {
+        "id": 102,
+        "achievement": "Use bricks and mortar for masonry"
+      },
+      {
+        "id": 103,
+        "achievement": "Make block of glass from sand heated in firepit (you need more advanced technology to make glass panels)"
+      },
+      {
+        "id": 104,
+        "achievement": "Start to build forge if not yet ready"
+      },
+      {
+        "id": 105,
+        "achievement": "Collect olive fruit saplings"
+      }
+    ],
+    [
+      {
+        "id": 106,
+        "header": "\u003d\u003d Clean up with Bronze \u003d\u003d"
+      },
+      {
+        "id": 107,
+        "header": "It is time to stop hiding under your hide"
+      },
+      {
+        "id": 108,
+        "achievement": "Kill some white skeletons with mace"
+      },
+      {
+        "id": 109,
+        "achievement": "Kill some spiders with metal javelin"
+      },
+      {
+        "id": 110,
+        "achievement": "Draw some feathers from chicken or pheasant"
+      },
+      {
+        "id": 111,
+        "achievement": "Make fishing rod, bow, arrows, quiver"
+      }
+    ],
+    [
+      {
+        "id": 112,
+        "achievement": "Kill all zombies"
+      },
+      {
+        "id": 113,
+        "achievement": "Collect some mushrooms"
+      },
+      {
+        "id": 114,
+        "achievement": "Replant any berry bushes you found - make berry fields"
+      },
+      {
+        "id": 115,
+        "achievement": "Make glass bottles using anvil and heated glass and copper tuyere"
+      },
+      {
+        "id": 116,
+        "achievement": "Start to prepare some awkward and mundane base potions"
+      }
+    ],
+    [
+      {
+        "id": 117,
+        "header": "\u003d\u003d\u003d Winter is coming \u003d\u003d\u003d"
+      },
+      {
+        "id": 118,
+        "header": "Bright side: food would not decay fast. Dark side: there will be no more food from crops until next summer."
+      },
+      {
+        "id": 119,
+        "achievement": "Mature crops? Collect them and try to replant before autumn"
+      },
+      {
+        "id": 120,
+        "achievement": "Collect all crops before snowfall"
+      },
+      {
+        "id": 121,
+        "achievement": "Prepare any alcoholic beverages"
+      },
+      {
+        "id": 122,
+        "achievement": "Prepare vinegar"
+      }
+    ],
+    [
+      {
+        "id": 123,
+        "achievement": "Prepare brine"
+      },
+      {
+        "id": 124,
+        "achievement": "Brine and preserve vegetables in vinegar"
+      },
+      {
+        "id": 125,
+        "achievement": "In case of hot climate, dry some fruits on drying mat (use glass blocks to protect it from rain)"
+      },
+      {
+        "id": 126,
+        "achievement": "Use collected grains to tame cow, keep it safe from wolfs (pit surrounded by fences is enough)"
+      }
+    ],
+    [
+      {
+        "id": 127,
+        "header": "\u003d\u003d\u003d Charcoal pyrolisys \u003d\u003d\u003d"
+      },
+      {
+        "id": 128,
+        "header": "You need wood. Lot of wood. Make scythe and remove leaves to get some saplings, before you cut a small tree. Try to be not environmental unfriendly"
+      },
+      {
+        "id": 129,
+        "achievement": "Grab metal axe and cut many trees"
+      },
+      {
+        "id": 130,
+        "achievement": "Dig a large pit or build small bunker"
+      },
+      {
+        "id": 131,
+        "achievement": "Fill your pit/bunker with logs heaps (shift+right click)"
+      }
+    ],
+    [
+      {
+        "id": 132,
+        "achievement": "Cover your almost all logs, drop torch and cover all"
+      },
+      {
+        "id": 133,
+        "achievement": "Get charcoal, when smoke is no more percolating outside covered heap"
+      },
+      {
+        "id": 134,
+        "achievement": "Use forge to heat up ingots and make some bronze tools in anvil"
+      },
+      {
+        "id": 135,
+        "achievement": "Start to mining iron ore (25 or 35 unit pieces are the best)"
+      }
+    ],
+    [
+      {
+        "id": 136,
+        "header": "\u003d\u003d\u003d Iron Age \u003d\u003d\u003d"
+      },
+      {
+        "id": 137,
+        "header": "You need charcoal. Lot of charcoal. And a smithing experience."
+      },
+      {
+        "id": 138,
+        "achievement": "Make bloomery doors from brass"
+      },
+      {
+        "id": 139,
+        "achievement": "Build bloomery from stone/bricks, install ladder"
+      },
+      {
+        "id": 140,
+        "achievement": "Put 8 charcoal pieces into bloomery"
+      },
+      {
+        "id": 141,
+        "achievement": "Climb above bloomery and drop charcoal and ore into"
+      }
+    ],
+    [
+      {
+        "id": 142,
+        "achievement": "Lit bloomery, if finished, get iron bloom and work on it while hot"
+      },
+      {
+        "id": 143,
+        "achievement": "Make iron anvil"
+      },
+      {
+        "id": 144,
+        "achievement": "Make iron grill - can be used for improved firepit or furnace for producing glass and clay bricks"
+      },
+      {
+        "id": 145,
+        "achievement": "Make iron armor and sword"
+      }
+    ],
+    [
+      {
+        "id": 146,
+        "header": "\u003d\u003d\u003d Shiny metal plates \u003d\u003d\u003d"
+      },
+      {
+        "id": 147,
+        "header": "Found any sphalerite? Cast some brass ingots. You need them to make some simple automation mechanisms and steam exosuit."
+      },
+      {
+        "id": 148,
+        "achievement": "Found any kaolinite/graphit? Make automated bellows"
+      },
+      {
+        "id": 149,
+        "achievement": "Read \u0027Esteemed Innovation\u0027 book"
+      }
+    ],
+    [
+      {
+        "id": 150,
+        "achievement": "Make boiler, archiedes screw pump and some pipes"
+      },
+      {
+        "id": 151,
+        "achievement": "Place pump in fresh water facing into boiler side. Connect pipes from boiler to pump, put water and fuel into boiler"
+      },
+      {
+        "id": 152,
+        "achievement": "Make steam filling pad and connect to boiler"
+      },
+      {
+        "id": 153,
+        "achievement": "Make exosuit frames"
+      },
+      {
+        "id": 154,
+        "achievement": "Build Engineering Table"
+      },
+      {
+        "id": 155,
+        "achievement": "Make hydrophobic boots, install, load steam and enjoy walking on water :)"
+      }
+    ],
+    [
+      {
+        "id": 156,
+        "header": "\u003d\u003d Clean up with Lead \u003d\u003d"
+      },
+      {
+        "id": 157,
+        "header": "It is time to use some advanced weaponry against unwanted creatures. Dont throw your bow away, it is still usable for hunting, lead bullets give none edible meat."
+      },
+      {
+        "id": 158,
+        "achievement": "Collect or make some gunpowder"
+      },
+      {
+        "id": 159,
+        "achievement": "Melt some lead ingots into nuggets"
+      },
+      {
+        "id": 160,
+        "achievement": "Prepare some cartridges"
+      }
+    ],
+    [
+      {
+        "id": 161,
+        "achievement": "Make flintlock pistol (or musket if you have treated wood)"
+      },
+      {
+        "id": 162,
+        "achievement": "Kill all skeletons from distance"
+      },
+      {
+        "id": 163,
+        "achievement": "Dig deep mineshaft, found any slime and convert into grease"
+      },
+      {
+        "id": 164,
+        "achievement": "Use thumper or steam drill for improvement of mining works"
+      },
+      {
+        "id": 165,
+        "achievement": "Make raft with paddle or small sailship and launch it"
+      }
+    ],
+    [
+      {
+        "id": 166,
+        "header": "\u003d\u003d Advanced farming \u003d\u003d"
+      },
+      {
+        "id": 167,
+        "header": "You will need large quanitity of wool, plant/olive oil, leather, alcohol."
+      },
+      {
+        "id": 168,
+        "achievement": "Explore new lands, seek for sheeps"
+      },
+      {
+        "id": 169,
+        "achievement": "Make ropes to capture sheeps, bring them home"
+      },
+      {
+        "id": 170,
+        "achievement": "Collect all domestic animals and breed them"
+      },
+      {
+        "id": 171,
+        "achievement": "Cultivate large field of jute plants and olive trees"
+      }
+    ],
+    [
+      {
+        "id": 172,
+        "achievement": "Collect enough number of berry bushes to gather full stack of berries to make positive effect potions"
+      },
+      {
+        "id": 173,
+        "achievement": "Increase area of potato or grain cultivation"
+      },
+      {
+        "id": 174,
+        "achievement": "Prepare fertilizers from rotten meat, straws, ashes and bones"
+      },
+      {
+        "id": 175,
+        "achievement": "Try to steal industrial hemp seeds from zombie Farmer"
+      }
+    ],
+    [
+      {
+        "id": 176,
+        "header": "\u003d\u003d Hard like steel \u003d\u003d"
+      },
+      {
+        "id": 177,
+        "header": "With use of caolinite and graphite, you can make gray crucible, heart of blast furnace"
+      },
+      {
+        "id": 178,
+        "achievement": "Make three crucibles"
+      },
+      {
+        "id": 179,
+        "achievement": "Use two crucibles to build blast furnace with chimney"
+      },
+      {
+        "id": 180,
+        "achievement": "Put charcoal, iron ore, flux and lit it, install tuyere, use bellows to increase temperature"
+      },
+      {
+        "id": 181,
+        "achievement": "Catch liquid pig iron to crucible"
+      }
+    ],
+    [
+      {
+        "id": 182,
+        "achievement": "Cast pig iron into ingot mold, use anvil to hammer pig irong ingot into steel ingot"
+      },
+      {
+        "id": 183,
+        "achievement": "Make steel anvil"
+      },
+      {
+        "id": 184,
+        "achievement": "Prepare some steel tools"
+      },
+      {
+        "id": 185,
+        "achievement": "Cast steel, nickel and black bronze ingots."
+      }
+    ],
+    [
+      {
+        "id": 186,
+        "header": "\u003d\u003d Choke with coke \u003d\u003d"
+      },
+      {
+        "id": 187,
+        "header": "With coke oven you can produce not only charcoal or coke, but also byproduct of pyrolisys - creozote oil"
+      },
+      {
+        "id": 188,
+        "achievement": "Make Iron Workbench"
+      },
+      {
+        "id": 189,
+        "achievement": "Make 26 yellow (you need treated wood) or 27 gray (you need steel and Engineer Hammer) coke oven blocks"
+      }
+    ],
+    [
+      {
+        "id": 190,
+        "achievement": "Build coke oven (3x3x3 multiblock structure, hollow if yellow), gray furnace must be assembled with engineering hammer"
+      },
+      {
+        "id": 191,
+        "achievement": "Put wood logs and produce fuel for bloomery and blast furnace"
+      },
+      {
+        "id": 192,
+        "achievement": "Soak timber in creozote, make impregnated planks and sticks"
+      },
+      {
+        "id": 193,
+        "achievement": "Make brick mold from treated wood (instead of creozote, you can use olive oil)"
+      }
+    ],
+    [
+      {
+        "id": 194,
+        "header": "\u003d\u003d Better Transport \u003d\u003d"
+      },
+      {
+        "id": 195,
+        "header": "Thanks to the steel and creozote or olive oil impregnants you can establish better transport."
+      },
+      {
+        "id": 196,
+        "achievement": "Cut wood logs into support beams and soak them into creozote oil"
+      },
+      {
+        "id": 197,
+        "achievement": "Make wooden rails and build first railway line"
+      },
+      {
+        "id": 198,
+        "achievement": "Make minecart wheels, minecart and construct cargo cart"
+      }
+    ],
+    [
+      {
+        "id": 199,
+        "achievement": "Make crowbar to attach/detach some carts"
+      },
+      {
+        "id": 200,
+        "achievement": "With use of steel nails you can construct animal crate"
+      },
+      {
+        "id": 201,
+        "achievement": "Impregnate oak, spruce, birch, acacia or hickory logs and planks with use of olive oil"
+      },
+      {
+        "id": 202,
+        "achievement": "Build sail ship. Explore far southern lands and bring some chickens"
+      },
+      {
+        "id": 203,
+        "achievement": "Serch for quartzite sand for clear glass production"
+      }
+    ],
+    [
+      {
+        "id": 204,
+        "header": "\u003d\u003d Crucial crucible \u003d\u003d"
+      },
+      {
+        "id": 205,
+        "header": "You need separate crucible to melt metals and mix them into alloys"
+      },
+      {
+        "id": 206,
+        "achievement": "Melt ingredients in crucible, cast weak black steel and forge black steel sheets."
+      },
+      {
+        "id": 207,
+        "achievement": "Make black steel anvil"
+      },
+      {
+        "id": 208,
+        "achievement": "Make improved chests, steel hoppers, minecarts or ship with chest"
+      },
+      {
+        "id": 209,
+        "achievement": "Proceed with red and blue steel and appropriate anvils"
+      }
+    ],
+    [
+      {
+        "id": 210,
+        "achievement": "Make your final favorite coloured armour"
+      },
+      {
+        "id": 211,
+        "achievement": "Make red and blue bucket"
+      },
+      {
+        "id": 212,
+        "achievement": "Make some refractory containers"
+      },
+      {
+        "id": 213,
+        "achievement": "Cast some steel units from ingot moulds into refractory containers"
+      }
+    ],
+    [
+      {
+        "id": 214,
+        "header": "\u003d\u003d Power On \u003d\u003d"
+      },
+      {
+        "id": 215,
+        "header": "Time for industrialization - you need energy. You can use external power to cast iron or steel into molds"
+      },
+      {
+        "id": 216,
+        "achievement": "Prepare invar and cupronickel ingots with use of Alloy Furnace"
+      },
+      {
+        "id": 217,
+        "achievement": "Melt tin ingots and fill 4 refractory containers"
+      },
+      {
+        "id": 218,
+        "achievement": "Build Metal Caster"
+      }
+    ],
+    [
+      {
+        "id": 219,
+        "achievement": "Make \u0027Engineer Manual\u0027 book and enginner hammer"
+      },
+      {
+        "id": 220,
+        "achievement": "Build kinetic dynamo"
+      },
+      {
+        "id": 221,
+        "achievement": "Make water wheel or wind mill wheel, attach to kinetic dynamo, use engineer hammer to change dynamo windings orientation if needed"
+      },
+      {
+        "id": 222,
+        "achievement": "Use furnace to make gears molds and hardened clay for cable insulators"
+      },
+      {
+        "id": 223,
+        "achievement": "Connect power source to Metal Caster"
+      }
+    ],
+    [
+      {
+        "id": 224,
+        "header": "\u003d\u003d Metal Foundry \u003d\u003d"
+      },
+      {
+        "id": 225,
+        "header": "With powered Metal Caster, you can produce advanced metal components"
+      },
+      {
+        "id": 226,
+        "achievement": "Use Alloy Furnace to pour tin into refractory containers"
+      },
+      {
+        "id": 227,
+        "achievement": "Cast tin into gear bushing mold."
+      },
+      {
+        "id": 228,
+        "achievement": "Put tin bushing into second field and cast steel into gear mold."
+      }
+    ],
+    [
+      {
+        "id": 229,
+        "achievement": "Now you can make Rolling Machine and hobbyist Steam Machine"
+      },
+      {
+        "id": 230,
+        "achievement": "Power up Rolling Machine and prepare some iron and steel plates"
+      },
+      {
+        "id": 231,
+        "achievement": "Place steam boiler at firebox and connect at least two industrial Steam Machines to it."
+      },
+      {
+        "id": 232,
+        "achievement": "Now you are ready to provide enough power to heat up Induction Crucible Furnace beyond 2000K"
+      }
+    ],
+    [
+      {
+        "id": 233,
+        "header": "\u003d\u003d Glassworks \u003d\u003d"
+      },
+      {
+        "id": 234,
+        "header": "Induction Crucible Furnace can melt not only metals and alloys, but also sand, glass and dyes"
+      },
+      {
+        "id": 235,
+        "achievement": "Mix quartzite sand and flux, melt it to obtain block or slab of glass"
+      },
+      {
+        "id": 236,
+        "achievement": "Melt any dye, use Metal Infuser to mix dye and glass"
+      },
+      {
+        "id": 237,
+        "achievement": "Make coloured glass"
+      }
+    ],
+    [
+      {
+        "id": 238,
+        "achievement": "Melt pure quartzite sand to obtain very clear quartz glass"
+      },
+      {
+        "id": 239,
+        "achievement": "Use quartz glass slab to make universal liquid container"
+      },
+      {
+        "id": 240,
+        "achievement": "Make tin plate for flat glass"
+      },
+      {
+        "id": 241,
+        "achievement": "Use anvil and hot tin plate to prepare flat glass pane"
+      },
+      {
+        "id": 242,
+        "achievement": "Use existing flat glass to cast more flat glass"
+      }
+    ],
+    [
+      {
+        "id": 243,
+        "header": "\u003d\u003d Automatic forge \u003d\u003d"
+      },
+      {
+        "id": 244,
+        "header": "Powered metal press can help with forging high carbonised steel ingots into finished ones, or making double ingots, sheets, rods, tuyeres"
+      },
+      {
+        "id": 245,
+        "achievement": "Assembly Metal Press in your forge area"
+      },
+      {
+        "id": 246,
+        "achievement": "Connect power from your steam engines"
+      },
+      {
+        "id": 247,
+        "achievement": "Throw plate mold into Metal Press and make some steel plates"
+      }
+    ],
+    [
+      {
+        "id": 248,
+        "achievement": "Make more steel and iron gears"
+      },
+      {
+        "id": 249,
+        "achievement": "Assembly Industrial Squezeer facility, use it to make steel and iron coils"
+      },
+      {
+        "id": 250,
+        "achievement": "Prepare iron and steel mechanical components"
+      },
+      {
+        "id": 251,
+        "achievement": "Forge iron bar and clone it with Foundry"
+      }
+    ],
+    [
+      {
+        "id": 252,
+        "header": "\u003d\u003d Clean up with Steel \u003d\u003d"
+      },
+      {
+        "id": 253,
+        "header": "Old fashioned flintlock weapons needs to be replaced by modern one"
+      },
+      {
+        "id": 254,
+        "achievement": "Make turning table and any kinetic generator"
+      },
+      {
+        "id": 255,
+        "achievement": "Machine turning blank into revolver drum"
+      },
+      {
+        "id": 256,
+        "achievement": "Finish drum with use of Iron Workbench"
+      },
+      {
+        "id": 257,
+        "achievement": "Make Revolver"
+      }
+    ],
+    [
+      {
+        "id": 258,
+        "achievement": "Make Engineer\u0027s Workbench"
+      },
+      {
+        "id": 259,
+        "achievement": "Test different types of projectiles and send all skeletons back into graveyard"
+      },
+      {
+        "id": 260,
+        "achievement": "Attach Precision Scope to Revolver"
+      },
+      {
+        "id": 261,
+        "achievement": "Wear Fall Assist boots and fill your exosuit with steam"
+      },
+      {
+        "id": 262,
+        "achievement": "Look trough Precision Scope at Enderman"
+      }
+    ],
+    [
+      {
+        "id": 263,
+        "header": "\u003d\u003d Industry Giant \u003d\u003d"
+      },
+      {
+        "id": 264,
+        "header": "It is time to abandon this medieval stuff and shuffle into modern technology"
+      },
+      {
+        "id": 265,
+        "achievement": "Prepare place for your industrial plant"
+      },
+      {
+        "id": 266,
+        "achievement": "Assembly Advanced Blast Furnace (red)"
+      },
+      {
+        "id": 267,
+        "achievement": "Assembly Crusher, feed it with any iron ore"
+      }
+    ],
+    [
+      {
+        "id": 268,
+        "achievement": "Place Bessemer Convertor Furnace adjacent to any heat generator"
+      },
+      {
+        "id": 269,
+        "achievement": "Place Refractory hopper over metal Caster and build 5 block high chimney above it"
+      },
+      {
+        "id": 270,
+        "achievement": "Make empty steel cells with use of metal former, fill with compressed air"
+      },
+      {
+        "id": 271,
+        "achievement": "Fill Transfer Ladle with iron ore batch and flux"
+      },
+      {
+        "id": 272,
+        "achievement": "Meanwhile search for rubber trees"
+      }
+    ],
+    [
+      {
+        "id": 273,
+        "header": "\u003dEfficient Steel Production\u003d"
+      },
+      {
+        "id": 274,
+        "header": "You need a lot of steel, but you can make it now faster and throw melted steel directly into Caster"
+      },
+      {
+        "id": 275,
+        "achievement": "Insert Transfer Ladle to Advanced Blast Furnace to produce pig iron"
+      },
+      {
+        "id": 276,
+        "achievement": "Convert pig iron into steel with use of air in Bessemer Convertor Furnace"
+      }
+    ],
+    [
+      {
+        "id": 277,
+        "achievement": "Place Transfer Ladle at the south edge of the chimney above liquid hopper and break it"
+      },
+      {
+        "id": 278,
+        "achievement": "Molten steel will sink into Caster and you can cast ingots or other steel products"
+      },
+      {
+        "id": 279,
+        "achievement": "Make Rolling Machine and Assembly Metal Press for easy production of sheets and structural beams"
+      },
+      {
+        "id": 280,
+        "achievement": "Assembly Railcraft Blast Furnace (grey) to produce liquid iron"
+      }
+    ],
+    [
+      {
+        "id": 281,
+        "header": "\u003d\u003d Improved Transport \u003d\u003d"
+      },
+      {
+        "id": 282,
+        "header": "With mass steel production you can build up your transport infrastructure"
+      },
+      {
+        "id": 283,
+        "achievement": "Use rolling machine to make steel rails"
+      },
+      {
+        "id": 284,
+        "achievement": "Assembly Tunnel Bore for mining or tunnel constructions"
+      },
+      {
+        "id": 285,
+        "achievement": "Build faster railway network"
+      }
+    ],
+    [
+      {
+        "id": 286,
+        "achievement": "Make synthetic blaze powder or seek some fury glimses near lava pods close to earth crust"
+      },
+      {
+        "id": 287,
+        "achievement": "Build steam locomotive, cargo carts, minecarts with chests, tank carts"
+      },
+      {
+        "id": 288,
+        "achievement": "Build elevator rail for vertical transport in your mines"
+      },
+      {
+        "id": 289,
+        "achievement": "Improve your steam exosuit with wings and other powerups"
+      }
+    ],
+    [
+      {
+        "id": 290,
+        "header": "\u003d\u003d Sparks \u003d\u003d"
+      },
+      {
+        "id": 291,
+        "header": "With electricity you can achieve high temperatures and pressures"
+      },
+      {
+        "id": 292,
+        "achievement": "Make acheson furnace"
+      },
+      {
+        "id": 293,
+        "achievement": "Squizee some spruce logs, smelt resin into tar"
+      },
+      {
+        "id": 294,
+        "achievement": "Make some coal electrodes"
+      },
+      {
+        "id": 295,
+        "achievement": "Produce carborundum dust"
+      }
+    ],
+    [
+      {
+        "id": 296,
+        "achievement": "Try to convert graphite into another form of carbon"
+      },
+      {
+        "id": 297,
+        "achievement": "Make electric muffle furnace"
+      }
+    ],
+    [
+      {
+        "id": 298,
+        "header": "\u003d\u003d Injection Mold \u003d\u003d"
+      },
+      {
+        "id": 299,
+        "header": "Complicated metal objects must to be casted into single-use sand molds"
+      },
+      {
+        "id": 300,
+        "achievement": "Use iron workbench to make small crucible"
+      },
+      {
+        "id": 301,
+        "achievement": "Prepare sand mold for bronze tub."
+      },
+      {
+        "id": 302,
+        "achievement": "Put bronze ingot into crucible, heat crucible in muffle furnace"
+      }
+    ],
+    [
+      {
+        "id": 303,
+        "achievement": "Place sand mold at the ground, pour molten bronze from crucible into the mold, wait 10 s and break it"
+      },
+      {
+        "id": 304,
+        "achievement": "Proceed with casting tiny steel bars, chiesel, hand drill bore and other tools"
+      },
+      {
+        "id": 305,
+        "achievement": "Cast detonation spraying machine parts and assembly it"
+      }
+    ],
+    [
+      {
+        "id": 306,
+        "header": "\u003d\u003d Better tools \u003d\u003d"
+      },
+      {
+        "id": 307,
+        "header": "You need both electric tools and advanced handy warez"
+      },
+      {
+        "id": 308,
+        "achievement": "Make electric macerator and compressor"
+      },
+      {
+        "id": 309,
+        "achievement": "Assembly ore washer near crusher facility"
+      },
+      {
+        "id": 310,
+        "achievement": "Connect washer and crusher with transmission belts"
+      },
+      {
+        "id": 311,
+        "achievement": "Use pump and pipes for ore washer water supply"
+      }
+    ],
+    [
+      {
+        "id": 312,
+        "achievement": "Find some diamonds or make artificial ones"
+      },
+      {
+        "id": 313,
+        "achievement": "Make diamond dust coated files"
+      },
+      {
+        "id": 314,
+        "achievement": "Make better version of the loom"
+      },
+      {
+        "id": 315,
+        "achievement": "Assembly wire mill"
+      },
+      {
+        "id": 316,
+        "achievement": "Make any kind of mining drill"
+      },
+      {
+        "id": 317,
+        "achievement": "Assembly both parts of lathe table"
+      }
+    ],
+    [
+      {
+        "id": 318,
+        "header": "\u003d\u003d Modern Chemistry \u003d\u003d"
+      },
+      {
+        "id": 319,
+        "header": "You need some better equipment than clay vessels"
+      },
+      {
+        "id": 320,
+        "achievement": "Make porcelain wares: chemically resitant oven, chimney knee, precipitator/condenser"
+      },
+      {
+        "id": 321,
+        "achievement": "Read IHL manual and assembly setup for sulfuric acid production"
+      },
+      {
+        "id": 322,
+        "achievement": "Make stearine from suet"
+      }
+    ],
+    [
+      {
+        "id": 323,
+        "achievement": "Cast high presure steel vessels and parts of turbocompresor"
+      },
+      {
+        "id": 324,
+        "achievement": "Make cryogenic distiller"
+      },
+      {
+        "id": 325,
+        "achievement": "Use cryogenic distiller to fractionate Nitrogen and Oxygen from air"
+      },
+      {
+        "id": 326,
+        "achievement": "Assembly both parts of wooden rolling machine and make vulcanised rubber rolls"
+      },
+      {
+        "id": 327,
+        "achievement": "Make fabric from hemp and produce rubber pipe"
+      }
+    ],
+    [
+      {
+        "id": 328,
+        "header": "\u003d\u003d Useful gases \u003d\u003d"
+      },
+      {
+        "id": 329,
+        "header": "With gas welding station you can quickly produce structural beams or make sofisticated glass equipment"
+      },
+      {
+        "id": 330,
+        "achievement": "Make carbide from quicklime and coal dust"
+      },
+      {
+        "id": 331,
+        "achievement": "Build gas welding station"
+      },
+      {
+        "id": 332,
+        "achievement": "Put carbide into red bottle together with water, Oxygen into blue one"
+      }
+    ],
+    [
+      {
+        "id": 333,
+        "achievement": "Place your welding station near iron working bench, now you can proceed with making T or I beams on it"
+      },
+      {
+        "id": 334,
+        "achievement": "Make glass blowing tube, now you can make glass bottles easy"
+      },
+      {
+        "id": 335,
+        "achievement": "Make both parts of rolling machine, assembly it - now you can make thin metal foils"
+      },
+      {
+        "id": 336,
+        "achievement": "Make laboratory electrolyser, produce Hydrogen"
+      }
+    ],
+    [
+      {
+        "id": 337,
+        "header": "\u003d\u003d More Chemistry \u003d\u003d"
+      },
+      {
+        "id": 338,
+        "header": "Once you have advanced tools such welding station or lathe table, you can make use advanced chemistry"
+      },
+      {
+        "id": 339,
+        "achievement": "Build chemical reactors and fluidised bed reactors"
+      },
+      {
+        "id": 340,
+        "achievement": "Produce Ammonia from Hydrogen and Nitrogen"
+      },
+      {
+        "id": 341,
+        "achievement": "Make setup for efficient fertiliser production"
+      }
+    ],
+    [
+      {
+        "id": 342,
+        "achievement": "Produce sodium sulfide and make setup for fast paper production"
+      },
+      {
+        "id": 343,
+        "achievement": "Make electrolysis bath, connect with thick flexible cable to rectifier"
+      },
+      {
+        "id": 344,
+        "achievement": "Electrolythically deposit nickel at iron casing"
+      },
+      {
+        "id": 345,
+        "achievement": "Roast sfalerite in sulfuric acid production setup"
+      },
+      {
+        "id": 346,
+        "achievement": "Get some cadmium as byproduct of electrolytic production of zinc plates"
+      }
+    ],
+    [
+      {
+        "id": 347,
+        "header": "\u003d\u003d More Energy! \u003d\u003d"
+      },
+      {
+        "id": 348,
+        "header": "You will high amounts of RF or EU energy to power your Industry Park, steam engines are too weak"
+      },
+      {
+        "id": 349,
+        "achievement": "Assembly Railcraft Turbine and boiler"
+      },
+      {
+        "id": 350,
+        "achievement": "Assembly Fermenter, put potato water into to get vodka"
+      },
+      {
+        "id": 351,
+        "achievement": "Assembly Fractionation Column for ethanol destillation"
+      }
+    ],
+    [
+      {
+        "id": 352,
+        "achievement": "Assembly Refinery and produce biodiesel from plant oil or olive oil"
+      },
+      {
+        "id": 353,
+        "achievement": "Find crude oil deposits and produce diesel"
+      },
+      {
+        "id": 354,
+        "achievement": "Assembly Arc Furnace and connect all three plugs to Turbine"
+      },
+      {
+        "id": 355,
+        "achievement": "You can now melt metal powders and smelt purified ores, and you are ready to obtain new metals"
+      }
+    ],
+    [
+      {
+        "id": 356,
+        "header": "\u003d\u003d Oxygen Affinity \u003d\u003d"
+      },
+      {
+        "id": 357,
+        "header": "Advanced metals, such like aluminium or chrome, need advanced processing"
+      },
+      {
+        "id": 358,
+        "achievement": "Find deposts of bauxite by Propick or Ore Scanner (in claystone rocks) or bauxite veins by Sample Drill"
+      },
+      {
+        "id": 359,
+        "achievement": "Find deposits of Cryolite or Fluorite"
+      }
+    ],
+    [
+      {
+        "id": 360,
+        "achievement": "Run sulfuric acid production"
+      },
+      {
+        "id": 361,
+        "achievement": "Produce Sodium carbonate using either Leblanc or Solway process"
+      },
+      {
+        "id": 362,
+        "achievement": "Make NaOH from Sodium carbonate and limewater"
+      },
+      {
+        "id": 363,
+        "achievement": "Use Bayer process to obtain pure aluminium oxide"
+      },
+      {
+        "id": 364,
+        "achievement": "Use Arc Furnace to proceed with Hall-Heroult electrolysis"
+      },
+      {
+        "id": 365,
+        "achievement": "Melt Al nuggets and produce ingots and other elements needed for HV infrastructure"
+      }
+    ],
+    [
+      {
+        "id": 366,
+        "header": "\u003d\u003d More resources \u003d\u003d"
+      },
+      {
+        "id": 367,
+        "header": "Once you put your hands on aluminum, you can get more power and mine more resources"
+      },
+      {
+        "id": 368,
+        "achievement": "Assembly Diesel Generator, feed it with biodiesel"
+      },
+      {
+        "id": 369,
+        "achievement": "Make Core Sample Drill and seek valuable veins"
+      },
+      {
+        "id": 370,
+        "achievement": "Assembly Excavator where vein was found, build HV line or generator for power supply"
+      }
+    ],
+    [
+      {
+        "id": 371,
+        "achievement": "Search for chromite deposits, or magnetite or garnierite weins, collect serpentine as a byproduct, extract chromite"
+      },
+      {
+        "id": 372,
+        "achievement": "Proceed chromite in ore washer, reduce in Arc Furnace to get ferrochrome"
+      },
+      {
+        "id": 373,
+        "achievement": "Melt ferrochrome and iron grit in Arc Furnace to get stainless steel"
+      },
+      {
+        "id": 374,
+        "achievement": "Dissolve purified copper ore or grit in sulfuric acid and produce refined copper plates"
+      }
+    ],
+    [
+      {
+        "id": 375,
+        "header": "\u003d\u003d Advanced Metallurgy \u003d\u003d"
+      },
+      {
+        "id": 376,
+        "header": "Time to extract some very rare but valuable metals"
+      },
+      {
+        "id": 377,
+        "achievement": "Collect sludges from copper electrolysis, treat with chlorine in fluidized bed reactor and proceed further for iridium"
+      },
+      {
+        "id": 378,
+        "achievement": "Process red mud waste from aluminium plant for titanium recovery"
+      },
+      {
+        "id": 379,
+        "achievement": "Seek for Spodumene Ore, extract lithium and produce lithium oxide for ferrite dust"
+      }
+    ],
+    [
+      {
+        "id": 380,
+        "achievement": "Seek for Gyubnera Ore, which is source of Tungsten (Wolframe) and Manganese"
+      },
+      {
+        "id": 381,
+        "achievement": "Seek for source of Antimonium, Boron and Magnesium, make soldering alloy and silicon"
+      },
+      {
+        "id": 382,
+        "achievement": "Seek for Xenotime deposits and Monazite sand, extract yttrium and neodymium, make artificial redstone"
+      }
+    ],
+    [
+      {
+        "id": 383,
+        "header": "\u003d\u003d Advanced Circuit \u003d\u003d"
+      },
+      {
+        "id": 384,
+        "header": "Still problems with energy supply? Nuke it"
+      },
+      {
+        "id": 385,
+        "achievement": "Make trichlorosilane and deposit it to polysilicon slab"
+      },
+      {
+        "id": 386,
+        "achievement": "Melt polysilicon in wiremill and pull out silicon crystal"
+      },
+      {
+        "id": 387,
+        "achievement": "Make memory crystals and advanced circuits"
+      },
+      {
+        "id": 388,
+        "achievement": "Make hazmat suit, rubber boots and scuba helmet"
+      }
+    ],
+    [
+      {
+        "id": 389,
+        "achievement": "Process pitchblende to pure uranium tetrafluoride"
+      },
+      {
+        "id": 390,
+        "achievement": "Make Thermal Centrifuge"
+      },
+      {
+        "id": 391,
+        "achievement": "Build nuclear reactor and appropriate heat exchange systems and turbines"
+      },
+      {
+        "id": 392,
+        "achievement": "Prepare nuclear fuel"
+      },
+      {
+        "id": 393,
+        "achievement": "Insert fuel rods in nuclear reactor and enjoy your setup from safe distance"
+      }
+    ],
+    [
+      {
+        "id": 394,
+        "header": "\u003d\u003d Clean up with Charge \u003d\u003d"
+      },
+      {
+        "id": 395,
+        "header": "Finally, you are able to kill this poor bear with one clear shoot"
+      },
+      {
+        "id": 396,
+        "achievement": "Make Railgun"
+      },
+      {
+        "id": 397,
+        "achievement": "Make HV capacitors and Charging Station"
+      },
+      {
+        "id": 398,
+        "achievement": "Upgrade your Railgun"
+      }
+    ],
+    [
+      {
+        "id": 399,
+        "achievement": "Install airborne extensions in your steam exosuit"
+      },
+      {
+        "id": 400,
+        "achievement": "Send all Endermans to The End"
+      },
+      {
+        "id": 401,
+        "achievement": "Use wailer remains to make throne from your enemy bones"
+      }
+    ]
+  ]
+}

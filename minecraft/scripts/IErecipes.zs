@@ -104,7 +104,7 @@ recipes.addShapeless(ie_grit_cupronickel * 2, [<ore:dustGold>, <ore:dustSilver>]
 
 recipes.remove(ie_steel_scaffolding);
 recipes.addShaped(ie_steel_scaffolding * 6, [
- [<customitems:steel_l-beam_drilled>, <customitems:steel_t-beam>, <customitems:steel_l-beam_drilled>],
+ [<customitems:steel_l-beam>, <customitems:steel_t-beam>, <customitems:steel_l-beam>],
  [<customitems:steel_rivet>, <ImmersiveEngineering:metalDecoration>, <customitems:steel_rivet>],
  [<customitems:steel_t-beam>, <customitems:steel_rivet>, <customitems:steel_t-beam>]]);
 
@@ -280,9 +280,9 @@ recipes.addShaped(ie_light_engineering, [
 
 recipes.remove(ie_heavy_engineering);
 recipes.addShaped(ie_heavy_engineering, [
- [<ihl:item.ihlSimpleItem:43>, <customitems:steel_l-beam_drilled>, <ihl:item.ihlSimpleItem:43>],
+ [<ihl:item.ihlSimpleItem:43>, <customitems:iron_l-beam_drilled>, <ihl:item.ihlSimpleItem:43>],
  [<minecraft:piston>, <Railcraft:part.plate:1>, ie_steel_component],
- [<ihl:item.ihlSimpleItem:56>, <customitems:steel_l-beam_drilled>, <ihl:item.ihlSimpleItem:56>]]);
+ [<ihl:item.ihlSimpleItem:56>, <customitems:iron_l-beam_drilled>, <ihl:item.ihlSimpleItem:56>]]);
 
 //wire coils (core)
 recipes.remove(<ImmersiveEngineering:storage:8>);
