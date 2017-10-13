@@ -1,5 +1,9 @@
 package wahazar.tfcpphelper.core;
 
+import com.bioxx.tfc.api.Crafting.KilnCraftingManager;
+import com.bioxx.tfc.api.Crafting.KilnRecipe;
+
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class TFCPPRecipes
@@ -13,6 +17,18 @@ public class TFCPPRecipes
 	//private static QuernManager quernManager = QuernManager.getInstance();
 
 	// Plans
+	
+	public static void registerKilnRecipes()
+	{
+		KilnCraftingManager manager = KilnCraftingManager.getInstance();
+
+		manager.addRecipe(
+				new KilnRecipe(
+						new ItemStack(TFCPPItems.itemCeramicInsulator,1,0),
+						0, 
+						new ItemStack(TFCPPItems.itemCeramicInsulator,1,1)));
+	}
+
 
 	public static void initialise()
 	{
@@ -51,5 +67,6 @@ public class TFCPPRecipes
 	
 	private static void registerRecipes()
 	{
+		registerKilnRecipes();
 	}
 }

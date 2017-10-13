@@ -154,13 +154,13 @@ recipes.addShaped(<ImmersiveEngineering:tool:2>, [
 //wire insulating supports
 recipes.remove(<ImmersiveEngineering:metalDevice>);
 recipes.addShapeless(<ImmersiveEngineering:metalDevice>, 
- [<customitems:ceramic_insulator>, <customitems:iron_rivet>]);
+ [<tfcpphelper:itemCeramicInsulator:1>, <customitems:iron_rivet>]);
 
 recipes.remove(<ImmersiveEngineering:metalDevice:2>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:2>, [
  [null, <customitems:steel_rivet>, null],
- [null, <customitems:ceramic_insulator>, null],
- [null, <customitems:ceramic_insulator>, <IC2:itemToolPainterBrown>.anyDamage().transformDamage(1)]]);
+ [null, <tfcpphelper:itemCeramicInsulator:1>, null],
+ [null, <tfcpphelper:itemCeramicInsulator:1>, <IC2:itemToolPainterBrown>.anyDamage().transformDamage(1)]]);
 
 recipes.remove(<ImmersiveEngineering:metalDevice:5>);
 recipes.remove(<ImmersiveEngineering:metalDevice:6>);

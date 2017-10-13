@@ -180,8 +180,8 @@ recipes.remove(<IC2:blockMetal:*>);
 mods.foundry.Melting.removeRecipe(ic2_ingot_steel);
 mods.foundry.Melting.removeRecipe(ic2_casing_steel);
 
-//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*54, <foundry:foundryMold:26>); 
-//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>);
+mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*54, <foundry:foundryMold:26>); 
+mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>);
 
 mods.foundry.AlloyMixer.addRecipe(<liquid:liquidstainlesssteel>*9, [<liquid:liquidsteel>*8, <liquid:liquidchromium>]);
 
@@ -193,7 +193,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidstainlesssteel>*54, ic2_casing_stee
 
 mods.foundry.Casting.addRecipe(ic2_ingot_steel, <liquid:liquidstainlesssteel>*108, <foundry:foundryMold>); 
 mods.foundry.Casting.addRecipe(ic2_casing_steel, <liquid:liquidstainlesssteel>*54, <foundry:foundryMold:26>); 
-//mods.foundry.Casting.addRecipe(ic2_plate_steel, <liquid:liquidstainlesssteel>*108, <foundry:foundryMold:32>); 
+mods.foundry.Casting.addRecipe(ic2_plate_steel, <liquid:liquidstainlesssteel>*108, <foundry:foundryMold:32>); 
 mods.foundry.Casting.addRecipe(ic2_block_steel, <liquid:liquidstainlesssteel>*972, <foundry:foundryMold:6>); 
 
 mods.railcraft.Rolling.addShaped(ic2_shaft_steel, [

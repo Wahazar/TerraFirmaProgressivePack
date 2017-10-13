@@ -28,10 +28,6 @@
       },
       {
         "type": "before",
-        "target": "tfcpphelper"
-      },
-      {
-        "type": "before",
         "target": "tfcprimitivetech"
       },
       {
@@ -41,6 +37,10 @@
       {
         "type": "before",
         "target": "tfcudarymod"
+      },
+      {
+        "type": "before",
+        "target": "achievementbooks"
       },
       {
         "type": "before",
@@ -164,10 +164,6 @@
       },
       {
         "type": "before",
-        "target": "ReiMinimap"
-      },
-      {
-        "type": "before",
         "target": "cuchaz.cuchazinteractive"
       },
       {
@@ -176,15 +172,15 @@
       },
       {
         "type": "before",
-        "target": "SimpleAchievements"
-      },
-      {
-        "type": "before",
         "target": "TerraFirmaCraftNEIplugin"
       },
       {
         "type": "before",
         "target": "tfcengineer"
+      },
+      {
+        "type": "before",
+        "target": "tfcpphelper"
       },
       {
         "type": "before",

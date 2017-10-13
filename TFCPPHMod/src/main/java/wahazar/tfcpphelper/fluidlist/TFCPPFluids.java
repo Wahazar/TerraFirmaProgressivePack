@@ -76,10 +76,10 @@ public class TFCPPFluids
     public static void registerFluidContainers()
     {
                  
-        if (FluidRegistry.getFluid("creosote")!= null)
+  //      if (FluidRegistry.getFluid("creosote")!= null)
         		FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("creosote"), 1000), new ItemStack(TFCPPItems.itemWoodenBucket_Creozote), new ItemStack(TFCItems.woodenBucketEmpty));
 
-        if (FluidRegistry.getFluid("oil")!= null)
+ //       if (FluidRegistry.getFluid("oil")!= null)
     		FluidContainerRegistry.registerFluidContainer(new FluidStack(FluidRegistry.getFluid("oil"), 1000), new ItemStack(TFCPPItems.itemWoodenBucket_Oil), new ItemStack(TFCItems.woodenBucketEmpty));
 
         FluidContainerRegistry.registerFluidContainer(new FluidStack(fluidLeachedUrainite, 1000), new ItemStack(TFCPPItems.itemRedSteelBucket_LeachedUranite), new ItemStack(TFCItems.redSteelBucketEmpty));

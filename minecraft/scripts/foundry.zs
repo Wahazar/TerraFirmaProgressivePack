@@ -252,7 +252,7 @@ mods.foundry.Casting.removeRecipe(<liquid:liquidgold>*432, <foundry:foundryMold:
 //remove railcraft plates
 mods.foundry.Casting.removeRecipe(<liquid:liquidcopper>*108, <foundry:foundryMold:32>);
 mods.foundry.Casting.removeRecipe(<liquid:liquidiron>*108, <foundry:foundryMold:32>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>); 
+mods.foundry.Casting.removeRecipe(<liquid:liquidsteel>*108, <foundry:foundryMold:32>); 
 
 
 //remove foundry bullets
@@ -489,71 +489,71 @@ recipes.addShapeless(<foundry:foundryMold:29>, [f_blank, <ore:slabLead>]);
 
 #tools and parts recycling
 //todo crusher
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Chisel>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*60, <terrafirmacraft:item.Bronze Pick>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*40, <terrafirmacraft:item.Bronze Shovel>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Hoe>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Chisel>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*60, <terrafirmacraft:item.Bronze Pick>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*40, <terrafirmacraft:item.Bronze Shovel>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Hoe>.anyDamage(), 1400, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*55, <terrafirmacraft:item.Bronze Axe>.anyDamage(), 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*65, <terrafirmacraft:item.Bronze Hammer>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*40, <terrafirmacraft:item.Bronze ProPick>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Saw>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Scythe>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*45, <terrafirmacraft:item.Bronze Knife>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*55, <terrafirmacraft:item.Bronze Mace>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*65, <terrafirmacraft:item.Bronze Hammer>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*40, <terrafirmacraft:item.Bronze ProPick>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Saw>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Scythe>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*45, <terrafirmacraft:item.Bronze Knife>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*55, <terrafirmacraft:item.Bronze Mace>.anyDamage(), 1400, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <terrafirmacraft:item.Bronze Sword>.anyDamage(), 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Tuyere>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <tfccellars:BronzeIceSaw>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <tfcm:item.Halberd_Bronze>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*55, <tfcm:item.WarHammer_Bronze>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <tfcm:item.Poniard_Bronze>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*250, <terrafirmacraft:item.Bronze Chestplate>, 1400, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*250, <terrafirmacraft:item.Bronze Greaves>, 1400, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Helmet>, 1400, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Boots>, 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Tuyere>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <tfccellars:BronzeIceSaw>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <tfcm:item.Halberd_Bronze>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*55, <tfcm:item.WarHammer_Bronze>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*50, <tfcm:item.Poniard_Bronze>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*250, <terrafirmacraft:item.Bronze Chestplate>.anyDamage(), 1400, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*250, <terrafirmacraft:item.Bronze Greaves>.anyDamage(), 1400, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Helmet>.anyDamage(), 1400, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidbronze>*90, <terrafirmacraft:item.Bronze Boots>.anyDamage(), 1400, 100);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Chisel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*60, <terrafirmacraft:item.Wrought Iron Pick>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*40, <terrafirmacraft:item.Wrought Iron Shovel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Hoe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <terrafirmacraft:item.Wrought Iron Axe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*65, <terrafirmacraft:item.Wrought Iron Hammer>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*40, <terrafirmacraft:item.Wrought Iron ProPick>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Saw>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Scythe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*45, <terrafirmacraft:item.Wrought Iron Knife>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <terrafirmacraft:item.Wrought Iron Mace>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Sword>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Tuyere>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <tfccellars:SteelIceSaw>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <tfcm:item.Halberd_Steel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <tfcm:item.WarHammer_Steel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <tfcm:item.Poniard_Steel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*250, <terrafirmacraft:item.Wrought Iron Chestplate>, 1850, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*250, <terrafirmacraft:item.Wrought Iron Greaves>, 1850, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Helmet>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Boots>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Chisel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*60, <terrafirmacraft:item.Wrought Iron Pick>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*40, <terrafirmacraft:item.Wrought Iron Shovel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Hoe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <terrafirmacraft:item.Wrought Iron Axe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*65, <terrafirmacraft:item.Wrought Iron Hammer>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*40, <terrafirmacraft:item.Wrought Iron ProPick>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Saw>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Scythe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*45, <terrafirmacraft:item.Wrought Iron Knife>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <terrafirmacraft:item.Wrought Iron Mace>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <terrafirmacraft:item.Wrought Iron Sword>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Tuyere>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <tfccellars:SteelIceSaw>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <tfcm:item.Halberd_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*55, <tfcm:item.WarHammer_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*50, <tfcm:item.Poniard_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*250, <terrafirmacraft:item.Wrought Iron Chestplate>.anyDamage(), 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*250, <terrafirmacraft:item.Wrought Iron Greaves>.anyDamage(), 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Helmet>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidiron>*90, <terrafirmacraft:item.Wrought Iron Boots>.anyDamage(), 1850, 100);
 
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Chisel>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Chisel>.anyDamage(), 1850, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*60, <terrafirmacraft:item.Steel Pick>.anyDamage(), 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*40, <terrafirmacraft:item.Steel Shovel>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Hoe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <terrafirmacraft:item.Steel Axe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*65, <terrafirmacraft:item.Steel Hammer>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*40, <terrafirmacraft:item.Steel ProPick>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Saw>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Scythe>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*45, <terrafirmacraft:item.Steel Knife>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <terrafirmacraft:item.Steel Mace>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Sword>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Tuyere>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <tfccellars:WroughtIronIceSaw>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <tfcm:item.Halberd_WroughtIron>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <tfcm:item.WarHammer_WroughtIron>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <tfcm:item.Poniard_WroughtIron>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*250, <terrafirmacraft:item.Steel Chestplate>, 1850, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*250, <terrafirmacraft:item.Steel Greaves>, 1850, 50);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Helmet>, 1850, 100);
-mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Boots>, 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*40, <terrafirmacraft:item.Steel Shovel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Hoe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <terrafirmacraft:item.Steel Axe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*65, <terrafirmacraft:item.Steel Hammer>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*40, <terrafirmacraft:item.Steel ProPick>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Saw>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Scythe>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*45, <terrafirmacraft:item.Steel Knife>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <terrafirmacraft:item.Steel Mace>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <terrafirmacraft:item.Steel Sword>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Tuyere>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <tfccellars:SteelIceSaw>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <tfcm:item.Halberd_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*55, <tfcm:item.WarHammer_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*50, <tfcm:item.Poniard_Steel>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*250, <terrafirmacraft:item.Steel Chestplate>.anyDamage(), 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*250, <terrafirmacraft:item.Steel Greaves>.anyDamage(), 1850, 50);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Helmet>.anyDamage(), 1850, 100);
+mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*90, <terrafirmacraft:item.Steel Boots>.anyDamage(), 1850, 100);
 
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*32, <Railcraft:part.rail:*>, 1850, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*44, <Railcraft:machine.beta:13>, 1850, 60);
@@ -1025,7 +1025,7 @@ mods.foundry.Melting.addRecipe(<liquid:liquidsteel>*12, <customitems:steel_rivet
 
 #insulators, IE connectors
 recipes.addShapeless(<customitems:insulator_soft_mold>, 
- [<customitems:ceramic_insulator>.reuse(), <foundry:foundryComponent:4>]);
+ [<tfcpphelper:itemCeramicInsulator:1>.reuse(), <foundry:foundryComponent:4>]);
 
 furnace.addRecipe(<customitems:insulator_mold>, <customitems:insulator_soft_mold>);
 

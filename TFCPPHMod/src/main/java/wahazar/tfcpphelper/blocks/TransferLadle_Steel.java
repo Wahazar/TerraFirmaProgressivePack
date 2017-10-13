@@ -42,10 +42,10 @@ public class TransferLadle_Steel extends BlockTerra
         this.setResistance(20.0f);
 		this.setLightLevel(0.6F);
         this.setCreativeTab(TFCTabs.TFC_DEVICES);       
-//	    this._moltenMetal = GameRegistry.findBlock("foundry", "liquidSteel"); 
-        this._moltenMetal = TFCPPBlocks.moltenSteel;    
-//	    if (_moltenMetal==null)
-//	    	_moltenMetal=Blocks.lava;
+	    this._moltenMetal = GameRegistry.findBlock("foundry", "liquidSteel"); 
+//        this._moltenMetal = TFCPPBlocks.moltenSteel;    
+	    if (_moltenMetal==null)
+	    	_moltenMetal=Blocks.lava;
 
     }
 

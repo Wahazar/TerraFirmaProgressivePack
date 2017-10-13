@@ -159,5 +159,26 @@
         "target": "JustAnotherSpawner"
       }
     ]
+  },
+  {
+    "modId": "TFCPPHelperMod",
+    "deps": [
+      {
+        "type": "after",
+        "target": "terrafirmacraft"
+      },
+      {
+        "type": "after",
+        "target": "foundry"
+      },
+      {
+        "type": "after",
+        "target": "Railcraft"
+      },
+      {
+        "type": "after",
+        "target": "IHL"
+      }
+    ]
   }
 ]

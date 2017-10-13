@@ -49,6 +49,8 @@ item.BlueSteelBucket_WeakBlackSteel.name=Blue Steel Bucket with liquid Weak Blac
 item.BlueSteelBucket_BlackSteel.name=Blue Steel Bucket with liquid Black Steel
 item.BlueSteelBucket_Steel.name=Blue Steel Bucket with liquid Steel
 item.BlueSteelBucket_PigIron.name=Blue Steel Bucket with liquid Pig Iron
+item.Connector.Clay Insulator.name=Clay formed insulator
+item.Connector.Ceramic Insulator.name=Ceramic insulator
 
 #=======
 #= GUI =
