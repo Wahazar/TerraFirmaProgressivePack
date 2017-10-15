@@ -134,6 +134,7 @@ NEI.hide(<minecraft:carrot_on_a_stick>);
 NEI.hide(<minecraft:pumpkin_pie>);
 NEI.hide(<minecraft:enchanted_book>);
 NEI.hide(<minecraft:netherbrick>);
+NEI.hide(<minecraft:brick>);
 NEI.hide(<minecraft:lead>);
 NEI.hide(<minecraft:name_tag>);
 NEI.hide(<minecraft:shears>);

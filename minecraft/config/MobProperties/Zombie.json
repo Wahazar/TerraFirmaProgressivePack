@@ -17,7 +17,7 @@
                 {
 			"function": "spawn",
                        	"id": "silverfishTFC",
-                        "count": "0~0.3"
+                        "count": "0~0.2"
 		    }
 		]
 		},
@@ -107,7 +107,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "ImmersiveEngineering:blueprint",
-                                                "count": 0.05
+                                                "count": 0.04
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -129,7 +129,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "ihl:guidebook",
-                                                "count": 0.01
+                                                "count": 0.02
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -215,7 +215,7 @@
      			                       { 
                                                "function": "add", 
                                                "id": "minecraft:book",
-                                                "count": 0.02
+                                                "count": 0.01
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -225,6 +225,11 @@
      			                       { 
                                                "function": "add", 
                                                "id": "antiqueatlas:emptyAntiqueAtlas",
+                                                "count": 0.01
+	                                        },
+						{
+                                               "function": "add", 
+                                               "id": "ihl:guidebook",
                                                 "count": 0.01
 	                                        },
      			                       { 
@@ -262,8 +267,8 @@
 				  "functions": [
      			                       { 
                                                "function": "add", 
-                                               "id": "terrafirmacraft:item.Ore",
-                                                "count": 0.05
+                                               "id": "terrafirmacraft:item.Small Ore",
+                                                "count": 0.15
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -274,6 +279,16 @@
                                                "function": "add", 
                                                "id": "minecraft:ladder",
                                                 "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Clay",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Topaz",
+                                                "count": 0.03
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -289,7 +304,7 @@
                            "functions":
                             [
                             { "function": "name", "value": "Zombie miner" },
-                            {"function": "equip", "id": "terrafirmacraft:item.Copper Pick", "slot": 0, "damage": 30~350, "drop_chance": 0.2 },
+                            {"function": "equip", "id": "terrafirmacraft:item.Copper Pick", "slot": 0, "damage": 40~350, "drop_chance": 0.2 },
                             {"function": "equip", "id": "enviromine:hardHat", "override": "true", "slot": 4, "drop_chance": 0.5 },
                             {"function": "drops",
 				  "functions": [
@@ -315,6 +330,17 @@
 	                                        },
      			                       { 
                                                "function": "add", 
+                                               "id": "terrafirmacraft:item.Copper ProPick",
+						"damage": 80~450,
+                                                "count": 0.03
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Diamond",
+                                                "count": 0.01
+	                                        },
+     			                       { 
+                                               "function": "add", 
                                                "id": "enviromine:davy_lamp",
                                                 "count": 0.07
 	                                        }
@@ -327,7 +353,7 @@
                            "functions":
                             [
                             { "function": "name", "value": "Zombie farmer" },
-                            {"function": "equip", "id": "terrafirmacraft:item.Sed Stone Hoe", "slot": 0, "damage": 10~30, "drop_chance": 0.2 },
+                            {"function": "equip", "id": "terrafirmacraft:item.Copper Hoe", "slot": 0, "damage": 30~90, "drop_chance": 0.2 },
                             {"function": "equip", "id": "terrafirmacraft:item.leggingsCloth", "override": "true", "slot": 2, "damage": 10, "drop_chance": 0.1 },
                             {"function": "drops",
 				  "functions": [
@@ -361,7 +387,7 @@
                            "functions":
                             [
                             { "function": "name", "value": "Zombie lumberjack" },
-                            {"function": "equip", "id": "terrafirmacraft:item.IgEx Stone Axe", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "terrafirmacraft:item.Bronze Axe", "slot": 0, "damage": 100~390, "drop_chance": 0.2 },
                             {"function": "equip", "id": "Railcraft:armor.overalls", "slot": 2, "override": "true", "damage": 10, "drop_chance": 1 },
                             {"function": "drops",
 				  "functions": [
@@ -372,13 +398,57 @@
 	                                        },
      			                       { 
                                                "function": "add", 
-                                               "id": "terrafirmacraft:item.Log",
+                                               "id": "tfcprimitivetech:itemWoodenTwig",
                                                 "count": 0.3
 	                                        },
      			                       { 
                                                "function": "add", 
-                                               "id": "terrafirmacraft:item.SinglePlank",
+                                               "id": "terrafirmacraft:item.Log",
+                                                "count": 0.3
+	                                        },    
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:sapling",
                                                 "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:sapling2",
+                                                "count": 0.02
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "minecraft:log",
+                                                "count": 0.1
+	                                        }          
+                                               ]
+                            }
+
+                            ]
+                        },
+                        { "function": "all", 
+                           "weight": 2,
+                           "functions":
+                            [
+                            { "function": "name", "value": "Zombie carpenter" },
+                            {"function": "equip", "id": "terrafirmacraft:item.Copper Saw", "slot": 0, "damage": 200~490, "drop_chance": 0.1 },
+                            {"function": "equip", "id": "Railcraft:armor.overalls", "slot": 2, "override": "true", "damage": 10, "drop_chance": 1 },
+                            {"function": "drops",
+				  "functions": [
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.stick",
+                                                "count": 0.2
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.Log",
+                                                "count": 0.1
+	                                        },
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:item.SinglePlank",
+                                                "count": 0.2
 	                                        },
      			                       { 
                                                "function": "add", 
@@ -387,8 +457,28 @@
 	                                        },     
      			                       { 
                                                "function": "add", 
-                                               "id": "minecraft:log",
+                                               "id": "customitems:copper_nail",
+                                                "count": 0.03
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "customitems:half_wooden_hoop",
+                                                "count": 0.04
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "CarpentersBlocks:blockCarpentersBlock",
+                                                "count": 0.02
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "terrafirmacraft:Fence2",
                                                 "count": 0.1
+	                                        },     
+     			                       { 
+                                               "function": "add", 
+                                               "id": "customitems:wooden_peg",
+                                                "count": 0.06
 	                                        }     
                                                ]
                             }
@@ -416,6 +506,11 @@
 	                                        },
      			                       { 
                                                "function": "add", 
+                                               "id": "terrafirmacraft:item.Copper Unshaped",
+                                                "count": 0.05
+	                                        },
+     			                       { 
+                                               "function": "add", 
                                                "id": "terrafirmacraft:item.coal",
                                                 "count": 0.1
 	                                        },
@@ -427,7 +522,8 @@
                                                ]
                             },
                             { "function": "name", "value": "Zombie soldier" },
-                            {"function": "equip", "id": "terrafirmacraft:item.MM Stone Javelin", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
+			    { "function": "modifier", "attribute": "generic.attackDamage", "value": 20~70 },
+                            {"function": "equip", "id": "terrafirmacraft:item.MM Copper Javelin", "slot": 0, "damage": 10~30, "drop_chance": 0.1 },
                             {"function": "equip", "id": "tfcm:item.BismuthBronze_Chain_Chestplate", "override": "true", "slot": 3, "damage": 100~250, "drop_chance": 0.1 },
                             {"function": "equip", "id": "tfcm:item.BlackBronze_Chain_Greaves", "override": "true", "slot": 2, "damage": 90~450, "drop_chance": 0.1 },
                             {"function": "equip", "id": "terrafirmacraft:item.helmetCloth", "override": "true", "slot": 4, "drop_chance": 1 },
@@ -441,8 +537,8 @@
 	                                        },
      			                       { 
                                                "function": "add", 
-                                               "id": "terrafirmacraft:item.Stone Knife",
-                                                "damage": 10~40, "count": 0.05
+                                               "id": "terrafirmacraft:item.Copper Knife",
+                                                "damage": 40~400, "count": 0.05
 	                                        }
                                                ]
                             }

@@ -94,30 +94,30 @@ furnace.remove(<minecraft:hardened_clay>);
 furnace.addRecipe(<minecraft:hardened_clay>, <minecraft:stained_hardened_clay>);
 
 furnace.remove(<minecraft:brick>);
-mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
-recipes.addShaped(<customitems:clay_brick> * 8, [
+//mods.Terrafirmacraft.Knapping.addClayWorkingRecipe(<customitems:clay_brick> * 6, "  #  ", "#####", "  #  ", "#####", "  #  ");
+recipes.addShaped(<tfcprimitivetech:itemClayBrick> * 8, [
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>],
  [<ore:lumpClay>, <customitems:brick_mold>.reuse(), <ore:lumpClay>],
  [<ore:lumpClay>, <ore:lumpClay>, <ore:lumpClay>]]);
-furnace.addRecipe(<minecraft:brick>, <customitems:clay_brick>);
+furnace.addRecipe(<tfcprimitivetech:itemClayBrick:1>, <tfcprimitivetech:itemClayBrick>);
 
 #red brick wall need mortar
-recipes.remove(<minecraft:brick_block>);
+//recipes.remove(<minecraft:brick_block>);
 recipes.remove(<minecraft:stone_slab:4>);
 recipes.remove(<minecraft:brick_stairs>);
 
-recipes.addShaped(<minecraft:brick_block>, 
-[[<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>],
- [<terrafirmacraft:item.Mortar>, <minecraft:brick>, <terrafirmacraft:item.Mortar>],
- [<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>]]);
-recipes.addShaped(<minecraft:stone_slab:4>, 
+//recipes.addShaped(<minecraft:brick_block>, 
+//[[<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>],
+// [<terrafirmacraft:item.Mortar>, <minecraft:brick>, <terrafirmacraft:item.Mortar>],
+// [<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>]]);
+recipes.addShaped(<minecraft:stone_slab:4>*4, 
 [[null, null, null],
- [<terrafirmacraft:item.Mortar>, <minecraft:brick>, <terrafirmacraft:item.Mortar>],
- [<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>]]);
-recipes.addShaped(<minecraft:brick_stairs>, 
-[[null, null, <minecraft:brick>],
- [null, <minecraft:brick>, <terrafirmacraft:item.Mortar>],
- [<minecraft:brick>, <terrafirmacraft:item.Mortar>, <minecraft:brick>]]);
+ [<terrafirmacraft:item.Mortar>, <ore:ingotBrick>, <terrafirmacraft:item.Mortar>],
+ [<ore:ingotBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotBrick>]]);
+recipes.addShaped(<minecraft:brick_stairs>*3, 
+[[null, null, <ore:ingotBrick>],
+ [null, <ore:ingotBrick>, <terrafirmacraft:item.Mortar>],
+ [<ore:ingotBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotBrick>]]);
 
 #vanilla cobblestone need mortar
 recipes.addShaped(<minecraft:cobblestone>, [[<terrafirmacraft:item.LooseRock:*>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.LooseRock:*>],

@@ -626,7 +626,7 @@ recipes.addShaped(<IC2:blockMachine:5>, [
 
 
 //clay dust
-mods.Terrafirmacraft.Quern.addRecipe(<IC2:itemDust:1>, <customitems:clay_brick>);
+mods.Terrafirmacraft.Quern.addRecipe(<IC2:itemDust:1>, <tfcprimitivetech:itemClayBrick>);
 
 
 //CF powder

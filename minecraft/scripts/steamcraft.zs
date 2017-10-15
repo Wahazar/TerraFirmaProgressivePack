@@ -66,14 +66,17 @@ recipes.addShaped(<Steamcraft:hammer>, [
  [null, <customitems:iron_l-beam_drilled>, <customitems:brass_t-beam>]]);
 
 #crucible, mold and carving table need advanced TFC steel:
+recipes.remove(<Steamcraft:blankMold>);
+recipes.addShapeless(<Steamcraft:blankMold>, [<ihl:item.ihlSimpleItem:30>, <ore:plateSteel>]);
+
 recipes.remove(<Steamcraft:crucible>);
-recipes.addShaped(<Steamcraft:crucible>, [[<minecraft:brick>, null, <minecraft:brick>],
- [<minecraft:brick>, <ihl:item.ihlSimpleItem:30>, <minecraft:brick>],
+recipes.addShaped(<Steamcraft:crucible>, [[<ore:ingotBrick>, null, <ore:ingotBrick>],
+ [<ore:ingotBrick>, <ihl:item.ihlSimpleItem:30>, <ore:ingotBrick>],
  [<terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
 
 recipes.remove(<Steamcraft:mold>);
-recipes.addShaped(<Steamcraft:mold>, [[<terrafirmacraft:item.Steel Sheet>, <minecraft:brick>, <minecraft:brick>],
- [<terrafirmacraft:item.Steel Sheet>, <minecraft:brick>, <minecraft:brick>]]);
+recipes.addShaped(<Steamcraft:mold>, [[<terrafirmacraft:item.Steel Sheet>, <ore:ingotBrick>, <ore:ingotBrick>],
+ [<terrafirmacraft:item.Steel Sheet>, <ore:ingotBrick>, <ore:ingotBrick>]]);
 
 recipes.remove(<Steamcraft:carving>);
 recipes.addShaped(<Steamcraft:carving>, [[<terrafirmacraft:item.Black Steel Sheet>, <Steamcraft:blankMold>, <terrafirmacraft:item.Black Steel Sheet>],

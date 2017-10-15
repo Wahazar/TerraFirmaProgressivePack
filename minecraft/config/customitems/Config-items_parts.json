@@ -1,12 +1,6 @@
 {
     "items": [
         {
-            "name": "Clay Brick",
-            "textureName": "clay_brick",
-            "creativeTab": "Custom Items",
-            "maxStackSize": 32
-        },
-        {
             "name": "Refractory Soft Brick",
             "textureName": "foundry_clay_brick",
             "creativeTab": "Custom Items",
