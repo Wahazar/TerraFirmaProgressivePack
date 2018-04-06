@@ -173,6 +173,30 @@
             "textureName": "mold_circuit",
             "creativeTab": "Custom Items",
             "maxStackSize": 64
+        },
+        {
+            "name": "Spoke Wheel Soft Mold",
+            "textureName": "claymold_spokewheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Spoke Wheel Mold",
+            "textureName": "mold_spokewheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Canister Soft Mold",
+            "textureName": "claymold_canister",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
+        },
+        {
+            "name": "Canister Mold",
+            "textureName": "mold_canister",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 1
         }
     ]
 }

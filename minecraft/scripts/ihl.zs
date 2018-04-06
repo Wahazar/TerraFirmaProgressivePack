@@ -202,3 +202,6 @@ recipes.addShapeless(<IC2:itemDust2>,
  [<terrafirmacraft:Sand:15>.giveBack(<ImmersiveEngineering:metal:18>), <terrafirmacraft:Sand:15>.giveBack(<IC2:itemDust:15>), <terrafirmacraft:Sand:15>.giveBack(<ihl:item.ihlSimpleItem:182>), <terrafirmacraft:Sand:15>.giveBack(<ihl:item.ihlSimpleItem:182>), <customitems:sifter>.anyDamage().transformDamage(1), <terrafirmacraft:Sand:15>.giveBack(<IC2:itemDust:9>)]);
 
 mods.Terrafirmacraft.Quern.addRecipe(<ihl:item.ihlSimpleItem:182>, <minecraft:quartz>);
+
+
+

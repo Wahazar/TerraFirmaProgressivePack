@@ -131,6 +131,13 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:stickCopper>.add(<tfcudarymod:item.Copper Rod>);
 <ore:stickCopper>.add(<customitems:copper_rod>);
 
+//wheels
+<ore:wheelSpoke>.add(<customitems:wooden_wheel>);
+<ore:wheelSpoke>.add(<customitems:iron_spoke_wheel>);
+
+<ore:wheelSingle>.add(<customitems:iron_spoke_wheel>);
+<ore:wheelSingle>.add(<customitems:steel_wheel>);
+
 //tools
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Red Steel Chisel>);
 <ore:itemChiselHard>.add(<terrafirmacraft:item.Blue Steel Chisel>);
@@ -216,6 +223,8 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 //<ore:orePoorCopper>.remove(<Railcraft:ore:9>);
 <ore:orePoorTin>.remove(<Railcraft:ore:10>);
 <ore:orePoorLead>.remove(<Railcraft:ore:11>);
+
+<ore:dustGraphite>.remove(<ihl:item.ihlSimpleItem:29>);
 
 /*
 <ore:oreCopper>.remove(<foundry:blockFoundryOre>);

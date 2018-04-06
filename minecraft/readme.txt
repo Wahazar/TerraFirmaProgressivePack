@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.1.34
+TerraFirmaProgressive custom recipies modpack, v.1.5
 ################################################################################################################################
 
 Installation: 
@@ -145,6 +145,9 @@ EnviroMine-1.3.124
 	http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1293048-enviromine-discontinued-a-little-bit-of-realism
 		credits: TimbuckTato, Funwayguy et al., licence: GNU
 
+Traincraft-4.3.4_013
+		http://traincraft-mod.com/wordpress/downloads/
+		credits: Eternal Blue Flame, NitroxydeX, DAYdiecast, helldiver, BlockStormTwo, ChandlerBingUA, FriscoWolf
 
 client side (server will crash with these):
 Dynamic Lights DynamicLights-1.7.10.jar

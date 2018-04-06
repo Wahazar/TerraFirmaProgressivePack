@@ -755,6 +755,54 @@
             "textureName": "itemRocketNozzle_Titan",
             "creativeTab": "Custom Items",
             "maxStackSize": 1
+        },
+        {
+            "name": "Iron Spoke Wheel",
+            "textureName": "iron_spokewheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 32
+        },
+        {
+            "name": "Iron Spoke Wheels",
+            "textureName": "iron_spokewheels",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Steam Locomotive Iron Wheels",
+            "textureName": "iron_spokewheels_red",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Iron Wheel",
+            "textureName": "iron_wheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Steel Wheel",
+            "textureName": "steel_wheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Wooden Wheel",
+            "textureName": "wooden_wheel",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Heavy Rail",
+            "textureName": "Heavy_Rail",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 16
+        },
+        {
+            "name": "Blue Plastic Casing",
+            "textureName": "CasingBluePlastic",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
         }
     ]
 }

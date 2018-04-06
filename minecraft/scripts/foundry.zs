@@ -805,6 +805,14 @@ mods.foundry.Casting.addMold(<customitems:small_wheel_mold>);
 
 mods.foundry.Casting.addRecipe(<customitems:small_wheel>, <liquid:liquidiron>*56, <customitems:small_wheel_mold>);
 
+//traincraft wheels
+recipes.addShapeless(<customitems:spoke_wheel_soft_mold>, [f_blank, <ore:wheelSpoke>.reuse()]);
+
+furnace.addRecipe(<customitems:spoke_wheel_mold>, <customitems:spoke_wheel_soft_mold>);
+mods.foundry.Casting.addMold(<customitems:spoke_wheel_mold>);
+
+mods.foundry.Casting.addRecipe(<customitems:iron_spoke_wheel>, <liquid:liquidiron>*216, <customitems:spoke_wheel_mold>);
+
 //transfer ladle
 mods.foundry.Casting.addMold(<foundry:foundryContainer>);
 
@@ -817,6 +825,21 @@ mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_CarbonBlackSteel>, <li
 mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_WeakBlackSteel>, <liquid:liquid_black_weak_steel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
 
 mods.foundry.Casting.addRecipe(<tfcpphelper:TransferLadle_BlackSteel>, <liquid:liquidblacksteel>*5000, <foundry:foundryContainer>, <tfcpphelper:TransferLadle_Empty>);
+
+//canisters
+//traincraft wheels
+recipes.addShapeless(<customitems:canister_soft_mold>, [f_blank, <ImmersiveEngineering:jerrycan>.reuse()]);
+
+furnace.addRecipe(<customitems:canister_mold>, <customitems:canister_soft_mold>);
+mods.foundry.Casting.addMold(<customitems:canister_mold>);
+
+mods.foundry.Casting.addRecipe(<ImmersiveEngineering:jerrycan>, <liquid:liquid_bismuth_bronze>*432, <customitems:canister_mold>);
+mods.foundry.Casting.addRecipe(<tc:emptyCanister>, <liquid:molten_plastic>*432, <customitems:canister_mold>);
+//plastic
+mods.foundry.Atomizer.addRecipe(<tc:rawPlastic>, <liquid:molten_plastic>*1000);
+mods.foundry.Melting.addRecipe(<liquid:molten_plastic>*1000, <tc:rawPlastic>, 1000, 200);
+mods.foundry.Casting.addRecipe(<tc:reinforcedPlastic>, <liquid:molten_plastic>*100, <foundry:foundryMold:32>, <ihl:item.ihlSimpleItem:41>);
+mods.foundry.Casting.addRecipe(<customitems:blue_plastic_casing>, <liquid:molten_plastic>*10, <customitems:round_casing_mold>, <IC2:itemDustSmall:9>);
 
 //cadmium
 mods.foundry.Melting.addRecipe(<liquid:liquid_cadmium>*18, <customitems:cadmium_sponge>, 600, 200);

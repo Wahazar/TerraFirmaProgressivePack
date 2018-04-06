@@ -218,3 +218,12 @@ recipes.remove(<tfcengineer:tile.DeepFreezer>);
 recipes.remove(<tfcengineer:item.Lunchbox>);
 
 recipes.addShapeless(<tfcengineer:item.Lunchbox>, [<tfcengineer:item.InsulationCloth>, <ore:itemKnife>.transformDamage(1), <tfcm:item.Link_Steel>, <customitems:steel_rivet>]);
+
+recipes.remove(<minecraft:slime_ball>);
+//loot tooltips
+<minecraft:slime_ball>.addTooltip("only Slime loot");
+<ImmersiveEngineering:seed>.addTooltip("only Zombie Farmer loot");
+<minecraft:paper>.addTooltip("also Zombie Messenger loot");
+<ImmersiveEngineering:blueprint>.addTooltip("Zombie Engineer loot");
+<ihl:guidebook>.addTooltip("only Zombie Engineer loot");
+

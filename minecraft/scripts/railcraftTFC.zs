@@ -168,6 +168,9 @@ recipes.remove(<Railcraft:part.rail:2>);
 recipes.addShaped(<Railcraft:part.rail:2> * 2, [
  [<Railcraft:part.tie>, null], 
  [<customitems:flat_iron_beam>, null]]);
+recipes.addShaped(<Railcraft:part.rail:2>, [
+ [<Railcraft:part.tie>, null], 
+ [<customitems:flat_brass_beam>, null]]);
 
 recipes.remove(<Railcraft:part.tie:1>);
 recipes.addShaped(<Railcraft:part.tie:1> * 3, [[<terrafirmacraft:Gravel:*>, <Railcraft:part.rebar>, <terrafirmacraft:Sand:*>], 

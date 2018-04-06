@@ -382,10 +382,15 @@ recipes.addShaped(ie_dynamo, [
 
 //generator
 recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
-recipes.addShaped(<ImmersiveEngineering:metalDecoration:6>, [
- [<customitems:black_steel_l-beam>, <IC2:itemRecipePart>, <customitems:black_steel_l-beam>],
- [<ImmersiveEngineering:toolupgrade:1>, ie_dynamo, <IC2:itemRecipePart:12>],
- [<customitems:black_steel_l-beam>, <IC2:itemRecipePart>, <customitems:black_steel_l-beam>]]);
+//recipes.addShaped(<ImmersiveEngineering:metalDecoration:6>, [
+// [<customitems:black_steel_l-beam>, <IC2:itemRecipePart>, <customitems:black_steel_l-beam>],
+// [<ImmersiveEngineering:toolupgrade:1>, ie_dynamo, <IC2:itemRecipePart:12>],
+// [<customitems:black_steel_l-beam>, <IC2:itemRecipePart>, <customitems:black_steel_l-beam>]]);
+
+recipes.addShaped(<ImmersiveEngineering:metalDecoration:6> * 2, [
+ [<customitems:black_steel_l-beam>, <Railcraft:part.plate:3>, <customitems:black_steel_l-beam>],
+ [<tc:dieselengine>, <IC2:itemRecipePart:12>, <tc:generator>],
+ [<customitems:black_steel_l-beam>, <Railcraft:part.plate:3>, <customitems:black_steel_l-beam>]]);
 
 //windmill, watermill
 recipes.remove(<ImmersiveEngineering:woodenDevice:1>);

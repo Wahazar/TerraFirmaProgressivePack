@@ -355,6 +355,8 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("wrench", 15, 23, 14);
 game.setLocalization("gui.plans.item_wrench", "Wrench");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemToolWrench> * 2, <customitems:bronze_rod>, "wrench", 2);
 
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tc:composite_wrench>, <customitems:blue_steel_rod>, <terrafirmacraft:item.HC Black Steel Ingot>, "wrench", 2);
+
 //coils
 recipes.remove(<IC2:itemRecipePart>);
 recipes.addShaped(<IC2:itemRecipePart>, [
@@ -366,7 +368,7 @@ recipes.addShaped(<IC2:itemRecipePart>, [
 recipes.remove(ic2_motor);
 recipes.addShaped(ic2_motor, [
  [ic2_gold_cable_ins, <ImmersiveEngineering:storage:8>, <IC2:itemCasing:1>],
- [rc_tin_bushing, <IC2:itemRecipePart>, ie_rod_steel],
+ [rc_tin_bushing, <IC2:itemRecipePart>, <ore:stickSteel>],
  [ic2_gold_cable_ins, <ImmersiveEngineering:storage:8>, <IC2:itemCasing:1>]]);
 
 //heat conductor
@@ -682,4 +684,4 @@ mods.Terrafirmacraft.Anvil.addPlanRecipe("item_cell", 2, 2, 14);
 game.setLocalization("gui.plans.item_cell", "Empty fluid cell");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<IC2:itemCellEmpty>, <terrafirmacraft:item.Steel Sheet>, "item_cell", 4);
 
-
+recipes.addShapeless(<IC2:itemDustSmall:9>*8, [<ore:dyeBlue>]);

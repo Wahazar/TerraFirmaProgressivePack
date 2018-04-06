@@ -41,12 +41,12 @@
 				"functions":
 				[
 				{ 
-                                "weight": 3,
+                                "weight": 1,
                         	"function": "set_block", 
-                        	"id": "terrafirmacraft:StoneIgInCobble"
+                        	"id": "terrafirmacraft:StoneSedCobble"
                                 },
 				{ 
-                                "weight": 1,
+                                "weight": 3,
                         	"function": "set_block", 
                         	"id": "minecraft:fire"
                                 }
