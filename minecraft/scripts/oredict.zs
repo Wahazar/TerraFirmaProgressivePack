@@ -64,7 +64,8 @@ ore_flux.add(<customitems:borax_powder>);
 //ingots
 #permalloy
 <ore:ingotNickel>.remove(<ImmersiveEngineering:metal:4>);
-
+<ore:ingotSteel>.remove(<tc:steel>);
+<ore:ingotCopper>.remove(<tc:ingotCopper>);
 
 //slabs
 <ore:slabCopper>.add(<Railcraft:slab:40>);
@@ -225,6 +226,8 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:orePoorLead>.remove(<Railcraft:ore:11>);
 
 <ore:dustGraphite>.remove(<ihl:item.ihlSimpleItem:29>);
+
+<ore:oreCopper>.remove(<tc:oreTC>);
 
 /*
 <ore:oreCopper>.remove(<foundry:blockFoundryOre>);

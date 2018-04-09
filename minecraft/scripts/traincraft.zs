@@ -156,6 +156,12 @@ recipes.addShaped(<tc:steelframe>, [
  [<customitems:steel_l-beam_drilled>, <customitems:8_steel_rivets_pack>, <customitems:steel_l-beam_drilled>]
  ]);
 
+recipes.addShaped(<tc:ironFirebox>, [
+ [<ore:plateIron>, <ore:toolFlintSteel>, <ore:plateIron>],
+ [<ore:ingotBrick>, <terrafirmacraft:MetalTrapDoor:297>, <ore:ingotBrick>],
+ [<customitems:8_iron_rivets_pack>, <minecraft:iron_bars>, <ore:itemHammer>.transformDamage()]
+ ]);
+
 //camshaft
 mods.Terrafirmacraft.Anvil.addPlanRecipe("camshaft", 2, 2, 14);      
 game.setLocalization("gui.plans.camshaft", "Crank Shaft");      
@@ -258,8 +264,155 @@ recipes.addShapeless(<tc:tcRailSlopeGravel>*3, [<tc:tcRailVeryLargeSlopeGravel>]
 recipes.addShapeless(<tc:tcRailSlopeBallast>*2, [<tc:tcRailLargeSlopeBallast>]);
 recipes.addShapeless(<tc:tcRailSlopeBallast>*3, [<tc:tcRailVeryLargeSlopeBallast>]);
 
+//clothes
+recipes.remove(<tc:jacket_ticketMan_paintable>);
+recipes.addShapeless(<tc:jacket_ticketMan_paintable>, [<ore:materialCloth>, <tfcprimitivetech:itemLeatherBelt>, <ore:materialString>, <ore:dyeBlue>]);
+
+recipes.remove(<tc:pants_ticketMan_paintable>);
+recipes.addShapeless(<tc:pants_ticketMan_paintable>, [<ore:materialCloth>, <ore:materialCloth>, <ore:materialString>, <ore:dyeGray>]);
+
+recipes.remove(<tc:hat_ticketMan_paintable>);
+recipes.addShapeless(<tc:hat_ticketMan_paintable>, [<ore:materialCloth>, <tfcprimitivetech:itemLeatherBelt>, <ore:dyeRed>, <ore:dyeGray>]);
+
+recipes.remove(<tc:jacket_driver_paintable>);
+recipes.addShapeless(<tc:jacket_driver_paintable>, [<ore:materialCloth>, <customitems:brass_pellet>, <ore:materialString>, <ore:dyeBlue>]);
+
+recipes.remove(<tc:pants_driver_paintable>);
+recipes.addShapeless(<tc:pants_driver_paintable>, [<ore:materialCloth>, <ore:materialCloth>, <tfcprimitivetech:itemLeatherBelt>, <ore:dyeBlue>]);
+
+recipes.remove(<tc:hat_driver_paintable>);
+recipes.addShapeless(<tc:hat_driver_paintable>, [<ore:materialCloth>, <tfcprimitivetech:itemLeatherBelt>, <ore:dyeYellow>, <ore:dyeBlue>]);
+
+recipes.remove(<tc:hat>);
+recipes.addShapeless(<tc:hat>, [<terrafirmacraft:item.BurlapCloth>, <ore:materialString>, <ore:dyeLightBlue>]);
+
+recipes.remove(<tc:overalls>);
+recipes.addShapeless(<tc:overalls>, [<terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>, <ore:materialString>, <ore:dyeLightBlue>]);
+
+recipes.remove(<tc:jacket>);
+recipes.addShaped(<tc:jacket>, [
+ [<ore:materialCloth>, null, <ore:materialCloth>],
+ [<ore:materialCloth>, <tfcm:item.TallowDye:11>, <ore:materialCloth>],
+ [<ore:materialString>, <ore:materialCloth>, <ore:materialString>]
+ ]);
+
+//simple rr stock
+
+recipes.addShaped(<tc:minecartFlatCart_DB>, [
+ [null, <ore:dyeRed>, null],
+ [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>],
+ [<customitems:iron_spoke_wheels>, <tc:woodenFrame>, <customitems:iron_spoke_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartFlatCartRail_DB>, [
+ [null, <ore:dyeRed>, null],
+ [<customitems:impregnated_plank>, <customitems:impregnated_plank>, <customitems:impregnated_plank>],
+ [<customitems:iron_spoke_wheels>, <tc:woodenFrame>, <customitems:iron_spoke_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartFlatCartLogs_DB>, [
+ [<ImmersiveEngineering:material>, <ore:dyeRed>, <ImmersiveEngineering:material>],
+ [<customitems:impregnated_plank>, <customitems:impregnated_plank>, <customitems:impregnated_plank>],
+ [<customitems:iron_spoke_wheels>, <tc:woodenFrame>, <customitems:iron_spoke_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartFreightGondola_DB>, [
+ [null, <ore:dyeRed>, null],
+ [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+ [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartFreightWagon_DB>, [
+ [<ore:plateIron>, <ore:dyeRed>, <ore:plateIron>],
+ [<ore:plankWood>, <minecraft:wooden_door>, <ore:plankWood>],
+ [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartTankWagon_DB>, [
+ [<customitems:iron_l-beam_drilled>, <ore:dyeBlue>, <customitems:8_iron_rivets_pack>],
+ [<ore:plankWood>, <Railcraft:machine.beta:15>, <Railcraft:machine.beta>],
+ [<tc:ironBogie>, <tc:ironFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartWatertransp>, [
+ [<customitems:steel_t-beam>, <foundry:foundryComponent:2>, <customitems:steel_t-beam>],
+ [<tfcm:item.Gear>, <Steamcraft:crucible>, <tfcm:item.Gear>],
+ [<tc:ironBogie>, <tc:steelframe>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartMineTrain>, [
+ [null, <ore:dyeYellow>, null],
+ [<ore:plateIron>, <minecraft:wooden_door>, <ore:plateIron>],
+ [<customitems:minecart_wheels>, <ore:plateIron>, <customitems:minecart_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartCaboose>, [
+ [null, <ore:dyeGreen>, null],
+ [<CarpentersBlocks:blockCarpentersLadder>, <tc:woodenCab>, <CarpentersBlocks:blockCarpentersLadder>],
+ [<customitems:minecart_wheels>, <ore:plateIron>, <customitems:minecart_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartPassenger8_1class_DB>, [
+ [null, <ore:dyeRed>, null],
+ [<tc:ironCab>, <tc:seats>, <tc:ironCab>],
+ [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartPassenger9_2class_DB>, [
+ [null, <ore:dyeGreen>, null],
+ [<tc:ironCab>, <tc:seats>, <tc:ironCab>],
+ [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartMailWagon_DB>, [
+ [null, <ore:dyeGreen>, null],
+ [<tc:ironCab>, <ore:craftingTableWood>, <tc:ironCab>],
+ [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartPassengerAdler>, [
+ [<ore:woodLumber>, <ore:dyeYellow>, <ore:woodLumber>],
+ [<tc:seats>, <tc:woodenCab>, <tc:seats>],
+ [<tc:woodenBogie>, <tc:woodenFrame>, <tc:woodenBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartLocoSteamAdler>, [
+ [<minecraft:lever>, <ore:dyeGreen>, <terrafirmacraft:item.Bronze Tuyere>],
+ [<CarpentersBlocks:blockCarpentersLadder>, <Steamcraft:boiler>, <Steamcraft:steamTank>],
+ [<tc:woodenBogie>, <tc:woodenBogie>, <tc:woodenBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartTenderAdler>, [
+ [<ore:dyeRed>, <ore:dyeGreen>, <ore:dyeBlack>],
+ [<ore:plankWood>, <terrafirmacraft:Barrel:*>, <ore:chestWood>],
+ [<tc:woodenBogie>, <tc:woodenFrame>, <tc:woodenBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartLocoCherepanov>, [
+ [<minecraft:lever>, <ore:woodLumber>, <terrafirmacraft:item.Copper Tuyere>],
+ [<CarpentersBlocks:blockCarpentersLadder>, <Steamcraft:boiler>, <Steamcraft:steamTank>],
+ [<tc:woodenBogie>, <tc:woodenFrame>, <tc:woodenBogie>]
+ ]);
+
+recipes.addShaped(<tc:minecartLocoSteamAlice>, [
+ [<minecraft:lever>, <ore:dyeRed>, <ImmersiveEngineering:metalDevice2:5>],
+ [<ore:plateIron>, <Railcraft:machine.beta:5>, <Railcraft:machine.beta:3>],
+ [<customitems:minecart_wheels>, <tc:woodenFrame>, <customitems:minecart_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartLoco3>, [
+ [<minecraft:lever>, <ore:dyeBlue>, <tc:lantern>],
+ [<ore:plateIron>, <Railcraft:machine.beta:5>, <Railcraft:machine.beta:3>],
+ [<customitems:minecart_wheels>, <tc:woodenFrame>, <customitems:minecart_wheels>]
+ ]);
+
+recipes.addShaped(<tc:minecartSlateWagon>, [
+ [<customitems:iron_l-beam>, <ore:itemHammer>.transformDamage(), <customitems:iron_l-beam>],
+ [<customitems:flat_iron_beam_drilled>, <customitems:8_iron_rivets_pack>, <customitems:flat_iron_beam_drilled>],
+ [<customitems:minecart_wheels>, <ore:plateIron>, <customitems:minecart_wheels>]
+ ]);
+
 //tooltips for better filtering
-//<minecraft:dye:4>.displayName = "Blue Gem";
 
 <tc:tcRailSlopeWood>.addTooltip("3D rail track");
 

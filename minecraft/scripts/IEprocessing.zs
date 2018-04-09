@@ -659,6 +659,11 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 3000, <liquid:
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 400, <liquid:oliveoil> * 300, <liquid:ethanol> * 100);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 300, <liquid:oliveoil> * 200, <liquid:methanol> * 100);
 
+//traincraft diesel from diesel fuel
+mods.immersiveengineering.Refinery.addRecipe(<liquid:diesel> * 3000, <liquid:fuel> * 2800, <liquid:fueloil> * 200);
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:refinedfuel> * 3000, <liquid:fueloil> * 2800, <liquid:ethanol> * 200);
+
 //mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 1200, <liquid:creosote> * 1000, <liquid:ethanol> * 1000);
 
 //ammonia Haber method
