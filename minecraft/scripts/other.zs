@@ -221,7 +221,7 @@ recipes.addShapeless(<tfcengineer:item.Lunchbox>, [<tfcengineer:item.InsulationC
 
 recipes.remove(<minecraft:slime_ball>);
 //loot tooltips
-<minecraft:slime_ball>.addTooltip("only Slime loot");
+<minecraft:slime_ball>.addTooltip("also Slime loot");
 <ImmersiveEngineering:seed>.addTooltip("only Zombie Farmer loot");
 <minecraft:paper>.addTooltip("also Zombie Messenger loot");
 <ImmersiveEngineering:blueprint>.addTooltip("Zombie Engineer loot");

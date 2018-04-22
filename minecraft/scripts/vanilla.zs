@@ -209,6 +209,9 @@ recipes.remove(<minecraft:fire_charge>);
 recipes.addShapeless(<minecraft:fire_charge>, [<minecraft:gunpowder>, <minecraft:blaze_powder>, <ore:gemCoal>]);
 
 //recipes.addShapeless(<minecraft:slime_ball>, [<Railcraft:fluid.creosote.bottle>, <terrafirmacraft:item.Powder:2>, <terrafirmacraft:item.Powder:8>]);
+//recipes.addShapeless(<minecraft:slime_ball>, [<terrafirmacraft:item.Wooden Bucket Water>.transformReplace(<terrafirmacraft:item.Wooden Bucket Empty>),<minecraft:skull:2>.noReturn()]); 
+mods.foundry.AlloyFurnace.addRecipe(<minecraft:slime_ball>, <minecraft:skull:2>, <tfcm:item.CaseinGlue>);
+
 
 recipes.addShaped(<minecraft:sand> * 8, [[<terrafirmacraft:Sand:15>, <terrafirmacraft:Sand:15>, <terrafirmacraft:Sand:15>],
  [<terrafirmacraft:Sand:15>, <terrafirmacraft:item.Powder:0>, <terrafirmacraft:Sand:15>],

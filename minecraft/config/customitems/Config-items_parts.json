@@ -803,6 +803,12 @@
             "textureName": "CasingBluePlastic",
             "creativeTab": "Custom Items",
             "maxStackSize": 64
+        },
+        {
+            "name": "Archbar Truck",
+            "textureName": "Archbar_truck",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 8
         }
     ]
 }

@@ -39,6 +39,12 @@ recipes.addShaped(<tc:lantern>, [
  [<customitems:flat_iron_beam>, <tfcm:item.CasingIron>, <customitems:flat_iron_beam>]
 ]);
 
+recipes.addShaped(<customitems:archbar_truck>, [
+ [<customitems:flat_iron_beam_drilled>, <tfcm:item.Coil_WroughtIron>, <customitems:flat_iron_beam_drilled>],
+ [<tc:ironBogie>, <customitems:iron_u-beam>,  <tc:ironBogie>],
+ [<customitems:flat_iron_beam_drilled>, <tfcm:item.Coil_WroughtIron>, <customitems:flat_iron_beam_drilled>]
+]);
+
 //crossings
 recipes.addShapeless(<tc:tcRailSmallRoadCrossing2>, [<Railcraft:cube:1>,  <tc:tcRailSmallStraight>]);
 recipes.addShapeless(<tc:tcRailSmallRoadCrossing1>, [<ImmersiveEngineering:stoneDecoration:4>,  <tc:tcRailSmallStraight>]);
@@ -162,7 +168,7 @@ recipes.addShaped(<tc:ironFirebox>, [
  [<customitems:8_iron_rivets_pack>, <minecraft:iron_bars>, <ore:itemHammer>.transformDamage()]
  ]);
 
-//camshaft
+//camshaft	
 mods.Terrafirmacraft.Anvil.addPlanRecipe("camshaft", 2, 2, 14);      
 game.setLocalization("gui.plans.camshaft", "Crank Shaft");      
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<tc:camshaft>, <customitems:steel_bar>, "camshaft", 5);
@@ -313,25 +319,25 @@ recipes.addShaped(<tc:minecartFlatCartRail_DB>, [
 recipes.addShaped(<tc:minecartFlatCartLogs_DB>, [
  [<ImmersiveEngineering:material>, <ore:dyeRed>, <ImmersiveEngineering:material>],
  [<customitems:impregnated_plank>, <customitems:impregnated_plank>, <customitems:impregnated_plank>],
- [<customitems:iron_spoke_wheels>, <tc:woodenFrame>, <customitems:iron_spoke_wheels>]
+ [<customitems:iron_spoke_wheels>, <tc:ironFrame>, <customitems:iron_spoke_wheels>]
  ]);
 
 recipes.addShaped(<tc:minecartFreightGondola_DB>, [
  [null, <ore:dyeRed>, null],
  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
- [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ [<tc:ironBogie>, <tc:steelframe>, <tc:ironBogie>]
  ]);
 
 recipes.addShaped(<tc:minecartFreightWagon_DB>, [
  [<ore:plateIron>, <ore:dyeRed>, <ore:plateIron>],
  [<ore:plankWood>, <minecraft:wooden_door>, <ore:plankWood>],
- [<tc:ironBogie>, <tc:woodenFrame>, <tc:ironBogie>]
+ [<tc:ironBogie>, <tc:steelframe>, <tc:ironBogie>]
  ]);
 
 recipes.addShaped(<tc:minecartTankWagon_DB>, [
  [<customitems:iron_l-beam_drilled>, <ore:dyeBlue>, <customitems:8_iron_rivets_pack>],
  [<ore:plankWood>, <Railcraft:machine.beta:15>, <Railcraft:machine.beta>],
- [<tc:ironBogie>, <tc:ironFrame>, <tc:ironBogie>]
+ [<tc:bogie>, <tc:steelframe>, <tc:bogie>]
  ]);
 
 recipes.addShaped(<tc:minecartWatertransp>, [
@@ -411,6 +417,13 @@ recipes.addShaped(<tc:minecartSlateWagon>, [
  [<customitems:flat_iron_beam_drilled>, <customitems:8_iron_rivets_pack>, <customitems:flat_iron_beam_drilled>],
  [<customitems:minecart_wheels>, <ore:plateIron>, <customitems:minecart_wheels>]
  ]);
+
+recipes.addShaped(<tc:minecartTender>, [
+ [<ore:dyeRed>, null, <ore:dyeBlack>],
+ [<ore:plateIron>, <ore:barrelWood>, <ore:chestWood>],
+ [<customitems:archbar_truck>, <tc:woodenFrame>, <ore:plankWood>]
+ ]);
+
 
 //tooltips for better filtering
 
