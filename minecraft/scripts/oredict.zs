@@ -109,6 +109,9 @@ ore_redstone.remove(<terrafirmacraft:item.Ore:28>);
 ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:oreCinnabar>.add(<terrafirmacraft:item.Ore:27>);
 
+<ore:oreChipDiamond>.add(<terrafirmacraft:item.Diamond:1>);
+	
+
 //powders
 <ore:oreSmallCopper>.add(<terrafirmacraft:item.Powder:8>);
 <ore:oreSmallIron>.add(<terrafirmacraft:item.Powder:5>);
@@ -159,6 +162,14 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 
 //<ore:craftingToolChisel>.add(<ihl:item.ihlTool:6>);
 
+//casing
+<ore:casingBase>.add(<IC2:blockMachine>);
+<ore:casingAdvanced>.add(<IC2:blockMachine:12>);
+
+//beams
+//<ore:flatSteelBeamDrilled>.add(<customitems:flat_steel_beam_drilled>);
+//<ore:flatBrassBeamDrilled>.add(<customitems:flat_brass_beam_drilled>);
+//<ore:flatAluminumBeamDrilled>.add(<customitems:flat_aluminum_beam_drilled>);
 
 //fertilisers -  nutrientK: KCl, ash, nutrientN: ammonium, rotten plants, nutrientP: phosphate, bonemeal
 <ore:nutrientK>.add(<ihl:item.ihlSimpleItem:88>);
@@ -186,7 +197,7 @@ ore_redstone.remove(<minecraft:redstone_ore>);
 <ore:blockLapis>.remove(<minecraft:lapis_block>);
 <ore:plateLapis>.remove(<IC2:itemPlates:8>);
 <ore:plateDenseLapis>.remove(<IC2:itemDensePlates:8>);
-
+<ore:plateDenseBlue>.add(<IC2:itemDensePlates:8>);
 //ores removal
 <ore:crushedUranium>.remove(<IC2:itemCrushedOre:4>);
 <ore:crushedUranium>.add(<customitems:crushed_pitchblende>);

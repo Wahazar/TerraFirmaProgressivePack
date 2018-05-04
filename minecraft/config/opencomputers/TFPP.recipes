@@ -1,0 +1,681 @@
+# TerrafirmaProgressivePack - OpenComputers recipes
+
+analyzer {
+  input: [["customitems:brass_rivet", {item="ImmersiveEngineering:toolupgrade", subID=6}, "customitems:brass_rivet"]
+          ["oc:materialTransistor", "oc:circuitChip1", button]
+          ["oc:materialTransistor", "oc:materialCircuitBoardPrinted", "customitems:nickel_plated_casing"]]
+}
+hoverBoots {
+  input: [["customitems:aluminum_rivet", "oc:hoverUpgrade2", "customitems:aluminum_rivet"]
+          ["customitems:flat_aluminum_beam_drilled", "oc:droneCase1", "customitems:flat_aluminum_beam_drilled"]
+          ["oc:capacitor", "terrafirmacraft:item.bootsCloth", "oc:capacitor"]]
+}
+manual {
+  type: shapeless
+  input: [book, "oc:circuitChip1"]
+}
+nanomachines {
+  input: [["oc:chamelium", "oc:wlanCard2", "oc:chamelium"]
+          ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
+          ["oc:chamelium", "oc:capacitor", "oc:chamelium"]]
+}
+texturePicker {
+  input: [[dyeBlack, dyeRed, dyeGreen]
+          [dyeBlue, "oc:analyzer", dyePurple]
+          [dyeYellow, dyeMagenta, dyeWhite]]
+}
+wrench {
+  input: [["customitems:steel_ring", plateSteel, ""]
+          ["", itemRubber, ""],
+          ["", "", stickSteel]]
+}
+lootDisks: [
+  {
+    name: "OpenComputers:openos"
+    type: shapeless
+    input: ["oc:floppy", "oc:manual"]
+  },
+  {
+    name: "OpenComputers:oppm"
+    type: shapeless
+    input: ["oc:floppy", "oc:materialInterweb"]
+  }
+]
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+
+droneCase1 {
+  input: [["oc:stoneEndstone", compass, "oc:stoneEndstone"]
+          ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
+          ["oc:stoneEndstone", "oc:componentBus2", "oc:stoneEndstone"]]
+}
+droneCase2 {
+  input: [["oc:stoneEndstone", {item="ihl:item.ihlSimpleItem", subID=149}, "oc:stoneEndstone"]
+          ["oc:circuitChip2", "oc:microcontrollerCase2", "oc:circuitChip2"]
+          ["oc:stoneEndstone", "oc:componentBus3", "oc:stoneEndstone"]]
+}
+microcontrollerCase1 {
+  input: [[nuggetIron, "oc:circuitChip1", nuggetIron]
+          [redstone, chest, redstone]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+microcontrollerCase2 {
+  input: [[nuggetGold, "oc:circuitChip3", nuggetGold]
+          [blockRedstone, chest, blockRedstone]
+          [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
+}
+terminal {
+  input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
+          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
+          [nuggetIron, "oc:keyboard", nuggetIron]]
+}
+tabletCase1 {
+  input: [[plateAluminum, paneGlassColorless, plateAluminum]
+          ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
+          [button, "oc:materialCircuitBoardPrinted", button]]
+}
+tabletCase2 {
+  input: [["oc:circuitChip2", "customitems:quartz_glass_pane", plateTungsten]
+          ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
+          [button, "oc:materialCircuitBoardPrinted", button]]
+}
+
+diskDriveMountable {
+  input: [[plateDenseObsidian, "oc:circuitChip1", plateDenseObsidian]
+          [fenceIron, "oc:diskDrive", fenceIron]
+          [plateDenseObsidian, "oc:materialCircuitBoardPrinted", plateDenseObsidian]]
+}
+server1 {
+  input: [["oc:circuitChip1", "oc:ram4", "oc:circuitChip1"]
+          ["oc:circuitChip2", "oc:case1", "oc:circuitChip2"]
+          ["oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]]
+}
+server2 {
+  input: [["oc:circuitChip2", "oc:ram5", "oc:circuitChip2"]
+          ["oc:circuitChip3", "oc:case2", "oc:circuitChip3"]
+          ["oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]]
+}
+server3 {
+  input: [["oc:circuitChip3", "oc:ram6", "oc:circuitChip3"]
+          ["oc:circuitChip3", "oc:case3", "oc:circuitChip3"]
+          ["oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]]
+}
+terminalServer {
+  input: [[plateDenseObsidian, "oc:wlanCard2", plateDenseObsidian]
+          ["oc:wlanCard2", "oc:circuitChip2", "oc:wlanCard2"]
+          [plateDenseObsidian, "oc:materialCircuitBoardPrinted", plateDenseObsidian]]
+}
+
+ram1 {
+  input: [["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
+          ["oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]]
+}
+ram2 {
+  input: [["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
+          ["oc:ram1", "oc:materialCircuitBoardPrinted", "oc:ram1"]]
+}
+ram3 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
+          ["oc:ram2", "oc:materialCircuitBoardPrinted", "oc:ram2"]]
+}
+ram4 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
+          ["oc:ram3", "oc:materialCircuitBoardPrinted", "oc:ram3"]]
+}
+ram5 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          ["oc:ram4", "oc:materialCircuitBoardPrinted", "oc:ram4"]]
+}
+ram6 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          ["oc:ram5", "oc:materialCircuitBoardPrinted", "oc:ram5"]]
+}
+
+eeprom {
+  input: [[nuggetGold, "oc:materialTransistor", nuggetGold]
+          [paper, "oc:circuitChip1", paper]
+          [nuggetGold, torchRedstoneActive, nuggetGold]]
+}
+floppy {
+  input: [[nuggetIron, lever, nuggetIron]
+          ["oc:materialCircuitBoard", "oc:materialDisk", "oc:materialCircuitBoard"]
+          [nuggetIron, paper, nuggetIron]]
+}
+hdd1 {
+  input: [["oc:circuitChip1", "oc:materialDisk", plateSteel]
+          ["oc:materialCircuitBoardPrinted", "oc:materialDisk", craftingPiston]
+          ["oc:circuitChip1", "oc:materialDisk", plateSteel]]
+}
+hdd2 {
+  input: [[plateAluminum, "oc:hdd1", plateAluminum]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]
+          [plateAluminum, "oc:hdd1", plateAluminum]]
+}
+hdd3 {
+  input: [["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]
+          ["oc:ram1", "oc:materialCircuitBoardPrinted", "oc:ram1"]
+          ["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]]
+}
+
+dataCard1 {
+  input: [["customitems:flat_steel_beam_drilled", "oc:materialALU", "oc:circuitChip2"]
+          ["", "oc:materialCard", ""]]
+}
+dataCard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:dataCard1", ""]]
+}
+dataCard3 {
+  input: [[gemDiamond, "oc:cpu2", "oc:ram5"]
+          ["", "oc:dataCard2", ""]]
+}
+graphicsCard1 {
+  input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
+          ["", "oc:materialCard", ""]]
+}
+graphicsCard2 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:ram3"]
+          ["", "oc:graphicsCard1", ""]]
+}
+graphicsCard3 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:ram5"]
+          ["", "oc:graphicsCard2", ""]]
+}
+internetCard {
+  input: [["oc:materialInterweb", "oc:circuitChip3", torchRedstoneActive]
+          ["", "oc:wlanCard2", plateDenseObsidian]]
+}
+redstoneCard1 {
+  input: [["tfcm:item.Circuit", "oc:circuitChip1", ""]
+          ["customitems:redstone_emitter", "oc:materialCard", "customitems:redstone_sensor"]]
+}
+redstoneCard2 {
+  input: [["immersiveintegration:redstoneWireConnector", "oc:circuitChip2", materialEnderPearl]
+          ["", "oc:redstoneCard1", ""]]
+}
+lanCard {
+  input: [["oc:cable", "oc:circuitChip1", ""]
+          ["", "oc:materialCard", ""]]
+}
+wlanCard1 {
+  input: [[torchRedstoneActive, "oc:circuitChip1", torchRedstoneActive]
+          ["", "oc:lanCard", ""]]
+}
+wlanCard2 {
+  input: [[materialEnderPearl, "oc:circuitChip2", ""]
+          ["", "oc:lanCard", ""]]
+}
+linkedCard {
+  input: [[eyeOfEnder, "", eyeOfEnder]
+          ["oc:wlanCard2", "oc:materialInterweb", "oc:wlanCard2"]
+          ["oc:circuitChip3", "", "oc:circuitChip3"]]
+  output: 2 # Note: all resulting cards are linked to each other.
+}
+
+abstractBusCard {
+  input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
+          ["", "oc:materialCard", ""]]
+}
+worldSensorCard {
+  input: [[{item="GalacticraftCore:item.sensorLens"}, "oc:circuitChip2", ""]
+          ["", "oc:materialCard", ""]]
+}
+
+angelUpgrade {
+  input: [[plateSteel, materialEnderPearl, plateSteel]
+          ["oc:circuitChip1", pistonStickyBase, "oc:circuitChip1"]
+          [plateSteel, materialEnderPearl, plateSteel]]
+}
+batteryUpgrade1 {
+  input: [[plateSteel, nuggetGold, plateSteel]
+          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          [plateSteel, nuggetGold, plateSteel]]
+}
+batteryUpgrade2 {
+  input: [[plateAluminum, "oc:capacitor", plateAluminum]
+          ["oc:materialTransistor", nuggetGold, "oc:materialTransistor"]
+          [plateAluminum, "oc:capacitor", plateAluminum]]
+}
+batteryUpgrade3 {
+  input: [[plateTungsten, "oc:capacitor", plateTungsten]
+          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          [plateTungsten, "oc:capacitor", plateTungsten]]
+}
+chunkloaderUpgrade {
+  input: [[plateAluminum, blockGlassColorless, plateAluminum]
+          ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
+          [plateDenseObsidian, "oc:materialCircuitBoardPrinted", plateTungsten]]
+}
+craftingUpgrade {
+  input: [[plateSteel, craftingPiston, plateSteel]
+          ["oc:circuitChip1", workbench, "oc:circuitChip1"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+databaseUpgrade1 {
+  input: [[plateSteel, "oc:analyzer", plateSteel]
+          ["oc:circuitChip1", "oc:hdd1", "oc:circuitChip1"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+databaseUpgrade2 {
+  input: [[plateSteel, "oc:analyzer", plateSteel]
+          ["oc:circuitChip2", "oc:hdd2", "oc:circuitChip2"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+databaseUpgrade3 {
+  input: [[plateSteel, "oc:analyzer", plateSteel]
+          ["oc:circuitChip3", "oc:hdd3", "oc:circuitChip3"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+experienceUpgrade {
+  input: [[plateAluminum, "oc:analyzer", plateAluminum]
+          ["oc:circuitChip3", emerald, "oc:circuitChip3"]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+generatorUpgrade {
+  input: [[plateSteel, "", plateSteel]
+          ["oc:circuitChip1", craftingPiston, "oc:circuitChip1"]
+          ["oc:materialCircuitBoardPrinted", plateSteel, "oc:materialCircuitBoardPrinted"]]
+}
+hoverUpgrade1 {
+  input: [["tc:balloon", "oc:circuitChip1", "tc:balloon"]
+          ["customitems:iron_rivet", "tfcprimitivetech:itemLeatherBelt", "customitems:iron_rivet"]
+          ["tc:balloon", "oc:materialCircuitBoardPrinted", "tc:balloon"]]
+}
+hoverUpgrade2 {
+  input: [["ihl:electricMotorLVLEDC", "oc:circuitChip2", "ihl:electricMotorLVLEDC"]
+          ["customitems:aluminum_rivet", plateSteel, "customitems:aluminum_rivet"]
+          [{item="IC2:itemRecipePart", subID=10}, "oc:materialCircuitBoardPrinted", {item="IC2:itemRecipePart", subID=10}]]
+}
+inventoryUpgrade {
+  input: [[plateSteel, hopper, plateSteel]
+          [dispenser, chest, craftingPiston]
+          [plateSteel, "oc:circuitChip1", plateSteel]]
+}
+inventoryControllerUpgrade {
+  input: [[plateAluminum, "oc:circuitChip2", plateAluminum]
+          [dispenser, "oc:inventoryUpgrade", craftingPiston]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+mfu {
+  input: [["oc:chamelium", gemLapis, "oc:chamelium"]
+  	      ["oc:linkedCard", "oc:adapter", "oc:linkedCard"]
+          ["oc:chamelium", gemLapis, "oc:chamelium"]]
+}
+leashUpgrade {
+  input: [[plateSteel, lead, plateSteel]
+          [lead, "oc:materialCU", lead]
+          [plateSteel, lead, plateSteel]]
+}
+navigationUpgrade {
+  input: [[plateAluminum, {item="ihl:item.ihlSimpleItem", subID=149}, plateAluminum]
+          ["oc:circuitChip2", {item=filled_map, subID=any}, "oc:circuitChip2"]
+          [plateAluminum, potion, plateAluminum]]
+}
+pistonUpgrade {
+  input: [[plateSteel, craftingPiston, plateSteel]
+          [stickSteel, "oc:circuitChip1", stickSteel]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+signUpgrade {
+  input: [[plateSteel, dyeBlack, plateSteel]
+          ["oc:circuitChip1", stickSteel, "oc:circuitChip1"]
+          [plateSteel, pistonStickyBase, plateSteel]]
+}
+solarGeneratorUpgrade {
+  input: [[blockGlass, blockGlass, blockGlass]
+          ["oc:circuitChip3", "oc:generatorUpgrade", "oc:circuitChip3"]]
+}
+tankUpgrade {
+  input: [[plankWood, fenceIron, plankWood]
+          [dispenser, cauldron, craftingPiston]
+          [plankWood, "oc:circuitChip1", plankWood]]
+}
+tankControllerUpgrade {
+  input: [[plateAluminum, glassBottle, plateAluminum]
+          [dispenser, "oc:circuitChip2", craftingPiston]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+tractorBeamUpgrade {
+  input: [[plateAluminum, craftingPiston, plateAluminum]
+          [plateSteel, "oc:capacitor", plateSteel]
+          [plateAluminum, "oc:circuitChip3", plateAluminum]]
+}
+tradingUpgrade {
+  input: [[plateAluminum, chest, plateAluminum]
+          [emerald, "oc:circuitChip2", emerald]
+          [dropper, "oc:materialCircuitBoardPrinted", craftingPiston]]
+}
+
+cardContainer1 {
+  input: [[plateSteel, "oc:circuitChip1", plateSteel]
+          [craftingPiston, chest, ""]
+          [plateSteel, "oc:materialCard", plateSteel]]
+}
+cardContainer2 {
+  input: [[plateSteel, "oc:circuitChip2", plateSteel]
+          [craftingPiston, chest, ""]
+          [plateSteel, "oc:materialCard", plateSteel]]
+}
+cardContainer3 {
+  input: [[plateAluminum, "oc:circuitChip2", plateAluminum]
+          [craftingPiston, chest, ""]
+          [plateAluminum, "oc:materialCard", plateAluminum]]
+}
+upgradeContainer1 {
+  input: [[plateSteel, "oc:circuitChip1", plateSteel]
+          [craftingPiston, chest, ""]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+upgradeContainer2 {
+  input: [[plateSteel, "oc:circuitChip2", plateSteel]
+          [craftingPiston, chest, ""]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+upgradeContainer3 {
+  input: [[plateAluminum, "oc:circuitChip2", plateAluminum]
+          [craftingPiston, chest, ""]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+
+# Note: ingot/gem <-> nugget recipes are *only* registered if no other mod
+# already provides the same functionality.
+nuggetIron {
+  type: shapeless
+  input: plateSteel
+  output: 9
+}
+plateSteel {
+  type: shapeless
+  input: [nuggetIron, nuggetIron, nuggetIron,
+          nuggetIron, nuggetIron, nuggetIron,
+          nuggetIron, nuggetIron, nuggetIron]
+}
+
+chipDiamond {
+  type: shapeless
+  input: ["oc:materialCuttingWire", gemFlawedDiamond]
+}
+gemDiamond = false
+
+cuttingWire {
+  input: [[treatedStick, {item="ihl:item.ihlSimpleItem", subID=50}, treatedStick],
+          ["", dustDiamond, ""],
+          ["", "tfcm:item.CaseinGlue", ""]]
+}
+acid {
+  type: shapeless
+  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
+}
+disk = true
+
+chamelium {
+  input: [[gravel, redstone, gravel],
+          [redstone, {item=coal, subID=1}, redstone],
+          [gravel, water_bucket, gravel]]
+  output: 16
+}
+chameliumBlock {
+  input: [["oc:chamelium", "oc:chamelium", "oc:chamelium"],
+          ["oc:chamelium", "oc:chamelium", "oc:chamelium"],
+          ["oc:chamelium", "oc:chamelium", "oc:chamelium"]]
+}
+endstone {
+  input: [[materialEnderPearl, "oc:chameliumBlock", materialEnderPearl]
+          ["oc:chameliumBlock", materialEnderPearl, "oc:chameliumBlock"]
+          [materialEnderPearl, "oc:chameliumBlock", materialEnderPearl]]
+  output: 4
+}
+inkCartridgeEmpty {
+  input: [[nuggetIron, dispenser, nuggetIron],
+          ["oc:materialTransistor", bucket, "oc:materialTransistor"],
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+inkCartridge {
+  type: shapeless
+  input: [dyeCyan, dyeMagenta, dyeYellow, dyeBlack, "oc:inkCartridgeEmpty"]
+}
+
+buttonGroup {
+  input: [[button, button, button]
+          [button, button, button]]
+}
+arrowKeys {
+  input: [["", button, ""]
+          [button, button, button]]
+}
+numPad {
+  input: [[button, button, button]
+          [button, button, button]
+          [button, button, button]]
+}
+
+transistor = true
+
+chip1 = true
+
+chip2 {
+  input: [[nuggetGold, nuggetGold, nuggetGold]
+          [redstone, "oc:materialTransistor", redstone]
+          [nuggetGold, nuggetGold, nuggetGold]]
+  output: 4
+}
+chip3 {
+  input: [[chipDiamond, chipDiamond, chipDiamond]
+          [redstone, "oc:materialTransistor", redstone]
+          [chipDiamond, chipDiamond, chipDiamond]]
+  output: 2
+}
+alu = true
+apu1 {
+  input: [[nuggetGold, "oc:circuitChip1", nuggetGold]
+          ["oc:cpu2", "oc:componentBus1", "oc:graphicsCard1"]
+          [nuggetGold, "oc:circuitChip1", nuggetGold]]
+}
+apu2 {
+  input: [[chipDiamond, "oc:circuitChip2", chipDiamond]
+          ["oc:cpu3", "oc:componentBus2", "oc:graphicsCard2"]
+          [chipDiamond, "oc:circuitChip2", chipDiamond]]
+}
+componentBus1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", ""]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+componentBus2 {
+  input: [[nuggetGold, redstone, nuggetGold]
+          ["oc:circuitChip2", "oc:materialCU", ""]
+          [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
+}
+componentBus3 {
+  input: [[chipDiamond, redstone, chipDiamond]
+          ["oc:circuitChip3", "oc:materialCU", ""]
+          [chipDiamond, "oc:materialCircuitBoardPrinted", chipDiamond]]
+}
+cpu1 {
+  input: [[nuggetIron, redstone, nuggetIron]
+          ["oc:circuitChip1", "oc:materialCU", "oc:circuitChip1"]
+          [nuggetIron, "oc:materialALU", nuggetIron]]
+}
+cpu2 {
+  input: [[nuggetGold, redstone, nuggetGold]
+          ["oc:circuitChip2", "oc:materialCU", "oc:circuitChip2"]
+          [nuggetGold, "oc:materialALU", nuggetGold]]
+}
+cpu3 {
+  input: [[chipDiamond, redstone, chipDiamond]
+          ["oc:circuitChip3", "oc:materialCU", "oc:circuitChip3"]
+          [chipDiamond, "oc:materialALU", chipDiamond]]
+}
+cu = true
+
+rawCircuitBoard = false
+circuitBoard = true
+printedCircuitBoard = true
+
+card {
+  input: [[nuggetIron, "oc:circuitChip1", "oc:materialTransistor"]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]
+          [nuggetIron, nuggetGold, nuggetGold]]
+}
+
+interweb {
+  input: [[string, string, string]
+          [string, materialEnderPearl, string]
+          [string, string, string]]
+}
+
+adapter {
+  input: [[plateSteel, "oc:cable", plateSteel]
+          ["oc:cable", "oc:circuitChip1", "oc:cable"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+assembler {
+  input: [[plateSteel, workbench, plateSteel]
+          [craftingPiston, "oc:circuitChip2", craftingPiston]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+cable = true
+
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+carpetedCapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
+capacitor {
+  input: [["terrafirmacraft:item.Bismuth Bronze Sheet", "customitems:aluminum_foil", "terrafirmacraft:item.Bismuth Bronze Sheet"]
+          [{item="IC2:itemCable", subID=2}, "customitems:impregnated_paper", {item="IC2:itemCable", subID=2}]
+          [plateSteel, "customitems:aluminum_foil", plateSteel]]
+}
+charger {
+  input: [[plateSteel, plateAluminum, plateSteel]
+          ["oc:capacitor", "oc:circuitChip2", "oc:capacitor"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+case1 {
+  input: [[plateSteel, "oc:circuitChip1", plateSteel]
+          [fenceIron, "IC2:blockMachine", fenceIron]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+case2 {
+  input: [[plateAluminum, "oc:circuitChip2", plateAluminum]
+          ["IC2:reactorPlatingHeat", {item="IC2:blockMachine", subID=12}, "oc:circuitChip2"]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+case3 {
+  input: [[{item="IC2:itemDensePlates", subID=8}, "oc:circuitChip3", {item="IC2:itemDensePlates", subID=8}]
+          ["IC2:reactorVentSpread", "oc:case2", "oc:circuitChip3"]
+          [{item="IC2:itemDensePlates", subID=8}, "oc:materialCircuitBoardPrinted", {item="IC2:itemDensePlates", subID=8}]]
+}
+disassembler {
+  input: [["oc:materialCU", paneGlassColorless, "oc:analyzer"]
+          [craftingPiston, "", plateDenseObsidian]
+          [plateSteel, bucketLava, plateSteel]]
+}
+diskDrive {
+  input: [[plateSteel, "oc:circuitChip1", plateSteel]
+          [craftingPiston, stickSteel, "IC2:itemRecipePart"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+geolyzer {
+  input: [[plateAluminum, {item="ihl:item.ihlSimpleItem", subID=149}, plateAluminum]
+          [{item="IC2:itemScanner", subID=26}, "oc:circuitChip2", eyeOfEnder]
+          ["customitems:flat_black_steel_beam", "oc:materialCircuitBoardPrinted", "customitems:flat_black_steel_beam"]]
+}
+hologram1 {
+  input: [["oc:circuitChip2", paneGlassColorless, "oc:circuitChip2"]
+          ["oc:materialCircuitBoardPrinted", chipDiamond, "oc:materialCircuitBoardPrinted"]
+          [plateDenseObsidian, yellowDust, plateDenseObsidian]]
+}
+hologram2 {
+  input: [["oc:circuitChip3", "customitems:quartz_glass_pane", "oc:circuitChip3"]
+          ["oc:materialCircuitBoardPrinted", gemDiamond, "oc:materialCircuitBoardPrinted"]
+          [plateDenseObsidian, blazePowder, plateTungsten]]
+}
+keyboard {
+  input: [["oc:materialButtonGroup", "oc:materialButtonGroup", "oc:materialButtonGroup"]
+          ["oc:materialButtonGroup", "oc:materialArrowKey", "oc:materialNumPad"]
+          ["customitems:zinc_casing", "oc:cable", "customitems:zinc_casing"]]
+
+}
+motionSensor {
+  input: [[plateAluminum, "customitems:solar_cell", plateAluminum]
+          [daylightDetector, "oc:cpu2", daylightDetector]
+          [plateAluminum, "oc:materialCircuitBoardPrinted", plateAluminum]]
+}
+netSplitter {
+  input: [[plateSteel, "oc:cable", plateSteel]
+          ["oc:cable", "ihl:redstoneSignalConverter", "oc:cable"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+printer {
+  input: [[gearSteel, "foundry:refractoryHopper", gearSteel]
+          [craftingPiston, "oc:circuitChip3", craftingPiston]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+powerConverter {
+  input: [[plateSteel, "oc:cable", plateSteel]
+          [plateAluminum, "oc:circuitChip1", plateAluminum]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+powerDistributor {
+  input: [[plateSteel, plateGold, plateSteel]
+          ["oc:cable", "oc:circuitChip1", "oc:cable"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+rack {
+  input: [["oc:circuitChip3", "oc:wlanCard2", "oc:circuitChip3"]
+          [fenceIron, chest, fenceIron]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+}
+raid {
+  input: [[{item="ihl:item.ihlSimpleItem", subID=43}, "oc:cpu3", {item="ihl:item.ihlSimpleItem", subID=43}]
+          ["oc:ram1", "IC2:blockMachine", "oc:ram1"]
+          [{item="ihl:item.ihlSimpleItem", subID=56}, "oc:circuitChip2", {item="ihl:item.ihlSimpleItem", subID=56}]]
+}
+redstone {
+  input: [[plateSteel, "oc:circuitChip3", plateSteel]
+          [blockRedstone, "oc:redstoneCard1", blockRedstone]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+relay {
+  input: [[plateSteel, "oc:cable", plateSteel]
+          ["oc:cable", "oc:lanCard", "oc:cable"]
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+
+screen1 {
+  input: [[plateSteel, plateSteel, blockGlassColorless]
+          [redstone, "oc:materialTransistor", blockGlassColorless]
+          [plateSteel, plateSteel, blockGlassColorless]]
+}
+screen2 {
+  input: [[plateAluminum, dyeRed, plateAluminum]
+          ["oc:circuitChip2", dyeGreen, "oc:screen1"]
+          [plateAluminum, dyeBlue, plateAluminum]]
+}
+screen3 {
+  input: [[plateDenseObsidian, "oc:materialCircuitBoardPrinted", "oc:circuitChip3"]
+          [blazeRod, netherquartz, "oc:screen2"]
+          [plateDenseSteel, "oc:materialCircuitBoardPrinted", "oc:circuitChip3"]]
+}
+transposer {
+  input: [[plateSteel, "oc:inventoryControllerUpgrade", plateSteel]
+          [hopper, bucket, hopper]
+          [plateSteel, "oc:tankControllerUpgrade", plateSteel]]
+  output: 4
+}
+waypoint {
+  input: [[plateSteel, "oc:circuitChip1", plateSteel]
+          ["oc:materialTransistor", "oc:materialInterweb", "oc:materialTransistor"],
+          [plateSteel, "oc:materialCircuitBoardPrinted", plateSteel]]
+}
+
+appengTunnel {
+  type: shapeless
+  input: [{item="appliedenergistics2:item.ItemMultiPart", subID=460}, "oc:adapter"]
+}

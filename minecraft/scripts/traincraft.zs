@@ -168,6 +168,13 @@ recipes.addShaped(<tc:ironFirebox>, [
  [<customitems:8_iron_rivets_pack>, <minecraft:iron_bars>, <ore:itemHammer>.transformDamage()]
  ]);
 
+
+recipes.addShaped(<tc:electronicCircuit>, [
+ [<IC2:itemCable>, <IC2:itemRecipePart>, <IC2:itemCable>],
+ [<OpenComputers:item:23>, <OpenComputers:item:32>, <OpenComputers:item:23>],
+ [<tc:copperWireFine>, <IC2:itemCable:2>, <tc:copperWireFine>]
+ ]);
+
 //camshaft	
 mods.Terrafirmacraft.Anvil.addPlanRecipe("camshaft", 2, 2, 14);      
 game.setLocalization("gui.plans.camshaft", "Crank Shaft");      

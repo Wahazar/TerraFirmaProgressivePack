@@ -39,7 +39,7 @@ recipes.addShaped(<minecraft:bed>, [
 #JoLantern need candle, not torch
 recipes.remove(<terrafirmacraft:LitPumpkin>);
 recipes.addShapeless(<terrafirmacraft:LitPumpkin>, 
- [<terrafirmacraft:Pumpkin>, <tfcm:blockTallowCandle>, <ore:itemKnife>.transformDamage(10)]);
+ [<terrafirmacraft:Pumpkin>, <tfcm:blockTallowCandle>, <ore:itemKnife>.transformDamage()]);
 
 
 #diamond block
@@ -240,7 +240,7 @@ recipes.addShapeless(<minecraft:tripwire_hook>, [<customitems:iron_flange>, <ore
 recipes.addShapeless(<minecraft:chest_minecart>, [<minecraft:minecart>, <minecraft:chest>]);
 
 
-recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 3, [<minecraft:diamond>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage(2)]);
+recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 3, [<minecraft:diamond>, <terrafirmacraft:item.Blue Steel Hammer>.transformDamage()]);
 
 recipes.addShapeless(<terrafirmacraft:item.Diamond:0> * 4, [<terrafirmacraft:item.Diamond:2>, <Steamcraft:preciseCuttingHead>.reuse()]);
 recipes.addShapeless(<minecraft:diamond> * 1, [<terrafirmacraft:item.Diamond:3>.giveBack(<terrafirmacraft:item.Diamond:0>), <Steamcraft:preciseCuttingHead>.reuse()]);
@@ -308,17 +308,17 @@ recipes.addShaped(<minecraft:lever>, [[<terrafirmacraft:item.stick>, null],
 
 recipes.remove(<minecraft:stone_pressure_plate>);
 recipes.addShaped(<minecraft:stone_pressure_plate>, [[<ore:stone>, <ore:stone>],
- [null, <minecraft:redstone>]]);
+ [<ore:itemChisel>.transformDamage(), <minecraft:redstone>]]);
 
 recipes.remove(<minecraft:wooden_pressure_plate>);
 recipes.addShaped(<minecraft:wooden_pressure_plate>, [[<ore:plankWood>, <ore:plankWood>],
- [null, <minecraft:redstone>]]);
+ [<ore:itemAxe>.transformDamage(), <minecraft:redstone>]]);
 
 recipes.remove(<minecraft:stone_button>);
-recipes.addShapeless(<minecraft:stone_button>, [<ore:stoneSmooth>, <minecraft:redstone>]);
+recipes.addShapeless(<minecraft:stone_button>, [<ore:stoneSmooth>, <ore:itemChisel>.transformDamage(),<minecraft:redstone>]);
 
 recipes.remove(<terrafirmacraft:ButtonWood>);
-recipes.addShapeless(<terrafirmacraft:ButtonWood>, [<ore:plankWood>, <minecraft:redstone>]);
+recipes.addShapeless(<terrafirmacraft:ButtonWood>, [<ore:plankWood>, <ore:itemAxe>.transformDamage(), <minecraft:redstone>]);
 
 recipes.remove(<minecraft:light_weighted_pressure_plate>);
 recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [
@@ -338,7 +338,7 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<minecraft:iron_bars> * 2, <ImmersiveE
 recipes.remove(<minecraft:iron_door>);
 recipes.addShaped(<minecraft:iron_door>, [
    [<customitems:flat_iron_beam_drilled>, <customitems:iron_u-beam>, <customitems:iron_rivet> ],
-   [<terrafirmacraft:item.Wrought Iron Sheet>, null, <ore:itemHammer>.transformDamage(4)],
+   [<terrafirmacraft:item.Wrought Iron Sheet>, null, <ore:itemHammer>.transformDamage()],
    [<terrafirmacraft:item.Wrought Iron Sheet>, null, <customitems:iron_rivet>]]);
 
 recipes.remove(<minecraft:trapdoor>);
@@ -406,4 +406,9 @@ furnace.remove(<minecraft:coal:1>);  //only TFC charcoal in pitkiln, coke oven
 //furnace.addRecipe(<minecraft:cooked_fished>, <terrafirmacraft:item.Fish>.withTag({foodWeight: 1.0 as float}));
 
 mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:fish>, <terrafirmacraft:item.Fish>.withTag({foodWeight: 1.0 as float}), <liquid:freshwater> * 25, 0, false, 0, true);
+
+recipes.addShaped(<minecraft:daylight_detector>, 
+[[null, <ore:glassPane>, null],
+ [null, <customitems:solar_cell>, null],
+ [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 

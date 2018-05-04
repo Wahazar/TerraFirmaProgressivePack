@@ -1,0 +1,34 @@
+1.54 Opencomputers added, recipes: WIP
+1.53 additional traincraft recipes
+1.52 basic traincraft recipes
+1.50 Traincraft added
+1.34 drops tweaked, TFPT mod updated
+1.33 TFPP helper mod updated
+1.32 Simple Achievements mod removed, Achievements book added, oregen tweaks
+1.31 transfer ladle fixed
+1.30 Enviromine mod added
+1.26 TFPP Helper mod and TFPT mod - time fixed
+1.23 TFPP helper mod updated
+1.22 recipes tweaks
+1.20 IE integration mod added
+1.11 TFPP helper mod updated
+1.06 TFC Primitive Technology mod added
+1.05 scripts reorganised
+1.04 leather water sac added
+1.03 new items
+1.01 updated recipes
+0.99 new custom items
+0.97 updated block recipes
+0.93 IE update
+0.92 oregen tweaks
+0.91 ihl recipes
+0.90 carpenters blocks added
+0.80 pewter removed 
+0.79 IE tweaks
+0.75 updated recipes, documentation added
+0.72 ihl recipes
+0.71 ship blocks, pewter added
+0.70 release
+0.60 IHL/IC2 added
+0.50 mobs spawn tweaks, foundry skeleton disabled
+0.40 initial commit

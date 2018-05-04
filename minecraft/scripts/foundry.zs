@@ -86,6 +86,8 @@ mods.foundry.Melting.addRecipe(<liquid:liquidrefinedglowstone>*432, <minecraft:g
 mods.foundry.Casting.addRecipe(<minecraft:glowstone>, <liquid:liquidrefinedglowstone>*432, <foundry:foundryMold:6>);
 mods.foundry.Casting.addRecipe(<customitems:glowstone_lump>, <liquid:liquidrefinedglowstone>*24, <foundry:foundryMold:58>);
 
+mods.foundry.Atomizer.addRecipe(<minecraft:glowstone_dust>, <liquid:liquid_quartz_glass>*132);
+
 //bismuth, TFC alloys
 mods.foundry.Melting.addRecipe(<liquid:liquid_bismuth>*108, <terrafirmacraft:item.Bismuth Ingot>, 570, 100);
 mods.foundry.Melting.addRecipe(<liquid:liquid_bismuth>*108, <customitems:pile_of_bismuth_dust>, 570, 200);

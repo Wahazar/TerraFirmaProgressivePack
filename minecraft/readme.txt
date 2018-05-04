@@ -1,5 +1,5 @@
 ################################################################################################################################
-TerraFirmaProgressive custom recipies modpack, v.1.53
+TerraFirmaProgressive custom recipies modpack, v.1.54
 ################################################################################################################################
 
 Installation: 
@@ -85,6 +85,8 @@ IC2 IHL AddOn ihl-tools_n_machines-0.60x-1.7.10.jar
 Flaxbeard SteamPower FSP-1.7.10-0.29.2.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2246930-flaxbeards-steam-power-beta-0-29-2-updated-may-3
 		credits: Flaxbeard, Zenith, SatanicSanta, Esteemed Innovation Team, Licence: forum
+
+Opencomputers: WIP
 
 Railcraft Railcraft_1.7.10-9.10.0.0.jar
 	http://railcraft.info/wiki
