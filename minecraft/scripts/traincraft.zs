@@ -49,6 +49,13 @@ recipes.addShaped(<customitems:archbar_truck>, [
  [<customitems:flat_iron_beam_drilled>, <tfcm:item.Coil_WroughtIron>, <customitems:flat_iron_beam_drilled>]
 ]);
 
+recipes.addShaped(<customitems:locomotive_6-whelled_truck>, [
+ [<tfcm:item.Coil_BlackSteel>, <ImmersiveEngineering:material:12>, <tfcm:item.Coil_BlackSteel>],
+ [<tfcm:item.Coil_BlackSteel>, <tc:steelframe>, <tfcm:item.Coil_BlackSteel>],
+ [<tc:bogie>, <tc:bogie>, <tc:bogie>]
+]);
+
+
 //crossings
 recipes.addShapeless(<tc:tcRailSmallRoadCrossing2>, [<Railcraft:cube:1>,  <tc:tcRailSmallStraight>]);
 recipes.addShapeless(<tc:tcRailSmallRoadCrossing1>, [<ImmersiveEngineering:stoneDecoration:4>,  <tc:tcRailSmallStraight>]);
