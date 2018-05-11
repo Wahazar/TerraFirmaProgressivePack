@@ -86,7 +86,9 @@ Flaxbeard SteamPower FSP-1.7.10-0.29.2.jar
 	http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2246930-flaxbeards-steam-power-beta-0-29-2-updated-may-3
 		credits: Flaxbeard, Zenith, SatanicSanta, Esteemed Innovation Team, Licence: forum
 
-Opencomputers: WIP
+Opencomputers: OpenComputers-MC1.7.10-1.7.2.1166-universal.jar
+	http://ocdoc.cil.li/
+		credits: Sangar, Licence MIT
 
 Railcraft Railcraft_1.7.10-9.10.0.0.jar
 	http://railcraft.info/wiki

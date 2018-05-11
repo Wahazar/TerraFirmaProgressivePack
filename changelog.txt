@@ -1,3 +1,4 @@
+1.55 Opencomputers recipes finished, new items added, Deltic and SD40 diesel locomotives enabled
 1.54 Opencomputers added, recipes: WIP
 1.53 additional traincraft recipes
 1.52 basic traincraft recipes

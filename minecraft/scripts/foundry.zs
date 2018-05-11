@@ -862,6 +862,9 @@ mods.foundry.Casting.addRecipe(<IC2:itemPartIridium>, <liquid:liquid_iridium>*10
 //silicon deposition
 mods.foundry.Casting.addRecipe(<customitems:solar_cell>, <liquid:trichlorosilane>*200, <foundry:foundryMold:32>, <IC2:itemPlates:5>); 
 mods.foundry.Casting.addRecipe(<customitems:polysilicon_slab>, <liquid:trichlorosilane>*6000, <foundry:foundryMold:28>); 
+mods.foundry.Casting.addMold(<ihl:item.ihlTool:18>);
+mods.foundry.Casting.addRecipe(<customitems:junction_deposited_silicon_wafer>, <liquid:trichlorosilane>*100, <ihl:item.ihlTool:18>.withTag({"GT.ToolStats": {MaxDamage: 20000}}), <customitems:silicon_wafer>); 
+mods.foundry.Casting.addRecipe(<customitems:circuit_patterned_silicon_wafer>, <liquid:liquidelectrum>*150, <customitems:printed_circuit_mask>, <customitems:junction_deposited_silicon_wafer>); 
 
 
 //refractory clay and components

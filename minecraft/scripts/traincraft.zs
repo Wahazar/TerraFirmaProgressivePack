@@ -18,6 +18,10 @@ recipes.remove(<tc:distilIdle>);
 recipes.remove(<tc:openFurnaceIdle>);
 
 //simple items
+//<ihl:item.ihlSimpleItem:67>
+
+// mods.ic2.Canner.addBottleRecipe(<tc:balloon>, <liquid:hydrogen>*10000, <IC2:itemCellEmpty>);
+
 recipes.remove(<tc:stopper>);
 recipes.addShaped(<tc:stopper>, [
  [null,  null,  <minecraft:redstone_torch>],
@@ -429,6 +433,13 @@ recipes.addShaped(<tc:minecartTender>, [
  [<ore:dyeRed>, null, <ore:dyeBlack>],
  [<ore:plateIron>, <ore:barrelWood>, <ore:chestWood>],
  [<customitems:archbar_truck>, <tc:woodenFrame>, <ore:plankWood>]
+ ]);
+
+//flyers
+recipes.addShaped(<tc:zeppelin>, [
+ [<tc:balloon>, <OpenComputers:item:15>, <tc:balloon>],
+ [<tc:electmotor>, <tc:controls>, <tc:electmotor>],
+ [<tc:propeller>, <tc:woodenFrame>, <tc:propeller>]
  ]);
 
 

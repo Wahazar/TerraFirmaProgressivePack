@@ -685,6 +685,18 @@
             "maxStackSize": 64
         },
         {
+            "name": "Junction Deposited Silicon Wafer",
+            "textureName": "itemSiliconWaferDeposited",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
+            "name": "Circuit Patterned Silicon Wafer",
+            "textureName": "itemSiliconWaferPatterned",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 64
+        },
+        {
             "name": "Brass Pellet",
             "textureName": "pellet_brass",
             "creativeTab": "Custom Items",
@@ -809,6 +821,12 @@
             "textureName": "Archbar_truck",
             "creativeTab": "Custom Items",
             "maxStackSize": 8
+        },
+        {
+            "name": "Locomotive 6-Whelled Truck",
+            "textureName": "locomotive_truck",
+            "creativeTab": "Custom Items",
+            "maxStackSize": 2
         }
     ]
 }
