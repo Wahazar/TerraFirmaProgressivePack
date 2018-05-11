@@ -387,7 +387,7 @@ cuttingWire {
 }
 acid {
   type: shapeless
-  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
+  input: ["lwstfc:item.WaterSacLeather", "tfcudarymod:item.Rum", fermentedSpiderEye, dustSulfur, slimeball]
 }
 disk = true
 
